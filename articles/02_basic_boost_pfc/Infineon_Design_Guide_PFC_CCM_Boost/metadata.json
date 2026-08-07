@@ -1,0 +1,32 @@
+{
+  "pdf_title": "Design guide PFC CCM boost converter",
+  "pdf_author": "Abdel-Rahman Sam (IFNA PMM SMD AMR PMD 2)",
+  "pdf_subject": "Design guide PFC CCM boost converter",
+  "pdf_keywords": "Infineon",
+  "pdf_creator": "Microsoft® Word 2010",
+  "pdf_creation_date": "D:20160222143647Z",
+  "n_pages_total": 30,
+  "n_pages_parsed": 30,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:42 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 2272.6,
+  "n_chars_extracted": 52217,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "Infineon Technologies",
+  "bib_year": null,
+  "bib_venue": "Infineon Application Note",
+  "bib_doi": null,
+  "topic": "02_basic_boost_pfc",
+  "keywords_ru": [
+    "CCM",
+    "PFC",
+    "boost",
+    "методика Infineon"
+  ],
+  "use_in_methodology": "Проектирование CCM boost PFC: выбор индуктивности, оценка потерь, тепловой расчёт.",
+  "bib_title": "Design guide PFC CCM boost converter",
+  "bib_title_source": "pdf_metadata"
+}

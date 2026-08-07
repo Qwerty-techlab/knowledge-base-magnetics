@@ -1,0 +1,32 @@
+{
+  "pdf_title": "Differential Mode Noise Estimation and Filter Design for Interleaved Boost Power Factor Correction Converters",
+  "pdf_author": "Naser Nourani Esfetanaj, Huai Wang, Frede Blaabjerg and Pooya Davari",
+  "pdf_subject": "Interleaved power factor correction (PFC) is widely used circuit topology due to good efficiency and power density for single-switch boost PFC. As the differential mode (DM) electromagnetic interference (EMI) noise magnitude depends upon the input current ripple, this research details a comprehensive study of DM EMI filter design for interleaved boost PFC with the aim of minimizing the component size. It is also demonstrated that the different numbers of interleaved stages and switching frequency influence the filter attenuation requirement and, thus, the EMI filter size. First, an analytical model is derived on the basis of the Norton equivalent circuit model for the differential mode noises of interleaved boost PFC within the frequency range of 9–500 kHz. The derived model can help identify the proper phase shifting among the interleaved boost converters in order to minimize the considered differential mode noises at the filter design frequency. So, a novel phase-shift method is developed to get a minimized attenuation required by a filter in Band B. Further, a volume optimization of the required DM filter was introduced based on the calculated filter attenuation and volumetric component parameters. Based on the obtained results, unconventional and conventional phase shifts have demonstrated a good performance in decreasing the EMI filter volume in Band B and Band A, respectively. A 2-kW interleaved PFC case study is presented to verify the theoretical analyses and the impact of phase-shifting on EMI filter size.",
+  "pdf_keywords": "DM noise estimation; interleaved PFC converters; phase-shifting; EMI filter design",
+  "pdf_creator": "LaTeX with hyperref",
+  "pdf_creation_date": "D:20210318164313+08'00'",
+  "n_pages_total": 17,
+  "n_pages_parsed": 17,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:42 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 10286.8,
+  "n_chars_extracted": 42921,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": null,
+  "bib_year": 2021,
+  "bib_venue": "MDPI (журнал уточнить)",
+  "bib_doi": null,
+  "topic": "01_interleaved_boost",
+  "keywords_ru": [
+    "ЭМС",
+    "дифференциальная помеха",
+    "EMI-фильтр",
+    "interleaved"
+  ],
+  "use_in_methodology": "Оценка дифференциальной помехи и синтез фильтра для interleaved boost — основа раздела ЭМС.",
+  "bib_title": "Differential Mode Noise Estimation and Filter Design for Interleaved Boost PFC",
+  "bib_title_source": "pdf_metadata"
+}

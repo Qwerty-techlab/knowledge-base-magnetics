@@ -1,0 +1,31 @@
+{
+  "pdf_title": "Accurate Efficiency and Power Densities Optimization of Output Inductor of Buck Derived Converters",
+  "pdf_author": "Hugot Pichon, Yves Lembeye, Jean-Christophe Crebier",
+  "pdf_subject": "Engineering Sciences [physics]/Electric power",
+  "pdf_keywords": "power electronics; design method; characterization method; ripple current; switching frequency; power density; efficiency; design tradeoffs; off-the-shelf components",
+  "pdf_creator": "HAL",
+  "pdf_creation_date": "D:20260702030348+02'00'",
+  "n_pages_total": 31,
+  "n_pages_parsed": 31,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:43 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 7662.7,
+  "n_chars_extracted": 84464,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "H. Pichon et al.",
+  "bib_year": 2022,
+  "bib_venue": "Applied Sciences (MDPI)",
+  "bib_doi": "10.3390/app12189330",
+  "topic": "03_inductor_design",
+  "keywords_ru": [
+    "оптимизация КПД",
+    "плотность мощности",
+    "геометрия дросселя"
+  ],
+  "use_in_methodology": "Многокритериальная оптимизация КПД, объёмной плотности мощности и геометрии дросселя.",
+  "bib_title": "Accurate Efficiency and Power Densities Optimization of Output Inductor of Buck Derived Converters",
+  "bib_title_source": "sources_md"
+}

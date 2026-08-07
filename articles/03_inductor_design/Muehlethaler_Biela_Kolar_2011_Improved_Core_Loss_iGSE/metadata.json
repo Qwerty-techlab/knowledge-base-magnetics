@@ -1,0 +1,32 @@
+{
+  "pdf_title": "Improved Core Loss Calculation for Magnetic Components Employed in Power Electronic Systems",
+  "pdf_author": "J. Mühlethaler",
+  "pdf_subject": null,
+  "pdf_keywords": null,
+  "pdf_creator": "'Certified by IEEE PDFeXpress at 11/22/2010 9:10:41 AM'",
+  "pdf_creation_date": "D:20101122180532+01'00'",
+  "n_pages_total": 9,
+  "n_pages_parsed": 9,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:43 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 2067.2,
+  "n_chars_extracted": 36897,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "J. Mühlethaler, J. Biela, J. W. Kolar",
+  "bib_year": 2011,
+  "bib_venue": "IEEE APEC",
+  "bib_doi": "10.1109/APEC.2011.5744829",
+  "topic": "03_inductor_design",
+  "keywords_ru": [
+    "iGSE",
+    "потери в сердечнике",
+    "Штейнмец",
+    "несинусоидальная индукция"
+  ],
+  "use_in_methodology": "ПЕРВИЧНЫЙ источник формы iGSE — модель потерь в сердечнике при несинусоидальной индукции. Указывает ограничение базовой модели на интервалах постоянной индукции и при магнитной релаксации.",
+  "bib_title": "Improved Core-Loss Calculation for Magnetic Components Employed in Power Electronic Systems",
+  "bib_title_source": "sources_md"
+}

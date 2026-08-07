@@ -1,0 +1,278 @@
+{
+  "_meta": {
+    "title": "База ферритовых магнитопроводов для силовых ВЧ дросселей",
+    "version": "1.0.0",
+    "updated": "2026-08-07",
+    "origin": "drossel1: 3_calc/inductor_design.py::core_library(), 5_interleaved/interleaved_design.py::core_library_ext()",
+    "datasheet_sources": [
+      "TDK SIFERRIT PM-cores: https://www.tdk-electronics.tdk.com/inf/80/db/fer/pm_114_93.pdf",
+      "TDK SIFERRIT PM 87/70: https://www.tdk-electronics.tdk.com/inf/80/db/fer/pm_87_70.pdf",
+      "TDK SIFERRIT PM 74/59: https://www.tdk-electronics.tdk.com/inf/80/db/fer/pm_74_59.pdf",
+      "TDK PQ 107/87: серия B65919",
+      "Ferroxcube PM-cores data handbook: https://www.ferroxcube.com/en-global/download/index"
+    ],
+    "units": {
+      "A_e_mm2": "мм² — эффективная площадь сечения (для расчёта B)",
+      "A_min_mm2": "мм² — минимальная площадь сечения (точка начала насыщения)",
+      "l_e_mm": "мм — эффективная длина магнитной линии",
+      "V_e_mm3": "мм³ — эффективный объём (для потерь по iGSE: P = V_e·P_V)",
+      "sigma_l_A_per_mm": "1/мм — Σ(l/A), постоянная магнитного сопротивления сердечника",
+      "A_L_nH": "нГн/вит² — коэффициент индуктивности, L = A_L·N²",
+      "A_N_mm2": "мм² — площадь окна намотки",
+      "l_N_mm": "мм — средняя длина витка",
+      "A_R_uOhm": "мкОм — постоянная сопротивления обмотки, R_dc ≈ A_R·N²/k_зан",
+      "mass_kg": "кг — масса комплекта из двух половин без каркаса"
+    },
+    "field_conventions": {
+      "null": "параметр отсутствует в доступном даташите — требует уточнения перед использованием",
+      "*_estimated": "значение оценочное или расчётное, не паспортное",
+      "*_note": "текстовое пояснение к соседнему числовому полю"
+    },
+    "how_to_extend": "См. skills/SKILLS.md, раздел «update-db». Обязательные поля: name, magnetic.*, winding.*, mass_kg, A_L_ungapped_nH."
+  },
+  "cores": {
+    "PM114/93": {
+      "name": "PM 114/93",
+      "family": "PM",
+      "shape": "цилиндрический броневой (Power Module), круглый центральный стержень",
+      "status": "основной вариант drossel1 (однофазный и трёхфазный)",
+      "geometry": {
+        "D_outer_mm": 114.0,
+        "H_set_mm": 93.0,
+        "H_half_mm": 46.5,
+        "d_center_mm": 43.0,
+        "d_bore_mm": 88.0,
+        "h_window_mm": 55.0,
+        "h_window_formula": "H_set - 2·h_flange = 93 - 2·19",
+        "h_flange_mm": 19.0
+      },
+      "magnetic": {
+        "A_e_mm2": 1720,
+        "A_min_mm2": 1380,
+        "l_e_mm": 200,
+        "V_e_mm3": 344000,
+        "sigma_l_A_per_mm": 0.116,
+        "A_e_over_A_min": 1.246
+      },
+      "winding": {
+        "A_N_mm2": 1070,
+        "l_N_mm": 210,
+        "A_R_uOhm": 6.75,
+        "coil_former": "B65734 (каркас), см. даташит TDK"
+      },
+      "mass_kg": 1.94,
+      "A_L_ungapped_nH": {
+        "N27": 18000,
+        "N87": 19000,
+        "3C90": 18000,
+        "tolerance_pct": 25
+      },
+      "part_numbers": {
+        "ungapped": {
+          "N27": "B65733A0000R027",
+          "N87": "B65733A0000R087"
+        },
+        "coil_former": "B65734B1000T001",
+        "clamp": null
+      },
+      "gapped_catalog": {
+        "B65733A0630A027": {
+          "material": "N27",
+          "A_L_nH": 630,
+          "A_L_tolerance_pct": 3.0,
+          "gap_total_mm": 3.8,
+          "gap_note": "суммарный зазор в центральном стержне"
+        },
+        "B65733A6300L027": {
+          "material": "N27",
+          "A_L_nH": 6300,
+          "A_L_tolerance_pct": 15.0,
+          "gap_total_mm": 0.22,
+          "gap_note": "малый зазор, широкий допуск A_L"
+        }
+      },
+      "thermal": {
+        "R_th_core_K_W_estimated": 1.82,
+        "R_th_note": "расчётное значение сердечник+обмотка из drossel1 (100 кГц); паспортное R_th в даташите TDK для PM отсутствует",
+        "T_max_operating_C": 130
+      },
+      "datasheet": "TDK B65733/B65734 (N27/N87); Ferroxcube PM114/93 (3C90/3C94)",
+      "notes": "Выбран в drossel1 по произведению площадей. Трёхфазный interleaved 100 кГц: N=29, зазор 5,341 мм, Litz 500×0,071×5 парал."
+    },
+    "PQ107/87": {
+      "name": "PQ 107/87",
+      "family": "PQ",
+      "shape": "прямоугольный броневой с круглым центральным стержнем",
+      "status": "проверен в drossel1, отклонён (нет каркаса в даташите)",
+      "geometry": {
+        "D_outer_mm": 107.0,
+        "H_set_mm": 87.0,
+        "H_half_mm": 43.5,
+        "d_center_mm": 45.0,
+        "d_bore_mm": 82.0,
+        "h_window_mm": 52.0,
+        "h_flange_mm": null
+      },
+      "magnetic": {
+        "A_e_mm2": 1435,
+        "A_min_mm2": 1320,
+        "l_e_mm": 203,
+        "V_e_mm3": 291300,
+        "sigma_l_A_per_mm": 0.141,
+        "A_e_over_A_min": 1.087
+      },
+      "winding": {
+        "A_N_mm2": 980,
+        "l_N_mm": 205,
+        "A_R_uOhm": 7.5,
+        "coil_former": null
+      },
+      "mass_kg": 1.56,
+      "A_L_ungapped_nH": {
+        "N27": null,
+        "N87": 15800,
+        "3C90": null,
+        "tolerance_pct": 25
+      },
+      "part_numbers": {
+        "ungapped": {},
+        "coil_former": null,
+        "clamp": null
+      },
+      "gapped_catalog": {},
+      "thermal": {
+        "R_th_core_K_W_estimated": null,
+        "T_max_operating_C": 130
+      },
+      "datasheet": "TDK серия B65919 (каркас в даташите отсутствует)",
+      "notes": "A_e меньше PM114/93 при сопоставимой массе. Отсутствие штатного каркаса — конструктивный риск."
+    },
+    "PM87/70": {
+      "name": "PM 87/70",
+      "family": "PM",
+      "shape": "цилиндрический броневой, круглый центральный стержень",
+      "status": "проверен в drossel1, отклонён по запасу B",
+      "geometry": {
+        "D_outer_mm": 87.0,
+        "H_set_mm": 70.0,
+        "H_half_mm": 35.0,
+        "d_center_mm": 32.6,
+        "d_bore_mm": 66.0,
+        "h_window_mm": 41.0,
+        "h_flange_mm": 14.5
+      },
+      "magnetic": {
+        "A_e_mm2": 910,
+        "A_min_mm2": 700,
+        "l_e_mm": 146,
+        "V_e_mm3": 133000,
+        "sigma_l_A_per_mm": 0.16,
+        "A_e_over_A_min": 1.3
+      },
+      "winding": {
+        "A_N_mm2": 657,
+        "l_N_mm": 158,
+        "A_R_uOhm": 8.27,
+        "coil_former": "B65714"
+      },
+      "mass_kg": 0.77,
+      "A_L_ungapped_nH": {
+        "N27": null,
+        "N87": 14000,
+        "3C90": null,
+        "tolerance_pct": 25
+      },
+      "part_numbers": {
+        "ungapped": {},
+        "coil_former": "B65714",
+        "clamp": null
+      },
+      "gapped_catalog": {
+        "B65713A0400A027": {
+          "material": "N27",
+          "A_L_nH": 400,
+          "A_L_tolerance_pct": 3.0,
+          "gap_total_mm": 3.5,
+          "gap_note": "суммарный зазор в центральном стержне"
+        }
+      },
+      "thermal": {
+        "R_th_core_K_W_estimated": null,
+        "T_max_operating_C": 130
+      },
+      "datasheet": "TDK B65713/B65714",
+      "notes": "Для 6 кВт однофазного варианта площадь сечения недостаточна — B_max выходит за B_доп."
+    },
+    "PM74/59": {
+      "name": "PM 74/59",
+      "family": "PM",
+      "shape": "цилиндрический броневой, круглый центральный стержень",
+      "status": "добавлен для трёхфазного варианта (мощность на фазу 2 кВт)",
+      "geometry": {
+        "D_outer_mm": 74.0,
+        "H_set_mm": 59.0,
+        "H_half_mm": 29.5,
+        "d_center_mm": 29.5,
+        "d_bore_mm": 57.5,
+        "h_window_mm": 40.3,
+        "h_flange_mm": 9.35
+      },
+      "magnetic": {
+        "A_e_mm2": 790,
+        "A_min_mm2": 630,
+        "l_e_mm": 128,
+        "V_e_mm3": 101000,
+        "sigma_l_A_per_mm": 0.162,
+        "A_e_over_A_min": 1.254
+      },
+      "winding": {
+        "A_N_mm2": 442,
+        "l_N_mm": 140,
+        "A_R_uOhm": 10.9,
+        "coil_former": "B65687"
+      },
+      "mass_kg": 0.537,
+      "A_L_ungapped_nH": {
+        "N27": 12000,
+        "N87": 13000,
+        "3C90": 14000,
+        "tolerance_pct": 25
+      },
+      "part_numbers": {
+        "ungapped": {
+          "N27": "B65686A0000R027",
+          "N87": "B65686A0000R087"
+        },
+        "coil_former": "B65687",
+        "clamp": null
+      },
+      "gapped_catalog": {
+        "B65686A0315A027": {
+          "material": "N27",
+          "A_L_nH": 315,
+          "A_L_tolerance_pct": 3.0,
+          "gap_total_mm": 3.8,
+          "gap_note": "суммарный зазор в центральном стержне"
+        },
+        "B65686A0630A027": {
+          "material": "N27",
+          "A_L_nH": 630,
+          "A_L_tolerance_pct": 3.0,
+          "gap_total_mm": 1.5,
+          "gap_note": "суммарный зазор в центральном стержне"
+        }
+      },
+      "thermal": {
+        "R_th_core_K_W_estimated": null,
+        "T_max_operating_C": 130
+      },
+      "datasheet": "TDK B65686/B65687 (N27/N87); Ferroxcube PM74/59 (3C90/3C94)",
+      "notes": "Окно намотки A_N=442 мм² — тесное для литцендрата большого сечения, ограничивает k_зан."
+    }
+  },
+  "screened_out": {
+    "_note": "Типоразмеры, отбракованные в drossel1 по произведению площадей (A_e·A_N) без полного набора конструктивных данных. Для повторного использования требуется внести паспортные параметры.",
+    "families": ["ETD 49", "ETD 54", "ETD 59", "E 65/32/27", "E 70/33/32", "E 80/38/20"],
+    "reason": "A_e·A_N ниже требуемого для 2 кВт на фазу при J_доп=2,5 А/мм² и k_зан=0,70"
+  }
+}

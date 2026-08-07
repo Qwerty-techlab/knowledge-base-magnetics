@@ -1,0 +1,30 @@
+{
+  "pdf_title": "The Study of the Operational Characteristic of Interleaved Boost Converter with Modified Coupled Inductor",
+  "pdf_author": "Michal Frivaldsky, Jan Morgos, Branislav Hanko and Michal Prazenica",
+  "pdf_subject": "In this article, design, analysis, and experimental testing of a dual interleaved boost converter with coupled inductor including demagnetizing winding are presented. Proposed topology uses the specific design of boost coils placed within the side parts of the EE core together with a demagnetizing coil located on the center part of the core. Paper describes principles of operational scenarios and characteristics. Through modification of turns ratio between boost coils and demagnetizing coil is possible to achieve high voltage gain. Consequently, the functional performance of this perspective topology is realized experimentally. For that purpose, the physical sample of converter is designed and tested in terms of efficiency considering the change of transferred power or the change of input voltage. Through modification of turns ratio between boost coils and demagnetizing coil is possible to achieve high voltage gain, therefore these dependencies are also evaluated considering also the change of the duty cycle. At the end of the paper basic operational properties are compared to standard boost topologies. It was discovered that even due to higher complexity of the proposed converter oppose to selected topologies, the operational performance is much better considering ripple of the electrical variables, efficiency, or the size of circuit components.",
+  "pdf_keywords": "interleaved boost converter; high gain boost converter; high efficiency; switching frequency; the planar inductor",
+  "pdf_creator": "LaTeX with hyperref package",
+  "pdf_creation_date": "D:20190918125853+02'00'",
+  "n_pages_total": 18,
+  "n_pages_parsed": 18,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:42 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 7116.9,
+  "n_chars_extracted": 41479,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": null,
+  "bib_year": 2019,
+  "bib_venue": "MDPI (журнал уточнить)",
+  "bib_doi": null,
+  "topic": "01_interleaved_boost",
+  "keywords_ru": [
+    "связанный дроссель",
+    "coupled inductor"
+  ],
+  "use_in_methodology": "Связанные дроссели в interleaved boost — рассмотрено и отклонено (ТЗ требует независимых дросселей).",
+  "bib_title": "The Study of the Operational Characteristic of Interleaved Boost Converter with Modified Coupled Inductor",
+  "bib_title_source": "pdf_metadata"
+}

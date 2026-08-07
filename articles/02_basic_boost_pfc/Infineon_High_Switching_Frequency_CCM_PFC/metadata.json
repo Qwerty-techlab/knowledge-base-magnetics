@@ -1,0 +1,32 @@
+{
+  "pdf_title": "High switching frequency CCM PFC operation with TRENCHSTOP™ 5 WR5 IGBT discretes",
+  "pdf_author": "Yeon Jaeeul (IFAT IPC ISD CD TM HA)",
+  "pdf_subject": null,
+  "pdf_keywords": "Infineon",
+  "pdf_creator": "Microsoft® Word 2019",
+  "pdf_creation_date": "D:20220923081656Z",
+  "n_pages_total": 23,
+  "n_pages_parsed": 23,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:42 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 1630.3,
+  "n_chars_extracted": 32665,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "Infineon Technologies",
+  "bib_year": null,
+  "bib_venue": "Infineon Application Note",
+  "bib_doi": null,
+  "topic": "02_basic_boost_pfc",
+  "keywords_ru": [
+    "частота коммутации",
+    "CCM",
+    "PFC",
+    "выбор частоты"
+  ],
+  "use_in_methodology": "Обоснование выбора частоты коммутации 100…150 кГц: баланс потерь в ключах и магнитных элементах.",
+  "bib_title": "High switching frequency CCM PFC operation with TRENCHSTOP 5 WR5 IGBT",
+  "bib_title_source": "pdf_metadata"
+}

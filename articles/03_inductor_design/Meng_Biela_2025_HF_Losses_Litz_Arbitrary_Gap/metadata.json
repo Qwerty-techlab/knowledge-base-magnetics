@@ -1,0 +1,32 @@
+{
+  "pdf_title": "Analytical Models for HF-Losses of Litz Wire in Inductors With Arbitrary Winding and Gap Arrangements",
+  "pdf_author": null,
+  "pdf_subject": "IEEE Open Journal of Power Electronics;2025;6; ;10.1109/OJPEL.2025.3604564",
+  "pdf_keywords": null,
+  "pdf_creator": "Apache FOP Version 2.11",
+  "pdf_creation_date": "D:20260730051206Z",
+  "n_pages_total": 14,
+  "n_pages_parsed": 14,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:43 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 11209.5,
+  "n_chars_extracted": 59831,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "Q. Meng, J. Biela",
+  "bib_year": 2025,
+  "bib_venue": "IEEE Open Journal of Power Electronics (OJPEL)",
+  "bib_doi": "10.1109/OJPEL.2025.3604564",
+  "topic": "03_inductor_design",
+  "keywords_ru": [
+    "вихревые потери",
+    "литцендрат",
+    "произвольное расположение",
+    "МКЭ"
+  ],
+  "use_in_methodology": "Вихревые потери литцендрата при произвольном расположении обмотки и зазоров; содержит независимый контроль расчёта по МКЭ.",
+  "bib_title": "Analytical Models for HF-Losses of Litz Wire in Inductors With Arbitrary Winding and Gap Arrangements",
+  "bib_title_source": "sources_md"
+}

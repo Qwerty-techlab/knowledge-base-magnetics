@@ -1,0 +1,32 @@
+{
+  "pdf_title": "UCC28070 300W Interleaved PFC Pre-regulator Design Review",
+  "pdf_author": "Texas Instruments, Incorporated [SLUA479,B]",
+  "pdf_subject": "Application Notes",
+  "pdf_keywords": "SLUA479,SLUA479B",
+  "pdf_creator": "TopLeaf 7.5.001",
+  "pdf_creation_date": "D:20100709100100-05'00'",
+  "n_pages_total": 27,
+  "n_pages_parsed": 27,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:42 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 753.6,
+  "n_chars_extracted": 37290,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "Texas Instruments",
+  "bib_year": null,
+  "bib_venue": "TI Application Report SLUA479B",
+  "bib_doi": null,
+  "topic": "01_interleaved_boost",
+  "keywords_ru": [
+    "interleaved",
+    "PFC",
+    "UCC28070",
+    "сдвиг фаз"
+  ],
+  "use_in_methodology": "Разбор проекта на UCC28070: сдвиг фаз 180°, влияние на пульсации и ЭМС.",
+  "bib_title": "UCC28070 300W Interleaved PFC Pre-regulator Design Review",
+  "bib_title_source": "pdf_metadata"
+}

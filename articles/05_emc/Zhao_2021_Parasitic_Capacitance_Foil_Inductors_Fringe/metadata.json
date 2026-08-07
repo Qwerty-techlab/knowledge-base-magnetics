@@ -1,0 +1,31 @@
+{
+  "pdf_title": null,
+  "pdf_author": null,
+  "pdf_subject": null,
+  "pdf_keywords": null,
+  "pdf_creator": null,
+  "pdf_creation_date": "D:20260730051638Z",
+  "n_pages_total": 13,
+  "n_pages_parsed": 13,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:43 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 1073.7,
+  "n_chars_extracted": 65627,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "H. Zhao et al.",
+  "bib_year": 2021,
+  "bib_venue": "IEEE Transactions on Power Electronics (TPEL)",
+  "bib_doi": "10.1109/TPEL.2020.3048226",
+  "topic": "05_emc",
+  "keywords_ru": [
+    "собственная ёмкость",
+    "краевое электрическое поле",
+    "собственный резонанс"
+  ],
+  "use_in_methodology": "Паразитные ёмкости, электрическое краевое поле и собственный резонанс обмотки — основа проверки k_R = f_res/f_sw.",
+  "bib_title": "Parasitic Capacitance Modeling of Copper-Foiled Medium-Voltage Filter Inductors Considering Fringe Electrical Field",
+  "bib_title_source": "sources_md"
+}

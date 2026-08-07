@@ -1,0 +1,32 @@
+{
+  "pdf_title": null,
+  "pdf_author": null,
+  "pdf_subject": null,
+  "pdf_keywords": null,
+  "pdf_creator": "Apache FOP Version 2.11",
+  "pdf_creation_date": "D:20260730051231Z",
+  "n_pages_total": 14,
+  "n_pages_parsed": 14,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:43 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 6201.7,
+  "n_chars_extracted": 60331,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "T. Ewald, J. Biela",
+  "bib_year": 2022,
+  "bib_venue": "IEEE Transactions on Power Electronics (TPEL)",
+  "bib_doi": "10.1109/TPEL.2022.3187155",
+  "topic": "03_inductor_design",
+  "keywords_ru": [
+    "потери в обмотке",
+    "воздушный зазор",
+    "литцендрат",
+    "индуктивность"
+  ],
+  "use_in_methodology": "Потери в обмотке и индуктивность при дискретном воздушном зазоре — влияние поля зазора на ближние витки.",
+  "bib_title": "Analytical Winding Loss and Inductance Models for Gapped Inductors With Litz or Solid Wires",
+  "bib_title_source": "sources_md"
+}

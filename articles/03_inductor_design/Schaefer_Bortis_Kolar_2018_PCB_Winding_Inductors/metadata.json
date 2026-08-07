@@ -1,0 +1,31 @@
+{
+  "pdf_title": null,
+  "pdf_author": null,
+  "pdf_subject": null,
+  "pdf_keywords": null,
+  "pdf_creator": "'Certified by IEEE PDFeXpress at 07/10/2018 5:33:26 AM'",
+  "pdf_creation_date": "D:20180706105523+02'00'",
+  "n_pages_total": 9,
+  "n_pages_parsed": 9,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:43 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 5145.9,
+  "n_chars_extracted": 36272,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "M. Schäfer, D. Bortis, J. W. Kolar",
+  "bib_year": 2018,
+  "bib_venue": "IEEE IPEC (ECCE Asia)",
+  "bib_doi": "10.23919/IPEC.2018.8507558",
+  "topic": "03_inductor_design",
+  "keywords_ru": [
+    "печатная обмотка",
+    "положение зазора",
+    "эффект близости"
+  ],
+  "use_in_methodology": "Потери печатной обмотки, влияние положения зазора, поверхностного эффекта и эффекта близости.",
+  "bib_title": "Optimal Design of Highly Efficient and Highly Compact PCB Winding Inductors",
+  "bib_title_source": "sources_md"
+}

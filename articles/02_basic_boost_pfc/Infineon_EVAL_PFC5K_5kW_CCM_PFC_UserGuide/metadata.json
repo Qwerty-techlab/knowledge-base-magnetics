@@ -1,0 +1,31 @@
+{
+  "pdf_title": "EVAL-PFC5KIKWWR5SYS - User Guide",
+  "pdf_author": "Infineon",
+  "pdf_subject": null,
+  "pdf_keywords": "\"Interleaved PFC,5 kW,IGBT,IKW40N65WR5, IDW60C65D1,1ED44175\"",
+  "pdf_creator": "Microsoft® Word 2019",
+  "pdf_creation_date": "D:20220627093256Z",
+  "n_pages_total": 38,
+  "n_pages_parsed": 38,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:42 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 3076.3,
+  "n_chars_extracted": 54508,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "Infineon Technologies",
+  "bib_year": null,
+  "bib_venue": "Infineon Evaluation Board User Guide",
+  "bib_doi": null,
+  "topic": "02_basic_boost_pfc",
+  "keywords_ru": [
+    "5 кВт",
+    "референс-дизайн",
+    "CCM PFC"
+  ],
+  "use_in_methodology": "Референс-дизайн 5 кВт CCM PFC — сверка порядка величин с расчётом на 6 кВт.",
+  "bib_title": "EVAL-PFC5KIKWWR5SYS - User Guide (5 kW CCM PFC)",
+  "bib_title_source": "pdf_metadata"
+}

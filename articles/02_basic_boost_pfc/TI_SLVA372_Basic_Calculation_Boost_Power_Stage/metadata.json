@@ -1,0 +1,33 @@
+{
+  "pdf_title": "Basic Calculation of a Boost Converter's Power Stage (Rev. D)",
+  "pdf_author": "Texas Instruments, Incorporated [SLVA372,D\n]",
+  "pdf_subject": "Application Notes",
+  "pdf_keywords": "SLVA372D",
+  "pdf_creator": "AH XSL Formatter V7.0 MR5 for Windows (x64) : 7.0.6.47833 (2020-10-21T14:40+09)",
+  "pdf_creation_date": "D:20221101144651-05'00'",
+  "n_pages_total": 10,
+  "n_pages_parsed": 10,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:43 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 606.7,
+  "n_chars_extracted": 20256,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "Texas Instruments (B. Hauke)",
+  "bib_year": null,
+  "bib_venue": "TI Application Report SLVA372D",
+  "bib_doi": null,
+  "topic": "02_basic_boost_pfc",
+  "keywords_ru": [
+    "boost",
+    "коэффициент заполнения",
+    "пульсации тока",
+    "CCM",
+    "базовые формулы"
+  ],
+  "use_in_methodology": "ОПОРНЫЙ источник базовых формул: D, ΔI_L, I_rms, условие CCM. Указан в ТЗ как методика расчёта пульсаций.",
+  "bib_title": "Basic Calculation of a Boost Converter's Power Stage (Rev. D)",
+  "bib_title_source": "pdf_metadata"
+}

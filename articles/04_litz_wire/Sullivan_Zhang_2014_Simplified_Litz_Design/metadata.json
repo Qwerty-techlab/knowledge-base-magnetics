@@ -1,0 +1,33 @@
+{
+  "pdf_title": null,
+  "pdf_author": null,
+  "pdf_subject": null,
+  "pdf_keywords": null,
+  "pdf_creator": "TeX output 2013.11.18:2337",
+  "pdf_creation_date": "D:20131118233733-05'00'",
+  "n_pages_total": 8,
+  "n_pages_parsed": 8,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:43 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 3350.5,
+  "n_chars_extracted": 46082,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "C. R. Sullivan, R. Y. Zhang",
+  "bib_year": 2014,
+  "bib_venue": "IEEE APEC",
+  "bib_doi": "10.1109/APEC.2014.6803671",
+  "topic": "04_litz_wire",
+  "keywords_ru": [
+    "литцендрат",
+    "F_R",
+    "глубина проникновения",
+    "число жил",
+    "выбор провода"
+  ],
+  "use_in_methodology": "ОПОРНЫЙ источник расчёта литцендрата: выбор диаметра и числа жил по глубине проникновения, ширине секции и числу витков; проверка F_R = R_ac/R_dc.",
+  "bib_title": "Simplified Design Method for Litz Wire",
+  "bib_title_source": "sources_md"
+}

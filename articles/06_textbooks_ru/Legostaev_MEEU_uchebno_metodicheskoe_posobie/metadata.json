@@ -1,0 +1,32 @@
+{
+  "pdf_title": "Министерство образования и науки Российской Федерации",
+  "pdf_author": "lns",
+  "pdf_subject": null,
+  "pdf_keywords": null,
+  "pdf_creator": "Microsoft® Word 2010",
+  "pdf_creation_date": "D:20191122132851+07'00'",
+  "n_pages_total": 146,
+  "n_pages_parsed": 146,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:43 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 5411.7,
+  "n_chars_extracted": 174027,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "Легостаев Н. С.",
+  "bib_year": null,
+  "bib_venue": "ТУСУР",
+  "bib_doi": null,
+  "topic": "06_textbooks_ru",
+  "keywords_ru": [
+    "учебное пособие",
+    "магнитные элементы",
+    "терминология",
+    "ГОСТ"
+  ],
+  "use_in_methodology": "Отечественная терминология и нормативный подход к расчёту магнитных элементов; согласование обозначений в отчёте по ГОСТ.",
+  "bib_title": "Материалы и элементы электронной техники (МЭЭУ). Учебно-методическое пособие",
+  "bib_title_source": "derived_from_filename"
+}

@@ -1,0 +1,32 @@
+{
+  "pdf_title": "AN-6086 Design Consideration for Interleaved Boundary Conduction Mode PFC Using FAN9611/12",
+  "pdf_author": "Fairchild Semiconductor",
+  "pdf_subject": "AN-6086 Design Consideration for Interleaved Boundary Conduction Mode PFC Using FAN9611/12",
+  "pdf_keywords": "AN-6086 Design Consideration for Interleaved Boundary Conduction Mode PFC Using FAN9611/12",
+  "pdf_creator": "PScript5.dll Version 5.2.2",
+  "pdf_creation_date": "D:20100422084740-04'00'",
+  "n_pages_total": 18,
+  "n_pages_parsed": 18,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:42 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 756.6,
+  "n_chars_extracted": 42815,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "Fairchild Semiconductor",
+  "bib_year": null,
+  "bib_venue": "Fairchild Application Note AN-6086",
+  "bib_doi": null,
+  "topic": "01_interleaved_boost",
+  "keywords_ru": [
+    "interleaved",
+    "BCM",
+    "граничный режим",
+    "PFC"
+  ],
+  "use_in_methodology": "Граничный режим (BCM) в interleaved PFC — для сопоставления с выбранным CCM.",
+  "bib_title": "AN-6086 Design Consideration for Interleaved Boundary Conduction Mode PFC Using FAN9611/12",
+  "bib_title_source": "pdf_metadata"
+}

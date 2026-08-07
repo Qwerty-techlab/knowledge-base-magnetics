@@ -1,0 +1,30 @@
+{
+  "pdf_title": null,
+  "pdf_author": null,
+  "pdf_subject": null,
+  "pdf_keywords": null,
+  "pdf_creator": "TeX output 2014.06.04:1159",
+  "pdf_creation_date": "D:20140604120109+07'00'",
+  "n_pages_total": 186,
+  "n_pages_parsed": 186,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:43 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 4412.5,
+  "n_chars_extracted": 330292,
+  "n_pages_empty": 1,
+  "extraction_quality": "неполно: часть страниц без текста",
+  "bib_authors": "Легостаев Н. С.",
+  "bib_year": null,
+  "bib_venue": "ТУСУР",
+  "bib_doi": null,
+  "topic": "06_textbooks_ru",
+  "keywords_ru": [
+    "учебное пособие",
+    "магнитные материалы"
+  ],
+  "use_in_methodology": "Дополнение к основному пособию Легостаева.",
+  "bib_title": "Материалы и элементы электронной техники. Пособие",
+  "bib_title_source": "derived_from_filename"
+}

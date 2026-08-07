@@ -1,0 +1,32 @@
+{
+  "pdf_title": "An Interleaved PFC Preregulator for High-Power Converters",
+  "pdf_author": "Texas Instruments, Incorporated [SLUA746,*]",
+  "pdf_subject": "Technical White Papers",
+  "pdf_keywords": "SLUA746",
+  "pdf_creator": "PScript5.dll Version 5.2.2",
+  "pdf_creation_date": "D:20150428151542-05'00'",
+  "n_pages_total": 17,
+  "n_pages_parsed": 17,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:42 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 753.6,
+  "n_chars_extracted": 30808,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "Texas Instruments",
+  "bib_year": null,
+  "bib_venue": "TI Application Report SLUA746",
+  "bib_doi": null,
+  "topic": "01_interleaved_boost",
+  "keywords_ru": [
+    "interleaved",
+    "PFC",
+    "пульсации входного тока",
+    "методика TI"
+  ],
+  "use_in_methodology": "Базовая методика двухфазного interleaved PFC: расчёт тока фазы, коэффициент подавления пульсации входного тока, выбор индуктивности.",
+  "bib_title": "An Interleaved PFC Preregulator for High-Power Converters",
+  "bib_title_source": "pdf_metadata"
+}

@@ -1,0 +1,31 @@
+{
+  "pdf_title": "350-W, Two Phase Interleaved PFC Pre-Regulator (Rev. C)",
+  "pdf_author": "Texas Instruments, Incorporated [SLUA369,C\n]",
+  "pdf_subject": "Application Notes",
+  "pdf_keywords": "SLUA369,SLUA369C",
+  "pdf_creator": "TopLeaf 7.6.049",
+  "pdf_creation_date": "D:20130920081534-05'00'",
+  "n_pages_total": 22,
+  "n_pages_parsed": 22,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:42 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 424.9,
+  "n_chars_extracted": 38143,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "Texas Instruments",
+  "bib_year": null,
+  "bib_venue": "TI Application Report SLUA369C",
+  "bib_doi": null,
+  "topic": "01_interleaved_boost",
+  "keywords_ru": [
+    "interleaved",
+    "PFC",
+    "пример расчёта"
+  ],
+  "use_in_methodology": "Полный пример расчёта двухфазного PFC с номиналами: сверка порядка величин индуктивности и токов.",
+  "bib_title": "350-W, Two Phase Interleaved PFC Pre-Regulator (Rev. C)",
+  "bib_title_source": "pdf_metadata"
+}

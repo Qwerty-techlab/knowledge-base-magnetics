@@ -1,0 +1,33 @@
+{
+  "pdf_title": "Design process of high‐frequency inductor with multiple air‐gaps in the dimensional limitation",
+  "pdf_author": null,
+  "pdf_subject": "The Journal of Engineering 2022.2022:16-33",
+  "pdf_keywords": null,
+  "pdf_creator": "LaTeX with hyperref package",
+  "pdf_creation_date": "D:20211224094145+05'30'",
+  "n_pages_total": 18,
+  "n_pages_parsed": 18,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:43 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 2995.2,
+  "n_chars_extracted": 70769,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "H. Liao, J.-F. Chen",
+  "bib_year": 2022,
+  "bib_venue": "The Journal of Engineering (IET)",
+  "bib_doi": "10.1049/tje2.12087",
+  "topic": "03_inductor_design",
+  "keywords_ru": [
+    "коэффициент выпучивания",
+    "краевой поток",
+    "воздушный зазор",
+    "разделение зазора"
+  ],
+  "use_in_methodology": "ОПОРНЫЙ источник коэффициента выпучивания: F_f(g) = 1 + 0,9·(g/√A_e)·ln(2G/g). Разделение зазора на участки и конструктивные ограничения.",
+  "bib_title": "Design process of high-frequency inductor with multiple air-gaps in the dimensional limitation",
+  "bib_title_source": "sources_md",
+  "duplicate_note": "Файл 'The Journal of Engineering - 2021 - Liao - ...' в 0_references — побайтовый дубликат этого же PDF (обнаружено при миграции)."
+}

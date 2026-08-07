@@ -1,0 +1,31 @@
+{
+  "pdf_title": "Microsoft Word - 2_JPE-16-08-060",
+  "pdf_author": "KIPE-4",
+  "pdf_subject": null,
+  "pdf_keywords": null,
+  "pdf_creator": "PScript5.dll Version 5.2.2",
+  "pdf_creation_date": "D:20170426180128+09'00'",
+  "n_pages_total": 11,
+  "n_pages_parsed": 11,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:42 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 817.9,
+  "n_chars_extracted": 37131,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": null,
+  "bib_year": 2016,
+  "bib_venue": "Journal of Power Electronics (JPE)",
+  "bib_doi": null,
+  "topic": "01_interleaved_boost",
+  "keywords_ru": [
+    "нулевая пульсация",
+    "EMI-фильтр",
+    "ЭМС"
+  ],
+  "use_in_methodology": "Совмещение подавления пульсации с ЭМС-фильтром.",
+  "bib_title": "Interleaved Boost Converter with Zero Ripple and Integrated EMI Filter",
+  "bib_title_source": "derived_from_filename"
+}

@@ -1,0 +1,31 @@
+{
+  "pdf_title": null,
+  "pdf_author": null,
+  "pdf_subject": null,
+  "pdf_keywords": null,
+  "pdf_creator": "PScript5.dll Version 5.2.2",
+  "pdf_creation_date": "D:20201004144444+08'00'",
+  "n_pages_total": 35,
+  "n_pages_parsed": 35,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:42 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 8008.7,
+  "n_chars_extracted": 88439,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": null,
+  "bib_year": 2020,
+  "bib_venue": "MDPI (журнал уточнить)",
+  "bib_doi": null,
+  "topic": "01_interleaved_boost",
+  "keywords_ru": [
+    "NSGA-II",
+    "многокритериальная оптимизация",
+    "co-design"
+  ],
+  "use_in_methodology": "Многокритериальная оптимизация (NSGA-II) параметров interleaved boost.",
+  "bib_title": "NSGA-II Based Co-Design of Interleaved Boost Converter for Electric Vehicles",
+  "bib_title_source": "derived_from_filename"
+}

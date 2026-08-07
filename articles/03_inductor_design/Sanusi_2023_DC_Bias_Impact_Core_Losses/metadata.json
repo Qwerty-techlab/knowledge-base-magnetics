@@ -1,0 +1,32 @@
+{
+  "pdf_title": null,
+  "pdf_author": null,
+  "pdf_subject": null,
+  "pdf_keywords": null,
+  "pdf_creator": null,
+  "pdf_creation_date": "D:20260730051535Z",
+  "n_pages_total": 17,
+  "n_pages_parsed": 17,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:43 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 3237.6,
+  "n_chars_extracted": 73726,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "B. N. Sanusi et al.",
+  "bib_year": 2023,
+  "bib_venue": "IEEE Transactions on Power Electronics (TPEL)",
+  "bib_doi": "10.1109/TPEL.2023.3249106",
+  "topic": "03_inductor_design",
+  "keywords_ru": [
+    "постоянное подмагничивание",
+    "DC bias",
+    "потери в сердечнике",
+    "ограничение модели"
+  ],
+  "use_in_methodology": "КРИТИЧНО: показывает неприменимость модели потерь без идентификации при постоянном подмагничивании. Для дросселя boost с большим I_dc — ограничение точности iGSE.",
+  "bib_title": "Investigation and Modeling of DC Bias Impact on Core Losses at High Frequency",
+  "bib_title_source": "sources_md"
+}

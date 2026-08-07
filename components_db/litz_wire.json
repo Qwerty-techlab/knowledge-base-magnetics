@@ -1,0 +1,239 @@
+{
+  "_meta": {
+    "title": "База литцендрата (обмоточный многожильный ВЧ провод), поставка РФ",
+    "version": "1.0.0",
+    "updated": "2026-08-07",
+    "origin": "drossel1: 3_calc/inductor_design.py::litz_library()",
+    "supplier": {
+      "name": "Кабель-Гарант",
+      "city": "Москва",
+      "site": "https://kabelgarant.ru",
+      "catalog_litz_lesho": "https://kabelgarant.ru/category/kabelno-provodnikovaya-produktsiya/provod-obmotochnyy/littsendrat-lesho-s-navivkoy-iz-shelka/",
+      "catalog_litz_import": "https://kabelgarant.ru/category/kabelno-provodnikovaya-produktsiya/provod-obmotochnyy/littsendrat-v-neylone-litz-import/",
+      "price_date": "2026-08",
+      "price_note": "цены с НДС, розница; при партии уточнять у поставщика"
+    },
+    "loss_model": {
+      "name": "Sullivan & Zhang (упрощённый метод расчёта литцендрата)",
+      "reference": "C. R. Sullivan, R. Y. Zhang, Simplified Design Method for Litz Wire, APEC 2014, DOI: 10.1109/APEC.2014.6803671",
+      "F_R_meaning": "F_R = R_ac/R_dc — коэффициент увеличения сопротивления на частоте; учитывает поверхностный эффект жилы и эффект близости внутри пучка и между витками",
+      "skin_depth_formula": "delta_mm = 66.1 / sqrt(f_Hz) для меди при 20 °C",
+      "design_rule": "d_strand должен быть заметно меньше delta на рабочей частоте: d_strand/delta < 0,5 обеспечивает F_R близкий к минимуму"
+    },
+    "units": {
+      "d_strand_mm": "мм — диаметр одной жилы по меди",
+      "d_outer_mm": "мм — наружный диаметр пучка с изоляцией/оплёткой",
+      "S_cu_mm2": "мм² — суммарная площадь меди одного пучка",
+      "R_dc_mOhm_per_m": "мОм/м — сопротивление постоянному току при 20 °C (rho_cu = 1,72e-8 Ом·м)",
+      "t_index_C": "°C — температурный индекс изоляции",
+      "fill_factor_bundle": "S_cu / (площадь круга d_outer) — доля меди в габарите пучка"
+    },
+    "computed_fields_note": "S_cu_mm2, R_dc_mOhm_per_m, fill_factor_bundle, awg_equivalent, skin_depth_ratio_* вычислены, не паспортные."
+  },
+  "skin_depth_reference_mm": {
+    "50000": 0.296,
+    "100000": 0.209,
+    "150000": 0.171,
+    "200000": 0.148,
+    "300000": 0.121,
+    "450000": 0.099,
+    "500000": 0.094,
+    "1000000": 0.066
+  },
+  "wires": {
+    "LITZ_500x0071": {
+      "designation": "Litz wire (нейлон) 500×0,071 мм",
+      "type": "импортный литцендрат в нейлоновой оплётке",
+      "n_strands": 500,
+      "d_strand_mm": 0.071,
+      "d_outer_mm": 2.1,
+      "S_cu_mm2": 1.981,
+      "R_dc_mOhm_per_m": 8.68,
+      "fill_factor_bundle": 0.572,
+      "awg_equivalent_strand": "AWG 41",
+      "insulation": {
+        "type": "нейлоновая оплётка поверх эмалированных жил",
+        "t_index_C": 155.0,
+        "class": "F"
+      },
+      "standard": "импорт, аналог ЛЭП",
+      "skin_depth_ratio_100kHz": 0.34,
+      "skin_depth_ratio_150kHz": 0.42,
+      "price": {"value": 7600.0, "unit": "₽/кг", "length_per_kg_m": 51},
+      "url": "https://kabelgarant.ru/provod-obmotochnyy-littsendrat-litz-wire-500-kh-0-071-mm-1kg-51m/",
+      "status": "ВЫБРАН в трёхфазном варианте drossel1: 5 параллельных пучков, S_cu=9,898 мм²",
+      "notes": "Параллельное соединение 5 пучков даёт нужное сечение при сохранении гибкости и приемлемого F_R."
+    },
+    "LITZ_1000x0071": {
+      "designation": "Litz wire (нейлон) 1000×0,071 мм",
+      "type": "импортный литцендрат в нейлоновой оплётке",
+      "n_strands": 1000,
+      "d_strand_mm": 0.071,
+      "d_outer_mm": 2.95,
+      "S_cu_mm2": 3.962,
+      "R_dc_mOhm_per_m": 4.34,
+      "fill_factor_bundle": 0.58,
+      "awg_equivalent_strand": "AWG 41",
+      "insulation": {
+        "type": "нейлоновая оплётка поверх эмалированных жил",
+        "t_index_C": 155.0,
+        "class": "F"
+      },
+      "standard": "импорт, аналог ЛЭП",
+      "skin_depth_ratio_100kHz": 0.34,
+      "skin_depth_ratio_150kHz": 0.42,
+      "price": {"value": 7600.0, "unit": "₽/кг", "length_per_kg_m": 26},
+      "url": "https://kabelgarant.ru/provod-obmotochnyy-littsendrat-litz-wire-1000-kh-0-071-mm-1kg-26-m/",
+      "status": "ВЫБРАН в однофазном варианте drossel1",
+      "notes": "Наибольшее сечение в одном пучке из доступных позиций 0,071 мм."
+    },
+    "LITZ_1075x0071": {
+      "designation": "Litz wire (нейлон) 1075×0,071 мм",
+      "type": "импортный литцендрат в нейлоновой оплётке",
+      "n_strands": 1075,
+      "d_strand_mm": 0.071,
+      "d_outer_mm": 3.05,
+      "S_cu_mm2": 4.258,
+      "R_dc_mOhm_per_m": 4.04,
+      "fill_factor_bundle": 0.583,
+      "awg_equivalent_strand": "AWG 41",
+      "insulation": {
+        "type": "нейлоновая оплётка поверх эмалированных жил",
+        "t_index_C": 155.0,
+        "class": "F"
+      },
+      "standard": "импорт, аналог ЛЭП",
+      "skin_depth_ratio_100kHz": 0.34,
+      "skin_depth_ratio_150kHz": 0.42,
+      "price": {"value": 7600.0, "unit": "₽/кг", "length_per_kg_m": 24},
+      "url": "https://kabelgarant.ru/category/kabelno-provodnikovaya-produktsiya/provod-obmotochnyy/littsendrat-v-neylone-litz-import/",
+      "status": "проверен, не выбран",
+      "notes": "Наружный диаметр 3,05 мм затрудняет укладку в окно PM 74/59."
+    },
+    "LITZ_1000x005": {
+      "designation": "Litz wire (нейлон) 1000×0,05 мм",
+      "type": "импортный литцендрат в нейлоновой оплётке",
+      "n_strands": 1000,
+      "d_strand_mm": 0.05,
+      "d_outer_mm": 2.3,
+      "S_cu_mm2": 1.964,
+      "R_dc_mOhm_per_m": 8.76,
+      "fill_factor_bundle": 0.473,
+      "awg_equivalent_strand": "AWG 44",
+      "insulation": {
+        "type": "нейлоновая оплётка поверх эмалированных жил",
+        "t_index_C": 155.0,
+        "class": "F"
+      },
+      "standard": "импорт, аналог ЛЭП",
+      "skin_depth_ratio_100kHz": 0.24,
+      "skin_depth_ratio_150kHz": 0.29,
+      "price": {"value": 7600.0, "unit": "₽/кг", "length_per_kg_m": 53},
+      "url": "https://kabelgarant.ru/provod-obmotochnyy-littsendrat-litz-wire-1000-kh-0-05-mm-1-kg-53-m/",
+      "status": "проверен, не выбран",
+      "notes": "Наилучший F_R на высоких частотах (тонкая жила), но низкий коэффициент заполнения пучка 0,473 — теряется место в окне."
+    },
+    "LITZ_300x01": {
+      "designation": "Litz wire (нейлон) 300×0,10 мм",
+      "type": "импортный литцендрат в нейлоновой оплётке",
+      "n_strands": 300,
+      "d_strand_mm": 0.1,
+      "d_outer_mm": 2.7,
+      "S_cu_mm2": 2.356,
+      "R_dc_mOhm_per_m": 7.3,
+      "fill_factor_bundle": 0.411,
+      "awg_equivalent_strand": "AWG 38",
+      "insulation": {
+        "type": "нейлоновая оплётка поверх эмалированных жил",
+        "t_index_C": 155.0,
+        "class": "F"
+      },
+      "standard": "импорт, аналог ЛЭП",
+      "skin_depth_ratio_100kHz": 0.48,
+      "skin_depth_ratio_150kHz": 0.58,
+      "price": {"value": 7600.0, "unit": "₽/кг", "length_per_kg_m": 42},
+      "url": "https://kabelgarant.ru/provod-obmotochnyy-littsendrat-litz-wire-300-kh-0-1-mm-1-kg-42m/",
+      "status": "проверен, не выбран",
+      "notes": "Жила 0,10 мм на 150 кГц даёт d/delta=0,58 — заметный рост F_R."
+    },
+    "LESHO_615x0071": {
+      "designation": "ЛЭШО 615×0,071 мм",
+      "type": "литцендрат с навивкой из шёлка (отечественный)",
+      "n_strands": 615,
+      "d_strand_mm": 0.071,
+      "d_outer_mm": 2.3,
+      "S_cu_mm2": 2.436,
+      "R_dc_mOhm_per_m": 7.06,
+      "fill_factor_bundle": 0.586,
+      "awg_equivalent_strand": "AWG 41",
+      "insulation": {
+        "type": "навивка из натурального шёлка поверх эмалированных жил",
+        "t_index_C": 105.0,
+        "class": "A"
+      },
+      "standard": "ТУ 16.К80-03-89",
+      "skin_depth_ratio_100kHz": 0.34,
+      "skin_depth_ratio_150kHz": 0.42,
+      "price": {"value": 1050.0, "unit": "₽/м", "length_per_kg_m": null},
+      "url": "https://kabelgarant.ru/littsendrat-lesho-615-kh-0071-mm-1-m/",
+      "status": "проверен, не выбран",
+      "notes": "Отечественная позиция, но t_index=105 °C ограничивает перегрев; цена за метр выше импортного аналога при пересчёте."
+    },
+    "LESHO_175x01": {
+      "designation": "ЛЭШО 175×0,10 мм",
+      "type": "литцендрат с навивкой из шёлка (отечественный)",
+      "n_strands": 175,
+      "d_strand_mm": 0.1,
+      "d_outer_mm": 2.0,
+      "S_cu_mm2": 1.374,
+      "R_dc_mOhm_per_m": 12.51,
+      "fill_factor_bundle": 0.437,
+      "awg_equivalent_strand": "AWG 38",
+      "insulation": {
+        "type": "навивка из натурального шёлка поверх эмалированных жил",
+        "t_index_C": 105.0,
+        "class": "A"
+      },
+      "standard": "ТУ 16.К80-03-89",
+      "skin_depth_ratio_100kHz": 0.48,
+      "skin_depth_ratio_150kHz": 0.58,
+      "price": {"value": 520.0, "unit": "₽/м", "length_per_kg_m": null},
+      "url": "https://kabelgarant.ru/littsendrat-lesho-175-kh-01-mm-1-m/",
+      "status": "проверен, не выбран",
+      "notes": "Малое сечение — требует много параллельных пучков."
+    },
+    "LESHO_160x0071": {
+      "designation": "ЛЭШО 160×0,071 мм",
+      "type": "литцендрат с навивкой из шёлка (отечественный)",
+      "n_strands": 160,
+      "d_strand_mm": 0.071,
+      "d_outer_mm": 1.25,
+      "S_cu_mm2": 0.634,
+      "R_dc_mOhm_per_m": 27.14,
+      "fill_factor_bundle": 0.516,
+      "awg_equivalent_strand": "AWG 41",
+      "insulation": {
+        "type": "навивка из натурального шёлка поверх эмалированных жил",
+        "t_index_C": 105.0,
+        "class": "A"
+      },
+      "standard": "ТУ 16.К80-03-89",
+      "skin_depth_ratio_100kHz": 0.34,
+      "skin_depth_ratio_150kHz": 0.42,
+      "price": {"value": 320.0, "unit": "₽/м", "length_per_kg_m": null},
+      "url": "https://kabelgarant.ru/category/kabelno-provodnikovaya-produktsiya/provod-obmotochnyy/littsendrat-lesho-s-navivkoy-iz-shelka/",
+      "status": "проверен, не выбран",
+      "notes": "Наименьшее сечение в базе. Для 6 кВт потребовалось бы 16 параллельных пучков."
+    }
+  },
+  "selection_notes": {
+    "how_to_choose": [
+      "1. Определить требуемое S_cu из I_rms и J_доп (по умолчанию 2,5 А/мм²).",
+      "2. Выбрать d_strand так, чтобы d_strand/delta(f_eff) < 0,5.",
+      "3. Подобрать n_strands и число параллельных пучков n_parallel до нужного S_cu.",
+      "4. Проверить укладку: n_parallel · d_outer должно поместиться в окно A_N при k_зан ≤ 0,70.",
+      "5. Проверить F_R по Sullivan: k_R = f_res/f_sw ≥ 4 и F_R приемлем на гармониках."
+    ],
+    "temperature_class_warning": "ЛЭШО (шёлк) имеет t_index=105 °C против 155 °C у импортного нейлона. При расчётном перегреве выше 60 K над средой запас по изоляции у ЛЭШО исчезает."
+  }
+}

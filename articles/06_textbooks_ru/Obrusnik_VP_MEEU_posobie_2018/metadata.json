@@ -1,0 +1,31 @@
+{
+  "pdf_title": null,
+  "pdf_author": null,
+  "pdf_subject": null,
+  "pdf_keywords": null,
+  "pdf_creator": null,
+  "pdf_creation_date": null,
+  "n_pages_total": 154,
+  "n_pages_parsed": 154,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:43 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 2090.0,
+  "n_chars_extracted": 185072,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "Обрусник В. П.",
+  "bib_year": 2018,
+  "bib_venue": "ТУСУР",
+  "bib_doi": null,
+  "topic": "06_textbooks_ru",
+  "keywords_ru": [
+    "магнитные элементы",
+    "произведение площадей",
+    "коэффициент заполнения"
+  ],
+  "use_in_methodology": "Расчёт магнитных элементов по отечественной методике: произведение площадей, коэффициент заполнения окна.",
+  "bib_title": "Магнитные элементы электронных устройств. Учебное пособие",
+  "bib_title_source": "derived_from_filename"
+}

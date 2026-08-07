@@ -1,0 +1,31 @@
+{
+  "pdf_title": null,
+  "pdf_author": "IARAS",
+  "pdf_subject": null,
+  "pdf_keywords": null,
+  "pdf_creator": "Acrobat PDFMaker 10.0 for Word",
+  "pdf_creation_date": "D:20180510141226+03'00'",
+  "n_pages_total": 11,
+  "n_pages_parsed": 11,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:42 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 456.4,
+  "n_chars_extracted": 18282,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": null,
+  "bib_year": 2018,
+  "bib_venue": "WSEAS Transactions",
+  "bib_doi": null,
+  "topic": "01_interleaved_boost",
+  "keywords_ru": [
+    "четырёхфазный",
+    "CCM",
+    "interleaved"
+  ],
+  "use_in_methodology": "Четырёхфазный вариант — оценка выигрыша при N>3.",
+  "bib_title": "Analysis of a Four-Phase Interleaved DC-DC Converter in CCM",
+  "bib_title_source": "derived_from_filename"
+}

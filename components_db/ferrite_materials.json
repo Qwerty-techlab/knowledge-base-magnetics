@@ -1,0 +1,192 @@
+{
+  "_meta": {
+    "title": "База материалов силовых ферритов (Mn-Zn) для ВЧ дросселей",
+    "version": "1.0.0",
+    "updated": "2026-08-07",
+    "origin": "drossel1: 3_calc/inductor_design.py::material_library()",
+    "datasheet_sources": [
+      "TDK SIFERRIT N27: https://www.tdk-electronics.tdk.com/download/528854/.../pdf/n27.pdf",
+      "TDK SIFERRIT N87: https://www.tdk-electronics.tdk.com/download/528882/.../pdf/n87.pdf",
+      "Ferroxcube 3C90: https://www.ferroxcube.com/upload/media/product/file/MDS/3c90.pdf"
+    ],
+    "loss_model": {
+      "name": "Штейнмец (Steinmetz) / iGSE",
+      "formula_SI": "P_V = k_st · f^alpha · B_pk^beta,  [Вт/м³], f [Гц], B_pk [Тл]",
+      "igse_note": "Для несинусоидальной формы используется iGSE: P_V = (1/T)·k_i·∫|dB/dt|^alpha·(ΔB)^(beta-alpha)·dt, где k_i получается из k_st численным интегрированием по периоду синуса.",
+      "validity": "Коэффициенты подогнаны по паспортным кривым при 100 °C. За пределами f_min…f_max и указанного диапазона B экстраполяция не гарантирована. При постоянном подмагничивании (DC bias) модель занижает потери — см. Sanusi 2023."
+    },
+    "units": {
+      "mu_i": "безразмерная начальная магнитная проницаемость",
+      "B_S_T": "Тл — индукция насыщения",
+      "T_curie_C": "°C — температура Кюри",
+      "density_kg_m3": "кг/м³",
+      "resistivity_Ohm_m": "Ом·м — удельное объёмное сопротивление",
+      "k_st": "Вт/(м³·Гц^alpha·Тл^beta) — коэффициент Штейнмеца в СИ",
+      "f_Hz": "Гц"
+    },
+    "field_conventions": {
+      "null": "параметр отсутствует в доступном даташите — требует уточнения перед использованием",
+      "*_estimated": "значение оценочное, не паспортное"
+    }
+  },
+  "materials": {
+    "N27": {
+      "name": "N27",
+      "manufacturer": "TDK / EPCOS",
+      "class": "Mn-Zn силовой феррит общего применения",
+      "status": "выбран в drossel1 (100 кГц и 150 кГц)",
+      "permeability": {
+        "mu_i": 2000,
+        "mu_i_tolerance_pct": 25,
+        "mu_i_test_conditions": "25 °C, ≤10 кГц, B < 0,25 мТл",
+        "mu_a_max": null
+      },
+      "saturation": {
+        "B_S_25C_T": 0.5,
+        "B_S_100C_T": 0.41,
+        "B_S_test_conditions": "H = 1200 А/м",
+        "B_r_25C_T": null,
+        "H_c_A_m": null
+      },
+      "temperature": {
+        "T_curie_C": 220,
+        "T_max_operating_C": 130,
+        "mu_i_peak_temp_C": null
+      },
+      "physical": {
+        "density_kg_m3": 4800,
+        "resistivity_Ohm_m": 5.0,
+        "resistivity_note": "типовое значение для Mn-Zn при 25 °C; в даташите приводится порядок величины"
+      },
+      "frequency_range": {
+        "f_min_Hz": 25000,
+        "f_max_Hz": 150000,
+        "f_range_note": "паспортный диапазон оптимального применения; выше f_max резко растут потери"
+      },
+      "steinmetz": {
+        "k_st": 22.787,
+        "alpha": 1.2847,
+        "beta": 2.6,
+        "fit_temperature_C": 100,
+        "fit_points": [
+          {"f_Hz": 25000, "B_pk_T": 0.2, "P_V_kW_m3": 155},
+          {"f_Hz": 100000, "B_pk_T": 0.2, "P_V_kW_m3": 920}
+        ],
+        "fit_source": "TDK SIFERRIT N27, стр. 2 (кривые удельных потерь)"
+      },
+      "datasheet": "TDK SIFERRIT N27",
+      "notes": "Наименьшие потери из трёх материалов на 100 кГц при высокой B в данном расчёте за счёт малого alpha. Наибольшая B_S_100C = 0,41 Тл даёт максимальный запас по насыщению."
+    },
+    "N87": {
+      "name": "N87",
+      "manufacturer": "TDK / EPCOS",
+      "class": "Mn-Zn силовой феррит для повышенных частот",
+      "status": "проверен в drossel1, проигрывает N27 по суммарным потерям на 100 кГц",
+      "permeability": {
+        "mu_i": 2200,
+        "mu_i_tolerance_pct": 25,
+        "mu_i_test_conditions": "25 °C, ≤10 кГц, B < 0,25 мТл",
+        "mu_a_max": null
+      },
+      "saturation": {
+        "B_S_25C_T": 0.49,
+        "B_S_100C_T": 0.39,
+        "B_S_test_conditions": "H = 1200 А/м",
+        "B_r_25C_T": null,
+        "H_c_A_m": null
+      },
+      "temperature": {
+        "T_curie_C": 210,
+        "T_max_operating_C": 130,
+        "mu_i_peak_temp_C": null
+      },
+      "physical": {
+        "density_kg_m3": 4850,
+        "resistivity_Ohm_m": 6.0,
+        "resistivity_note": "выше, чем у N27 — меньше вихревые потери на ВЧ"
+      },
+      "frequency_range": {
+        "f_min_Hz": 25000,
+        "f_max_Hz": 500000,
+        "f_range_note": "рабочий диапазон шире N27; предпочтителен выше 200 кГц"
+      },
+      "steinmetz": {
+        "k_st": 0.0083554,
+        "alpha": 1.8939,
+        "beta": 2.6,
+        "fit_temperature_C": 100,
+        "fit_points": [
+          {"f_Hz": 100000, "B_pk_T": 0.2, "P_V_kW_m3": 375},
+          {"f_Hz": 500000, "B_pk_T": 0.05, "P_V_kW_m3": 215}
+        ],
+        "fit_source": "TDK SIFERRIT N87 (кривые удельных потерь)"
+      },
+      "datasheet": "TDK SIFERRIT N87",
+      "notes": "Большое alpha=1,894 означает сильный рост потерь с частотой. На 100 кГц при B≈160 мТл проигрывает N27; выигрыш появляется на 300+ кГц."
+    },
+    "3C90": {
+      "name": "3C90",
+      "manufacturer": "Ferroxcube",
+      "class": "Mn-Zn силовой феррит общего применения",
+      "status": "проверен в drossel1 как альтернатива второго поставщика",
+      "permeability": {
+        "mu_i": 2300,
+        "mu_i_tolerance_pct": 20,
+        "mu_i_test_conditions": "25 °C, 10 кГц, B < 0,25 мТл",
+        "mu_a_max": null
+      },
+      "saturation": {
+        "B_S_25C_T": 0.47,
+        "B_S_100C_T": 0.37,
+        "B_S_test_conditions": "H = 250 А/м",
+        "B_r_25C_T": null,
+        "H_c_A_m": null
+      },
+      "temperature": {
+        "T_curie_C": 220,
+        "T_max_operating_C": 130,
+        "mu_i_peak_temp_C": null
+      },
+      "physical": {
+        "density_kg_m3": 4700,
+        "resistivity_Ohm_m": 5.0,
+        "resistivity_note": "типовое значение Ferroxcube для 3C-серии"
+      },
+      "frequency_range": {
+        "f_min_Hz": 25000,
+        "f_max_Hz": 200000,
+        "f_range_note": "прямой аналог N27 по области применения"
+      },
+      "steinmetz": {
+        "k_st": 26.315,
+        "alpha": 1.161,
+        "beta": 2.322,
+        "fit_temperature_C": 100,
+        "fit_points": [
+          {"f_Hz": 100000, "B_pk_T": 0.1, "P_V_kW_m3": 80},
+          {"f_Hz": 100000, "B_pk_T": 0.2, "P_V_kW_m3": 400}
+        ],
+        "fit_source": "Ferroxcube 3C90 MDS (кривые удельных потерь)"
+      },
+      "datasheet": "Ferroxcube 3C90 (аналоги: 3C94, TDK N27)",
+      "notes": "Наименьшая B_S_100C = 0,37 Тл из трёх — наименьший запас по насыщению. Малое beta=2,322 даёт преимущество при высокой B, но проигрыш компенсируется меньшим B_доп."
+    }
+  },
+  "comparison_100kHz_200mT_100C": {
+    "_note": "Сравнительная точка удельных потерь, Вт/м³, по подогнанным коэффициентам",
+    "N27_kW_m3": 920,
+    "N87_kW_m3": 375,
+    "3C90_kW_m3": 400,
+    "warning": "На указанной точке N87 выглядит лучше, однако в реальном расчёте drossel1 при B_max≈163 мТл и f_eff=122 кГц победил N27 из-за формы кривой (меньшее alpha) и большей B_S_100C, дающей больший допустимый B."
+  },
+  "normative_coefficients": {
+    "_note": "Нормативные коэффициенты запаса, применённые в drossel1",
+    "k_B": {"value": 0.65, "meaning": "доля B_S_100C, задающая B_доп"},
+    "u_B_mT": {"value": 3.0, "meaning": "аддитивный допуск на B, мТл"},
+    "k_zan": {"value": 0.7, "meaning": "предельный коэффициент заполнения окна"},
+    "k_R_min": {"value": 4.0, "meaning": "минимальный запас по собственному резонансу, f_res/f_sw"},
+    "J_dop_A_mm2": {"value": 2.5, "meaning": "допустимая плотность тока в меди"},
+    "M_EMC_dB": {"value": 6.0, "meaning": "запас по ЭМС относительно нормы ГОСТ 30805.22"},
+    "k_SR": {"value": 3.0, "meaning": "коэффициент запаса по полю рассеяния"}
+  }
+}

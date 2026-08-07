@@ -1,0 +1,30 @@
+{
+  "pdf_title": "Type of the Paper (Article",
+  "pdf_author": "Hector Daniel Hidalgo Leal",
+  "pdf_subject": null,
+  "pdf_keywords": null,
+  "pdf_creator": "Microsoft® Word for Microsoft 365",
+  "pdf_creation_date": "D:20230128180411+08'00'",
+  "n_pages_total": 16,
+  "n_pages_parsed": 16,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:42 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 1150.5,
+  "n_chars_extracted": 37103,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": null,
+  "bib_year": 2023,
+  "bib_venue": "MDPI (журнал уточнить)",
+  "bib_doi": null,
+  "topic": "01_interleaved_boost",
+  "keywords_ru": [
+    "нулевая пульсация",
+    "управляемая индуктивность"
+  ],
+  "use_in_methodology": "Нулевая пульсация через управляемую индуктивность — альтернативная схема, не применена.",
+  "bib_title": "Floating Interleaved Boost Converter with Zero Ripple Using a Variable Inductor",
+  "bib_title_source": "derived_from_filename"
+}

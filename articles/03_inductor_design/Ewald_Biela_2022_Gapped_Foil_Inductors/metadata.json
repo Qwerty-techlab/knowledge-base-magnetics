@@ -1,0 +1,31 @@
+{
+  "pdf_title": null,
+  "pdf_author": null,
+  "pdf_subject": null,
+  "pdf_keywords": null,
+  "pdf_creator": "Apache FOP Version 2.11",
+  "pdf_creation_date": "D:20260730122151Z",
+  "n_pages_total": 12,
+  "n_pages_parsed": 12,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:43 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 17111.8,
+  "n_chars_extracted": 51075,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "T. Ewald, J. Biela",
+  "bib_year": 2022,
+  "bib_venue": "IEEE Transactions on Power Electronics (TPEL)",
+  "bib_doi": "10.1109/TPEL.2022.3169620",
+  "topic": "03_inductor_design",
+  "keywords_ru": [
+    "фольговая обмотка",
+    "частотная зависимость",
+    "экранирование"
+  ],
+  "use_in_methodology": "Частотно-зависимые потери и индуктивность фольговой обмотки с учётом зазора и экранирования полем проводников. Фольга рассмотрена как альтернатива литцендрату.",
+  "bib_title": "Frequency-Dependent Inductance and Winding Loss Model for Gapped Foil Inductors",
+  "bib_title_source": "sources_md"
+}

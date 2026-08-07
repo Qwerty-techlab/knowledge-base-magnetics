@@ -1,0 +1,31 @@
+{
+  "pdf_title": "Differential Evolution Based Algorithm for Optimal Current Ripple Cancelation in an Unequal Interleaved Power Converter",
+  "pdf_author": "Julio C. Rosas-Caro, Pedro M. García-Vite, Alma Rodríguez, Abraham Mendoza, Avelina Alejo-Reyes, Erik Cuevas and Francisco Beltran-Carbajal",
+  "pdf_subject": "This paper proposes an optimal methodology based on the Differential Evolution algorithm for obtaining the set of duty cycles of a recently proposed power electronics converter with input current ripple cancelation capability. The converter understudy was recently introduced to the state-of-the-art as the interleaved connection of two unequal converters to achieve low input current ripple. A latter contribution proposed a so-called proportional strategy. The strategy can be described as the equations to relate the duty cycles of the unequal power stages. This article proposes a third switching strategy that provides a lower input current ripple than the proportional strategy. This is made by considering duty cycles independently of each other instead of proportionally. The proposed method uses the Differential Evolution algorithm to determine the optimal switching pattern that allows high quality at the input current side, given the reactive components, the switching frequency, and power levels. The mathematical model of the converter is analyzed, and thus, the decision variables and the optimization problem are well set. The proposed methodology is validated through numerical experimentation, which shows that the proposed method achieves lower input current ripples than the proportional strategy.",
+  "pdf_keywords": "Differential Evolution; metaheuristic algorithms; optimization; DC–DC Converter",
+  "pdf_creator": "LaTeX with hyperref",
+  "pdf_creation_date": "D:20211029222907+08'00'",
+  "n_pages_total": 17,
+  "n_pages_parsed": 17,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:42 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 1876.5,
+  "n_chars_extracted": 49940,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": null,
+  "bib_year": 2021,
+  "bib_venue": "MDPI (журнал уточнить)",
+  "bib_doi": null,
+  "topic": "01_interleaved_boost",
+  "keywords_ru": [
+    "подавление пульсации",
+    "неравномерный сдвиг",
+    "оптимизация"
+  ],
+  "use_in_methodology": "Оптимизация подавления пульсации при неравномерном сдвиге фаз.",
+  "bib_title": "Differential Evolution Based Algorithm for Optimal Current Ripple Cancellation in an Unequally Interleaved Converter",
+  "bib_title_source": "pdf_metadata"
+}

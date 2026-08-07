@@ -1,0 +1,32 @@
+{
+  "pdf_title": "Efficient Multi-Phase Converter for E-Mobility",
+  "pdf_author": "Suresh Sampath, Zahira Rahiman, Sharmeela Chenniappan, Elango Sundaram, Umashankar Subramaniam and Sanjeevikumar Padmanaban",
+  "pdf_subject": "The recent growth of battery-powered applications has increased the need for high-efficiency step-up dc-dc converters. The step-up conversion is commonly used in several applications, such as electric vehicle (EV); plug-in hybrid electric vehicles (PHEV); photovoltaic (PV) systems; uninterruptible power supplies (UPS); and fuel cell systems. The input current is shared among inductors by paralleling the converters; resulting in high reliability and efficiency. In this paper; a detailed analysis for reducing power loss and improving efficiency is discussed. In continuous conduction mode; the converters are tested with a constant duty cycle of 50%. The multi phase interleaved boost converter (MPIBC) is controlled by interleaved switching techniques; which have the same switching frequency but phases are shifted. The efficiency of the six phase IBC model is 93.82% and 95.74% for an input voltage of 20 V and 200 V, respectively. The presented six phase MPIBC is validated by comparing it with the existing six phase IBC. The result shows that the presented converter is better than the existing converter. The prototype of the two phase and six phase IBC is fabricated to test the performance. It is found that the output power at the load end is highest for the 5 kHz switching frequency.",
+  "pdf_keywords": "boost converter; interleaved boost converter; multi-phase interleaved boost converter; electric vehicle",
+  "pdf_creator": "LaTeX with hyperref",
+  "pdf_creation_date": "D:20220413165024+08'00'",
+  "n_pages_total": 16,
+  "n_pages_parsed": 16,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:42 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 6500.0,
+  "n_chars_extracted": 36752,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": null,
+  "bib_year": 2022,
+  "bib_venue": "MDPI (журнал уточнить)",
+  "bib_doi": null,
+  "topic": "01_interleaved_boost",
+  "keywords_ru": [
+    "многофазный",
+    "КПД",
+    "число фаз",
+    "электротранспорт"
+  ],
+  "use_in_methodology": "Многофазный преобразователь для электротранспорта — выбор числа фаз по КПД.",
+  "bib_title": "Efficient Multi-Phase Converter for E-Mobility",
+  "bib_title_source": "pdf_metadata"
+}

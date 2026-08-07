@@ -1,0 +1,32 @@
+{
+  "pdf_title": null,
+  "pdf_author": null,
+  "pdf_subject": null,
+  "pdf_keywords": null,
+  "pdf_creator": null,
+  "pdf_creation_date": "D:20080630140214Z",
+  "n_pages_total": 13,
+  "n_pages_parsed": 13,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:43 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 1638.6,
+  "n_chars_extracted": 47521,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "M. L. Heldwein, J. W. Kolar",
+  "bib_year": 2008,
+  "bib_venue": "IEEE Transactions on Power Electronics (TPEL)",
+  "bib_doi": "10.1109/TPEL.2008.924820",
+  "topic": "05_emc",
+  "keywords_ru": [
+    "паразитная ёмкость",
+    "ЭМС-фильтр",
+    "трёхфазный",
+    "импеданс"
+  ],
+  "use_in_methodology": "Влияние паразитной ёмкости на высокочастотный импеданс и конструктивное управление ёмкостными связями.",
+  "bib_title": "Winding Capacitance Cancellation for Three-Phase EMC Input Filters",
+  "bib_title_source": "sources_md"
+}

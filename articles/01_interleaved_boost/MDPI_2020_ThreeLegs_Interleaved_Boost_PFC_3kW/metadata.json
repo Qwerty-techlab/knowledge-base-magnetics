@@ -1,0 +1,31 @@
+{
+  "pdf_title": null,
+  "pdf_author": null,
+  "pdf_subject": null,
+  "pdf_keywords": null,
+  "pdf_creator": null,
+  "pdf_creation_date": "D:20200404235902+08'00'",
+  "n_pages_total": 16,
+  "n_pages_parsed": 16,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:42 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 1913.5,
+  "n_chars_extracted": 40552,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": null,
+  "bib_year": 2020,
+  "bib_venue": "MDPI (журнал уточнить)",
+  "bib_doi": null,
+  "topic": "01_interleaved_boost",
+  "keywords_ru": [
+    "трёхфазный interleaved",
+    "PFC",
+    "3 кВт"
+  ],
+  "use_in_methodology": "Трёхплечевой interleaved PFC на 3 кВт — близкий по мощности прототип.",
+  "bib_title": "Three-Legs Interleaved Boost PFC Converter, 3 kW",
+  "bib_title_source": "derived_from_filename"
+}

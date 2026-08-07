@@ -1,0 +1,18 @@
+# Исходные PDF не хранятся в git: они тяжёлые, а весь нужный текст лежит
+# в parsed.md рядом с каждым из них. PDF остаются локально.
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Редакторы
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,33 @@
+{
+  "pdf_title": "Mitigating EMI Noise in Propagation Paths: Review of Parasitic and Coupling Effects in Power Electronic Packages, Filters, and Systems",
+  "pdf_author": null,
+  "pdf_subject": "IEEE Open Journal of Power Electronics;2024;5; ;10.1109/OJPEL.2024.3357832",
+  "pdf_keywords": null,
+  "pdf_creator": "LaTeX with hyperref package",
+  "pdf_creation_date": "D:20240311210821+05'30'",
+  "n_pages_total": 17,
+  "n_pages_parsed": 17,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:43 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 5642.4,
+  "n_chars_extracted": 73435,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "N. Jia et al.",
+  "bib_year": 2024,
+  "bib_venue": "IEEE Open Journal of Power Electronics (OJPEL)",
+  "bib_doi": "10.1109/OJPEL.2024.3357832",
+  "topic": "05_emc",
+  "keywords_ru": [
+    "ЭМС",
+    "синфазная помеха",
+    "дифференциальная помеха",
+    "паразитные связи",
+    "обзор"
+  ],
+  "use_in_methodology": "Обзор путей распространения синфазных и дифференциальных помех; контроль паразитных связей.",
+  "bib_title": "Mitigating EMI Noise in Propagation Paths: Review of Parasitic and Coupling Effects in Power Electronic Packages, Filters, and Systems",
+  "bib_title_source": "sources_md"
+}

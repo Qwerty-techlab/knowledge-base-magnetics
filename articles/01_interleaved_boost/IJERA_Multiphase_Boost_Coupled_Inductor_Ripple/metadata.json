@@ -1,0 +1,30 @@
+{
+  "pdf_title": null,
+  "pdf_author": "Preeti Sharma",
+  "pdf_subject": null,
+  "pdf_keywords": null,
+  "pdf_creator": "Microsoft® Office Word 2007",
+  "pdf_creation_date": "D:20140210040446",
+  "n_pages_total": 6,
+  "n_pages_parsed": 6,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:42 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 539.4,
+  "n_chars_extracted": 15986,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": null,
+  "bib_year": null,
+  "bib_venue": "IJERA",
+  "bib_doi": null,
+  "topic": "01_interleaved_boost",
+  "keywords_ru": [
+    "многофазный boost",
+    "снижение пульсации"
+  ],
+  "use_in_methodology": "Обзорный источник по снижению пульсации в многофазном boost.",
+  "bib_title": "Multiphase Boost Converter with Coupled Inductor for Ripple Reduction",
+  "bib_title_source": "derived_from_filename"
+}

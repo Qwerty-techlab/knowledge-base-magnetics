@@ -1,0 +1,33 @@
+{
+  "pdf_title": "untitled",
+  "pdf_author": null,
+  "pdf_subject": null,
+  "pdf_keywords": null,
+  "pdf_creator": null,
+  "pdf_creation_date": "D:20201030113837+05'30'",
+  "n_pages_total": 20,
+  "n_pages_parsed": 20,
+  "is_encrypted": false,
+  "parsed_at": "2026-08-07 06:43 UTC",
+  "engine": "pymupdf",
+  "source_pdf": "source.pdf",
+  "source_size_kb": 8192.2,
+  "n_chars_extracted": 83317,
+  "n_pages_empty": 0,
+  "extraction_quality": "хорошо",
+  "bib_authors": "P. Papamanolis, T. Guillod, F. Krismer, J. W. Kolar",
+  "bib_year": 2020,
+  "bib_venue": "IEEE Open Journal of Power Electronics (OJPEL)",
+  "bib_doi": "10.1109/OJPEL.2020.3027452",
+  "topic": "02_basic_boost_pfc",
+  "keywords_ru": [
+    "минимум потерь",
+    "оптимальное проектирование",
+    "литцендрат",
+    "тепловая связь"
+  ],
+  "use_in_methodology": "Совместная оптимизация потерь в сердечнике и литцендрате, температурная обратная связь, выбор точки минимума суммарных потерь.",
+  "bib_title": "Minimum Loss Operation and Optimal Design of High-Frequency Inductors for Defined Core and Litz Wire",
+  "bib_title_source": "sources_md",
+  "duplicate_note": "Файл 16_Minimal-Loss-Operation_ACCEPTED-VERSION_Papamanolis_OJ-PEL.pdf в 0_references — побайтовый дубликат этого же PDF."
+}
