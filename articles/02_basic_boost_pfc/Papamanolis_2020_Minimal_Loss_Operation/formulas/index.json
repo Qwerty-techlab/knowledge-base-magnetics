@@ -1,0 +1,677 @@
+{
+  "article": "Papamanolis_2020_Minimal_Loss_Operation",
+  "source": "source.pdf",
+  "pages_scanned": 20,
+  "dpi": 300,
+  "n_formulas": 33,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p004_01.png",
+      "page": 4,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        34.2,
+        159.0,
+        287.3,
+        190.6
+      ],
+      "px": [
+        1056,
+        133
+      ],
+      "text_layer": "r = 2IAC,pk IDC with IAC,pk =Vo4 fsL ,(1)"
+    },
+    {
+      "file": "eq_p004_02.png",
+      "page": 4,
+      "eq_number": "2",
+      "eq_numbers": [
+        "2"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        291.2,
+        682.0,
+        544.3,
+        729.9
+      ],
+      "px": [
+        1056,
+        201
+      ],
+      "text_layer": "PCu,tot = RDCI2 DC\u0002 \u0003\u0004 \u0005 PCu,DC + c0RDC I2 AC,pk 2\u0002\u0003\u0004\u0005PCu,AC , RDC = Nlavg σkf Aw N ,(2)"
+    },
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": "3",
+      "eq_numbers": [
+        "3"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        31.8,
+        58.9,
+        284.9,
+        121.3
+      ],
+      "px": [
+        1055,
+        261
+      ],
+      "text_layer": "where c0 considers skin and proximity effects [25], c0 = ⎧⎨ ⎩ 1 + 112 kfwwdr δ2 2 ∀dr < 3.17δ, 1δ dr 4 + 8(kfww)23dr ∀dr ≥3.17δ. (3)"
+    },
+    {
+      "file": "eq_p005_02.png",
+      "page": 5,
+      "eq_number": "11",
+      "eq_numbers": [
+        "11",
+        "14"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        288.8,
+        59.0,
+        541.9,
+        126.0
+      ],
+      "px": [
+        1056,
+        281
+      ],
+      "text_layer": "According to (11) and for constant frequency, the total lossesfor N = Nopt monotonically decrease for increasing induc-tance and, for L →∞,2 converge to Ptot,opt( fs) \u000f\u000f L→∞= Pconv( fs) = c3c β2+β4f 2(α−β)2+βs.(14)"
+    },
+    {
+      "file": "eq_p005_03.png",
+      "page": 5,
+      "eq_number": "4",
+      "eq_numbers": [
+        "4"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.8,
+        188.6,
+        284.9,
+        219.7
+      ],
+      "px": [
+        1055,
+        130
+      ],
+      "text_layer": "BDC = LIDC NAc ,BAC =Vo4 fsNAc.(4)"
+    },
+    {
+      "file": "eq_p005_04.png",
+      "page": 5,
+      "eq_number": "15",
+      "eq_numbers": [
+        "15",
+        "16"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        288.8,
+        236.8,
+        541.9,
+        314.1
+      ],
+      "px": [
+        1056,
+        323
+      ],
+      "text_layer": "limL→∞Nopt = Nconv = c5 f α−β2+βs,(15) c5 = ⎛ ⎜⎝ 2−1−2βσAwkfkSEβ VoAc β Vc I2 DClavg ⎞ ⎟⎠ 12+β .(16)"
+    },
+    {
+      "file": "eq_p005_05.png",
+      "page": 5,
+      "eq_number": "5",
+      "eq_numbers": [
+        "5"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.8,
+        269.9,
+        284.9,
+        308.2
+      ],
+      "px": [
+        1055,
+        161
+      ],
+      "text_layer": "Pcore = VckSE f α s Bβ AC = VckSE f α−β s Vo 4NAc β .(5)"
+    },
+    {
+      "file": "eq_p005_06.png",
+      "page": 5,
+      "eq_number": "6",
+      "eq_numbers": [
+        "6",
+        "7",
+        "8"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.8,
+        325.1,
+        284.9,
+        432.0
+      ],
+      "px": [
+        1055,
+        446
+      ],
+      "text_layer": "Ptot = PCu,tot + Pcore = c1N2 + c2N−β(6) with c1 = PCu,tot N2= 32 f 2s I2 DCL2 + c0V 2 o \u000e lavg32σAwkf f 2s L2,(7) c2 = Pcore N−β = Vc f α−β skSE Vo 4Ac β .(8)"
+    },
+    {
+      "file": "eq_p005_07.png",
+      "page": 5,
+      "eq_number": "9",
+      "eq_numbers": [
+        "9"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.8,
+        448.7,
+        284.9,
+        487.0
+      ],
+      "px": [
+        1055,
+        161
+      ],
+      "text_layer": "Nopt = β 2c2c1 12+β,(9)"
+    },
+    {
+      "file": "eq_p005_08.png",
+      "page": 5,
+      "eq_number": "17",
+      "eq_numbers": [
+        "17"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        288.8,
+        480.8,
+        541.9,
+        498.3
+      ],
+      "px": [
+        1056,
+        74
+      ],
+      "text_layer": "50 kHz ≤fs ≤1 MHz and 1% ≤r ≤500%,(17)"
+    },
+    {
+      "file": "eq_p005_09.png",
+      "page": 5,
+      "eq_number": "10",
+      "eq_numbers": [
+        "10"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.8,
+        488.3,
+        284.9,
+        564.4
+      ],
+      "px": [
+        1055,
+        318
+      ],
+      "text_layer": "results, which enables the derivation of the optimum ratiobetween core and copper losses, with respect to minimumtotal losses, as often stated in literature [28], [29], PcorePCu,tot \u000f\u000f\u000f\u000f N=Nopt = 2 β .(10)"
+    },
+    {
+      "file": "eq_p005_10.png",
+      "page": 5,
+      "eq_number": "11",
+      "eq_numbers": [
+        "11"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.8,
+        595.5,
+        284.9,
+        632.7
+      ],
+      "px": [
+        1055,
+        156
+      ],
+      "text_layer": "Ptot,opt = Ptot(Nopt) = c3 c4 f 2 s L2 + 1 L2 β2+βf 2(α−2β)2+βs,(11)"
+    },
+    {
+      "file": "eq_p005_11.png",
+      "page": 5,
+      "eq_number": "12",
+      "eq_numbers": [
+        "12"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.8,
+        648.3,
+        284.9,
+        694.9
+      ],
+      "px": [
+        1055,
+        195
+      ],
+      "text_layer": "c3 = (2 + β) ⎡ ⎣ \u0012 kSEV 2β o Vc2Aβc \u00132 c0lavg512Awkfσβ β ⎤ ⎦ 12+β, (12)"
+    },
+    {
+      "file": "eq_p005_12.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        288.8,
+        670.8,
+        541.9,
+        732.3
+      ],
+      "px": [
+        1056,
+        258
+      ],
+      "text_layer": "2L →∞is theoretically evaluated by assuming inﬁnite permeability of theferrite core and an air gap that approaches zero. 3For the analysis, a non-integer number of turns is allowed.4The maximum ripple in a practical system with MOSFET semiconductorsmay not exceed the value needed for quasi-lossless switching, i.e., approxi-mately 200%."
+    },
+    {
+      "file": "eq_p005_13.png",
+      "page": 5,
+      "eq_number": "13",
+      "eq_numbers": [
+        "13"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.8,
+        697.9,
+        284.9,
+        732.2
+      ],
+      "px": [
+        1055,
+        143
+      ],
+      "text_layer": "c4 = 32I2 DCc0V 2o .(13)"
+    },
+    {
+      "file": "eq_p006_01.png",
+      "page": 6,
+      "eq_number": "18",
+      "eq_numbers": [
+        "18"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        291.2,
+        227.9,
+        544.3,
+        245.5
+      ],
+      "px": [
+        1056,
+        74
+      ],
+      "text_layer": "Ptot = Pmin ∀r ≥rsat⇔PCu,AC = 0.(18)"
+    },
+    {
+      "file": "eq_p006_02.png",
+      "page": 6,
+      "eq_number": "19",
+      "eq_numbers": [
+        "19"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        291.2,
+        490.5,
+        544.3,
+        521.8
+      ],
+      "px": [
+        1056,
+        132
+      ],
+      "text_layer": "Btot = BDC + BAC = Bsat ⇒N = 4 fsLIDC + Vo 4 fsAcBsat(19)"
+    },
+    {
+      "file": "eq_p007_01.png",
+      "page": 7,
+      "eq_number": "20",
+      "eq_numbers": [
+        "20"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        31.8,
+        250.4,
+        284.9,
+        300.1
+      ],
+      "px": [
+        1055,
+        208
+      ],
+      "text_layer": "Nopt ≈ ⎛ ⎜⎝ σAwkfkSEβ VoAc β Vc f α−β s 21+2βI2DClavg ⎞ ⎟⎠ 12+β (20)"
+    },
+    {
+      "file": "eq_p007_02.png",
+      "page": 7,
+      "eq_number": "22",
+      "eq_numbers": [
+        "21",
+        "22"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        31.8,
+        320.0,
+        284.9,
+        420.6
+      ],
+      "px": [
+        1055,
+        420
+      ],
+      "text_layer": "Lsat ≈c6 f α−β2+βs\u0002 \u0003\u0004 \u0005 Lsat,a −Vo4 fsIDC\u0002\u0003\u0004\u0005Lsat,b ≈Lopt,(21) c6 = A 22+βcBsat 2−1−2βσAwkfkSEβV βo Vc 12+β I 4+β2+βDC l 12+βavg (22)"
+    },
+    {
+      "file": "eq_p007_03.png",
+      "page": 7,
+      "eq_number": "23",
+      "eq_numbers": [
+        "23"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.8,
+        494.0,
+        284.9,
+        524.4
+      ],
+      "px": [
+        1055,
+        127
+      ],
+      "text_layer": "log(Lsat,a) = log(c6) + α −β 2 + β log( fs),(23)"
+    },
+    {
+      "file": "eq_p009_01.png",
+      "page": 9,
+      "eq_number": "6",
+      "eq_numbers": [
+        "6",
+        "9",
+        "25"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.8,
+        286.5,
+        284.9,
+        409.0
+      ],
+      "px": [
+        1055,
+        512
+      ],
+      "text_layer": "1) FLAT RANGE A – NUMBER OF TURNSIn case of ﬂat range A, the ripple and the switching frequencyare kept constant, and N is changed, starting from the optimalvalue, Nopt. The derivation starts with the total losses (6),which can be expressed as a function of the optimal numberof turns (9), and while assuming already a loss ratio of 2over β, Ptot(N) Ptot,opt =22 + β β 2 N Nopt 2 + N Nopt −β .(25)"
+    },
+    {
+      "file": "eq_p009_02.png",
+      "page": 9,
+      "eq_number": "28",
+      "eq_numbers": [
+        "28"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        288.8,
+        420.8,
+        541.9,
+        438.2
+      ],
+      "px": [
+        1056,
+        73
+      ],
+      "text_layer": "40 kHz ≤fs ≤1 MHz and 2% ≤r ≤200%.(28)"
+    },
+    {
+      "file": "eq_p009_03.png",
+      "page": 9,
+      "eq_number": "26",
+      "eq_numbers": [
+        "26",
+        "27"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.8,
+        584.1,
+        284.9,
+        619.5
+      ],
+      "px": [
+        1055,
+        149
+      ],
+      "text_layer": "Nq,opt,min ≈(0.6343 + 0.0505β) Nopt,(26) Nq,opt,max ≈(1.4835 −0.0610β) Nopt(27)"
+    },
+    {
+      "file": "eq_p012_01.png",
+      "page": 12,
+      "eq_number": "30",
+      "eq_numbers": [
+        "30"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        291.2,
+        548.2,
+        544.3,
+        579.2
+      ],
+      "px": [
+        1055,
+        130
+      ],
+      "text_layer": "kf = NAwire Aw ,(30)"
+    },
+    {
+      "file": "eq_p012_02.png",
+      "page": 12,
+      "eq_number": "31",
+      "eq_numbers": [
+        "31"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        291.2,
+        618.7,
+        544.3,
+        650.1
+      ],
+      "px": [
+        1055,
+        132
+      ],
+      "text_layer": "RDC =NlavgσkfAwire (31)"
+    },
+    {
+      "file": "eq_p012_03.png",
+      "page": 12,
+      "eq_number": "32",
+      "eq_numbers": [
+        "32",
+        "33"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        291.2,
+        677.9,
+        544.3,
+        732.7
+      ],
+      "px": [
+        1055,
+        229
+      ],
+      "text_layer": "Ptot = c7N + c2N−β,(32) c7 = 32 f 2s I2 DCL2 + c0V 2 o \u000e lavg32σAwire f 2s L2,(33)"
+    },
+    {
+      "file": "eq_p013_01.png",
+      "page": 13,
+      "eq_number": "34",
+      "eq_numbers": [
+        "34"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.8,
+        478.6,
+        284.9,
+        542.5
+      ],
+      "px": [
+        1055,
+        267
+      ],
+      "text_layer": "and, at the optimal number of turns, leads to a ratio of core tocopper losses of PcorePCu,tot \u000f\u000f\u000f\u000f N=Nopt = 1 β .(34)"
+    },
+    {
+      "file": "eq_p015_01.png",
+      "page": 15,
+      "eq_number": "37",
+      "eq_numbers": [
+        "37"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        288.8,
+        329.5,
+        541.9,
+        347.4
+      ],
+      "px": [
+        1055,
+        76
+      ],
+      "text_layer": "PF = BAC fs.(37)"
+    },
+    {
+      "file": "eq_p015_02.png",
+      "page": 15,
+      "eq_number": "38",
+      "eq_numbers": [
+        "38"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        288.8,
+        440.0,
+        541.9,
+        483.6
+      ],
+      "px": [
+        1055,
+        182
+      ],
+      "text_layer": "BAC = c7 f αβs ,c7 = pcore kSE 1 β ⇒PF ∝f β−α βs(38)"
+    },
+    {
+      "file": "eq_p015_03.png",
+      "page": 15,
+      "eq_number": "35",
+      "eq_numbers": [
+        "35"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.8,
+        564.4,
+        284.9,
+        596.6
+      ],
+      "px": [
+        1055,
+        135
+      ],
+      "text_layer": "L* = c6 f α−β2+βs−Vo4 fsIDC,(35)"
+    },
+    {
+      "file": "eq_p016_01.png",
+      "page": 16,
+      "eq_number": "41",
+      "eq_numbers": [
+        "41"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        291.2,
+        178.4,
+        544.3,
+        213.9
+      ],
+      "px": [
+        1056,
+        149
+      ],
+      "text_layer": "ηEu = 0.03 η5% + 0.06 η10% + 0.13 η20% + 0.10 η30% + 0.48 η50% + 0.20 η100%.(41)"
+    },
+    {
+      "file": "eq_p016_02.png",
+      "page": 16,
+      "eq_number": "39",
+      "eq_numbers": [
+        "39"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        34.2,
+        624.3,
+        287.3,
+        640.6
+      ],
+      "px": [
+        1056,
+        69
+      ],
+      "text_layer": "∀i ∈N ∨i ≤n,(39)"
+    },
+    {
+      "file": "eq_p016_03.png",
+      "page": 16,
+      "eq_number": "40",
+      "eq_numbers": [
+        "40"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        34.2,
+        673.8,
+        287.3,
+        691.2
+      ],
+      "px": [
+        1056,
+        74
+      ],
+      "text_layer": "w = [w1, w2, w3, w4](40)"
+    }
+  ]
+}

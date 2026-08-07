@@ -1,0 +1,165 @@
+{
+  "article": "Infineon_High_Switching_Frequency_CCM_PFC",
+  "source": "source.pdf",
+  "pages_scanned": 23,
+  "dpi": 300,
+  "n_formulas": 8,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p003_01.png",
+      "page": 3,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.6,
+        505.2,
+        560.7,
+        542.2
+      ],
+      "px": [
+        2177,
+        155
+      ],
+      "text_layer": "∆𝐼𝐿= 1 𝐿∫√2𝑉𝑎𝑐_𝑚𝑖𝑛(𝑡)𝑑𝑡 𝐷𝑇𝑠 0= 𝑉𝑜𝑢𝑡 𝐿∙𝑓𝑠𝑤 (𝑉𝑜𝑢𝑡−√2𝑉𝑎𝑐_𝑚𝑖𝑛 𝑉𝑜𝑢𝑡 ) (1)"
+    },
+    {
+      "file": "eq_p004_01.png",
+      "page": 4,
+      "eq_number": "4",
+      "eq_numbers": [
+        "4"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.6,
+        147.4,
+        560.7,
+        181.9
+      ],
+      "px": [
+        2177,
+        145
+      ],
+      "text_layer": "𝐶𝑜𝑢𝑡≥𝑃𝑜𝑢𝑡2𝜋∙𝑓𝑎𝑐∙∆𝑉𝑜𝑢𝑡∙𝑉𝑜𝑢𝑡 (4)"
+    },
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": "6",
+      "eq_numbers": [
+        "6"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.6,
+        396.2,
+        295.5,
+        590.8
+      ],
+      "px": [
+        1072,
+        812
+      ],
+      "text_layer": "𝑉𝐹(𝑡) = 𝑟𝐹 𝐼𝑐(𝑡) + 𝑉𝐹0 (6) where, 𝐼𝑐(𝑡) = 𝐼𝑎+ 𝐼𝑏−𝐼𝑎 𝐷𝑇𝑠𝑡 Therefore, the conduction loss of the IGBT for a single period can be calculated by 𝑃𝐼𝐺𝐵𝑇_𝐶𝑂𝑁= 1 𝑇𝑠 ∫𝑉𝑐𝑒(𝑡) × 𝐼𝑐(𝑡)𝑑𝑡 𝐷𝑇𝑠 0 = 1 𝑇𝑠 ∫{𝑉𝑐𝑒0 (𝐼𝑎+ 𝐼𝑏−𝐼𝑎 𝐷𝑇𝑠 𝐷𝑇𝑠 = 𝐷{ 𝑉𝑐𝑒0 2 (𝐼𝑎+ 𝐼𝑏) + 𝑟𝑐𝑒 3 (𝐼𝑎2 + 𝐼𝑎𝐼𝑏+ 𝐼𝑏2)}"
+    },
+    {
+      "file": "eq_p005_02.png",
+      "page": 5,
+      "eq_number": "8",
+      "eq_numbers": [
+        "8"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.6,
+        534.1,
+        295.5,
+        716.4
+      ],
+      "px": [
+        1072,
+        760
+      ],
+      "text_layer": "𝑇𝑠 𝐷𝑇𝑠 = 𝐷{ 𝑉𝑐𝑒0 2 (𝐼𝑎+ 𝐼𝑏) + 𝑟𝑐𝑒 3 (𝐼𝑎2 + 𝐼𝑎𝐼𝑏+ 𝐼𝑏2)} However, small amounts of ripple current do not contribute much to RMS (root mean square) value, as it makes the calculation more complicated. Thus, the ripple component can be neglected, and equation 7 can be simply expressed as 𝑃𝐼𝐺𝐵𝑇_𝐶𝑂𝑁= 𝐷(𝑡)(𝑉𝑐𝑒0𝑖𝐿(𝑡) + 𝑟𝑐𝑒𝑖𝐿 2(𝑡)) (8) Meanwhile, since the input voltage is sinusoidal, D(t) and iL(t) are ex"
+    },
+    {
+      "file": "eq_p005_03.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.6,
+        733.2,
+        295.5,
+        786.2
+      ],
+      "px": [
+        1072,
+        221
+      ],
+      "text_layer": "𝑖𝐿(𝑡) = √2𝐼𝑎𝑐𝑠𝑖𝑛𝜔𝑡 = √2𝑃𝑜𝑢𝑡"
+    },
+    {
+      "file": "eq_p006_01.png",
+      "page": 6,
+      "eq_number": "11",
+      "eq_numbers": [
+        "11",
+        "12"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        38.6,
+        124.2,
+        560.7,
+        293.1
+      ],
+      "px": [
+        2177,
+        705
+      ],
+      "text_layer": "< 𝑃𝐼𝐺𝐵𝑇_𝐶𝑂𝑁>= 1 𝜋∫(𝑉𝑜𝑢𝑡−√2𝑉𝑎𝑐𝑠𝑖𝑛𝜔𝑡 𝑉𝑜𝑢𝑡 ) (√2𝑉𝑐𝑒0𝐼𝑎𝑐𝑠𝑖𝑛𝜔𝑡+ 2𝑟𝑐𝑒𝐼𝑎𝑐 2𝑠𝑖𝑛2𝜔𝑡)𝑑𝜔𝑡 𝜋 0 = 𝑉𝑐𝑒0𝐼𝑎𝑐( 2√2 𝜋− 𝑉𝑎𝑐𝑉𝑜𝑢𝑡) + 𝑟𝑐𝑒𝐼𝑎𝑐 2 (1 −8√2𝑉𝑎𝑐3𝜋𝑉𝑜𝑢𝑡)[W] (11) In the same way, the conduction loss of the diode is obtained by < 𝑃𝐹𝑅𝐷_𝐶𝑂𝑁>= 1 𝜋∫−√2𝑉𝑎𝑐𝑠𝑖𝑛𝜔𝑡 𝑉𝑜𝑢𝑡 (√2𝑉𝐹0𝐼𝑎𝑐𝑠𝑖𝑛𝜔𝑡+ 2𝑟𝐹𝐼𝑎𝑐 2𝑠𝑖𝑛2𝜔𝑡)𝑑𝜔𝑡 𝜋 0 = 𝑉𝑎𝑐𝑉𝑜𝑢𝑡(𝑉𝐹0𝐼𝑎𝑐+ 8√2 3𝜋𝑟𝐹𝐼𝑎𝑐2)[W] (12)"
+    },
+    {
+      "file": "eq_p006_02.png",
+      "page": 6,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.6,
+        500.9,
+        560.7,
+        539.9
+      ],
+      "px": [
+        2177,
+        164
+      ],
+      "text_layer": "𝑃𝐷_𝑠𝑤= 1"
+    },
+    {
+      "file": "eq_p019_01.png",
+      "page": 19,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.6,
+        620.7,
+        282.9,
+        670.1
+      ],
+      "px": [
+        1019,
+        206
+      ],
+      "text_layer": "▪ Rg_on = 27 Ω, Rg_off = 22 Ω ▪ External RC filter of OCP pin (330 Ω/1 nF) ▪ OCP delay time: Tdelay < 500 nsec"
+    }
+  ]
+}

@@ -28,5 +28,8 @@
   ],
   "use_in_methodology": "Отечественная терминология и нормативный подход к расчёту магнитных элементов; согласование обозначений в отчёте по ГОСТ.",
   "bib_title": "Материалы и элементы электронной техники (МЭЭУ). Учебно-методическое пособие",
-  "bib_title_source": "derived_from_filename"
+  "bib_title_source": "derived_from_filename",
+  "formulas_extracted": 1,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

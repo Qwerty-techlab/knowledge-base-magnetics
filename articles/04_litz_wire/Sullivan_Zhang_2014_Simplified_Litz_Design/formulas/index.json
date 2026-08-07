@@ -1,0 +1,338 @@
+{
+  "article": "Sullivan_Zhang_2014_Simplified_Litz_Design",
+  "source": "source.pdf",
+  "pages_scanned": 8,
+  "dpi": 300,
+  "n_formulas": 16,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p001_01.png",
+      "page": 1,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        209.9,
+        567.0,
+        247.4
+      ],
+      "px": [
+        1080,
+        157
+      ],
+      "text_layer": "δ = √ρπfµ0 (1)"
+    },
+    {
+      "file": "eq_p002_01.png",
+      "page": 2,
+      "eq_number": "2",
+      "eq_numbers": [
+        "2"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        45.0,
+        188.2,
+        304.0,
+        219.8
+      ],
+      "px": [
+        1080,
+        133
+      ],
+      "text_layer": "ne = k δ2b Ns (2)"
+    },
+    {
+      "file": "eq_p002_02.png",
+      "page": 2,
+      "eq_number": "3",
+      "eq_numbers": [
+        "3"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        263.3,
+        567.0,
+        298.7
+      ],
+      "px": [
+        1080,
+        148
+      ],
+      "text_layer": "FR = Rac Rdc = 1 + (πnNs)2 d6 s192 · δ4b2(3)"
+    },
+    {
+      "file": "eq_p002_03.png",
+      "page": 2,
+      "eq_number": "4",
+      "eq_numbers": [
+        "4"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        525.0,
+        567.0,
+        557.6
+      ],
+      "px": [
+        1080,
+        137
+      ],
+      "text_layer": "n1,max = 4δ2 d2s (4)"
+    },
+    {
+      "file": "eq_p003_01.png",
+      "page": 3,
+      "eq_number": "5",
+      "eq_numbers": [
+        "5"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        45.0,
+        332.2,
+        304.0,
+        358.2
+      ],
+      "px": [
+        1080,
+        109
+      ],
+      "text_layer": "beﬀ= π ( 0.693 · r1 + 0.307 · r0.912· r0.091) (5)"
+    },
+    {
+      "file": "eq_p003_02.png",
+      "page": 3,
+      "eq_number": "6",
+      "eq_numbers": [
+        "6"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        445.1,
+        567.0,
+        518.5
+      ],
+      "px": [
+        1080,
+        307
+      ],
+      "text_layer": "The simpliﬁed formulation for the eddy-current loss in acylinder for ds ≤δ is given in [21] and is also derived inmore detail in [22] as P(t) = πℓd4 (6)"
+    },
+    {
+      "file": "eq_p003_03.png",
+      "page": 3,
+      "eq_number": "7",
+      "eq_numbers": [
+        "7"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        565.5,
+        567.0,
+        598.7
+      ],
+      "px": [
+        1080,
+        139
+      ],
+      "text_layer": "P = πℓd4 cω2 ˆB2 128ρ(7)"
+    },
+    {
+      "file": "eq_p003_04.png",
+      "page": 3,
+      "eq_number": "8",
+      "eq_numbers": [
+        "8"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        654.8,
+        567.0,
+        685.6
+      ],
+      "px": [
+        1080,
+        129
+      ],
+      "text_layer": "FR = 1 + π2µ2 0N 2n2ω2d6c768ρ2b2(8)"
+    },
+    {
+      "file": "eq_p004_01.png",
+      "page": 4,
+      "eq_number": "8",
+      "eq_numbers": [
+        "8",
+        "1",
+        "9"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        55.4,
+        304.0,
+        115.7
+      ],
+      "px": [
+        1080,
+        253
+      ],
+      "text_layer": "Here, we suggest a slight reformulation of (8) which makesit incrementally, but perhaps signiﬁcantly, simpler and easierto use. From (1), 2δ2 = ωµ0 ρ .(9)"
+    },
+    {
+      "file": "eq_p004_02.png",
+      "page": 4,
+      "eq_number": "10",
+      "eq_numbers": [
+        "10"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        129.6,
+        304.0,
+        165.0
+      ],
+      "px": [
+        1080,
+        149
+      ],
+      "text_layer": "FR = Rac Rdc = 1 + (πnN)2 d6 s192 · δ4b2(10)"
+    },
+    {
+      "file": "eq_p004_03.png",
+      "page": 4,
+      "eq_number": "11",
+      "eq_numbers": [
+        "11",
+        "12"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        45.0,
+        464.7,
+        304.0,
+        556.9
+      ],
+      "px": [
+        1080,
+        385
+      ],
+      "text_layer": "ne = δ2b (11) To simplify the application of this formula, we can pre-compute k = √ 192(FR −1)πd3s (12)"
+    },
+    {
+      "file": "eq_p004_04.png",
+      "page": 4,
+      "eq_number": "13",
+      "eq_numbers": [
+        "13"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        571.9,
+        304.0,
+        602.8
+      ],
+      "px": [
+        1080,
+        129
+      ],
+      "text_layer": "ne = k δ2b N(13)"
+    },
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": "18",
+      "eq_numbers": [
+        "18",
+        "19",
+        "18",
+        "19",
+        "20"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        82.7,
+        567.0,
+        244.0
+      ],
+      "px": [
+        1080,
+        673
+      ],
+      "text_layer": "B(r) = µ0I πr (r2 2 −r2)(r2 2 −r21)(18) Averaging B2 over the winding area, and comparing to thespatial average of the squared ﬁeld in the one dimensionalcase ⟨B2⟩= µ2 0I2 3b2(19) we can ﬁnd a value of beﬀthat gives the same value of ⟨B2⟩as the ﬁeld in (18) when used in (19): beﬀ=π(r2 2 −r21)1.5 r2 2√ ln r2 r1 + r2 1r2 2 −r414r42 −0.75(20)"
+    },
+    {
+      "file": "eq_p005_02.png",
+      "page": 5,
+      "eq_number": "14",
+      "eq_numbers": [
+        "14",
+        "15",
+        "16"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        45.0,
+        262.8,
+        304.0,
+        448.0
+      ],
+      "px": [
+        1080,
+        772
+      ],
+      "text_layer": "δeﬀ=δ√ Fp,litz (14) where Fp,litz is the litz packing factor, deﬁned as the ratio ofthe total copper cross-sectional area in the bundle (nπd2 s/4) tothe area of the overall bundle (πd2 b/4). The ratio of the bundlediameter to effective skin depth is dbδeﬀ = db δ √ Fp,litz = db δ √ nπd2s/4 πd2 b/4 =dsδ√n(15) Setting this ratio equal to 2 for the maximum allowablenumber of strands in the ﬁrst twisti"
+    },
+    {
+      "file": "eq_p005_03.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        667.0,
+        304.0,
+        701.7
+      ],
+      "px": [
+        1080,
+        145
+      ],
+      "text_layer": "B(r) = µ0I"
+    },
+    {
+      "file": "eq_p008_01.png",
+      "page": 8,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1",
+        "21"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        85.2,
+        304.0,
+        221.6
+      ],
+      "px": [
+        1080,
+        569
+      ],
+      "text_layer": "APPENDIX AEFFECTIVE FREQUENCYReplacing the frequency in (1) with an effective frequency,as explained in detail in the appendix of [11] can be usedto apply the optimization method presented here (and similaroptimization methods for other types of windings) to non-sinusoidal waveforms, including waveforms with ac and dccomponents. The effective frequency is deﬁned as feﬀ= rms { di(t) dt } 2πIrms(21)"
+    }
+  ]
+}

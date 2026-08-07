@@ -28,5 +28,8 @@
   ],
   "use_in_methodology": "Влияние паразитной ёмкости на высокочастотный импеданс и конструктивное управление ёмкостными связями.",
   "bib_title": "Winding Capacitance Cancellation for Three-Phase EMC Input Filters",
-  "bib_title_source": "sources_md"
+  "bib_title_source": "sources_md",
+  "formulas_extracted": 41,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

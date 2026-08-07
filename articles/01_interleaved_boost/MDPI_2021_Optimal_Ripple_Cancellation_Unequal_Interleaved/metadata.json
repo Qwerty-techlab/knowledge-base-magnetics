@@ -27,5 +27,8 @@
   ],
   "use_in_methodology": "Оптимизация подавления пульсации при неравномерном сдвиге фаз.",
   "bib_title": "Differential Evolution Based Algorithm for Optimal Current Ripple Cancellation in an Unequally Interleaved Converter",
-  "bib_title_source": "pdf_metadata"
+  "bib_title_source": "pdf_metadata",
+  "formulas_extracted": 22,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

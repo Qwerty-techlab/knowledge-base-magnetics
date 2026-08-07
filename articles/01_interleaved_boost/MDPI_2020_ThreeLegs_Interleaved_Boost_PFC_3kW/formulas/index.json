@@ -1,0 +1,558 @@
+{
+  "article": "MDPI_2020_ThreeLegs_Interleaved_Boost_PFC_3kW",
+  "source": "source.pdf",
+  "pages_scanned": 16,
+  "dpi": 300,
+  "n_formulas": 29,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p003_01.png",
+      "page": 3,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        72.6,
+        104.0,
+        525.3,
+        135.7
+      ],
+      "px": [
+        1887,
+        133
+      ],
+      "text_layer": "\u0001ℎ\u0003\u0004\u0005 \u0004ℎ\u0007\b = 360 \u000e\u000f (1)"
+    },
+    {
+      "file": "eq_p003_02.png",
+      "page": 3,
+      "eq_number": "2",
+      "eq_numbers": [
+        "2"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        246.8,
+        525.3,
+        280.2
+      ],
+      "px": [
+        1887,
+        140
+      ],
+      "text_layer": "\u0010\u0011\u0012 = \u0010\u0007\u00131 −\u0016\u0004\u0017 (2)"
+    },
+    {
+      "file": "eq_p003_03.png",
+      "page": 3,
+      "eq_number": "3",
+      "eq_numbers": [
+        "3"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        300.8,
+        525.3,
+        319.0
+      ],
+      "px": [
+        1887,
+        77
+      ],
+      "text_layer": "\u0011\u0013,\u0004\u0017 = \u0016\u0004\u0017 ∙\u001a\u0004\u0017 (3)"
+    },
+    {
+      "file": "eq_p003_04.png",
+      "page": 3,
+      "eq_number": "4",
+      "eq_numbers": [
+        "4"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        72.6,
+        529.8,
+        525.3,
+        561.6
+      ],
+      "px": [
+        1887,
+        133
+      ],
+      "text_layer": "\u001b = \u0010 \u0010 (4)"
+    },
+    {
+      "file": "eq_p004_01.png",
+      "page": 4,
+      "eq_number": "5",
+      "eq_numbers": [
+        "5"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        76.8,
+        525.3,
+        100.7
+      ],
+      "px": [
+        1887,
+        101
+      ],
+      "text_layer": "\u0010%& = '()'*)'+ # (5)"
+    },
+    {
+      "file": "eq_p004_02.png",
+      "page": 4,
+      "eq_number": "6",
+      "eq_numbers": [
+        "6"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        132.4,
+        525.3,
+        162.8
+      ],
+      "px": [
+        1887,
+        128
+      ],
+      "text_layer": ",%& = , 3 , \u0010-%& = \u0010%& −\u0010 (6)"
+    },
+    {
+      "file": "eq_p004_03.png",
+      "page": 4,
+      "eq_number": "7",
+      "eq_numbers": [
+        "7"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        72.6,
+        193.6,
+        525.3,
+        219.8
+      ],
+      "px": [
+        1887,
+        110
+      ],
+      "text_layer": "v/0 = ∑2343567 , ,%& = - (7)"
+    },
+    {
+      "file": "eq_p004_04.png",
+      "page": 4,
+      "eq_number": "8",
+      "eq_numbers": [
+        "8"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        326.4,
+        525.3,
+        361.6
+      ],
+      "px": [
+        1887,
+        147
+      ],
+      "text_layer": "\u0010%& = 80, 1 3 \u0010 9 (8)"
+    },
+    {
+      "file": "eq_p004_05.png",
+      "page": 4,
+      "eq_number": "9",
+      "eq_numbers": [
+        "9"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        752.1,
+        525.3,
+        782.4
+      ],
+      "px": [
+        1887,
+        128
+      ],
+      "text_layer": ":;<=,%& = 1 2 ⋅\u001a@A ∙\u001b ∙B\u0010%& −\u0010 C (9)"
+    },
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        90.4,
+        283.5,
+        116.1
+      ],
+      "px": [
+        880,
+        108
+      ],
+      "text_layer": ":;<=,%& = 1"
+    },
+    {
+      "file": "eq_p005_02.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        143.8,
+        283.5,
+        169.5
+      ],
+      "px": [
+        880,
+        108
+      ],
+      "text_layer": "Δ;<=,%& = 1"
+    },
+    {
+      "file": "eq_p005_03.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        241.8,
+        283.5,
+        267.5
+      ],
+      "px": [
+        880,
+        108
+      ],
+      "text_layer": "\u0010%& = 81"
+    },
+    {
+      "file": "eq_p005_04.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        303.6,
+        283.5,
+        329.3
+      ],
+      "px": [
+        880,
+        108
+      ],
+      "text_layer": ":;<=,%& = 1"
+    },
+    {
+      "file": "eq_p005_05.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        365.4,
+        283.5,
+        391.1
+      ],
+      "px": [
+        880,
+        108
+      ],
+      "text_layer": ":;<=,%& = 1"
+    },
+    {
+      "file": "eq_p006_01.png",
+      "page": 6,
+      "eq_number": "15",
+      "eq_numbers": [
+        "15"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        104.0,
+        525.3,
+        134.3
+      ],
+      "px": [
+        1887,
+        127
+      ],
+      "text_layer": "\u0010%& = 82 3 \u0010 , \u0010 9 (15)"
+    },
+    {
+      "file": "eq_p006_02.png",
+      "page": 6,
+      "eq_number": "16",
+      "eq_numbers": [
+        "16"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        152.3,
+        525.3,
+        182.7
+      ],
+      "px": [
+        1887,
+        128
+      ],
+      "text_layer": ":;<=,%& = 1 2 ∙\u001a@A ⋅\u0010 ⋅D\u001b −23E ∙(1 −\u001b) (16)"
+    },
+    {
+      "file": "eq_p006_03.png",
+      "page": 6,
+      "eq_number": "17",
+      "eq_numbers": [
+        "17"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        72.6,
+        574.8,
+        525.3,
+        606.7
+      ],
+      "px": [
+        1887,
+        133
+      ],
+      "text_layer": ":\u0007<=,-%& = :;<=,%& ,%& (17)"
+    },
+    {
+      "file": "eq_p008_01.png",
+      "page": 8,
+      "eq_number": "21",
+      "eq_numbers": [
+        "21"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        72.4,
+        525.3,
+        90.8
+      ],
+      "px": [
+        1887,
+        78
+      ],
+      "text_layer": "\u0007W A( ) = \u0007 −∆\u0007<=,-%& (21)"
+    },
+    {
+      "file": "eq_p008_02.png",
+      "page": 8,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        420.6,
+        525.3,
+        435.7
+      ],
+      "px": [
+        1887,
+        64
+      ],
+      "text_layer": "Figure 7. Current ripple peak behavior in the case of Leq = 300 μH."
+    },
+    {
+      "file": "eq_p008_03.png",
+      "page": 8,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        557.1,
+        525.3,
+        585.1
+      ],
+      "px": [
+        1887,
+        118
+      ],
+      "text_layer": "Figure 8. (a) Peak current ripple and input current comparison for Leq = 900 μH, (b) Peak current ripple and input current comparison for Leq = 300 μH."
+    },
+    {
+      "file": "eq_p011_01.png",
+      "page": 11,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        313.6,
+        525.3,
+        344.2
+      ],
+      "px": [
+        1887,
+        129
+      ],
+      "text_layer": "Vin[V] Vout[V] Pout[W] fSW[KHz] La = Lb = Lc[H] Cdc[F] 230 ± 10% 400 3,000 60 900 1,800"
+    },
+    {
+      "file": "eq_p014_01.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        262.7,
+        525.3,
+        294.5
+      ],
+      "px": [
+        1887,
+        133
+      ],
+      "text_layer": "\u0007 = TMNO sin S = √2 ∙r Y ∙K ,qM@ sin S (A1)"
+    },
+    {
+      "file": "eq_p014_02.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        314.0,
+        525.3,
+        466.4
+      ],
+      "px": [
+        1887,
+        636
+      ],
+      "text_layer": "\u0016\u0007 \u0016 ( ) = √2 S ∙r Y ∙K ,qM@ cos S (A2) \u0016\u0007 \u0016 ( = 0) = √2 S ∙r Y ∙K ,qM@ (A3) Δ\u0007<=,-%& = ∆ψ<=( ) ,%& = ⎩⎪⎪⎨ ⎪⎪⎧12 ∙\u001a@A ∙\u0010 ,%& \u001b( ) ∙|1 3 −\u001b( )} 0 ≤\u001b ≤1312 ∙\u001a@A ∙\u0010 ,%& ∙|23 −\u001b( )} ∙D\u001b( ) −13E 13 < \u001b ≤23 12 ∙\u001a@A ∙\u0010 ,%& ∙D\u001b( ) −23E ∙B1 −\u001b( )C 23 < \u001b ≤1 (A4)"
+    },
+    {
+      "file": "eq_p014_03.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        488.7,
+        525.3,
+        520.4
+      ],
+      "px": [
+        1887,
+        133
+      ],
+      "text_layer": "\u001b( ) = √2 ∙K ,qM@ \u0010 sin S = \u0010 ( ) \u0010 (A5)"
+    },
+    {
+      "file": "eq_p014_04.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        552.3,
+        525.3,
+        611.8
+      ],
+      "px": [
+        1887,
+        249
+      ],
+      "text_layer": "0 ≤\u001b ≤13 (A6) \u0016(∆\u0007<=,-%&) \u0016 =  ∙ ∙S 3cos S −2 ∙ ∙$∙S cos S ∙sin S (A7)"
+    },
+    {
+      "file": "eq_p014_05.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        631.8,
+        525.3,
+        657.2
+      ],
+      "px": [
+        1887,
+        107
+      ],
+      "text_layer": " = \" $ Z[\\∙'efg -,  = √$∙]^_,`a[ 'efg (A8)"
+    },
+    {
+      "file": "eq_p014_06.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        679.6,
+        525.3,
+        711.5
+      ],
+      "px": [
+        1887,
+        134
+      ],
+      "text_layer": "\u0016B∆\u0007<=,-%&C \u0016 ( = 0) =  ∙ ∙S 3= √2 6 ∙\u001a@A ∙K ,qM@ ∙S,%& (A9)"
+    },
+    {
+      "file": "eq_p015_01.png",
+      "page": 15,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        104.3,
+        525.3,
+        137.6
+      ],
+      "px": [
+        1887,
+        140
+      ],
+      "text_layer": "r ,M = Y ∙\u001a@A ∙K ,qM@ $ 6 ∙,%&,kq (A11)"
+    },
+    {
+      "file": "eq_p015_02.png",
+      "page": 15,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        157.4,
+        525.3,
+        190.8
+      ],
+      "px": [
+        1887,
+        140
+      ],
+      "text_layer": ",%&,kq = Y ∙\u001a@A ∙K ,qM@ $ 6 ∙r ,M (A12)"
+    }
+  ]
+}

@@ -1,5 +1,9 @@
 # source
 
+<!-- FORMULA-WARNING -->
+> **Формулы в этом файле недостоверны.** Текстовый слой PDF теряет дробные черты, радикалы и группировку степеней; знак интеграла приходит как `Z` или `R`, знак суммы -- как `P`. Формул вырезано: **24**, читать их в `formulas/` (картинки 300 dpi, перечень в `formulas/INDEX.md`).
+<!-- /FORMULA-WARNING -->
+
 > Автоматически извлечено из `source.pdf` скриптом `parse_pdf.py`
 > Движок: pymupdf. Страниц: 17 из 17.
 > Дата извлечения: 2026-08-07 06:43 UTC
@@ -135,7 +139,8 @@ uses basic core geometry and material properties, such
 as conductivity and coercivity. This approach was demonstrated in [3], [17]. It is useful when extensive measurement data is not available.
 This article has been accepted for publication in IEEE Transactions on Power Electronics. This is the author's version which has not been fully edited and
 content may change prior to final publication. Citation information: DOI 10.1109/TPEL.2023.3249106
-© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+
 See https://www.ieee.org/publications/rights/index.html for more information.
 Authorized licensed use limited to: Danmarks Tekniske Informationscenter. Downloaded on March 03,2023 at 04:10:17 UTC from IEEE Xplore.  Restrictions apply.
 
@@ -241,7 +246,8 @@ core. It is important to use an isolated DC current source here
 because CDC nodes are floating. In terms of sequence, the DC
 This article has been accepted for publication in IEEE Transactions on Power Electronics. This is the author's version which has not been fully edited and
 content may change prior to final publication. Citation information: DOI 10.1109/TPEL.2023.3249106
-© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+
 See https://www.ieee.org/publications/rights/index.html for more information.
 Authorized licensed use limited to: Danmarks Tekniske Informationscenter. Downloaded on March 03,2023 at 04:10:17 UTC from IEEE Xplore.  Restrictions apply.
 
@@ -382,7 +388,8 @@ k
 [0.7...0.8]
 This article has been accepted for publication in IEEE Transactions on Power Electronics. This is the author's version which has not been fully edited and
 content may change prior to final publication. Citation information: DOI 10.1109/TPEL.2023.3249106
-© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+
 See https://www.ieee.org/publications/rights/index.html for more information.
 Authorized licensed use limited to: Danmarks Tekniske Informationscenter. Downloaded on March 03,2023 at 04:10:17 UTC from IEEE Xplore.  Restrictions apply.
 
@@ -410,7 +417,8 @@ with low stray inductance. Metal foil chip resistor from
 Susumu PRL series is used in this work. The shunt resistor
 This article has been accepted for publication in IEEE Transactions on Power Electronics. This is the author's version which has not been fully edited and
 content may change prior to final publication. Citation information: DOI 10.1109/TPEL.2023.3249106
-© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+
 See https://www.ieee.org/publications/rights/index.html for more information.
 Authorized licensed use limited to: Danmarks Tekniske Informationscenter. Downloaded on March 03,2023 at 04:10:17 UTC from IEEE Xplore.  Restrictions apply.
 
@@ -501,7 +509,8 @@ make the test automation. The benefit of automation is not
 only reducing the manual labor, but also ensuring the measurement repeatability. The measurement system architecture
 This article has been accepted for publication in IEEE Transactions on Power Electronics. This is the author's version which has not been fully edited and
 content may change prior to final publication. Citation information: DOI 10.1109/TPEL.2023.3249106
-© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+
 See https://www.ieee.org/publications/rights/index.html for more information.
 Authorized licensed use limited to: Danmarks Tekniske Informationscenter. Downloaded on March 03,2023 at 04:10:17 UTC from IEEE Xplore.  Restrictions apply.
 
@@ -608,7 +617,8 @@ Fig. 14 and Fig. 15 show the losses density against switching frequency (fsw). T
 measurement points while the line is the result of regression.
 This article has been accepted for publication in IEEE Transactions on Power Electronics. This is the author's version which has not been fully edited and
 content may change prior to final publication. Citation information: DOI 10.1109/TPEL.2023.3249106
-© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+
 See https://www.ieee.org/publications/rights/index.html for more information.
 Authorized licensed use limited to: Danmarks Tekniske Informationscenter. Downloaded on March 03,2023 at 04:10:17 UTC from IEEE Xplore.  Restrictions apply.
 
@@ -673,7 +683,8 @@ the losses at a certain DC bias with the losses at no bias
 condition, as shown in Eqn. 9.
 This article has been accepted for publication in IEEE Transactions on Power Electronics. This is the author's version which has not been fully edited and
 content may change prior to final publication. Citation information: DOI 10.1109/TPEL.2023.3249106
-© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+
 See https://www.ieee.org/publications/rights/index.html for more information.
 Authorized licensed use limited to: Danmarks Tekniske Informationscenter. Downloaded on March 03,2023 at 04:10:17 UTC from IEEE Xplore.  Restrictions apply.
 
@@ -749,7 +760,8 @@ Fig. 18: Relative core losses (Pv,rel) versus peak total flux density
 of BDC translates to 0.99 A/m of HDC.
 This article has been accepted for publication in IEEE Transactions on Power Electronics. This is the author's version which has not been fully edited and
 content may change prior to final publication. Citation information: DOI 10.1109/TPEL.2023.3249106
-© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+
 See https://www.ieee.org/publications/rights/index.html for more information.
 Authorized licensed use limited to: Danmarks Tekniske Informationscenter. Downloaded on March 03,2023 at 04:10:17 UTC from IEEE Xplore.  Restrictions apply.
 
@@ -823,7 +835,8 @@ be used in the following analysis. The two methods represent
 two different nature of modeling approach. The first one is
 This article has been accepted for publication in IEEE Transactions on Power Electronics. This is the author's version which has not been fully edited and
 content may change prior to final publication. Citation information: DOI 10.1109/TPEL.2023.3249106
-© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+
 See https://www.ieee.org/publications/rights/index.html for more information.
 Authorized licensed use limited to: Danmarks Tekniske Informationscenter. Downloaded on March 03,2023 at 04:10:17 UTC from IEEE Xplore.  Restrictions apply.
 
@@ -954,7 +967,8 @@ DC
 (12)
 This article has been accepted for publication in IEEE Transactions on Power Electronics. This is the author's version which has not been fully edited and
 content may change prior to final publication. Citation information: DOI 10.1109/TPEL.2023.3249106
-© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+
 See https://www.ieee.org/publications/rights/index.html for more information.
 Authorized licensed use limited to: Danmarks Tekniske Informationscenter. Downloaded on March 03,2023 at 04:10:17 UTC from IEEE Xplore.  Restrictions apply.
 
@@ -1050,7 +1064,8 @@ The overall maximum error for core A and B are 27% and
 37%, respectively. Again, these maximum errors happen at
 This article has been accepted for publication in IEEE Transactions on Power Electronics. This is the author's version which has not been fully edited and
 content may change prior to final publication. Citation information: DOI 10.1109/TPEL.2023.3249106
-© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+
 See https://www.ieee.org/publications/rights/index.html for more information.
 Authorized licensed use limited to: Danmarks Tekniske Informationscenter. Downloaded on March 03,2023 at 04:10:17 UTC from IEEE Xplore.  Restrictions apply.
 
@@ -1126,7 +1141,8 @@ implemented using a current controlled DC e-load.
 Fig. 30: Implemented core loss measurement setup
 This article has been accepted for publication in IEEE Transactions on Power Electronics. This is the author's version which has not been fully edited and
 content may change prior to final publication. Citation information: DOI 10.1109/TPEL.2023.3249106
-© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+
 See https://www.ieee.org/publications/rights/index.html for more information.
 Authorized licensed use limited to: Danmarks Tekniske Informationscenter. Downloaded on March 03,2023 at 04:10:17 UTC from IEEE Xplore.  Restrictions apply.
 
@@ -1218,7 +1234,8 @@ Z4 · Z6
 Z4 + Z5 + Z6
 This article has been accepted for publication in IEEE Transactions on Power Electronics. This is the author's version which has not been fully edited and
 content may change prior to final publication. Citation information: DOI 10.1109/TPEL.2023.3249106
-© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+
 See https://www.ieee.org/publications/rights/index.html for more information.
 Authorized licensed use limited to: Danmarks Tekniske Informationscenter. Downloaded on March 03,2023 at 04:10:17 UTC from IEEE Xplore.  Restrictions apply.
 
@@ -1329,7 +1346,8 @@ Transactions on Power Electronics, vol. 29, no. 8, pp. 4374-4381, 2014.
 loss measurement method with partial cancellation concept," IEEE
 This article has been accepted for publication in IEEE Transactions on Power Electronics. This is the author's version which has not been fully edited and
 content may change prior to final publication. Citation information: DOI 10.1109/TPEL.2023.3249106
-© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+
 See https://www.ieee.org/publications/rights/index.html for more information.
 Authorized licensed use limited to: Danmarks Tekniske Informationscenter. Downloaded on March 03,2023 at 04:10:17 UTC from IEEE Xplore.  Restrictions apply.
 
@@ -1451,7 +1469,8 @@ His research interest includes Transmission Electron
 Microscopy, electron beams, and nanoscale imaging.
 This article has been accepted for publication in IEEE Transactions on Power Electronics. This is the author's version which has not been fully edited and
 content may change prior to final publication. Citation information: DOI 10.1109/TPEL.2023.3249106
-© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+
 See https://www.ieee.org/publications/rights/index.html for more information.
 Authorized licensed use limited to: Danmarks Tekniske Informationscenter. Downloaded on March 03,2023 at 04:10:17 UTC from IEEE Xplore.  Restrictions apply.
 
@@ -1492,6 +1511,7 @@ Paper Award, and several Best Paper Awards in IEEE sponsored international
 conferences.
 This article has been accepted for publication in IEEE Transactions on Power Electronics. This is the author's version which has not been fully edited and
 content may change prior to final publication. Citation information: DOI 10.1109/TPEL.2023.3249106
-© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+© 2023 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+
 See https://www.ieee.org/publications/rights/index.html for more information.
 Authorized licensed use limited to: Danmarks Tekniske Informationscenter. Downloaded on March 03,2023 at 04:10:17 UTC from IEEE Xplore.  Restrictions apply.

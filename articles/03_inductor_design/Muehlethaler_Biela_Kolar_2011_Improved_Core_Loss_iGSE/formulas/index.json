@@ -1,0 +1,515 @@
+{
+  "article": "Muehlethaler_Biela_Kolar_2011_Improved_Core_Loss_iGSE",
+  "source": "source.pdf",
+  "pages_scanned": 9,
+  "dpi": 300,
+  "n_formulas": 26,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p002_01.png",
+      "page": 2,
+      "eq_number": "2",
+      "eq_numbers": [
+        "2"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        307.7,
+        412.1,
+        561.8,
+        447.1
+      ],
+      "px": [
+        1059,
+        147
+      ],
+      "text_layer": "Pv = 1 T Z T 0ki dB dt  α (∆B)β−α dt(2)"
+    },
+    {
+      "file": "eq_p002_02.png",
+      "page": 2,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        446.5,
+        304.0,
+        467.8
+      ],
+      "px": [
+        1059,
+        90
+      ],
+      "text_layer": "Pv = kf α ˆBβ(1)"
+    },
+    {
+      "file": "eq_p002_03.png",
+      "page": 2,
+      "eq_number": "3",
+      "eq_numbers": [
+        "3"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        307.7,
+        461.5,
+        561.8,
+        496.8
+      ],
+      "px": [
+        1059,
+        149
+      ],
+      "text_layer": "ki =k (2π)α−1 R 2π 0| cos θ|α2β−αdθ .(3)"
+    },
+    {
+      "file": "eq_p003_01.png",
+      "page": 3,
+      "eq_number": "4",
+      "eq_numbers": [
+        "4"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        486.1,
+        304.0,
+        521.1
+      ],
+      "px": [
+        1059,
+        147
+      ],
+      "text_layer": "B(t) =1N2 · Ae Z t 0v(τ)dτ(4)"
+    },
+    {
+      "file": "eq_p003_02.png",
+      "page": 3,
+      "eq_number": "5",
+      "eq_numbers": [
+        "5"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        569.6,
+        304.0,
+        599.6
+      ],
+      "px": [
+        1059,
+        126
+      ],
+      "text_layer": "H(t) = N1 · i(t) le (5)"
+    },
+    {
+      "file": "eq_p003_03.png",
+      "page": 3,
+      "eq_number": "6",
+      "eq_numbers": [
+        "6"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        647.7,
+        304.0,
+        676.8
+      ],
+      "px": [
+        1059,
+        122
+      ],
+      "text_layer": "PV = f I HdB.(6)"
+    },
+    {
+      "file": "eq_p004_01.png",
+      "page": 4,
+      "eq_number": "7",
+      "eq_numbers": [
+        "7"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        307.7,
+        353.4,
+        561.8,
+        382.5
+      ],
+      "px": [
+        1059,
+        122
+      ],
+      "text_layer": "dM dt = γM × H −ΛM × (M × H)/M 2,(7)"
+    },
+    {
+      "file": "eq_p004_02.png",
+      "page": 4,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        410.2,
+        304.0,
+        457.8
+      ],
+      "px": [
+        1059,
+        199
+      ],
+      "text_layer": "2 3 4 E [µJ] ∆B = 50mT, t2 = 10µs ∆B = 100mT, t2 = 10µs ∆B = 100mT, t2 = 5µs"
+    },
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        307.7,
+        57.2,
+        561.8,
+        125.1
+      ],
+      "px": [
+        1059,
+        284
+      ],
+      "text_layer": "100 ∆B = 100mT, t1 = 0 ∆B = 100mT, t1 = 60µs ∆B = 200mT, t1 = 0 ∆B = 200mT, t1 = 60µs"
+    },
+    {
+      "file": "eq_p006_01.png",
+      "page": 6,
+      "eq_number": "9",
+      "eq_numbers": [
+        "9"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        259.1,
+        304.0,
+        289.0
+      ],
+      "px": [
+        1059,
+        126
+      ],
+      "text_layer": "∆E = kr d dtB(t)  αr (∆B)βr,(9)"
+    },
+    {
+      "file": "eq_p006_02.png",
+      "page": 6,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        471.5,
+        304.0,
+        507.4
+      ],
+      "px": [
+        1059,
+        150
+      ],
+      "text_layer": "Pv = 1 (∆B)β−α dt +"
+    },
+    {
+      "file": "eq_p006_03.png",
+      "page": 6,
+      "eq_number": "11",
+      "eq_numbers": [
+        "11"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        550.4,
+        304.0,
+        580.3
+      ],
+      "px": [
+        1059,
+        125
+      ],
+      "text_layer": "Prl = 1 T kr d dtB(t)  αr (∆B)βr \u0010 1 −e−t1τ \u0011 .(11)"
+    },
+    {
+      "file": "eq_p007_01.png",
+      "page": 7,
+      "eq_number": "18",
+      "eq_numbers": [
+        "18"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        307.7,
+        187.8,
+        561.8,
+        216.9
+      ],
+      "px": [
+        1059,
+        122
+      ],
+      "text_layer": "∆E τ= dE dt ,(18)"
+    },
+    {
+      "file": "eq_p007_02.png",
+      "page": 7,
+      "eq_number": "12",
+      "eq_numbers": [
+        "12"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        197.2,
+        304.0,
+        235.1
+      ],
+      "px": [
+        1059,
+        159
+      ],
+      "text_layer": "Pv = 1 T Z T 0ki dB dt  α (∆B)β−α dt + nX l=1 QrlPrl,(12)"
+    },
+    {
+      "file": "eq_p007_03.png",
+      "page": 7,
+      "eq_number": "13",
+      "eq_numbers": [
+        "13"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        296.6,
+        304.0,
+        325.4
+      ],
+      "px": [
+        1059,
+        121
+      ],
+      "text_layer": "Qrl = e −qr dB(t+)/dtdB(t−)/dt ,(13)"
+    },
+    {
+      "file": "eq_p007_04.png",
+      "page": 7,
+      "eq_number": "14",
+      "eq_numbers": [
+        "14"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        377.2,
+        304.0,
+        407.0
+      ],
+      "px": [
+        1059,
+        125
+      ],
+      "text_layer": "Qrl = e −qr ∆B(1−D)T ∆BDT= e−qrD1−D .(14)"
+    },
+    {
+      "file": "eq_p007_05.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        307.7,
+        543.7,
+        561.8,
+        593.5
+      ],
+      "px": [
+        1059,
+        209
+      ],
+      "text_layer": "Operating PointLoss DensityModel Parameters(∆B; f)[kW/m3](0.1 T; 20 kHz)5.98ki = 8.41(0.1 T; 50 kHz)16.2α = 1.09(0.2 T; 50 kHz)7.28β = 2.16"
+    },
+    {
+      "file": "eq_p007_06.png",
+      "page": 7,
+      "eq_number": "15",
+      "eq_numbers": [
+        "15"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        560.0,
+        304.0,
+        597.9
+      ],
+      "px": [
+        1059,
+        159
+      ],
+      "text_layer": "Pv = 1 T Z T 0ki dB dt  α (∆B)β−α dt + nX l=1 QrlPrl,(15)"
+    },
+    {
+      "file": "eq_p007_07.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        307.7,
+        590.2,
+        561.8,
+        650.6
+      ],
+      "px": [
+        1059,
+        252
+      ],
+      "text_layer": "(∆B; dB(t)/dt)[J/m3](0.1 T; 4 kT/s)0.068kr = 0.0574(0.1 T; 20 kT/s)0.13αr = 0.39(0.2 T; 20 kT/s)0.32βr = 1.31τ = 6 µsqr = 16"
+    },
+    {
+      "file": "eq_p007_08.png",
+      "page": 7,
+      "eq_number": "16",
+      "eq_numbers": [
+        "16",
+        "17"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        612.2,
+        304.0,
+        715.0
+      ],
+      "px": [
+        1059,
+        430
+      ],
+      "text_layer": "Prl = 1 T kr d dtB(t)  αr (∆B)βr \u0010 1 −e−t1τ \u0011 ,(16) Qrl is a function that further describes the voltage change andis Qrl = e −qr dB(t+)/dtdB(t−)/dt ,(17) and α, β, ki, αr, βr, kr, τ, and qr are material parameters. Now, the steps to extract the model parameters are given:"
+    },
+    {
+      "file": "eq_p008_01.png",
+      "page": 8,
+      "eq_number": "19",
+      "eq_numbers": [
+        "19"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        307.7,
+        99.1,
+        561.8,
+        129.1
+      ],
+      "px": [
+        1059,
+        127
+      ],
+      "text_layer": "ˆB = 1 2VDCNAe \u0012T 2 −tγ \u0013 (19)"
+    },
+    {
+      "file": "eq_p008_02.png",
+      "page": 8,
+      "eq_number": "20",
+      "eq_numbers": [
+        "20"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        307.7,
+        151.8,
+        561.8,
+        218.1
+      ],
+      "px": [
+        1059,
+        277
+      ],
+      "text_layer": "dB dt =   VDCNAefor t ≥0 and t < T 2 −tγ, 0for t ≥T 2 −tγ and t < T2 , −VDC NAefor t ≥T 2 and t < T −tγ,0for t ≥T −tγ and t < T. (20)"
+    },
+    {
+      "file": "eq_p008_03.png",
+      "page": 8,
+      "eq_number": "21",
+      "eq_numbers": [
+        "21"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        307.7,
+        257.4,
+        561.8,
+        309.0
+      ],
+      "px": [
+        1059,
+        216
+      ],
+      "text_layer": "P =T −2tγ Tki VDC NAe  αVDC NAe \u0012T 2 −tγ \u0013  β−α Aele + Aele nX QrlPrl,(21)"
+    },
+    {
+      "file": "eq_p008_04.png",
+      "page": 8,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        311.0,
+        304.0,
+        326.1
+      ],
+      "px": [
+        1059,
+        64
+      ],
+      "text_layer": "VDC = V1 = V242 V"
+    },
+    {
+      "file": "eq_p008_05.png",
+      "page": 8,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        334.6,
+        304.0,
+        349.1
+      ],
+      "px": [
+        1059,
+        61
+      ],
+      "text_layer": "N=N1=N220"
+    },
+    {
+      "file": "eq_p009_01.png",
+      "page": 9,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        290.8,
+        304.0,
+        370.1
+      ],
+      "px": [
+        1059,
+        332
+      ],
+      "text_layer": "α1.88β2.02ki137 · 10−6 αr0.76βr1.70kr139 · 10−6 τ9 µsqr4"
+    }
+  ]
+}

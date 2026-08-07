@@ -1,0 +1,432 @@
+{
+  "article": "TI_SLVA372_Basic_Calculation_Boost_Power_Stage",
+  "source": "source.pdf",
+  "pages_scanned": 10,
+  "dpi": 300,
+  "n_formulas": 23,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p002_01.png",
+      "page": 2,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        52.7,
+        409.9,
+        306.7,
+        446.2
+      ],
+      "px": [
+        1060,
+        152
+      ],
+      "text_layer": "IN(min) OUT VηD = 1V ´-"
+    },
+    {
+      "file": "eq_p002_02.png",
+      "page": 2,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        52.7,
+        453.4,
+        306.7,
+        494.6
+      ],
+      "px": [
+        1060,
+        172
+      ],
+      "text_layer": "VIN(min) = minimum input voltageVOUT = desired output voltageη = efficiency of the converter, e.g. estimated 80%"
+    },
+    {
+      "file": "eq_p002_03.png",
+      "page": 2,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        52.7,
+        638.0,
+        306.7,
+        672.0
+      ],
+      "px": [
+        1060,
+        143
+      ],
+      "text_layer": "IN(min)L S VDΔI=fL ´"
+    },
+    {
+      "file": "eq_p003_01.png",
+      "page": 3,
+      "eq_number": "3",
+      "eq_numbers": [
+        "3"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        71.4,
+        562.0,
+        106.5
+      ],
+      "px": [
+        2134,
+        147
+      ],
+      "text_layer": "LMAXOUTLIM(min) ΔII=I(1 D)2æö-´-ç÷èø(3)"
+    },
+    {
+      "file": "eq_p003_02.png",
+      "page": 3,
+      "eq_number": "4",
+      "eq_numbers": [
+        "4"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        262.6,
+        562.0,
+        295.2
+      ],
+      "px": [
+        2134,
+        137
+      ],
+      "text_layer": "OUT(max)LSW(max) IΔII=+21 D-(4)"
+    },
+    {
+      "file": "eq_p003_03.png",
+      "page": 3,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        300.9,
+        562.0,
+        342.0
+      ],
+      "px": [
+        2134,
+        173
+      ],
+      "text_layer": "ΔIL = inductor ripple current calculated in Equation 2IOUT(max) = maximum output current necessary in the applicationD = duty cycle calculated in Equation 1"
+    },
+    {
+      "file": "eq_p004_01.png",
+      "page": 4,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        52.7,
+        178.7,
+        283.3,
+        210.5
+      ],
+      "px": [
+        962,
+        134
+      ],
+      "text_layer": "()INOUTIN LSOUT V×VVL =ΔIfV -"
+    },
+    {
+      "file": "eq_p004_02.png",
+      "page": 4,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        52.7,
+        219.1,
+        283.3,
+        273.7
+      ],
+      "px": [
+        962,
+        229
+      ],
+      "text_layer": "VIN = typical input voltageVOUT = desired output voltagefS = minimum switching frequency of the converterΔIL = estimated inductor ripple current, see below"
+    },
+    {
+      "file": "eq_p004_03.png",
+      "page": 4,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        52.7,
+        309.0,
+        283.3,
+        341.6
+      ],
+      "px": [
+        962,
+        137
+      ],
+      "text_layer": "OUTLOUT(max) IN VΔI= (0.2 to 0.4)IV´´"
+    },
+    {
+      "file": "eq_p004_04.png",
+      "page": 4,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        52.7,
+        348.9,
+        283.3,
+        379.5
+      ],
+      "px": [
+        962,
+        129
+      ],
+      "text_layer": "ΔIL = estimated inductor ripple currentIOUT(max) = maximum output current necessary in the application"
+    },
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        459.7,
+        283.0,
+        492.8
+      ],
+      "px": [
+        972,
+        139
+      ],
+      "text_layer": "OUT12FB VR = R1V"
+    },
+    {
+      "file": "eq_p006_01.png",
+      "page": 6,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        52.7,
+        308.6,
+        305.6,
+        344.8
+      ],
+      "px": [
+        1055,
+        152
+      ],
+      "text_layer": "OUT(max)OUT(min) SOUT IDC=fΔV ´"
+    },
+    {
+      "file": "eq_p006_02.png",
+      "page": 6,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        52.7,
+        443.6,
+        305.6,
+        475.6
+      ],
+      "px": [
+        1055,
+        134
+      ],
+      "text_layer": "OUT(max)LOUT(ESR) IΔIΔV= ESR+1 D2"
+    },
+    {
+      "file": "eq_p007_01.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        74.6,
+        303.6,
+        110.6
+      ],
+      "px": [
+        1058,
+        151
+      ],
+      "text_layer": "IN(min) OUT VηMaximum Duty Cycle: D = 1V ´-"
+    },
+    {
+      "file": "eq_p007_02.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        118.1,
+        303.6,
+        159.3
+      ],
+      "px": [
+        1058,
+        172
+      ],
+      "text_layer": "VIN(min) = minimum input voltageVOUT = desired output voltageη = efficiency of the converter, e.g. estimated 85%"
+    },
+    {
+      "file": "eq_p007_03.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        164.3,
+        303.6,
+        200.4
+      ],
+      "px": [
+        1058,
+        151
+      ],
+      "text_layer": "IN(min)L S VDInductor Ripple Current: ΔI= fL ´"
+    },
+    {
+      "file": "eq_p007_04.png",
+      "page": 7,
+      "eq_number": "16",
+      "eq_numbers": [
+        "16"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        269.5,
+        303.6,
+        305.0
+      ],
+      "px": [
+        1058,
+        149
+      ],
+      "text_layer": "ΔIMaximum output current of the selected IC: I=I(1 D)2æö-´-ç÷èø(16)"
+    },
+    {
+      "file": "eq_p007_05.png",
+      "page": 7,
+      "eq_number": "17",
+      "eq_numbers": [
+        "17"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        359.3,
+        303.6,
+        392.8
+      ],
+      "px": [
+        1058,
+        140
+      ],
+      "text_layer": "IΔIApplication specific maximum switch current: I=+21 D-(17)"
+    },
+    {
+      "file": "eq_p007_06.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        398.4,
+        303.6,
+        439.6
+      ],
+      "px": [
+        1058,
+        173
+      ],
+      "text_layer": "ΔIL = inductor ripple current calculated in Equation 15IOUT(max) = maximum output current necessary in the applicationD = duty cycle calculated in Equation 14"
+    },
+    {
+      "file": "eq_p007_07.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        445.3,
+        303.6,
+        479.4
+      ],
+      "px": [
+        1058,
+        143
+      ],
+      "text_layer": "()INOUTIN LSOUT V×VVInductor Calculation: L =ΔIfV -"
+    },
+    {
+      "file": "eq_p007_08.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        488.2,
+        303.6,
+        542.8
+      ],
+      "px": [
+        1058,
+        228
+      ],
+      "text_layer": "VIN = typical input voltageVOUT = desired output voltagefS = minimum switching frequency of the converterΔIL= estimated inductor ripple current, see Equation 19"
+    },
+    {
+      "file": "eq_p007_09.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        587.9,
+        303.6,
+        618.6
+      ],
+      "px": [
+        1058,
+        129
+      ],
+      "text_layer": "ΔIL = estimated inductor ripple currentIOUT(max) = maximum output current necessary in the application"
+    },
+    {
+      "file": "eq_p008_01.png",
+      "page": 8,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        52.7,
+        334.9,
+        296.1,
+        366.9
+      ],
+      "px": [
+        1015,
+        134
+      ],
+      "text_layer": "IΔIAdditional Output Voltage Ripple due to ESRΔV= ESR+1 D2"
+    }
+  ]
+}

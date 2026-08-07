@@ -28,5 +28,8 @@
   ],
   "use_in_methodology": "Вихревые потери литцендрата при произвольном расположении обмотки и зазоров; содержит независимый контроль расчёта по МКЭ.",
   "bib_title": "Analytical Models for HF-Losses of Litz Wire in Inductors With Arbitrary Winding and Gap Arrangements",
-  "bib_title_source": "sources_md"
+  "bib_title_source": "sources_md",
+  "formulas_extracted": 14,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

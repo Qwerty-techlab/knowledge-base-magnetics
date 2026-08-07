@@ -28,5 +28,8 @@
   ],
   "use_in_methodology": "Базовая методика двухфазного interleaved PFC: расчёт тока фазы, коэффициент подавления пульсации входного тока, выбор индуктивности.",
   "bib_title": "An Interleaved PFC Preregulator for High-Power Converters",
-  "bib_title_source": "pdf_metadata"
+  "bib_title_source": "pdf_metadata",
+  "formulas_extracted": 27,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

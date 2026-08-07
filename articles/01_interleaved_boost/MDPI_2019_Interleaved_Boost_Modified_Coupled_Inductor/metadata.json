@@ -26,5 +26,8 @@
   ],
   "use_in_methodology": "Связанные дроссели в interleaved boost — рассмотрено и отклонено (ТЗ требует независимых дросселей).",
   "bib_title": "The Study of the Operational Characteristic of Interleaved Boost Converter with Modified Coupled Inductor",
-  "bib_title_source": "pdf_metadata"
+  "bib_title_source": "pdf_metadata",
+  "formulas_extracted": 10,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

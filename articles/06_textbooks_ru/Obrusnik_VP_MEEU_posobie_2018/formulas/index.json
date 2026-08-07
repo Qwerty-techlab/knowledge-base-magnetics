@@ -1,0 +1,5747 @@
+{
+  "article": "Obrusnik_VP_MEEU_posobie_2018",
+  "source": "source.pdf",
+  "pages_scanned": 154,
+  "dpi": 300,
+  "n_formulas": 318,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p013_01.png",
+      "page": 13,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        559.1,
+        532.6,
+        742.1
+      ],
+      "px": [
+        1941,
+        763
+      ],
+      "text_layer": "= cxa , = bya , = hza , 2=cSya , 2=⋅⋅окSx z a — броневые, стержневые, чашечные; 22244ππ==⋅ок cSxa — тороидальные; 24π=cSa — чашечные. Пользуясь принятыми обозначениями линейных размеров магнитопровода, запишем геометрические показатели МЭ на (2.1)"
+    },
+    {
+      "file": "eq_p014_01.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        130.3,
+        532.6,
+        180.5
+      ],
+      "px": [
+        1942,
+        210
+      ],
+      "text_layer": "22222444ππ⎛⎞⎛⎞=++ π=++=++⎜⎟⎜⎟⎝⎠⎝⎠c aaLchcha xz. (2.2)"
+    },
+    {
+      "file": "eq_p014_02.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        205.1,
+        532.6,
+        255.5
+      ],
+      "px": [
+        1942,
+        211
+      ],
+      "text_layer": "222221222⋅ππ⎛⎞⎛⎞=++ π=++=++⎜⎟⎜⎟⎝⎠⎝⎠ ccск nccnxnLababay. (2.3)"
+    },
+    {
+      "file": "eq_p014_03.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        345.1,
+        532.6,
+        373.7
+      ],
+      "px": [
+        1942,
+        121
+      ],
+      "text_layer": "2=⋅=⋅cSa bay . (2.4)"
+    },
+    {
+      "file": "eq_p014_04.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        400.9,
+        532.6,
+        429.4
+      ],
+      "px": [
+        1942,
+        120
+      ],
+      "text_layer": "xzannnchnnnnсhS2кchкchкккк⋅⋅⋅⋅⋅=⋅⋅⋅⋅=⋅⋅=. (2.5)"
+    },
+    {
+      "file": "eq_p014_05.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        568.4,
+        532.6,
+        601.0
+      ],
+      "px": [
+        1942,
+        137
+      ],
+      "text_layer": "()324=⋅=++ πcccVSLa y xz. (2.6)"
+    },
+    {
+      "file": "eq_p014_06.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        625.1,
+        532.6,
+        657.9
+      ],
+      "px": [
+        1942,
+        138
+      ],
+      "text_layer": "()3212=⋅=⋅⋅⋅⋅⋅++πкккhcкcVSLnnnazxyn x. (2.7)"
+    },
+    {
+      "file": "eq_p014_07.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        685.1,
+        532.6,
+        734.0
+      ],
+      "px": [
+        1942,
+        205
+      ],
+      "text_layer": "()()()222422⎛⎞=+−⋅=+−⋅⎜⎟⎝⎠осНЗcкchaПbLhabLnh . (2.8)"
+    },
+    {
+      "file": "eq_p015_01.png",
+      "page": 15,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        461.9,
+        532.6,
+        526.8
+      ],
+      "px": [
+        1942,
+        271
+      ],
+      "text_layer": "()2240,5.окннннПDНDDНD= π⋅+ π= π+ Из рис. 1.1, в слудет"
+    },
+    {
+      "file": "eq_p016_01.png",
+      "page": 16,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        203.6,
+        79.1,
+        421.7,
+        749.8
+      ],
+      "px": [
+        910,
+        2151
+      ],
+      "text_layer": "осП ПЗ ()()2+−cabLh ()222⎛⎞+−⎜⎟⎝⎠cbaLh 0 где 21, 4=+Dca"
+    },
+    {
+      "file": "eq_p016_02.png",
+      "page": 16,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        203.6,
+        105.0,
+        421.7,
+        780.0
+      ],
+      "px": [
+        910,
+        2043
+      ],
+      "text_layer": "витков катушки кL22π⎛⎞++⋅⎜⎟⎝⎠кabс 22π⎛⎞++⋅⎜⎟⎝⎠кabс ()20,5++abс ()π+ac"
+    },
+    {
+      "file": "eq_p016_03.png",
+      "page": 16,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        203.6,
+        110.8,
+        421.7,
+        325.4
+      ],
+      "px": [
+        910,
+        895
+      ],
+      "text_layer": "0,3=квсс =ксс,"
+    },
+    {
+      "file": "eq_p016_04.png",
+      "page": 16,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        203.6,
+        127.4,
+        421.7,
+        768.2
+      ],
+      "px": [
+        910,
+        1949
+      ],
+      "text_layer": "окП ПЗ ()()22+−кchLb ()()2+−кchLb ()20,6=+нDac 0 Значения"
+    },
+    {
+      "file": "eq_p016_05.png",
+      "page": 16,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        203.6,
+        127.5,
+        421.7,
+        348.4
+      ],
+      "px": [
+        910,
+        921
+      ],
+      "text_layer": "где 0,6=+Нbc , 0"
+    },
+    {
+      "file": "eq_p016_06.png",
+      "page": 16,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        203.6,
+        218.6,
+        421.7,
+        765.2
+      ],
+      "px": [
+        910,
+        1569
+      ],
+      "text_layer": "катушек НЗ ()2+⋅ккксhL ()2 2+⋅ккксhL ()0,5π⋅+ннDDН ,"
+    },
+    {
+      "file": "eq_p016_07.png",
+      "page": 16,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        203.6,
+        245.6,
+        421.7,
+        482.9
+      ],
+      "px": [
+        910,
+        990
+      ],
+      "text_layer": "0,64=⋅окзккк 0,1=кнсс,"
+    },
+    {
+      "file": "eq_p016_08.png",
+      "page": 16,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        203.6,
+        359.5,
+        421.7,
+        627.9
+      ],
+      "px": [
+        910,
+        982
+      ],
+      "text_layer": "0,64=⋅окзккк 0,4=ксс, 0,8=кhh ,"
+    },
+    {
+      "file": "eq_p016_09.png",
+      "page": 16,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        203.6,
+        504.5,
+        421.7,
+        756.4
+      ],
+      "px": [
+        910,
+        378
+      ],
+      "text_layer": ",кc кh НЗ 0,8=ксс , 0,8=кhh ,"
+    },
+    {
+      "file": "eq_p017_01.png",
+      "page": 17,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        101.3,
+        532.4,
+        292.1
+      ],
+      "px": [
+        1941,
+        795
+      ],
+      "text_layer": "2 4= π⋅cSa — круглое; (2.11) сечение окна 2 4= πокSс — круглое; (2.13) сечение катушки с обмотками кккhcS⋅=, (2.14) где для тороида cкLh =, сcк2,0≈; объем катушек"
+    },
+    {
+      "file": "eq_p017_02.png",
+      "page": 17,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        273.0,
+        532.4,
+        434.5
+      ],
+      "px": [
+        1941,
+        674
+      ],
+      "text_layer": ",ккккnLSV⋅⋅= (2.15) где кn — число катушек; cccSLV⋅=, (2.16) для чашечных конструкций более точно будет аLLVкcc2,0⋅⋅=. (2.17) Всегда:"
+    },
+    {
+      "file": "eq_p017_03.png",
+      "page": 17,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        415.4,
+        532.4,
+        477.9
+      ],
+      "px": [
+        1941,
+        261
+      ],
+      "text_layer": ",кзкккgкVG⋅⋅= (2.18) ,сзсссgкVG⋅⋅= (2.19)"
+    },
+    {
+      "file": "eq_p018_01.png",
+      "page": 18,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        317.8,
+        587.5,
+        346.4
+      ],
+      "px": [
+        2170,
+        120
+      ],
+      "text_layer": "1014fBjSSnкккPокcокзсф⋅⋅⋅⋅⋅⋅⋅⋅=. (3.1)"
+    },
+    {
+      "file": "eq_p018_02.png",
+      "page": 18,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        360.6,
+        587.5,
+        420.5
+      ],
+      "px": [
+        2170,
+        250
+      ],
+      "text_layer": "кchзкокnnnкк⋅⋅⋅= — коэффициент заполнения окна магнито-провода сечениями проводников без изоляции; для тороидов"
+    },
+    {
+      "file": "eq_p019_01.png",
+      "page": 19,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        221.6,
+        560.3,
+        372.4
+      ],
+      "px": [
+        2057,
+        629
+      ],
+      "text_layer": "МЭ, у которых есть оптимум окs c SкS=. Значение оптимального значения sк для минимума объема, веса (массы), стоимости уста-новлены [2] и приведены в табл. П.7, а, б, в. г учебного пособия. Формула входной (габаритной) мощности позволяет заклю-чить, что при увеличении линейного размера а в т раз возможно-сти МЭ по мощности возрастут в 4m раза, так как yaSс⋅=2,"
+    },
+    {
+      "file": "eq_p019_02.png",
+      "page": 19,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        622.9,
+        560.3,
+        738.6
+      ],
+      "px": [
+        2057,
+        483
+      ],
+      "text_layer": "скРРРΔ+Δ=Δ, где кРΔ — потери мощности в активных сопротивлениях обмо-ток; сРΔ — потери мощности при намагничивании магнитопрово-да (на гистерезис и вихревые токи)."
+    },
+    {
+      "file": "eq_p020_01.png",
+      "page": 20,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        113.3,
+        532.6,
+        169.0
+      ],
+      "px": [
+        1942,
+        233
+      ],
+      "text_layer": "0,6111 0,21 оккокПБРП⎛⎞τ⋅σ⋅ν +Δ=+β⋅= τ⋅σ⋅⋅⎜⎟+ ν+νβ+ ν⎝⎠ . (3.2)"
+    },
+    {
+      "file": "eq_p020_02.png",
+      "page": 20,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        515.5,
+        532.6,
+        636.5
+      ],
+      "px": [
+        1942,
+        505
+      ],
+      "text_layer": "10σ = Вт/м2⋅град для естественного охдаждения, при обдуве вен-тилятором −σ = 30 Вт / м2⋅град). Выделим составляющую Б в формуле (3.1): 0,611 0,2Бν += +β+νβ , (3.3)"
+    },
+    {
+      "file": "eq_p021_01.png",
+      "page": 21,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        149.2,
+        532.6,
+        214.9
+      ],
+      "px": [
+        1942,
+        275
+      ],
+      "text_layer": "⎛⎞⎛⎞Δ≅ρ⋅⋅⋅⋅⎜⎟⎜⎟⎝⎠⎝⎠"
+    },
+    {
+      "file": "eq_p021_02.png",
+      "page": 21,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        620.2,
+        532.6,
+        680.0
+      ],
+      "px": [
+        1942,
+        250
+      ],
+      "text_layer": "ccP GconstΔ=."
+    },
+    {
+      "file": "eq_p022_01.png",
+      "page": 22,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        113.5,
+        532.6,
+        164.7
+      ],
+      "px": [
+        1942,
+        215
+      ],
+      "text_layer": "к ккзк PjVкΔ=⋅ρ ⋅, (3.5)"
+    },
+    {
+      "file": "eq_p022_02.png",
+      "page": 22,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        209.5,
+        532.6,
+        243.4
+      ],
+      "px": [
+        1942,
+        142
+      ],
+      "text_layer": "()20 1 0,004ккρ = ρ+τ , (3.6)"
+    },
+    {
+      "file": "eq_p022_03.png",
+      "page": 22,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        299.0,
+        532.6,
+        411.6
+      ],
+      "px": [
+        1942,
+        471
+      ],
+      "text_layer": "−ρ=⋅ Ом⋅м, для алюминия −ρ=⋅ Ом⋅м. Например, для 50τ =°С имеем ()881,75 1010,004 502,1 10к −−ρ =⋅+⋅=⋅ Ом⋅м — медь,"
+    },
+    {
+      "file": "eq_p023_01.png",
+      "page": 23,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        215.3,
+        532.6,
+        352.3
+      ],
+      "px": [
+        1942,
+        572
+      ],
+      "text_layer": "01,51010 с cс РВВ fGкfρ Δ= ⎛⎞⋅ρ⋅⋅⎜⎟⎝⎠ . (3.6) Фактические значения γ и 1γ см. в табл. П.15 Приложений. Если по (3.6) получается SBB >, то следует принимать"
+    },
+    {
+      "file": "eq_p024_01.png",
+      "page": 24,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        357.5,
+        532.6,
+        405.8
+      ],
+      "px": [
+        1941,
+        202
+      ],
+      "text_layer": "11 cddФdBеWW Sdtdtdtψ= −= −⋅= −⋅, (4.1)"
+    },
+    {
+      "file": "eq_p024_02.png",
+      "page": 24,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        546.7,
+        532.6,
+        664.5
+      ],
+      "px": [
+        1941,
+        492
+      ],
+      "text_layer": "∫∫=⋅L S IdSdlH и определяет напряженность магнитного поля H как функцию полного тока: ciiHLi w= ∑, (4.2)"
+    },
+    {
+      "file": "eq_p025_01.png",
+      "page": 25,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        129.4,
+        532.6,
+        158.2
+      ],
+      "px": [
+        1941,
+        121
+      ],
+      "text_layer": "0аВНН= μ= μ⋅μ, (4.3)"
+    },
+    {
+      "file": "eq_p025_02.png",
+      "page": 25,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        281.7,
+        532.6,
+        363.4
+      ],
+      "px": [
+        1941,
+        342
+      ],
+      "text_layer": "0/аμ = μμ . мсВ⋅⋅=]. Установлено, что 70410−μ = π⋅[Гн / м А"
+    },
+    {
+      "file": "eq_p030_01.png",
+      "page": 30,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        205.1,
+        532.6,
+        373.8
+      ],
+      "px": [
+        1941,
+        704
+      ],
+      "text_layer": "Генри (Гн А мсВ2⋅⋅=), является главным параметром дросселя, ради которого этот дроссель и выполняется. Различают дроссели постоянного и переменного тока. Пер-вые включаются в цепях постоянного тока с целью подавления переменных составляющих этого тока. Вторые используют в це-пях переменного тока, как индуктивное сопротивление 2LXLf L= ω= π⋅⋅,"
+    },
+    {
+      "file": "eq_p031_01.png",
+      "page": 31,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        92.7,
+        532.6,
+        142.7
+      ],
+      "px": [
+        1941,
+        209
+      ],
+      "text_layer": "22cLhca π⎛⎞=+ +⋅⎜⎟⎝⎠ ,"
+    },
+    {
+      "file": "eq_p031_02.png",
+      "page": 31,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        147.7,
+        532.6,
+        176.3
+      ],
+      "px": [
+        1941,
+        120
+      ],
+      "text_layer": "зсcKbaS⋅⋅=,"
+    },
+    {
+      "file": "eq_p031_03.png",
+      "page": 31,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        605.0,
+        532.6,
+        652.8
+      ],
+      "px": [
+        1941,
+        201
+      ],
+      "text_layer": "S c aa a BHμ ="
+    },
+    {
+      "file": "eq_p032_01.png",
+      "page": 32,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        66.9,
+        532.6,
+        171.2
+      ],
+      "px": [
+        1941,
+        436
+      ],
+      "text_layer": "В магнитопроводе часто делают немагнитный зазор δ, га-рантирующий линейную зависимость магнитной проницаемости aμ дросселя от тока в его обмотке и напряженности Н (см. рис. 6.2), L=0 очень важно для формулы (6.6)."
+    },
+    {
+      "file": "eq_p032_02.png",
+      "page": 32,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        226.1,
+        532.6,
+        250.3
+      ],
+      "px": [
+        1941,
+        102
+      ],
+      "text_layer": "0δ =0δ >"
+    },
+    {
+      "file": "eq_p032_03.png",
+      "page": 32,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        306.3,
+        532.6,
+        352.4
+      ],
+      "px": [
+        1941,
+        193
+      ],
+      "text_layer": "11c I WHl ⋅=22c IWHl ⋅="
+    },
+    {
+      "file": "eq_p032_04.png",
+      "page": 32,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        398.1,
+        532.6,
+        547.7
+      ],
+      "px": [
+        1941,
+        625
+      ],
+      "text_layer": "Получается, что при 21II\u0015 (21HH\u0015) значение a BHμ = ос- тается линейной, хотя при увеличении I и, соответственно, Н, aμ уменьшается. Протекающий в обмотке ток создает магнитодвижущую F силу (МДС) и напряженность магнитного поля Н: ciWHLHδ=+⋅δ. (6.1)"
+    },
+    {
+      "file": "eq_p032_05.png",
+      "page": 32,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        631.1,
+        532.6,
+        724.7
+      ],
+      "px": [
+        1941,
+        391
+      ],
+      "text_layer": "cB SWФ WLiii⋅⋅ψ⋅===. (6.2) В формуле (6.2) для тока всегда берут его среднее значение .срIi ="
+    },
+    {
+      "file": "eq_p033_01.png",
+      "page": 33,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        351.4,
+        66.9,
+        532.6,
+        95.5
+      ],
+      "px": [
+        756,
+        121
+      ],
+      "text_layer": "ciWHLHδ=+⋅δ, (6.3)"
+    },
+    {
+      "file": "eq_p034_01.png",
+      "page": 34,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        401.9,
+        532.6,
+        450.8
+      ],
+      "px": [
+        1941,
+        205
+      ],
+      "text_layer": "2022 50203,1410022c aLhc⎛⎞⎛⎞=++ π=++⋅≈⎜⎟⎜⎟⎝⎠⎝⎠ мм = 0,1 м;"
+    },
+    {
+      "file": "eq_p034_02.png",
+      "page": 34,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        475.7,
+        532.6,
+        598.8
+      ],
+      "px": [
+        1941,
+        514
+      ],
+      "text_layer": "5409,03020 с=⋅⋅=⋅⋅=зcKbaS мм2 = 0,54⋅10–3 м2, где взято 9,0 с =зK, что соответствует толщине магнитопроводов (0,2÷0,15) мм; сечение окна магнитопровода 10002050=⋅=⋅=chSок мм2."
+    },
+    {
+      "file": "eq_p034_03.png",
+      "page": 34,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        666.8,
+        532.6,
+        701.1
+      ],
+      "px": [
+        1941,
+        144
+      ],
+      "text_layer": "8,05,22===jISпр мм2."
+    },
+    {
+      "file": "eq_p035_01.png",
+      "page": 35,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        68.7,
+        536.5,
+        225.3
+      ],
+      "px": [
+        1958,
+        653
+      ],
+      "text_layer": "3. Число витков, которое может быть в окне магнитопровода 1000=окS мм2 при полном его заполнении проводниками сече-нием 8,0=прS мм2: 4378,035,01000.=⋅=⋅= пр окзок S KSW вит. 4. Возможная величина индуктивности дросселя при воздушном зазоре в магнитопроводе 31 мм10−δ ==м (обычно 0,55δ =÷ мм)."
+    },
+    {
+      "file": "eq_p035_02.png",
+      "page": 35,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        227.2,
+        536.5,
+        281.9
+      ],
+      "px": [
+        1958,
+        229
+      ],
+      "text_layer": "232 64630,54 104370,10,8 100,1 5 100,8 1010 c ca SWL L − −−⋅⋅⋅==≅μ +⋅δ⋅+⋅⋅ Гн."
+    },
+    {
+      "file": "eq_p036_01.png",
+      "page": 36,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        456.7,
+        532.6,
+        485.3
+      ],
+      "px": [
+        1942,
+        121
+      ],
+      "text_layer": "ddсрWIWI⋅=⋅11, (7.1)"
+    },
+    {
+      "file": "eq_p036_02.png",
+      "page": 36,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        643.1,
+        532.6,
+        734.7
+      ],
+      "px": [
+        1942,
+        383
+      ],
+      "text_layer": "индуктивным их сопротивлением ДОX при магнитной проницае- мости насыщенного ДН 0aμ = μ . На рис. 7.1, б показана схема замещения одной фазы ДН любого типоисполнения. Здесь обозначено: ДХ — индуктивное"
+    },
+    {
+      "file": "eq_p037_01.png",
+      "page": 37,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        115.1,
+        532.6,
+        163.4
+      ],
+      "px": [
+        1941,
+        202
+      ],
+      "text_layer": "⎛⋅+="
+    },
+    {
+      "file": "eq_p037_02.png",
+      "page": 37,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        505.7,
+        532.6,
+        557.4
+      ],
+      "px": [
+        1941,
+        216
+      ],
+      "text_layer": "ннIUR ="
+    },
+    {
+      "file": "eq_p037_03.png",
+      "page": 37,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        605.2,
+        532.6,
+        645.1
+      ],
+      "px": [
+        1941,
+        167
+      ],
+      "text_layer": "I d = 0 Rн = 0"
+    },
+    {
+      "file": "eq_p038_01.png",
+      "page": 38,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        126.2,
+        532.6,
+        185.8
+      ],
+      "px": [
+        1941,
+        250
+      ],
+      "text_layer": "11WWIIdd ⋅=. (7.2)"
+    },
+    {
+      "file": "eq_p039_01.png",
+      "page": 39,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        559.9,
+        532.6,
+        598.7
+      ],
+      "px": [
+        1941,
+        163
+      ],
+      "text_layer": "I y = 0"
+    },
+    {
+      "file": "eq_p043_01.png",
+      "page": 43,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        248.1,
+        532.6,
+        276.8
+      ],
+      "px": [
+        1942,
+        121
+      ],
+      "text_layer": "11sin muut=⋅ω ."
+    },
+    {
+      "file": "eq_p043_02.png",
+      "page": 43,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        304.2,
+        532.6,
+        420.1
+      ],
+      "px": [
+        1942,
+        484
+      ],
+      "text_layer": "111sin cos mm uudtut dttψ =⋅=⋅ω ⋅= −⋅ωω∫∫. (10.1) Поскольку 11cW ФW SBψ ==⋅⋅, то 1 1cos cos m muФtФtW= −⋅ω= −⋅ω⋅ω, (10.2)"
+    },
+    {
+      "file": "eq_p043_03.png",
+      "page": 43,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        416.3,
+        532.6,
+        547.7
+      ],
+      "px": [
+        1942,
+        548
+      ],
+      "text_layer": "1 1cos cos m mc uBtBtW S= −⋅ω= −⋅ω⋅ω. (10.3) Здесь 12 fω = π , ψ — потокосцепление магнитного потока с витком катушки, mФ , mB — амплитудные (максимальные) значения потока и индукции соответственно."
+    },
+    {
+      "file": "eq_p043_04.png",
+      "page": 43,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        554.6,
+        532.6,
+        703.2
+      ],
+      "px": [
+        1942,
+        620
+      ],
+      "text_layer": "+Вт −Вт 0 2π π 32 π tω В −Н о +Н о Н ( )В t ( )Ut1"
+    },
+    {
+      "file": "eq_p044_01.png",
+      "page": 44,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        186.2,
+        560.3,
+        234.1
+      ],
+      "px": [
+        2057,
+        201
+      ],
+      "text_layer": "LHIcoom =, (10.4)"
+    },
+    {
+      "file": "eq_p044_02.png",
+      "page": 44,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        425.2,
+        560.3,
+        485.5
+      ],
+      "px": [
+        2057,
+        252
+      ],
+      "text_layer": "iiicddФdBeWW Sdtdtdtψ= −= −= −⋅⋅, (10.5)"
+    },
+    {
+      "file": "eq_p044_03.png",
+      "page": 44,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        614.6,
+        560.3,
+        765.4
+      ],
+      "px": [
+        2057,
+        629
+      ],
+      "text_layer": "===332211WeWeWe . . . ii We=, (10.7) Ti iiiK uWWuWWee1 1111=≅⋅=, (10.8) где iTiWWK1=. (10.9) TiK — коэффициент трансформации напряжения первичной обмотки в i-ю вторичную."
+    },
+    {
+      "file": "eq_p045_01.png",
+      "page": 45,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        317.8,
+        532.6,
+        347.5
+      ],
+      "px": [
+        1942,
+        124
+      ],
+      "text_layer": "21 WWKT =. (10.10)"
+    },
+    {
+      "file": "eq_p045_02.png",
+      "page": 45,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        477.2,
+        532.6,
+        598.9
+      ],
+      "px": [
+        1942,
+        508
+      ],
+      "text_layer": "1102211WiiWWi⋅=⋅−⋅. (10.11) Всегда обеспечивается constФФФ=−=21, если constu =1. Из формулы (10.11) следует при 100i\u0011:"
+    },
+    {
+      "file": "eq_p046_01.png",
+      "page": 46,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        176.7,
+        540.5,
+        224.8
+      ],
+      "px": [
+        1975,
+        201
+      ],
+      "text_layer": "23 кiкiSioiкi cLLWh= μ⋅⋅, [Гн], (10.13)"
+    },
+    {
+      "file": "eq_p046_02.png",
+      "page": 46,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        345.7,
+        540.5,
+        374.4
+      ],
+      "px": [
+        1975,
+        121
+      ],
+      "text_layer": "12SiSiSiXLfL= ω= π ⋅, (10.14)"
+    },
+    {
+      "file": "eq_p046_03.png",
+      "page": 46,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        514.6,
+        540.5,
+        543.5
+      ],
+      "px": [
+        1975,
+        121
+      ],
+      "text_layer": "2222123...,nXXXXX=++++"
+    },
+    {
+      "file": "eq_p046_04.png",
+      "page": 46,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        692.1,
+        540.5,
+        738.1
+      ],
+      "px": [
+        1975,
+        193
+      ],
+      "text_layer": "01111=−=−dtdФWueu."
+    },
+    {
+      "file": "eq_p047_01.png",
+      "page": 47,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        133.2,
+        532.6,
+        181.2
+      ],
+      "px": [
+        1942,
+        201
+      ],
+      "text_layer": "12 12w eenWW=== . . . i iW e=."
+    },
+    {
+      "file": "eq_p047_02.png",
+      "page": 47,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        228.9,
+        532.6,
+        277.1
+      ],
+      "px": [
+        1942,
+        202
+      ],
+      "text_layer": "1211 ii Ti WUeuWK=⋅=,"
+    },
+    {
+      "file": "eq_p047_03.png",
+      "page": 47,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        307.5,
+        532.6,
+        354.5
+      ],
+      "px": [
+        1942,
+        197
+      ],
+      "text_layer": "iTiWWK1=."
+    },
+    {
+      "file": "eq_p047_04.png",
+      "page": 47,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        514.3,
+        532.6,
+        542.9
+      ],
+      "px": [
+        1942,
+        121
+      ],
+      "text_layer": "++=332211WiWiWi . . . 110WiWiii++."
+    },
+    {
+      "file": "eq_p047_05.png",
+      "page": 47,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        605.9,
+        532.6,
+        638.8
+      ],
+      "px": [
+        1942,
+        138
+      ],
+      "text_layer": "102iiTiiiiK=+∑,"
+    },
+    {
+      "file": "eq_p047_06.png",
+      "page": 47,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        707.3,
+        532.6,
+        754.4
+      ],
+      "px": [
+        1942,
+        197
+      ],
+      "text_layer": "1 22101WWiii⋅+=."
+    },
+    {
+      "file": "eq_p048_01.png",
+      "page": 48,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        112.0,
+        532.6,
+        140.8
+      ],
+      "px": [
+        1942,
+        121
+      ],
+      "text_layer": "111PI U= [А⋅В]."
+    },
+    {
+      "file": "eq_p048_02.png",
+      "page": 48,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        269.7,
+        532.6,
+        298.3
+      ],
+      "px": [
+        1942,
+        121
+      ],
+      "text_layer": "2211WiWi=."
+    },
+    {
+      "file": "eq_p048_03.png",
+      "page": 48,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        321.5,
+        532.6,
+        351.2
+      ],
+      "px": [
+        1942,
+        125
+      ],
+      "text_layer": "TKii⋅= 12, при 21 WWKT =."
+    },
+    {
+      "file": "eq_p048_04.png",
+      "page": 48,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        515.1,
+        532.6,
+        562.2
+      ],
+      "px": [
+        1942,
+        197
+      ],
+      "text_layer": "ннRW WiRiu⋅⋅=⋅= 2 1122."
+    },
+    {
+      "file": "eq_p049_01.png",
+      "page": 49,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        148.2,
+        532.6,
+        201.1
+      ],
+      "px": [
+        1942,
+        222
+      ],
+      "text_layer": "∫= T dteTE 0 21, ∫⋅= T dtuTU 0 21, ∫⋅= T dtiTI 0 21,"
+    },
+    {
+      "file": "eq_p049_02.png",
+      "page": 49,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        362.2,
+        532.6,
+        415.0
+      ],
+      "px": [
+        1942,
+        221
+      ],
+      "text_layer": "2 0 2 0 211RIdtiTRdtRiTP TT =⋅=⋅⋅=∫∫."
+    },
+    {
+      "file": "eq_p049_03.png",
+      "page": 49,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        556.0,
+        532.6,
+        600.1
+      ],
+      "px": [
+        1942,
+        185
+      ],
+      "text_layer": "dgdMidgdMiiF⋅=⋅⋅=221,"
+    },
+    {
+      "file": "eq_p049_04.png",
+      "page": 49,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        674.9,
+        532.6,
+        727.7
+      ],
+      "px": [
+        1942,
+        221
+      ],
+      "text_layer": "dtdMIdtdMiTdtFTF TT ср⋅=⋅=⋅=∫∫ 2 0 2 0 11 ,"
+    },
+    {
+      "file": "eq_p050_01.png",
+      "page": 50,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        173.2,
+        532.6,
+        217.6
+      ],
+      "px": [
+        1942,
+        186
+      ],
+      "text_layer": "dg dcuFc ⋅=221."
+    },
+    {
+      "file": "eq_p050_02.png",
+      "page": 50,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        265.0,
+        532.6,
+        317.8
+      ],
+      "px": [
+        1942,
+        221
+      ],
+      "text_layer": "dg dcUdtudtdcTdtFTFc T c T cp⋅=⋅⋅=⋅=∫∫ 2 0 2 021211."
+    },
+    {
+      "file": "eq_p050_03.png",
+      "page": 50,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        483.1,
+        532.6,
+        511.7
+      ],
+      "px": [
+        1942,
+        120
+      ],
+      "text_layer": "2meE =, 2muU =, 2miI =."
+    },
+    {
+      "file": "eq_p050_04.png",
+      "page": 50,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        552.5,
+        532.6,
+        596.8
+      ],
+      "px": [
+        1942,
+        185
+      ],
+      "text_layer": "2срmUu=π, 2 срmIi=⋅π и т.д."
+    },
+    {
+      "file": "eq_p050_05.png",
+      "page": 50,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        647.5,
+        532.6,
+        694.5
+      ],
+      "px": [
+        1942,
+        197
+      ],
+      "text_layer": "срсрсрфI IU UЕЕк===. . ."
+    },
+    {
+      "file": "eq_p050_06.png",
+      "page": 50,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        721.5,
+        532.6,
+        748.1
+      ],
+      "px": [
+        1942,
+        112
+      ],
+      "text_layer": "форм фк = 1."
+    },
+    {
+      "file": "eq_p051_01.png",
+      "page": 51,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        165.2,
+        532.6,
+        255.5
+      ],
+      "px": [
+        1942,
+        377
+      ],
+      "text_layer": "() 22 00 222 2 m m TT срmmdЕe dtdtdfТTdtT ψ −ψ ψ⎛⎞=⋅=−= −ψ =ψ+ ψ=⎜⎟⎝⎠∫∫∫ 44mmff W S B=⋅ψ=⋅⋅⋅."
+    },
+    {
+      "file": "eq_p051_02.png",
+      "page": 51,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        281.3,
+        532.6,
+        310.1
+      ],
+      "px": [
+        1942,
+        121
+      ],
+      "text_layer": "4фсрфmЕкЕкf W S B=⋅=⋅⋅⋅⋅. (10.14, а)"
+    },
+    {
+      "file": "eq_p051_03.png",
+      "page": 51,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        419.7,
+        532.6,
+        468.5
+      ],
+      "px": [
+        1942,
+        204
+      ],
+      "text_layer": "2 mэф uu=; 1,11 эфср uu=."
+    },
+    {
+      "file": "eq_p052_01.png",
+      "page": 52,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        129.8,
+        532.6,
+        200.8
+      ],
+      "px": [
+        1942,
+        296
+      ],
+      "text_layer": "U1 ′ =EE21 R μ X μC n ′Z н ′U2"
+    },
+    {
+      "file": "eq_p053_01.png",
+      "page": 53,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        321.3,
+        532.6,
+        350.9
+      ],
+      "px": [
+        1942,
+        125
+      ],
+      "text_layer": "222TKRR⋅=′, 222TSSKXX⋅=′, 2T’’KZZ⋅=′. (10.15)"
+    },
+    {
+      "file": "eq_p053_02.png",
+      "page": 53,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        407.1,
+        532.6,
+        437.6
+      ],
+      "px": [
+        1942,
+        128
+      ],
+      "text_layer": "TKUU⋅=′22, TKII22 =′. (10.16)"
+    },
+    {
+      "file": "eq_p053_03.png",
+      "page": 53,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        630.7,
+        532.6,
+        684.5
+      ],
+      "px": [
+        1942,
+        226
+      ],
+      "text_layer": "1111 2222 , . KKn KKn RLW S RLWS = ρ ⋅⋅⎫⎬= ρ ⋅⋅⎭ (10.17)"
+    },
+    {
+      "file": "eq_p054_01.png",
+      "page": 54,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        189.1,
+        532.6,
+        271.6
+      ],
+      "px": [
+        1942,
+        345
+      ],
+      "text_layer": "Материал Удельный вес gK кρ , Ом⋅мм2/м при tк град. обмоток г / см 3 20°С 70°С 90°С 120°С"
+    },
+    {
+      "file": "eq_p054_02.png",
+      "page": 54,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        369.6,
+        532.6,
+        448.9
+      ],
+      "px": [
+        1942,
+        331
+      ],
+      "text_layer": "21120 12 , [ Гн ]3 0,5 кssssкк sss сWLLLLLh LLL ⎫⋅′=+= μ⋅⎪⎬⎪′==⎭ , (10.18)"
+    },
+    {
+      "file": "eq_p054_03.png",
+      "page": 54,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        605.0,
+        532.6,
+        658.9
+      ],
+      "px": [
+        1942,
+        226
+      ],
+      "text_layer": "1 12 2 0,5 ss sss XfLXXX= π ⋅⎫⎬′==⎭ . (10.19)"
+    },
+    {
+      "file": "eq_p055_01.png",
+      "page": 55,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        335.3,
+        584.0,
+        532.3,
+        643.0
+      ],
+      "px": [
+        823,
+        247
+      ],
+      "text_layer": "11002ссс fBPкGBf γγ ρ ⎛⎞⎛⎞Δ= ρ⋅⋅⋅⋅⎜⎟⎜⎟⎝⎠⎝⎠ ."
+    },
+    {
+      "file": "eq_p055_02.png",
+      "page": 55,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        335.3,
+        648.6,
+        532.3,
+        677.4
+      ],
+      "px": [
+        823,
+        121
+      ],
+      "text_layer": "0102XfL= π ⋅. (10.23)"
+    },
+    {
+      "file": "eq_p056_01.png",
+      "page": 56,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        69.5,
+        532.6,
+        122.2
+      ],
+      "px": [
+        1942,
+        221
+      ],
+      "text_layer": "21022 10 Ca Ca SWL L ⋅⋅μ= + ⋅⋅μ . (10.24)"
+    },
+    {
+      "file": "eq_p056_02.png",
+      "page": 56,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        129.1,
+        532.6,
+        284.2
+      ],
+      "px": [
+        1942,
+        648
+      ],
+      "text_layer": "Пример расчета параметров Xμ , Rμ . Однофазный трансформатор выполнен на магнитопроводе ПЛ-образного типа (рис. 10.2), имеющем данные: сталь электротехническая марки 3422 с толщиной ленты 0,15 мм и коэффициентом заполнения активным материалом зск = = 0,9; магнитной проницаемостью 45 10а −μ = ⋅ Гн/м, удельными потерями мощности 14сcoкρρ =⋅ρ= Вт/кг при 110 =fкГц,"
+    },
+    {
+      "file": "eq_p056_03.png",
+      "page": 56,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        469.1,
+        532.6,
+        550.3
+      ],
+      "px": [
+        1942,
+        339
+      ],
+      "text_layer": "232 м1054,0 мм 5409,03020−⋅==⋅⋅=⋅⋅=зсcкbaS, 2022 60203,140,223 м22c aLhcπ⎛⎞⎛⎞=++=++⋅≈⎜⎟⎜⎟⎝⎠⎝⎠ ."
+    },
+    {
+      "file": "eq_p056_04.png",
+      "page": 56,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        574.5,
+        532.6,
+        603.0
+      ],
+      "px": [
+        1942,
+        120
+      ],
+      "text_layer": "92,0г 92165,73,224,5≅=⋅⋅=⋅⋅=cccgLSGкг."
+    },
+    {
+      "file": "eq_p056_05.png",
+      "page": 56,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        629.0,
+        532.6,
+        688.0
+      ],
+      "px": [
+        1942,
+        247
+      ],
+      "text_layer": "221,61 00 1,50,414 0,9226,70,51cc fBPG Bf γ⎛⎞⎛⎞⎛⎞⎛⎞Δ= ρ ⋅⋅=⋅⋅⋅≅⎜⎟⎜⎟⎜⎟⎜⎟⎝⎠⎝⎠⎝⎠⎝⎠ Вт."
+    },
+    {
+      "file": "eq_p056_06.png",
+      "page": 56,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        716.3,
+        532.6,
+        760.7
+      ],
+      "px": [
+        1942,
+        186
+      ],
+      "text_layer": "18237,262202210==Δ= cPUR Ом,"
+    },
+    {
+      "file": "eq_p057_01.png",
+      "page": 57,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        67.6,
+        536.5,
+        182.3
+      ],
+      "px": [
+        1958,
+        479
+      ],
+      "text_layer": "22210241,08 103,35 100,2230,12 105 10 ca c SWL L − −−⋅⋅μ⋅==≅⋅++ ⋅⋅⋅ Гн, 201 026,28 400 3,35 1084Xf L−= π=⋅⋅⋅≅ Ом. 5. Значения Xμ , Rμ :"
+    },
+    {
+      "file": "eq_p057_02.png",
+      "page": 57,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        185.1,
+        536.5,
+        371.8
+      ],
+      "px": [
+        1958,
+        779
+      ],
+      "text_layer": "2260022262600 1,821084841,82100,08410RXX RXμ ⋅=⋅=⋅=+⋅+⋅ Ом, 2260022262600 0,0841018231,82100,08410XRR RXμ ⋅=⋅=⋅≅+⋅+⋅ 487,382,1 084,01823 2≅=⎟⎠ ⎞⎜⎝ ⎛⋅≅ Ом. Обычно Xμ > 4Rμ, тогда 1 1 16ZXXμμμ=+≅, поэтому ве-"
+    },
+    {
+      "file": "eq_p057_03.png",
+      "page": 57,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        436.6,
+        536.5,
+        559.4
+      ],
+      "px": [
+        1958,
+        512
+      ],
+      "text_layer": "Выполняется с учетом установленных фактов, что всегда 21RR′+ << Rμ , SSXX21′+ << Xμ , 10I<< 1номI. Поэтому можно считать: 1. Ток холостого хода 111022.UUIRXRμμμ= + \u0011"
+    },
+    {
+      "file": "eq_p057_04.png",
+      "page": 57,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        603.4,
+        536.5,
+        696.7
+      ],
+      "px": [
+        1958,
+        389
+      ],
+      "text_layer": "()2212121RRX UII ккзкз′++=′=, (10.26) где 1212кSSSXXXfX′=+= π ⋅ (известно), XS по (10.19). 3. Ток нагрузки"
+    },
+    {
+      "file": "eq_p058_01.png",
+      "page": 58,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        65.9,
+        532.6,
+        199.4
+      ],
+      "px": [
+        1942,
+        557
+      ],
+      "text_layer": "TKII⋅′=22, (10.28) где 2 2 cos sin1 cos ннн нн’нн ннT RZ XZZ ZZK ′′=⋅ϕ⎫⎪⎪′′′=⋅ϕ =−ϕ ⎬ ⎪′ =⋅⎪⎭ . (10.29)"
+    },
+    {
+      "file": "eq_p058_02.png",
+      "page": 58,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        244.8,
+        532.6,
+        302.5
+      ],
+      "px": [
+        1942,
+        241
+      ],
+      "text_layer": "212SZIUU⋅′−≅′, (10.30) при ()2212RRXZSS′++="
+    },
+    {
+      "file": "eq_p058_03.png",
+      "page": 58,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        452.1,
+        532.6,
+        603.2
+      ],
+      "px": [
+        1942,
+        631
+      ],
+      "text_layer": "Эти частоты нужно знать и не допускать, чтобы фактическая частота работы трансформатора была близкой к резонансным. Если рабочая частота трансформатора 1f равна резонансной частоте силового контура fрн (резонанс напряжений) схемы за-мещения, то csxx = и через обмотки будет протекать очень большой ток ()21121RRUII′+=′=."
+    },
+    {
+      "file": "eq_p058_04.png",
+      "page": 58,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        675.0,
+        532.6,
+        727.1
+      ],
+      "px": [
+        1942,
+        218
+      ],
+      "text_layer": "110UIRμ= вместо 11022UI XRμμ= + ."
+    },
+    {
+      "file": "eq_p059_01.png",
+      "page": 59,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        133.1,
+        532.6,
+        180.6
+      ],
+      "px": [
+        1941,
+        199
+      ],
+      "text_layer": "csXX =, 122Sрн nрнLfC fπ⋅=π,"
+    },
+    {
+      "file": "eq_p059_02.png",
+      "page": 59,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        244.7,
+        532.6,
+        292.9
+      ],
+      "px": [
+        1941,
+        202
+      ],
+      "text_layer": "Здесь sL определяется по (10.18) или 12 ss XLf=π, если задано sX ."
+    },
+    {
+      "file": "eq_p059_03.png",
+      "page": 59,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        339.0,
+        532.6,
+        387.6
+      ],
+      "px": [
+        1941,
+        204
+      ],
+      "text_layer": "112 22cрxрxрxпnXXL fffCL Cμμ μ=→π=→=ππ , (10.33)"
+    },
+    {
+      "file": "eq_p059_04.png",
+      "page": 59,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        403.3,
+        532.6,
+        453.4
+      ],
+      "px": [
+        1941,
+        210
+      ],
+      "text_layer": "Всегда рнf >> рхf, так как рн рхs fL fL μ=, где Lμ >> sL ."
+    },
+    {
+      "file": "eq_p059_05.png",
+      "page": 59,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        649.2,
+        532.6,
+        765.7
+      ],
+      "px": [
+        1941,
+        486
+      ],
+      "text_layer": "xx LTR μ μ=, (10.34) 12 XLf μμ =π. (10.35) Постоянная времени включения с нагрузкой"
+    },
+    {
+      "file": "eq_p060_01.png",
+      "page": 60,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        65.7,
+        532.6,
+        118.2
+      ],
+      "px": [
+        1942,
+        220
+      ],
+      "text_layer": "121 12 sнн н XXTRRRf′+=⋅′′++π, (10.36)"
+    },
+    {
+      "file": "eq_p060_02.png",
+      "page": 60,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        507.9,
+        532.6,
+        557.8
+      ],
+      "px": [
+        1942,
+        209
+      ],
+      "text_layer": "1.cWSBUdtψ =⋅⋅= ∫ (10.39)"
+    },
+    {
+      "file": "eq_p060_03.png",
+      "page": 60,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        604.2,
+        532.6,
+        746.0
+      ],
+      "px": [
+        1942,
+        592
+      ],
+      "text_layer": "1. c UBtWS=⋅⋅ (10.40) Здесь U — максимальное значение импульса; t — длитель-ность импульса U. Для прямоугольных значений U индукция В всегда изменя-ется линейно (см. рис. 10.6, а, б, в, ж), для других случаев она имеет сложные формы, которые апроксимируются."
+    },
+    {
+      "file": "eq_p061_01.png",
+      "page": 61,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        482.0,
+        532.6,
+        507.8
+      ],
+      "px": [
+        1941,
+        108
+      ],
+      "text_layer": "UsBB="
+    },
+    {
+      "file": "eq_p067_01.png",
+      "page": 67,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        61.1,
+        532.6,
+        121.0
+      ],
+      "px": [
+        1941,
+        251
+      ],
+      "text_layer": "⋅=, ос ППβ =, обеспечивающие МЭ минимум ве-"
+    },
+    {
+      "file": "eq_p072_01.png",
+      "page": 72,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        418.8,
+        536.5,
+        472.5
+      ],
+      "px": [
+        1958,
+        225
+      ],
+      "text_layer": "80301,57,25010 nnохп eeосе ПП⎛⎞τ =σ =⋅⋅==⎜⎟τ =σ =⎝⎠ ."
+    },
+    {
+      "file": "eq_p073_01.png",
+      "page": 73,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        509.4,
+        544.5,
+        530.8
+      ],
+      "px": [
+        1991,
+        90
+      ],
+      "text_layer": "ПараметрΔс кзс gс ρсо кρ f10 B0 f1 γ γ1 BS μa"
+    },
+    {
+      "file": "eq_p074_01.png",
+      "page": 74,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        95.6,
+        544.4,
+        162.7
+      ],
+      "px": [
+        1991,
+        281
+      ],
+      "text_layer": "Мате- Форма Класс Вид кзк gк ρк τ σ риал сечения изоля- ции охлаждения– г/см3 О м мм м ⋅2°С Вт мг рад2 ⋅"
+    },
+    {
+      "file": "eq_p074_02.png",
+      "page": 74,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        448.5,
+        544.4,
+        604.2
+      ],
+      "px": [
+        1991,
+        650
+      ],
+      "text_layer": "()⎟⎟⎠ ⎞⎜⎜⎝ ⎛ ⋅⋅−+= c hclynzyN1212, () ynznxNhcк 12⋅⋅+⋅=, где 24clzxy π⎛⎞=++⎜⎟⎝⎠ ,"
+    },
+    {
+      "file": "eq_p074_03.png",
+      "page": 74,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        608.0,
+        544.4,
+        760.7
+      ],
+      "px": [
+        1991,
+        637
+      ],
+      "text_layer": "212 cк nlyxy ⎛⎞=++ π⋅⋅⎜⎟⎝⎠ , осcc оккк ПNlПNl⋅β ==⋅, 0,611 0,2Б+ ν= +β+βν , среднерасчетно 1ν = ."
+    },
+    {
+      "file": "eq_p075_01.png",
+      "page": 75,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        228.3,
+        532.6,
+        292.5
+      ],
+      "px": [
+        1942,
+        268
+      ],
+      "text_layer": "UIРU I⋅==ϕ⋅η∑, (11.2)"
+    },
+    {
+      "file": "eq_p075_02.png",
+      "page": 75,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        334.1,
+        532.6,
+        393.0
+      ],
+      "px": [
+        1942,
+        247
+      ],
+      "text_layer": "КПД трансформатора, принимают cos0,95ϕ = η =. Для магнитных усилителей и дросселей насыщения:"
+    },
+    {
+      "file": "eq_p075_03.png",
+      "page": 75,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        582.0,
+        532.6,
+        735.3
+      ],
+      "px": [
+        1942,
+        639
+      ],
+      "text_layer": "()()722721211oВcjкSpBBMNMNKMPfγ−∗=⋅⋅⋅⋅⋅⋅, (11.5) где 1011fff=∗ — относительное значение частоты 1f ; 1B cocзс БMкgкρ τ⋅σ⋅ν=⋅ρ⋅⋅⋅+ ν , [м], (11.6) среднерасчетно берут 1ν = ;"
+    },
+    {
+      "file": "eq_p077_01.png",
+      "page": 77,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        92.7,
+        532.6,
+        283.4
+      ],
+      "px": [
+        1942,
+        795
+      ],
+      "text_layer": "нужно расщиплять (см. примеры в разделе 13). 6. Число вольт на 1 виток, индуцируемое в магнитопрово-де: []1 0, В витcw ок Mр SB funк ∗∗⋅⋅=⋅. (11.12) 7. Линейные размеры магнитопровода: ySac=, aSbc=, xac⋅=, zah⋅=, (11.13)"
+    },
+    {
+      "file": "eq_p077_02.png",
+      "page": 77,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        416.8,
+        532.6,
+        517.7
+      ],
+      "px": [
+        1942,
+        422
+      ],
+      "text_layer": "⋅=⋅⋅ — прямоугольные сечения cS ; ch⋅=⋅ — круглые сечения cS ;"
+    },
+    {
+      "file": "eq_p077_03.png",
+      "page": 77,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        576.3,
+        532.6,
+        767.7
+      ],
+      "px": [
+        1942,
+        798
+      ],
+      "text_layer": "2 2 2 2 ф фa c ac= — тороиды с круглым cS . В методическом пособии параметры серийных стандартных магнитопроводов приведены в Приложениях. Если значения a, b, c, h стандартного магнитопровода, вы-бранного по справочной литературе после определения расчет-ных величин по (11.13), отличаются на ±20%, то нужно опреде-лить фактическую величину сечения ффсфbaS⋅= — прямоульные формы, (11.14)"
+    },
+    {
+      "file": "eq_p078_01.png",
+      "page": 78,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        327.4,
+        375.3,
+        532.6,
+        422.9
+      ],
+      "px": [
+        857,
+        200
+      ],
+      "text_layer": "н нIIWW 1 212⋅=,"
+    },
+    {
+      "file": "eq_p078_02.png",
+      "page": 78,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        327.4,
+        519.1,
+        532.6,
+        564.4
+      ],
+      "px": [
+        857,
+        189
+      ],
+      "text_layer": "⎛⎞=⋅+⋅⋅δ⎜⎟μ⎝⎠, (11.18)"
+    },
+    {
+      "file": "eq_p079_01.png",
+      "page": 79,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        60.6,
+        532.6,
+        121.2
+      ],
+      "px": [
+        1942,
+        253
+      ],
+      "text_layer": "B LBHIW⋅μ ==⋅. (11.20)"
+    },
+    {
+      "file": "eq_p079_02.png",
+      "page": 79,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        126.6,
+        532.6,
+        263.9
+      ],
+      "px": [
+        1942,
+        573
+      ],
+      "text_layer": "L IWWSB⋅⋅=+⋅⋅δ⋅, ⎫−−=⎪⋅⎬==⋅⋅δ⎪⋅⎭"
+    },
+    {
+      "file": "eq_p079_03.png",
+      "page": 79,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        374.0,
+        532.6,
+        440.2
+      ],
+      "px": [
+        1942,
+        277
+      ],
+      "text_layer": "⎭⎬⎫="
+    },
+    {
+      "file": "eq_p082_01.png",
+      "page": 82,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        512.7,
+        532.6,
+        700.4
+      ],
+      "px": [
+        1942,
+        783
+      ],
+      "text_layer": "iiiiкiкnRW LS= ρ ⋅⋅ [Ом], (11.30) где iкρ — удельное сопротивление Ом⋅мм2/м при заданном пере- греве τ; iW , iкL — число витков и средняя длина витка [м] i-й обмот- ки; inS — сечение провода, мм2 (без изоляции, чистое). Индуктивное сопротивление обмоток, обусловленное по-токами рассеяния"
+    },
+    {
+      "file": "eq_p082_02.png",
+      "page": 82,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        699.4,
+        532.6,
+        728.1
+      ],
+      "px": [
+        1942,
+        120
+      ],
+      "text_layer": "2SSXf L= π ⋅, (11.31)"
+    },
+    {
+      "file": "eq_p083_01.png",
+      "page": 83,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        69.9,
+        540.5,
+        98.6
+      ],
+      "px": [
+        1975,
+        121
+      ],
+      "text_layer": "2013Sк кккLL сWhn= μ ⋅⋅⋅. (11.32)"
+    },
+    {
+      "file": "eq_p083_02.png",
+      "page": 83,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        409.6,
+        540.5,
+        438.1
+      ],
+      "px": [
+        1975,
+        120
+      ],
+      "text_layer": "cзсccgкVG⋅⋅=. (11.34)"
+    },
+    {
+      "file": "eq_p083_03.png",
+      "page": 83,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        460.4,
+        540.5,
+        494.2
+      ],
+      "px": [
+        1975,
+        142
+      ],
+      "text_layer": "∑⋅⋅⋅=кiкnкgWLSGii, (11.35)"
+    },
+    {
+      "file": "eq_p083_04.png",
+      "page": 83,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        579.9,
+        540.5,
+        612.9
+      ],
+      "px": [
+        1975,
+        138
+      ],
+      "text_layer": "∑⋅=ΔiiкRIP2, (11.36)"
+    },
+    {
+      "file": "eq_p083_05.png",
+      "page": 83,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        679.2,
+        540.5,
+        738.3
+      ],
+      "px": [
+        1975,
+        247
+      ],
+      "text_layer": "11 010ccoc fBPкGBf γγ ρ ⎛⎞⎛⎞Δ= ρ⋅⋅⋅⎜⎟⎜⎟⎝⎠⎝⎠ ."
+    },
+    {
+      "file": "eq_p084_01.png",
+      "page": 84,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        69.1,
+        532.6,
+        114.1
+      ],
+      "px": [
+        1942,
+        189
+      ],
+      "text_layer": "Потери в изоляции катушек ()скизРPРΔ+Δ≈Δ 05,0. (11.37)"
+    },
+    {
+      "file": "eq_p084_02.png",
+      "page": 84,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        127.9,
+        532.6,
+        233.6
+      ],
+      "px": [
+        1942,
+        442
+      ],
+      "text_layer": "Фактическое соотношение потерь ()скизРРРν = ΔΔ+ Δ, (11.38) отличается от среднерасчетного 1ν = , так как 0,8 1,2ν =÷. Коэффициент мощности"
+    },
+    {
+      "file": "eq_p084_03.png",
+      "page": 84,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        351.4,
+        532.6,
+        427.5
+      ],
+      "px": [
+        1942,
+        318
+      ],
+      "text_layer": "1 cos ксизРРРРΔ+ Δ+ ΔΔη =⋅ϕ, (11.40) 1η = −Δη."
+    },
+    {
+      "file": "eq_p084_04.png",
+      "page": 84,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        430.9,
+        532.6,
+        564.2
+      ],
+      "px": [
+        1942,
+        556
+      ],
+      "text_layer": "Фактическое заполнение окна магнитопровода провод-никами ок niокS SWкi∑=, (11.41) где iW , inS — число витков i-ой обмотки и сечение ее провод- ников без изоляции."
+    },
+    {
+      "file": "eq_p084_05.png",
+      "page": 84,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        589.6,
+        532.6,
+        622.7
+      ],
+      "px": [
+        1942,
+        139
+      ],
+      "text_layer": "()дкЦGЦGЦкксcМЭ⋅⋅+⋅=, (11.42)"
+    },
+    {
+      "file": "eq_p085_01.png",
+      "page": 85,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        373.2,
+        532.6,
+        418.0
+      ],
+      "px": [
+        1941,
+        188
+      ],
+      "text_layer": "тороидальная — () ()2 222 4МЭкнквVассbс=+++⋅π,"
+    },
+    {
+      "file": "eq_p086_01.png",
+      "page": 86,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        315.2,
+        533.8,
+        396.9
+      ],
+      "px": [
+        1946,
+        341
+      ],
+      "text_layer": "12. По кривой намагничивания aBH= μ ⋅; что есть поток Ф, индуктивность В, магнитная проницаемость aμ и их дедуктивная связь с электрическими величинами."
+    },
+    {
+      "file": "eq_p087_01.png",
+      "page": 87,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        188.1,
+        589.2,
+        277.0
+      ],
+      "px": [
+        2177,
+        371
+      ],
+      "text_layer": "coкокзсфSSjBfккnкР⋅⋅⋅⋅⋅=1014, (12.1) откуда ()1014oкcфзсокSSРкnккjBf⋅=⋅⋅⋅⋅. (12.2)"
+    },
+    {
+      "file": "eq_p089_01.png",
+      "page": 89,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        374.3,
+        532.6,
+        403.2
+      ],
+      "px": [
+        1942,
+        122
+      ],
+      "text_layer": "1014 фзсокoкcРкnккjBf SS=⋅⋅⋅⋅⋅."
+    },
+    {
+      "file": "eq_p090_01.png",
+      "page": 90,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        313.3,
+        532.6,
+        511.1
+      ],
+      "px": [
+        1942,
+        825
+      ],
+      "text_layer": "cg =8,5 г/см3, соρ=63 Вт/кг при 10f =10 кГц, 0В =0,5 Тл; кρ=3, SВ =1,2 Тл, γ =1,5, 1γ =2. Для обмотки: кρ =3,4⋅10−8 Ом⋅м, кg =2,7 г/см3, зкк =0,35, зкоккк⋅=85,0 (для тороида). Расчет Р1 выполняется в следующем порядке. 1. Записываются формулы для j и В из раздела 3.3: к кзкк PjVкρΔ=⋅⋅, (3.5)"
+    },
+    {
+      "file": "eq_p090_02.png",
+      "page": 90,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        521.6,
+        532.6,
+        602.1
+      ],
+      "px": [
+        1942,
+        336
+      ],
+      "text_layer": "01 1 10 c cco PBB fGкf γ ρ Δ=⋅γ ⋅ ⎛⎞⋅ρ⋅⎜⎟⎝⎠ . (3.6)"
+    },
+    {
+      "file": "eq_p090_03.png",
+      "page": 90,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        679.6,
+        532.6,
+        708.0
+      ],
+      "px": [
+        1942,
+        120
+      ],
+      "text_layer": "ккккnLSV⋅⋅=, (2.15)"
+    },
+    {
+      "file": "eq_p090_04.png",
+      "page": 90,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        712.6,
+        532.6,
+        741.1
+      ],
+      "px": [
+        1942,
+        120
+      ],
+      "text_layer": "cзсcccgкLSG⋅⋅⋅=. (2.18)"
+    },
+    {
+      "file": "eq_p091_01.png",
+      "page": 91,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        65.6,
+        532.6,
+        196.5
+      ],
+      "px": [
+        1942,
+        546
+      ],
+      "text_layer": "()() , 22 . c кк Lac Labс =+π⎫⎪⎬=++ π⎪⎭ (13.1) где сск3,0=, 1=кn. Решение совместно (2.14), (2.15) с учетом (13.1) дает ()()0,320,32кккcVс L Lсаbсac==⋅++π+π. (13.2)"
+    },
+    {
+      "file": "eq_p091_02.png",
+      "page": 91,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        218.8,
+        532.6,
+        310.3
+      ],
+      "px": [
+        1942,
+        383
+      ],
+      "text_layer": "()()0,3 120 2 25600,3120 225 120кV =⋅⋅++⋅π⋅+π = 61064,4⋅= мм331064,4−⋅= м3. ()()2,5 6 2,5 120,75 8,54,36cзсcGa b acкg=⋅+π⋅⋅=⋅+π⋅⋅= кг."
+    },
+    {
+      "file": "eq_p091_03.png",
+      "page": 91,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        343.1,
+        532.6,
+        489.0
+      ],
+      "px": [
+        1942,
+        609
+      ],
+      "text_layer": "1кок БРΠΔ= τ⋅σ⋅⋅+ ν . Здесь для тороида по (3.3) имеем 1=Б, так как 00ос ок П П =β ==. Формула для поверхности охлаждения тороидального МЭ дана в табл. 2.1:"
+    },
+    {
+      "file": "eq_p091_04.png",
+      "page": 91,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        486.1,
+        532.6,
+        606.4
+      ],
+      "px": [
+        1942,
+        502
+      ],
+      "text_layer": "() 220,54 нокнннDПDНDНD= π⋅+ π⋅= π+= []2 (0,6 )0,60,5 2(0,6 ) .ac bcac= π+++⋅+ (13.3) После подстановки значений а, b, с: 6222 (250,6 120)(25601,2 120)0,2 10 мм0,2 м .окП= π+⋅++⋅⋅=\u0011"
+    },
+    {
+      "file": "eq_p091_05.png",
+      "page": 91,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        606.9,
+        532.6,
+        736.3
+      ],
+      "px": [
+        1942,
+        540
+      ],
+      "text_layer": "Значение τ =50 °С дано, σ =10 Вт/м2⋅град. — среднерасчет-ное для естественного охлаждения; 1ν = , среднерасчетное, так как не задано. Получаем 501112,01050=+⋅⋅⋅=ΔкР Вт."
+    },
+    {
+      "file": "eq_p092_01.png",
+      "page": 92,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        91.7,
+        558.9,
+        120.3
+      ],
+      "px": [
+        2051,
+        120
+      ],
+      "text_layer": "1 5050скРРΔ= νΔ= ⋅= Вт. (13.8)"
+    },
+    {
+      "file": "eq_p092_02.png",
+      "page": 92,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        148.3,
+        558.9,
+        199.6
+      ],
+      "px": [
+        2051,
+        215
+      ],
+      "text_layer": "3850 4,64 100,25 3,4 10 к кзкк PjVкρ−−Δ===⋅⋅⋅⋅⋅⋅"
+    },
+    {
+      "file": "eq_p092_03.png",
+      "page": 92,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        209.5,
+        558.9,
+        235.3
+      ],
+      "px": [
+        2051,
+        109
+      ],
+      "text_layer": "61,19 10=⋅ А/м22,1≈ А/мм2."
+    },
+    {
+      "file": "eq_p092_04.png",
+      "page": 92,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        263.9,
+        558.9,
+        344.5
+      ],
+      "px": [
+        2051,
+        337
+      ],
+      "text_layer": "()01,51,51 10 500,50,064,36 63 3 25 10 с cco PBB fGкfρ Δ=⋅=⋅=⋅⋅⎛⎞⋅ρ⋅⎜⎟⎝⎠ Тл."
+    },
+    {
+      "file": "eq_p092_05.png",
+      "page": 92,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        407.8,
+        558.9,
+        485.3
+      ],
+      "px": [
+        2051,
+        324
+      ],
+      "text_layer": "1014 фзсокoкcРknккSSj B f=⋅⋅⋅⋅⋅⋅⋅⋅. сSπ=, зкоккк85,0≈, baSc⋅=."
+    },
+    {
+      "file": "eq_p092_06.png",
+      "page": 92,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        493.5,
+        558.9,
+        553.9
+      ],
+      "px": [
+        2051,
+        252
+      ],
+      "text_layer": "26314 1,11 0,5 0,75 0,85 0,350,120,025 0,06 1,2 100,06 25 104Рπ= ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅="
+    },
+    {
+      "file": "eq_p093_01.png",
+      "page": 93,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        69.5,
+        552.8,
+        122.2
+      ],
+      "px": [
+        2026,
+        221
+      ],
+      "text_layer": "2 60,8 10 c ca SWL L ⋅= μ +⋅δ ."
+    },
+    {
+      "file": "eq_p093_02.png",
+      "page": 93,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        307.7,
+        552.8,
+        359.2
+      ],
+      "px": [
+        2026,
+        215
+      ],
+      "text_layer": "oкок n SкWS ⋅=, (13.4)"
+    },
+    {
+      "file": "eq_p093_03.png",
+      "page": 93,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        371.4,
+        552.8,
+        416.0
+      ],
+      "px": [
+        2026,
+        187
+      ],
+      "text_layer": "где jISn 1=, (13.5)"
+    },
+    {
+      "file": "eq_p093_04.png",
+      "page": 93,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        521.3,
+        552.8,
+        572.9
+      ],
+      "px": [
+        2026,
+        216
+      ],
+      "text_layer": "()кк 1 окк кзккзк БPjVкVкτ⋅σ⋅Π⋅Δ==⋅⋅ρ⋅⋅ρ+ ν . (13.6)"
+    },
+    {
+      "file": "eq_p094_01.png",
+      "page": 94,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        66.0,
+        394.9,
+        532.6,
+        563.2
+      ],
+      "px": [
+        1944,
+        702
+      ],
+      "text_layer": "0,5ксс=, hhк=. По табл. 2.1 для С-ПЗ имеем: 2224080161702 кк cLab=++ π=++ π⋅≅ мм0,17= м. 222264 10010195,4cLcha=++ π=++ π⋅= мм195,0≅ м. ()()()()2 0,5223250 17080214760оккchLbΠ=⋅+−⋅=+−⋅= мм2 ≈"
+    },
+    {
+      "file": "eq_p094_02.png",
+      "page": 94,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        66.0,
+        598.6,
+        532.6,
+        657.5
+      ],
+      "px": [
+        1944,
+        246
+      ],
+      "text_layer": "()()()()222 2040 1952 507600осcаbLhΠ=+−=⋅+−⋅= мм2 = 0076,0= м2."
+    },
+    {
+      "file": "eq_p094_03.png",
+      "page": 94,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        66.0,
+        663.4,
+        532.6,
+        714.7
+      ],
+      "px": [
+        1944,
+        215
+      ],
+      "text_layer": "0,00760,510,0148 ос ок Πβ ===Π."
+    },
+    {
+      "file": "eq_p095_01.png",
+      "page": 95,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        69.8,
+        551.2,
+        118.3
+      ],
+      "px": [
+        2019,
+        203
+      ],
+      "text_layer": "10,610,61110,5110,51 1,211,610,210,2 0,51 1Б+ν+= +β= += +⋅≈+βν+⋅⋅."
+    },
+    {
+      "file": "eq_p095_02.png",
+      "page": 95,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        145.9,
+        551.2,
+        193.5
+      ],
+      "px": [
+        2019,
+        199
+      ],
+      "text_layer": "22 0,5 20 50 17017000кккккккVnSLchL=⋅⋅=⋅⋅=⋅⋅⋅⋅=мм3= 017,0= м3."
+    },
+    {
+      "file": "eq_p095_03.png",
+      "page": 95,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        539.1,
+        551.2,
+        589.8
+      ],
+      "px": [
+        2019,
+        212
+      ],
+      "text_layer": "5,225 === cpnj IS мм2."
+    },
+    {
+      "file": "eq_p096_01.png",
+      "page": 96,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        70.5,
+        588.0,
+        144.3
+      ],
+      "px": [
+        2172,
+        309
+      ],
+      "text_layer": "()() 6850 10 0,0148 1,62,18 1010,017 0,35 2,1 101 1 ок кзкк БjVк−τ⋅σΠ⋅⋅⋅⋅===⋅⋅⋅ρ+ν⋅⋅⋅⋅+ А/м2 =2,18= А/мм2."
+    },
+    {
+      "file": "eq_p096_02.png",
+      "page": 96,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        267.0,
+        588.0,
+        311.4
+      ],
+      "px": [
+        2172,
+        186
+      ],
+      "text_layer": "3,218,2 5≅== j ISn мм2."
+    },
+    {
+      "file": "eq_p096_03.png",
+      "page": 96,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        318.5,
+        588.0,
+        379.3
+      ],
+      "px": [
+        2172,
+        254
+      ],
+      "text_layer": "S кSnnкh c кWSSS⋅⋅⋅⋅⋅⋅⋅=====≈."
+    },
+    {
+      "file": "eq_p096_04.png",
+      "page": 96,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        426.2,
+        588.0,
+        533.0
+      ],
+      "px": [
+        2172,
+        446
+      ],
+      "text_layer": "−−−=⋅⋅⋅⋅⋅⋅⋅===μ +⋅⋅δ⋅⋅+⋅⋅⋅40,0,04843,3800==+ Гн."
+    },
+    {
+      "file": "eq_p097_01.png",
+      "page": 97,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        471.2,
+        532.6,
+        666.1
+      ],
+      "px": [
+        1941,
+        813
+      ],
+      "text_layer": "2242,uизж Sndк=⋅+⋅Δπ (13.7) где 2Sn — расчетное сечение вторичной обмотки, мм2 (в нашем примере Sn2 = 12,8 мм2); зжк — коэффициент заполнения сечения многожильного провода, при nж ≥ 5 нужно принимать кзж = 0,8. иΔ — толщина изоляции многожильного провода; для на-пряжений до 1 кВ 1иΔ = мм. Для нашего примера получается:"
+    },
+    {
+      "file": "eq_p097_02.png",
+      "page": 97,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        665.8,
+        532.6,
+        710.5
+      ],
+      "px": [
+        1941,
+        187
+      ],
+      "text_layer": "24 12,82 15,60,8ud=⋅+⋅≅π мм."
+    },
+    {
+      "file": "eq_p098_01.png",
+      "page": 98,
+      "eq_number": "2",
+      "eq_numbers": [
+        "2"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        155.1,
+        532.6,
+        323.8
+      ],
+      "px": [
+        1941,
+        704
+      ],
+      "text_layer": "11(2),CкLc= π−⋅Δ (13.8) где кΔ — толщина изоляционного каркаса катушки. Среднерасчетное значение 1кΔ = мм. Получается: 11(502,1)150,7151CL= π−=≅ мм. Число витков в первом слое: ⋅=⋅ (13.9)"
+    },
+    {
+      "file": "eq_p098_02.png",
+      "page": 98,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        267.1,
+        532.6,
+        429.5
+      ],
+      "px": [
+        1941,
+        678
+      ],
+      "text_layer": "111111.CукC nu LкWnd ⋅=⋅ (13.9) Здесь 1nn — число провдников в сечении 1Sn , выбрано выше 12nn= при 1ud = 1,61 мм; намотка ведется двумя проводниками, укладываемыми рядом; укк — коэффициент укалдки проводников, его значения в табл. 11.4; при 11ud≥ мм, 0,85укк=."
+    },
+    {
+      "file": "eq_p098_03.png",
+      "page": 98,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        437.5,
+        532.6,
+        498.0
+      ],
+      "px": [
+        1941,
+        253
+      ],
+      "text_layer": "11151 0,85402 1,61CW⋅=≅⋅ витков."
+    },
+    {
+      "file": "eq_p098_04.png",
+      "page": 98,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        545.8,
+        532.6,
+        750.5
+      ],
+      "px": [
+        1941,
+        854
+      ],
+      "text_layer": "[]1212(.CкucLcd= π−Δ ++ Δ (13.10) []12502(1 1,610,1)140CL= π−++≅ мм. Здесь 0,1cΔ = мм, межслойная изоляция, в среднем для всех конструкций до 1 кВ. Число витков второго слоя W1: 121211 140 0,85372 1,61 CукC nu LкWnd ⋅⋅==≅⋅⋅. Число витков обмотки W1 для третьего слоя: 13111128440377CCCWWWW=−−=−−=. ⋅⋅==≅⋅⋅."
+    },
+    {
+      "file": "eq_p099_01.png",
+      "page": 99,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        68.7,
+        532.6,
+        199.9
+      ],
+      "px": [
+        1942,
+        548
+      ],
+      "text_layer": "Чтобы не укладывать эти 7 витков в третий слой, целесооб-разно увеличить исходный размер окна на величину cΔ , обкспе-чивающую укладку всех витков W1 в 2 слоя. Значение cΔ вычисляется по формуле: 1113 1 2 1,61 740,852 nuCc укc ndWкn⋅⋅⋅⋅Δ ==≅⋅π⋅⋅π⋅ мм."
+    },
+    {
+      "file": "eq_p099_02.png",
+      "page": 99,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        305.1,
+        532.6,
+        333.8
+      ],
+      "px": [
+        1942,
+        121
+      ],
+      "text_layer": "21111(2((1)).CкcuccмоLcndn= π−Δ +⋅+ Δ−+ Δ (13.11)"
+    },
+    {
+      "file": "eq_p099_03.png",
+      "page": 99,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        383.0,
+        532.6,
+        411.5
+      ],
+      "px": [
+        1942,
+        120
+      ],
+      "text_layer": "0,2моΔ≅ мм (лакоткань и др.)."
+    },
+    {
+      "file": "eq_p099_04.png",
+      "page": 99,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        435.8,
+        532.6,
+        464.5
+      ],
+      "px": [
+        1942,
+        121
+      ],
+      "text_layer": "21(542(12 1,610,1 10,2)141CL= π−+⋅+⋅+≅ мм."
+    },
+    {
+      "file": "eq_p099_05.png",
+      "page": 99,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        487.9,
+        532.6,
+        541.9
+      ],
+      "px": [
+        1942,
+        227
+      ],
+      "text_layer": "212122 141 0,85212 CукC nu LкWnd ⋅⋅==≅⋅⋅5,6."
+    },
+    {
+      "file": "eq_p099_06.png",
+      "page": 99,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        565.4,
+        532.6,
+        594.1
+      ],
+      "px": [
+        1942,
+        121
+      ],
+      "text_layer": "2222128217CCWWW=−=−=."
+    },
+    {
+      "file": "eq_p099_07.png",
+      "page": 99,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        655.9,
+        532.6,
+        684.6
+      ],
+      "px": [
+        1942,
+        121
+      ],
+      "text_layer": "222122()1412(5,60,1)105CCucLLd=−+ Δ⋅π =−+⋅π ≅ мм."
+    },
+    {
+      "file": "eq_p099_08.png",
+      "page": 99,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        711.3,
+        532.6,
+        763.0
+      ],
+      "px": [
+        1942,
+        217
+      ],
+      "text_layer": "222227 5,646,10,85 CuCф ук WdLк ⋅⋅==≅ мм,"
+    },
+    {
+      "file": "eq_p100_01.png",
+      "page": 100,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        205.7,
+        609.4,
+        295.2,
+        749.8
+      ],
+      "px": [
+        375,
+        586
+      ],
+      "text_layer": "02542 1622квdcc=−⋅=−⋅= мм. Результат удовлетворительный, так как стандартно требует-ся 010d ≥ мм. Заполнение окна сечениями проводников: nnnnок WSnWSnк ⋅⋅+⋅⋅= π⋅"
+    },
+    {
+      "file": "eq_p101_01.png",
+      "page": 101,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        68.7,
+        548.4,
+        157.3
+      ],
+      "px": [
+        2007,
+        370
+      ],
+      "text_layer": "Здесь 1nS , 2nS — рассчитанные и выбранные сечения про-водников без изоляции. 284 1,91 228 12,8 10,2970,3.544окк⋅⋅+⋅⋅==≅π⋅"
+    },
+    {
+      "file": "eq_p101_02.png",
+      "page": 101,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        558.2,
+        548.4,
+        642.8
+      ],
+      "px": [
+        2007,
+        354
+      ],
+      "text_layer": "184W =, 228W =; 14nS= мм2, без изоляции; 11,61ud= мм — диаметр провода 1W с изоляцией;"
+    },
+    {
+      "file": "eq_p101_03.png",
+      "page": 101,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        664.9,
+        548.4,
+        705.6
+      ],
+      "px": [
+        2007,
+        171
+      ],
+      "text_layer": "212,8nS= мм2 — без изоляции;"
+    },
+    {
+      "file": "eq_p102_01.png",
+      "page": 102,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        233.0,
+        532.6,
+        398.9
+      ],
+      "px": [
+        1941,
+        693
+      ],
+      "text_layer": "2110 0,82 284слhкhh n=⋅−⋅Δ =⋅−⋅= мм. Здесь кΔ (толщина изоляции каркаса) = 2 мм, в 2 раза боль-ше чем для Т-МЭ. Это значение одинаково для Б, С, Ч конструк-ций. 2. Число витков в первом слое катушки первичной обмотки 111111 84 0,8584 0,85222 1,61 слукC nunu hкWndnd ⋅⋅⋅===≈⋅⋅⋅ витка."
+    },
+    {
+      "file": "eq_p102_02.png",
+      "page": 102,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        397.5,
+        532.6,
+        500.2
+      ],
+      "px": [
+        1941,
+        429
+      ],
+      "text_layer": "Здесь 0,85укк= при 1nd > мм. 12nn= — задано, см. выше. 3. Остается витков от 1кW до второго слоя укладки: 12111422220.CкCWWW=−=−="
+    },
+    {
+      "file": "eq_p102_03.png",
+      "page": 102,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        589.5,
+        532.6,
+        733.7
+      ],
+      "px": [
+        1941,
+        602
+      ],
+      "text_layer": "2122 84 0,8512,813.1 слукC nu hкWnd ⋅⋅===≈⋅⋅5,6 Здесь 21nn= , так как нет параллельно укладываемых про-водников. 5. Остается витков для второго слоя 2кW: 2222114 131CкCWWW=−=−= виток."
+    },
+    {
+      "file": "eq_p103_01.png",
+      "page": 103,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        198.4,
+        568.6,
+        227.2
+      ],
+      "px": [
+        2092,
+        121
+      ],
+      "text_layer": "1111(1).ккucccмоcdnn= Δ +⋅+ Δ−+ Δ (13.15)"
+    },
+    {
+      "file": "eq_p103_02.png",
+      "page": 103,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        270.1,
+        568.6,
+        298.7
+      ],
+      "px": [
+        2092,
+        120
+      ],
+      "text_layer": "2кΔ = мм, 0,1cΔ = мм, 0,2моΔ= мм."
+    },
+    {
+      "file": "eq_p103_03.png",
+      "page": 103,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        322.9,
+        568.6,
+        351.6
+      ],
+      "px": [
+        2092,
+        121
+      ],
+      "text_layer": "121,61 20,1(2 1)0,25,52кc=+⋅+−+= мм."
+    },
+    {
+      "file": "eq_p103_04.png",
+      "page": 103,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        378.8,
+        568.6,
+        407.5
+      ],
+      "px": [
+        2092,
+        121
+      ],
+      "text_layer": "2222(1).кucccмоcdnn=⋅+ Δ−+ Δ (13.16)"
+    },
+    {
+      "file": "eq_p103_05.png",
+      "page": 103,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        431.6,
+        568.6,
+        460.3
+      ],
+      "px": [
+        2092,
+        121
+      ],
+      "text_layer": "256 10,1(1 1)0,25,8кc=⋅+−+= мм."
+    },
+    {
+      "file": "eq_p103_06.png",
+      "page": 103,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        506.3,
+        568.6,
+        535.1
+      ],
+      "px": [
+        2092,
+        121
+      ],
+      "text_layer": "12.ккккccccс nn=+≤⋅⋅ (13.17)"
+    },
+    {
+      "file": "eq_p103_07.png",
+      "page": 103,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        536.1,
+        568.6,
+        729.7
+      ],
+      "px": [
+        2092,
+        808
+      ],
+      "text_layer": "Получается, (5,525,811,32)(20 2 0,416).кc =+=<⋅⋅= То есть, кc в окно входит с обеспечением зазора 4,7сΔ ≈ мм. Фактическое значение cn : 11,30,3516 2 кc к cnc n===⋅⋅, нормально так как ориентировоч- ное cn для С-НЗ равно 0,4 (см. табл. 2.1). Результаты раскладки проводников обмоток С-НЗ изобра-жены на рис. 13.2."
+    },
+    {
+      "file": "eq_p104_01.png",
+      "page": 104,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        333.7,
+        532.6,
+        372.5
+      ],
+      "px": [
+        1941,
+        163
+      ],
+      "text_layer": "cΔмоΔ"
+    },
+    {
+      "file": "eq_p107_01.png",
+      "page": 107,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        62.7,
+        580.1,
+        164.7
+      ],
+      "px": [
+        2139,
+        426
+      ],
+      "text_layer": "9. Параметры схемы замещения: – активные сопротивления 1R , 2R ; – реактивные сопротивления 1SX, 2SX ′ , SX ; – сопротивления контура намагничевания Xμ , Rμ ."
+    },
+    {
+      "file": "eq_p112_01.png",
+      "page": 112,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        51.6,
+        65.8,
+        559.1,
+        109.6
+      ],
+      "px": [
+        2116,
+        183
+      ],
+      "text_layer": "№ Мате-cΔ зсk γ 1γ kρ 0сρ 10f 1f 0BSB cg Продолжение табл. 14.2"
+    },
+    {
+      "file": "eq_p113_01.png",
+      "page": 113,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        107.1,
+        544.9,
+        136.0
+      ],
+      "px": [
+        1993,
+        121
+      ],
+      "text_layer": "NN X S R1 R2 Xμ Rμ C П KT U1 f1 I н2 cosнϕ"
+    },
+    {
+      "file": "eq_p116_01.png",
+      "page": 116,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        356.4,
+        547.8,
+        404.1
+      ],
+      "px": [
+        2005,
+        200
+      ],
+      "text_layer": "2 1 14140,7 мм .,кГц20nfSf==="
+    },
+    {
+      "file": "eq_p116_02.png",
+      "page": 116,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        494.7,
+        547.8,
+        698.0
+      ],
+      "px": [
+        2005,
+        848
+      ],
+      "text_layer": "Таблица 1 — Показатели материала магнитопровода cΔ зскcg coρ кρ 10f 0B 1f γ 1γ sB мм – кг/м 3 Вт/к г – кГц Тл кГц – – Тл Ферри- ты – 1 5·10310 1,1 10 0,2 20 1,2 2,4 0,35 Таблица 2 — Показатели материала обмоток и геометрии для минималь-ной стоимости Материал обмоток"
+    },
+    {
+      "file": "eq_p116_03.png",
+      "page": 116,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        565.3,
+        547.8,
+        760.0
+      ],
+      "px": [
+        2005,
+        812
+      ],
+      "text_layer": "г – кГц Тл кГц – – Тл Ферри- ты – 1 5·10310 1,1 10 0,2 20 1,2 2,4 0,35 Таблица 2 — Показатели материала обмоток и геометрии для минималь-ной стоимости Материал обмоток зkк kg kρ τ σ Геометрия для минимальной стоимости – кг/м3 Ом·м град Вт/м2· град x y z sK cN kN Б 0,352,7·103 3,4·10–8 50 10 0,6 2 1,3 1,2 4 4 1"
+    },
+    {
+      "file": "eq_p117_01.png",
+      "page": 117,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        543.3,
+        538.0,
+        694.5
+      ],
+      "px": [
+        1964,
+        631
+      ],
+      "text_layer": "Рис. 1 — Эскиз чашечного трансформатора Расчет электромагнитных показателей 1. Габаритная мощность 22124 501330 ВАcos( )0,95 0,95UIP⋅⋅==≈ ϕ ⋅η⋅."
+    },
+    {
+      "file": "eq_p117_02.png",
+      "page": 117,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        714.4,
+        538.0,
+        769.7
+      ],
+      "px": [
+        1964,
+        232
+      ],
+      "text_layer": "72 12027211* ()BcjkspMNMNKMBB Pfγ−⋅⋅⋅⋅⋅=⋅ ⋅ ,"
+    },
+    {
+      "file": "eq_p118_01.png",
+      "page": 118,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        89.3,
+        542.3,
+        248.8
+      ],
+      "px": [
+        1981,
+        665
+      ],
+      "text_layer": "11*10 20000210000fff===; 310 50 110,005 м.11 110 1,1 5 101B cocзс БMкgкρ τ⋅σ⋅ν⋅⋅=⋅=⋅≈ ρ⋅⋅⋅+ ν+⋅⋅⋅⋅ Здесь взято 1ν = , среднерасчетное; 108310 50 12 10(1)3,4 100,35 (1 1)мj kok БMк 2 −τ⋅σ⋅⋅⋅Α==≈⋅ ρ ⋅⋅+ ν⋅⋅⋅+ ;"
+    },
+    {
+      "file": "eq_p118_02.png",
+      "page": 118,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        238.3,
+        542.3,
+        296.5
+      ],
+      "px": [
+        1981,
+        244
+      ],
+      "text_layer": "0010В44 1,11 0,5 0,35 1 0,2 10000 1554 мpфokзсMкn ккBf= ⋅⋅⋅⋅⋅⋅= ⋅⋅⋅⋅⋅⋅=;"
+    },
+    {
+      "file": "eq_p118_03.png",
+      "page": 118,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        324.9,
+        542.3,
+        462.2
+      ],
+      "px": [
+        1981,
+        574
+      ],
+      "text_layer": "371021200271,2 2(5 104)2 104 1,2 15540,613302BBB − ⋅−⋅⋅⋅⋅⋅⋅⋅=⋅≈⋅⋅ . Получаем, 0,2 0,60,12 Тл < ( 0,35 Тл)sBB=⋅= =; *0 0,120,6.0.2BBB==="
+    },
+    {
+      "file": "eq_p118_04.png",
+      "page": 118,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        499.5,
+        542.3,
+        552.1
+      ],
+      "px": [
+        1981,
+        220
+      ],
+      "text_layer": "44177424102*1* 1330 ()()(1554 0,6 2)(1,2 2 104) c psjk PS MBfKMN==≈⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅"
+    },
+    {
+      "file": "eq_p118_05.png",
+      "page": 118,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        618.2,
+        542.3,
+        753.2
+      ],
+      "px": [
+        1981,
+        564
+      ],
+      "text_layer": "1060,54 0,5224АА2 101,7 10 1,7.1,2 (6 10)ммм kj sc NjM KS−=⋅=⋅⋅≈⋅≈⋅⋅⋅ 5. Линейные размеры магнитопровода 4,,.cSaca xha z⋅= =⋅ =⋅π"
+    },
+    {
+      "file": "eq_p119_01.png",
+      "page": 119,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        70.8,
+        532.6,
+        121.4
+      ],
+      "px": [
+        1941,
+        211
+      ],
+      "text_layer": "444 6 100,028 м28 мм;3,14 cSa −⋅⋅⋅====π"
+    },
+    {
+      "file": "eq_p119_02.png",
+      "page": 119,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        280.4,
+        532.6,
+        413.0
+      ],
+      "px": [
+        1941,
+        554
+      ],
+      "text_layer": "1141 22034 витка.44 1,11 20000 0,12 6 101фcзс UWкfB Sк−==≈⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ Вторичной: 2121 1,0524 1,05 344 витка.220UWWU⋅⋅⋅⋅==≈"
+    },
+    {
+      "file": "eq_p119_03.png",
+      "page": 119,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        484.2,
+        532.6,
+        532.4
+      ],
+      "px": [
+        1941,
+        202
+      ],
+      "text_layer": "62211161 1330===3,6 10 м3,6 мм .220 1,7 10 нn IPSjUj −≈⋅≈⋅⋅⋅"
+    },
+    {
+      "file": "eq_p119_04.png",
+      "page": 119,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        566.2,
+        532.6,
+        612.2
+      ],
+      "px": [
+        1941,
+        192
+      ],
+      "text_layer": "62222650==29,4 10 м29,4 мм .1,7 10 нn ISj −≈⋅≈⋅"
+    },
+    {
+      "file": "eq_p119_05.png",
+      "page": 119,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        675.3,
+        532.6,
+        756.5
+      ],
+      "px": [
+        1941,
+        340
+      ],
+      "text_layer": "8. Раскладка проводников обмоток в окне МЭ Высота для одного слоя (ряда) витков обмотка в катушке ()2362 232 ммслккhhh==−⋅Δ =−⋅=,"
+    },
+    {
+      "file": "eq_p120_01.png",
+      "page": 120,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        66.9,
+        532.6,
+        174.3
+      ],
+      "px": [
+        1941,
+        449
+      ],
+      "text_layer": "где кΔ — толщина каркаса катушки; для напряжения до 1 кВ 2 мм.кΔ = Поскольку Sn1 > Snf в 4 и Sn2 > Snf в 22 раза, мотать обмотки нужно многожильными проводами, рассчитывая их диаметры по формуле"
+    },
+    {
+      "file": "eq_p120_02.png",
+      "page": 120,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        174.5,
+        532.6,
+        327.8
+      ],
+      "px": [
+        1941,
+        639
+      ],
+      "text_layer": "42nnuuзж Sdк=⋅+⋅Δπ, где 0,8зжк= — коэффициент заполнения провода жилой; uΔ — толщина изоляции, при напряжении до 1 кВ, 0,1 ммuΔ =. Диаметр многожильного провода с изоляцией первичной обмотки:"
+    },
+    {
+      "file": "eq_p120_03.png",
+      "page": 120,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        328.0,
+        532.6,
+        375.8
+      ],
+      "px": [
+        1941,
+        201
+      ],
+      "text_layer": "11443,622 0,12,6 мм3,14 0,8 nuuзж Sdк=⋅+⋅Δ =⋅+⋅≈π."
+    },
+    {
+      "file": "eq_p120_04.png",
+      "page": 120,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        415.6,
+        532.6,
+        463.4
+      ],
+      "px": [
+        1941,
+        201
+      ],
+      "text_layer": "224429,422 0,17 мм3,140,8 nuuзж Sdк=⋅+⋅Δ =⋅+⋅≈π."
+    },
+    {
+      "file": "eq_p120_05.png",
+      "page": 120,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        460.1,
+        532.6,
+        637.8
+      ],
+      "px": [
+        1941,
+        741
+      ],
+      "text_layer": "Число витков в слое первичной обмотки 11 32 0,85112,6 слуксл u hкWd ⋅⋅==≈ витков. Число витков в слое вторичной обмотки 22 32 0,8547 слуксл u hкWd ⋅⋅==≈ витка. Здесь укк — коэффициент укладки, учитывающий неплот-ность прилегания витков."
+    },
+    {
+      "file": "eq_p120_06.png",
+      "page": 120,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        653.2,
+        532.6,
+        700.9
+      ],
+      "px": [
+        1941,
+        200
+      ],
+      "text_layer": "111 34311сл сл WnW==≈ слоя, для первичной обмотки;"
+    },
+    {
+      "file": "eq_p121_01.png",
+      "page": 121,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1",
+        "1"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        79.7,
+        532.6,
+        186.4
+      ],
+      "px": [
+        1941,
+        445
+      ],
+      "text_layer": "1111(1);кuслсслкомcdnn=⋅+ Δ−+ Δ + Δ 12,6 30,1(3 1)20,210,2кс=⋅+−++= мм; 2222(1);кuслссломcdnn=⋅+ Δ−+ Δ 27 10,1(1 1)0,27,2кc=⋅+−+= мм;"
+    },
+    {
+      "file": "eq_p121_02.png",
+      "page": 121,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        387.0,
+        532.6,
+        491.1
+      ],
+      "px": [
+        1941,
+        435
+      ],
+      "text_layer": "W LRSρ ⋅⋅=, где kρ — удельное сопротивление Ом*мм2/м при заданном пере-греве τ;"
+    },
+    {
+      "file": "eq_p121_03.png",
+      "page": 121,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        563.2,
+        532.6,
+        731.8
+      ],
+      "px": [
+        1941,
+        704
+      ],
+      "text_layer": "11()3,14 (285,2)104 мм.2 кк cLa= π⋅+=⋅+= Средняя длина витка вторичной обмотки 2217,2()3,14 (28 10,2)13 мм0,13 м.22 ккк cLac= π⋅++=⋅++== Активное сопротивление первичной обмотки 331111 0,034 1034 10436,3 10 Ом.3,6 kк n WLRS − −ρ ⋅⋅⋅⋅⋅==≈⋅"
+    },
+    {
+      "file": "eq_p122_01.png",
+      "page": 122,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        66.0,
+        528.6,
+        90.2
+      ],
+      "px": [
+        1925,
+        101
+      ],
+      "text_layer": "кΔмоΔ"
+    },
+    {
+      "file": "eq_p122_02.png",
+      "page": 122,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        207.6,
+        528.6,
+        229.6
+      ],
+      "px": [
+        1925,
+        93
+      ],
+      "text_layer": "кhh="
+    },
+    {
+      "file": "eq_p122_03.png",
+      "page": 122,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        314.4,
+        528.6,
+        339.2
+      ],
+      "px": [
+        1925,
+        105
+      ],
+      "text_layer": "моΔсΔ"
+    },
+    {
+      "file": "eq_p122_04.png",
+      "page": 122,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        368.8,
+        528.6,
+        556.6
+      ],
+      "px": [
+        1925,
+        784
+      ],
+      "text_layer": "Рис. 2 — Раскладка проводников Активное сопротивление вторичной обмотки 332222 0,034 104 1310,62 10 Ом.29,4 kк n WLRS − −ρ ⋅⋅⋅⋅⋅==≈⋅ Индуктивное сопротивление обмоток. Поток рассеяния 12ssXfL=⋅π⋅⋅, где sL — индуктивность рассеяния."
+    },
+    {
+      "file": "eq_p122_05.png",
+      "page": 122,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        547.5,
+        528.6,
+        608.1
+      ],
+      "px": [
+        1925,
+        253
+      ],
+      "text_layer": "LcWLhnμ ⋅⋅⋅=⋅⋅,"
+    },
+    {
+      "file": "eq_p122_06.png",
+      "page": 122,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        695.4,
+        528.6,
+        774.1
+      ],
+      "px": [
+        1925,
+        329
+      ],
+      "text_layer": "()3,14 (28 17)141 мм.kLac= π⋅+=⋅+≈"
+    },
+    {
+      "file": "eq_p123_01.png",
+      "page": 123,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        68.5,
+        68.7,
+        555.7,
+        243.3
+      ],
+      "px": [
+        2031,
+        728
+      ],
+      "text_layer": "Численное значение индуктивности рассеяния 73325341019 10141 10343,6 10 Гн;3 36 101sL −−− −−⋅π⋅⋅⋅⋅⋅⋅=≈⋅⋅⋅⋅ Сопротивление индуктивности рассеяния 5122 3,14 20000 3,6 104,53 ОмssXfL−=⋅π⋅⋅=⋅⋅⋅⋅≈; 12'0,5;sssXXX==⋅ 12'0,5 4,532,27 Ом.ssXX==⋅≈ Сопротивления контура намагничивания"
+    },
+    {
+      "file": "eq_p123_02.png",
+      "page": 123,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        68.5,
+        239.6,
+        555.7,
+        340.8
+      ],
+      "px": [
+        2031,
+        423
+      ],
+      "text_layer": "2002200 RXX RXμ =⋅ + ; 2002200 XRR RXμ =⋅ + ;"
+    },
+    {
+      "file": "eq_p123_03.png",
+      "page": 123,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        68.5,
+        337.5,
+        555.7,
+        528.8
+      ],
+      "px": [
+        2031,
+        798
+      ],
+      "text_layer": "210c URP= Δ. Потери мощности в магнитопроводе 11 010ccoc fBPкGBf γγ ρ ⎛⎞⎛⎞Δ= ρ⋅⋅⋅⋅⎜⎟⎜⎟⎝⎠⎝⎠ . Длина силовой линии ()2 (0,5)236170,5 28134 мм.cLhca=⋅++⋅=⋅++⋅= Вес магнитопровода"
+    },
+    {
+      "file": "eq_p123_04.png",
+      "page": 123,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        68.5,
+        512.8,
+        555.7,
+        690.1
+      ],
+      "px": [
+        2031,
+        740
+      ],
+      "text_layer": "30,0006 0,1134 5 100,4 кг.ccccGSLg=⋅⋅=⋅⋅⋅≈ Потери мощности в магнитопроводе ⎛⎞⎛⎞⎛⎞⎛⎞Δ= ρ⋅⋅⋅⋅=⋅⋅⋅⋅≈⎜⎟⎜⎟⎜⎟⎜⎟⎝⎠⎝⎠⎝⎠⎝⎠221022016,2 кОм;2,98c URP===Δ 0102XfL=⋅π⋅⋅;"
+    },
+    {
+      "file": "eq_p123_05.png",
+      "page": 123,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        68.5,
+        674.8,
+        555.7,
+        759.0
+      ],
+      "px": [
+        2031,
+        352
+      ],
+      "text_layer": "−−⋅⋅μ⋅⋅⋅⋅===⋅+⋅⋅μ+⋅⋅⋅ 3010222 100,0015186,4 Ом.XfL=⋅π⋅⋅=⋅π⋅⋅⋅="
+    },
+    {
+      "file": "eq_p124_01.png",
+      "page": 124,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        102.4,
+        108.6,
+        308.8,
+        209.9
+      ],
+      "px": [
+        861,
+        423
+      ],
+      "text_layer": "2200222200 RXX RXμ =⋅=⋅=++ 2200222200 XRR RXμ =⋅=⋅=++"
+    },
+    {
+      "file": "eq_p124_02.png",
+      "page": 124,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        102.4,
+        206.4,
+        308.8,
+        316.7
+      ],
+      "px": [
+        861,
+        461
+      ],
+      "text_layer": "10. Технические показатели Вес проводников катушки: 29,4 100,135 4 2,7 100,043 кг. knikiikGSLW g− −=⋅⋅⋅=⋅⋅⋅⋅⋅+ +⋅⋅⋅⋅⋅=∑"
+    },
+    {
+      "file": "eq_p124_03.png",
+      "page": 124,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        102.4,
+        374.3,
+        308.8,
+        484.4
+      ],
+      "px": [
+        861,
+        460
+      ],
+      "text_layer": "kii PPIRIRIRRIRU Δ=⋅=⋅+⋅=⋅+⋅= ∑ 33133036,3 1050 0,062 100,222 Вт.220 −− =⋅⋅+⋅⋅≈ Потери мощности в магнитопроводе"
+    },
+    {
+      "file": "eq_p124_04.png",
+      "page": 124,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        102.4,
+        484.1,
+        308.8,
+        663.0
+      ],
+      "px": [
+        861,
+        746
+      ],
+      "text_layer": "0102,98 Вт.ccoc fBPкGBf ρ ⎛⎞⎛⎞Δ= ρ⋅⋅⋅⋅=⎜⎟⎜⎟⎝⎠⎝⎠ Потери в изоляции катушек ()()0,050,052,980,2220,16 Вт.изkcPPPΔ≈⋅Δ+ Δ=⋅+≈ Фактическое соотношение потерь c kиз PPPΔν ===Δ+ Δ+ Коэффициент мощности"
+    },
+    {
+      "file": "eq_p124_05.png",
+      "page": 124,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        102.4,
+        662.4,
+        308.8,
+        759.2
+      ],
+      "px": [
+        861,
+        404
+      ],
+      "text_layer": "1cosxUU −ϕ =, где 1 1 sx P XUU ⋅=."
+    },
+    {
+      "file": "eq_p125_01.png",
+      "page": 125,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        66.8,
+        532.6,
+        229.1
+      ],
+      "px": [
+        1942,
+        677
+      ],
+      "text_layer": "1330 4,5327,39 В;220xU⋅== 2222027,39cos0,992.220−ϕ == kcизPPPPΔ+ Δ+ ΔΔη =⋅ϕ"
+    },
+    {
+      "file": "eq_p125_02.png",
+      "page": 125,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        212.8,
+        532.6,
+        273.3
+      ],
+      "px": [
+        1942,
+        253
+      ],
+      "text_layer": "0,2222,980,160,0031330 0,992++Δη =≈⋅;"
+    },
+    {
+      "file": "eq_p126_01.png",
+      "page": 126,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        568.2,
+        532.6,
+        732.9
+      ],
+      "px": [
+        1942,
+        687
+      ],
+      "text_layer": "()22 163212,5 21352ccaLchπ⎛⎞=++=++ π⋅=⎜⎟⎝⎠ мм = 0,135 м. 400165,1222=⋅⋅=⋅=baScc мм2 = 3104,0−⋅ м2. Сечение окна магнитопровода: 5121632=⋅=⋅=chSок мм2 310512,0−⋅= м2. Объем магнитопровода"
+    },
+    {
+      "file": "eq_p126_02.png",
+      "page": 126,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        714.7,
+        532.6,
+        776.7
+      ],
+      "px": [
+        1942,
+        259
+      ],
+      "text_layer": "53104,5135,0104,0−−⋅=⋅⋅=⋅=cccLSV м3."
+    },
+    {
+      "file": "eq_p127_01.png",
+      "page": 127,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        507.7,
+        532.6,
+        635.3
+      ],
+      "px": [
+        1941,
+        533
+      ],
+      "text_layer": "51048,5107,0032,0016,0−⋅=⋅⋅=⋅⋅=⋅⋅=кккккLhcLhсV м3. Здесь сск =, hhк =, поскольку заполнение окна — полное. Поверхность охлаждения магнитопровода (табл. 2.1): () () ()() З 3222 2 0,01250,0160,1350,03228,4 10 м . ос ПccПabLh −=+⋅−⋅= =⋅+−⋅=⋅"
+    },
+    {
+      "file": "eq_p128_01.png",
+      "page": 128,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        118.0,
+        474.4,
+        164.6
+      ],
+      "px": [
+        1699,
+        195
+      ],
+      "text_layer": "1кок БРПΔ= τ⋅σ⋅⋅+ ν ,"
+    },
+    {
+      "file": "eq_p128_02.png",
+      "page": 128,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        171.2,
+        474.4,
+        222.4
+      ],
+      "px": [
+        1699,
+        214
+      ],
+      "text_layer": "где 0,611 0,2Бν += +β+β⋅ν , ос ок ППβ =, 1ν = ."
+    },
+    {
+      "file": "eq_p128_03.png",
+      "page": 128,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        228.0,
+        474.4,
+        279.8
+      ],
+      "px": [
+        1699,
+        216
+      ],
+      "text_layer": "Получаем, 3 38,4 101,754,8 10 − −⋅β ==⋅ ,"
+    },
+    {
+      "file": "eq_p128_04.png",
+      "page": 128,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        288.5,
+        474.4,
+        336.5
+      ],
+      "px": [
+        1699,
+        200
+      ],
+      "text_layer": "9,209,175,11175,12,016,0175,11=⋅+=⋅⋅+ ++=Б"
+    },
+    {
+      "file": "eq_p128_05.png",
+      "page": 128,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        348.3,
+        474.4,
+        392.4
+      ],
+      "px": [
+        1699,
+        184
+      ],
+      "text_layer": "48,3119,2108,410503=+⋅⋅⋅⋅=Δ−кР Вт."
+    },
+    {
+      "file": "eq_p128_06.png",
+      "page": 128,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        415.1,
+        474.4,
+        584.5
+      ],
+      "px": [
+        1699,
+        707
+      ],
+      "text_layer": "3,48 13,48скРРΔ= Δ⋅ν =⋅= Вт. Принимаем 5,3≈Δ=ΔксРР Вт. 3. Значение допустимой индукции: 0110 ср cco РВВ fGкf γ ρ Δ= ⎛⎞⋅ρ⋅⋅⎜⎟⎝⎠ ."
+    },
+    {
+      "file": "eq_p128_07.png",
+      "page": 128,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        610.1,
+        474.4,
+        691.1
+      ],
+      "px": [
+        1699,
+        338
+      ],
+      "text_layer": "332,0102,875,0104,535=⋅⋅⋅⋅=⋅⋅=−cзсccgкVG кг. Здесь взято 2,8=cg г/см3 3102,8⋅= кг/м3. Теперь находим индукцию:"
+    },
+    {
+      "file": "eq_p128_08.png",
+      "page": 128,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        696.1,
+        474.4,
+        742.7
+      ],
+      "px": [
+        1699,
+        195
+      ],
+      "text_layer": "() 23,0212,05,005,258,112332,0 5,35,02,1=⋅=⋅⋅⋅⋅=рВ Тл."
+    },
+    {
+      "file": "eq_p129_01.png",
+      "page": 129,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        160.8,
+        532.6,
+        212.2
+      ],
+      "px": [
+        1941,
+        215
+      ],
+      "text_layer": "6583,52,3 105,48 100,35 2,1 10 к кзкк РjVк−−Δ===⋅⋅⋅ρ⋅⋅⋅⋅ А/м2 ="
+    },
+    {
+      "file": "eq_p129_02.png",
+      "page": 129,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        220.1,
+        532.6,
+        244.9
+      ],
+      "px": [
+        1941,
+        104
+      ],
+      "text_layer": "=2,95 А/мм2."
+    },
+    {
+      "file": "eq_p129_03.png",
+      "page": 129,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        274.5,
+        532.6,
+        347.4
+      ],
+      "px": [
+        1941,
+        305
+      ],
+      "text_layer": "1014фокзсокcРкnккSSB fj=⋅⋅⋅⋅⋅⋅⋅⋅⋅= =⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅=−−6331095,2500023,0104,010512,075,035,05,011,14405=, ВА."
+    },
+    {
+      "file": "eq_p129_04.png",
+      "page": 129,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        354.3,
+        532.6,
+        522.2
+      ],
+      "px": [
+        1941,
+        700
+      ],
+      "text_layer": "6. Весовые показатели. Вес обмоток: 17,0108,835,01048,535=⋅⋅⋅⋅=⋅⋅=−кзкккgкVG кг. Вес магнитопровода найден в п.3: 332,0=сG кг. Общий вес трансформатора: 5,0332,017,0≈+=+=скGGG кг. Удельный вес на единицу мощности"
+    },
+    {
+      "file": "eq_p129_05.png",
+      "page": 129,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        522.9,
+        532.6,
+        572.6
+      ],
+      "px": [
+        1941,
+        209
+      ],
+      "text_layer": "1 500 г1,23405 ВАg GЭP=== г/ВА."
+    },
+    {
+      "file": "eq_p130_01.png",
+      "page": 130,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        62.0,
+        532.6,
+        122.6
+      ],
+      "px": [
+        1941,
+        253
+      ],
+      "text_layer": "− реактивное сопротивление току намагничивания 2500Xμ = Ом;"
+    },
+    {
+      "file": "eq_p131_01.png",
+      "page": 131,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        138.4,
+        528.6,
+        190.5
+      ],
+      "px": [
+        1925,
+        218
+      ],
+      "text_layer": "111022222200,092500400xx UUIZxRμμ====++ А."
+    },
+    {
+      "file": "eq_p131_02.png",
+      "page": 131,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        202.6,
+        528.6,
+        257.5
+      ],
+      "px": [
+        1925,
+        230
+      ],
+      "text_layer": "() =++==22212 111 ТSкзк кRRx UZ UI"
+    },
+    {
+      "file": "eq_p131_03.png",
+      "page": 131,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        267.8,
+        528.6,
+        322.0
+      ],
+      "px": [
+        1925,
+        227
+      ],
+      "text_layer": "() 82,1608,13220 42,0212 220 222==⋅++= А."
+    },
+    {
+      "file": "eq_p131_04.png",
+      "page": 131,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        348.6,
+        528.6,
+        403.7
+      ],
+      "px": [
+        1925,
+        231
+      ],
+      "text_layer": "5418,544408,13220411212≈=⎟⎠⎞⎜⎝⎛⋅−=⎟⎟⎠ ⎞⎜⎜⎝ ⎛−= Т нкзТнкIZUкUВ."
+    },
+    {
+      "file": "eq_p131_05.png",
+      "page": 131,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        449.8,
+        528.6,
+        500.8
+      ],
+      "px": [
+        1925,
+        213
+      ],
+      "text_layer": "12px пf LCμ= π⋅⋅ , где 1 25000,33221200 XLf μμ ===ππ⋅ Гн."
+    },
+    {
+      "file": "eq_p131_06.png",
+      "page": 131,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        532.0,
+        528.6,
+        685.5
+      ],
+      "px": [
+        1925,
+        641
+      ],
+      "text_layer": "4 1212,19 1020,33 160 10рxf −==⋅π⋅⋅⋅ Гц ≈ 22 кГц. Здесь 160=пС пФ 12160 10−=⋅ Ф. Резонансная частота под нагрузкой: 12рн кзПf LС= π⋅ , при 3 1 121,6 10221200 Sкз XLf −===⋅ππ⋅ Гн."
+    },
+    {
+      "file": "eq_p131_07.png",
+      "page": 131,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        714.7,
+        528.6,
+        763.9
+      ],
+      "px": [
+        1925,
+        206
+      ],
+      "text_layer": "5 31213,15 1021,6 10160 10рнf −−==⋅π⋅⋅⋅ Гц."
+    },
+    {
+      "file": "eq_p132_01.png",
+      "page": 132,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        117.4,
+        532.6,
+        162.1
+      ],
+      "px": [
+        1941,
+        187
+      ],
+      "text_layer": "3,182,1221==ff px ; 13152631,2рнff ==."
+    },
+    {
+      "file": "eq_p132_02.png",
+      "page": 132,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        207.7,
+        532.6,
+        268.2
+      ],
+      "px": [
+        1941,
+        253
+      ],
+      "text_layer": "() ()() () 2222122212 ннн нннн IRRRRRIRIRR ′′⋅′η ==′′++′′′′++ ."
+    },
+    {
+      "file": "eq_p132_03.png",
+      "page": 132,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        296.8,
+        532.6,
+        344.6
+      ],
+      "px": [
+        1941,
+        201
+      ],
+      "text_layer": "2ннТRRк′ =⋅, 2 2cosнн’н URI=⋅ϕ ;"
+    },
+    {
+      "file": "eq_p132_04.png",
+      "page": 132,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        353.1,
+        532.6,
+        397.7
+      ],
+      "px": [
+        1941,
+        186
+      ],
+      "text_layer": "252 0,9 4187,24нR′ =⋅⋅= Ом."
+    },
+    {
+      "file": "eq_p132_05.png",
+      "page": 132,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        423.9,
+        532.6,
+        469.8
+      ],
+      "px": [
+        1941,
+        192
+      ],
+      "text_layer": "2187,20,973187,220,2 4η =≈≈++⋅ 97%."
+    },
+    {
+      "file": "eq_p132_06.png",
+      "page": 132,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        472.2,
+        532.6,
+        671.4
+      ],
+      "px": [
+        1941,
+        831
+      ],
+      "text_layer": "5. Коэффициент мощности схемы замещения при номиналь-ной нагрузке cosϕ: 12 cн н XXarctg RRR′+ϕ =′′++, где 2222 2sin1 cos1 cosнТннннннн UкXZZI ⋅′′=⋅ϕ =⋅−ϕ =−ϕ = 2252 410,9208 0,43690,74⋅=⋅−=⋅= Ом."
+    },
+    {
+      "file": "eq_p132_07.png",
+      "page": 132,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        670.9,
+        532.6,
+        736.3
+      ],
+      "px": [
+        1941,
+        273
+      ],
+      "text_layer": "Получаем: 1290,723,2187,2arctg+ϕ ==++28°,"
+    },
+    {
+      "file": "eq_p133_01.png",
+      "page": 133,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        66.9,
+        68.8,
+        532.6,
+        217.5
+      ],
+      "px": [
+        1941,
+        621
+      ],
+      "text_layer": "6. Длительности переходных процессов при включениях трансформатора на холостом ходу и под нагрузкой. Определяет-ся, примерно, четырьмя значениями постоянных времени xnxTt4=, нnнТt4=, где 0,825x LТR μ μ== мс,"
+    },
+    {
+      "file": "eq_p133_02.png",
+      "page": 133,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        66.9,
+        217.0,
+        532.6,
+        269.8
+      ],
+      "px": [
+        1941,
+        221
+      ],
+      "text_layer": "121 11290,710,07223,2187,2 21200 Sнн н XXТRRRf′++=⋅=⋅=′′++π++π⋅ мс."
+    },
+    {
+      "file": "eq_p133_03.png",
+      "page": 133,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        66.9,
+        293.2,
+        532.6,
+        431.4
+      ],
+      "px": [
+        1941,
+        577
+      ],
+      "text_layer": "3,3825,044=⋅==xnxTt мс. Это составит 4102,1103,313311≈⋅⋅⋅=⋅== −ftfTt nxnx, то есть 4 периода рабочей частоты. Время переходного процесса включения под нагрузкой: 28,007,044=⋅==НnНTt мс,"
+    },
+    {
+      "file": "eq_p136_01.png",
+      "page": 136,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        86.8,
+        533.2,
+        167.3
+      ],
+      "px": [
+        1944,
+        337
+      ],
+      "text_layer": "Материал Удельный вес gк , кρ , Ом⋅мм2/м при t град обмоток г/см2 20°С 70°С 90°С 120°С"
+    },
+    {
+      "file": "eq_p136_02.png",
+      "page": 136,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        592.8,
+        533.2,
+        631.6
+      ],
+      "px": [
+        1944,
+        163
+      ],
+      "text_layer": "Толщина ленты или пла- стины, мм 0,5÷0,350,2÷0,150,1÷0,080,05 0,02"
+    },
+    {
+      "file": "eq_p137_01.png",
+      "page": 137,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        301.0,
+        539.6,
+        343.4
+      ],
+      "px": [
+        1971,
+        178
+      ],
+      "text_layer": "f10 кГц Толщина материала Значения соρ (Вт/кг) при Во = 0,5 Тл для материа- лов"
+    },
+    {
+      "file": "eq_p137_02.png",
+      "page": 137,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        634.9,
+        539.6,
+        766.0
+      ],
+      "px": [
+        1971,
+        547
+      ],
+      "text_layer": "Материал Удельный вес, gc Значения кρ при частоте, кГц г/см3 0,4 2 5 10 ≥20 3421÷3423 7,65 1,5 1,6 1,65 1,7 1,9 50Н 8,2 1,7 1,8 1,85 1,9 2,1 80НХС÷79НМ8,5 2,5 2,8 2,9 3 3,3 Ферриты 5 − − − 1 1,1"
+    },
+    {
+      "file": "eq_p139_01.png",
+      "page": 139,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        296.0,
+        532.1,
+        340.9
+      ],
+      "px": [
+        1940,
+        188
+      ],
+      "text_layer": "УЭП для SK x y cкNN =cl кl"
+    },
+    {
+      "file": "eq_p139_02.png",
+      "page": 139,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        510.8,
+        532.1,
+        693.0
+      ],
+      "px": [
+        1940,
+        760
+      ],
+      "text_layer": "Таблица П.7, г — Геометрические показатели чашечных МЭ Минимум УЭП для SK x z кcNN =cl кl Цены 0,3 0,3 0,7 4,6 4,3 5,2 Объема 0,7 0,45 1 4,2 6,7 5,8 Веса 1,2 0,6 1,3 4 8 6,4 Компромиссной гео-метрии 0,9 0,5 1,2 4 8 6"
+    },
+    {
+      "file": "eq_p139_03.png",
+      "page": 139,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        709.0,
+        532.1,
+        749.0
+      ],
+      "px": [
+        1940,
+        167
+      ],
+      "text_layer": "Здесь 4,186,0+⋅=α SKx, xKzS66,0=, 22,1≈α."
+    },
+    {
+      "file": "eq_p141_01.png",
+      "page": 141,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        -4.0,
+        78.8,
+        846.0,
+        334.0
+      ],
+      "px": [
+        3509,
+        1064
+      ],
+      "text_layer": "yεπ++17,01– ylx"
+    },
+    {
+      "file": "eq_p141_02.png",
+      "page": 141,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        -4.0,
+        80.4,
+        846.0,
+        750.5
+      ],
+      "px": [
+        3509,
+        2145
+      ],
+      "text_layer": "МЭ cl cN кl кN cε кε"
+    },
+    {
+      "file": "eq_p141_03.png",
+      "page": 141,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        -4.0,
+        233.5,
+        846.0,
+        744.3
+      ],
+      "px": [
+        3509,
+        1507
+      ],
+      "text_layer": "Ч ()zx ++8,05,2 ()()cxε++17,04 ()x+14 скNN="
+    },
+    {
+      "file": "eq_p141_04.png",
+      "page": 141,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        -4.0,
+        337.8,
+        846.0,
+        667.4
+      ],
+      "px": [
+        3509,
+        1073
+      ],
+      "text_layer": "y+1π кcNN = ()xy"
+    },
+    {
+      "file": "eq_p142_01.png",
+      "page": 142,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        106.0,
+        208.0,
+        164.0,
+        364.3
+      ],
+      "px": [
+        243,
+        653
+      ],
+      "text_layer": "6×6,5 6×8 6×10 6×12,5 8×8 8×10 8×12,5 8×16"
+    },
+    {
+      "file": "eq_p142_02.png",
+      "page": 142,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        106.0,
+        346.8,
+        164.0,
+        503.0
+      ],
+      "px": [
+        243,
+        653
+      ],
+      "text_layer": "10×10 10×12,5 10×16 10×20 12×12,5 12×16 12×20 12×25"
+    },
+    {
+      "file": "eq_p142_03.png",
+      "page": 142,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        106.0,
+        485.5,
+        164.0,
+        641.8
+      ],
+      "px": [
+        243,
+        653
+      ],
+      "text_layer": "16×16 16×20 16×25 16×32 20×20 20×25 20×32 20×40"
+    },
+    {
+      "file": "eq_p142_04.png",
+      "page": 142,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        106.0,
+        624.2,
+        164.0,
+        763.3
+      ],
+      "px": [
+        243,
+        581
+      ],
+      "text_layer": "25×25 25×32 25×40 25×50 32×32 32×40 32×50"
+    },
+    {
+      "file": "eq_p143_01.png",
+      "page": 143,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        197.6,
+        538.9,
+        306.7
+      ],
+      "px": [
+        1968,
+        456
+      ],
+      "text_layer": "31 32 32×64 16 20,5 410 523 33 34 35 36 40×40 40×50 40×64 40×80 40 100 34,2 16 20 25,6 32 40 640 800 1025 1280"
+    },
+    {
+      "file": "eq_p146_01.png",
+      "page": 146,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        109.3,
+        501.6,
+        239.5
+      ],
+      "px": [
+        1812,
+        544
+      ],
+      "text_layer": "№ Типоразмер d(c)×D×b, мм а, мм Lc, см Sc, см2 Sок, см2 Sc⋅ Sок, см4 1 2 3 4 10×16×4 10×16×5 10×16×6,5 10×16×8 3 4 0,12 0,15 0,2 0,24 0,8 0,096 0,12 0,16 0,192"
+    },
+    {
+      "file": "eq_p147_01.png",
+      "page": 147,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        65.5,
+        66.5,
+        237.7,
+        136.7
+      ],
+      "px": [
+        719,
+        293
+      ],
+      "text_layer": "№ Типоразмер d(c)×D×b, мм Продолжение табл. П.11, а"
+    },
+    {
+      "file": "eq_p148_01.png",
+      "page": 148,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        107.2,
+        535.8,
+        182.0
+      ],
+      "px": [
+        1955,
+        313
+      ],
+      "text_layer": "Типоразмер маг- нитопровода K.D×d×b Sc, см Lс, см Sо к, см2 Gc, г SSо к c, см4"
+    },
+    {
+      "file": "eq_p149_01.png",
+      "page": 149,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        396.8,
+        532.1,
+        582.7
+      ],
+      "px": [
+        1939,
+        775
+      ],
+      "text_layer": "Δа Δа d0 с с Δа с d0 с Δа d=a"
+    },
+    {
+      "file": "eq_p149_02.png",
+      "page": 149,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        67.0,
+        613.9,
+        532.1,
+        668.8
+      ],
+      "px": [
+        1939,
+        230
+      ],
+      "text_layer": "22daDc−−=Δ, aa2,0=Δ."
+    }
+  ]
+}

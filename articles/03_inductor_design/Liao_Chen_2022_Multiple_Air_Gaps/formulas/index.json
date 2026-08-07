@@ -1,0 +1,655 @@
+{
+  "article": "Liao_Chen_2022_Multiple_Air_Gaps",
+  "source": "source.pdf",
+  "pages_scanned": 18,
+  "dpi": 300,
+  "n_formulas": 32,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p003_01.png",
+      "page": 3,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        302.7,
+        539.2,
+        553.6,
+        571.8
+      ],
+      "px": [
+        1046,
+        137
+      ],
+      "text_layer": "ℜg = lg𝜇oAg( fe) (1)"
+    },
+    {
+      "file": "eq_p003_02.png",
+      "page": 3,
+      "eq_number": "2",
+      "eq_numbers": [
+        "2"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        302.7,
+        650.3,
+        553.6,
+        683.7
+      ],
+      "px": [
+        1046,
+        140
+      ],
+      "text_layer": "ℜfe = l fe −lg𝜇r fe𝜇oA fe (2)"
+    },
+    {
+      "file": "eq_p004_01.png",
+      "page": 4,
+      "eq_number": "6",
+      "eq_numbers": [
+        "6"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        302.7,
+        283.6,
+        553.6,
+        317.0
+      ],
+      "px": [
+        1046,
+        140
+      ],
+      "text_layer": "ℜeq(2,gaps, fe) = l fe −l2gt𝜇r fe𝜇oA fe + l fe4𝜇r fe4𝜇oA fe4 + l2gt𝜇oA fe ,(6)"
+    },
+    {
+      "file": "eq_p004_02.png",
+      "page": 4,
+      "eq_number": "3",
+      "eq_numbers": [
+        "3"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        41.5,
+        302.2,
+        292.3,
+        335.6
+      ],
+      "px": [
+        1047,
+        140
+      ],
+      "text_layer": "ℜeq(1gap) = l fe −lg𝜇r fe𝜇oA fe + lg𝜇oAg( fe) (3)"
+    },
+    {
+      "file": "eq_p004_03.png",
+      "page": 4,
+      "eq_number": "4",
+      "eq_numbers": [
+        "4"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        41.5,
+        377.8,
+        292.3,
+        425.2
+      ],
+      "px": [
+        1047,
+        199
+      ],
+      "text_layer": "L1gap = 𝜇oA feN 2 lg( 𝜇r feA fe−Ag( fe) 𝜇r feAg( fe)) + ( l fe𝜇r fe )(4)"
+    },
+    {
+      "file": "eq_p004_04.png",
+      "page": 4,
+      "eq_number": "7",
+      "eq_numbers": [
+        "7"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        302.7,
+        395.0,
+        553.6,
+        440.6
+      ],
+      "px": [
+        1046,
+        191
+      ],
+      "text_layer": "L2,gaps( fe) =𝜇oN 2 l2gt ( fe) A fe ( 𝜇r fe−1 𝜇r fe ) + ( l fe𝜇r feA fe ) + ( l fe4𝜇r fe4A fe4 )(7)"
+    },
+    {
+      "file": "eq_p004_05.png",
+      "page": 4,
+      "eq_number": "5",
+      "eq_numbers": [
+        "5"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        41.5,
+        468.1,
+        292.3,
+        516.7
+      ],
+      "px": [
+        1047,
+        204
+      ],
+      "text_layer": "L1gap = 𝜇oA feN 2 lg( 𝜇r fe−1 𝜇r fe ) + ( l fe𝜇r fe )(5)"
+    },
+    {
+      "file": "eq_p004_06.png",
+      "page": 4,
+      "eq_number": "8",
+      "eq_numbers": [
+        "8",
+        "9"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        302.7,
+        518.5,
+        553.6,
+        599.2
+      ],
+      "px": [
+        1046,
+        337
+      ],
+      "text_layer": "ℜeq(2,gaps,se) = l fe −l2gt𝜇r fe𝜇oA fe +lse4𝜇rse4𝜇oAse4 + l2gt𝜇oA fe ,(8) L2,gaps(se) =𝜇oAse4N 2 l2gt (se) ( 𝜇r fe−1 𝜇r fe ) + ( l fe𝜇r fe ) + ( lse4 𝜇rse ),(9)"
+    },
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": "10",
+      "eq_numbers": [
+        "10"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        41.5,
+        126.8,
+        292.4,
+        230.0
+      ],
+      "px": [
+        1047,
+        431
+      ],
+      "text_layer": "ℜeq(3,gaps,se) = l fe −l3gt𝜇r fe𝜇oA fe +lse4𝜇rse4𝜇oAse4 +lse5𝜇rse5𝜇oAse5 + l3gt𝜇oA fe , (10)where lse4 and lse5 are the lengths of two pieces of Sendust coreson the center-pole area. Ase4 and Ase5 are cross-sectional areaswith two pieces of Sendust core. The inductance value L3,gaps(se) for two pieces of Sendust corewith three air-gaps is expressed as"
+    },
+    {
+      "file": "eq_p005_02.png",
+      "page": 5,
+      "eq_number": "11",
+      "eq_numbers": [
+        "11"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        41.5,
+        237.0,
+        292.4,
+        284.5
+      ],
+      "px": [
+        1047,
+        199
+      ],
+      "text_layer": "L3,gaps(se) = 𝜇oA feN 2 l3gt (se) ( 𝜇r fe−1 𝜇r fe ) + ( l fe𝜇r fe ) + ( lse4+lse5 𝜇rse4 ).(11)"
+    },
+    {
+      "file": "eq_p005_03.png",
+      "page": 5,
+      "eq_number": "12",
+      "eq_numbers": [
+        "12"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        41.5,
+        399.1,
+        292.4,
+        446.6
+      ],
+      "px": [
+        1047,
+        198
+      ],
+      "text_layer": "L3,gaps( fe) = 𝜇oA feN 2 l3gt ( fe) ( 𝜇r fe−1 𝜇r fe ) + ( l fe+l fe4+l fe5 𝜇r fe ).(12)"
+    },
+    {
+      "file": "eq_p005_04.png",
+      "page": 5,
+      "eq_number": "104",
+      "eq_numbers": [
+        "104",
+        "13"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        302.7,
+        664.5,
+        553.5,
+        697.3
+      ],
+      "px": [
+        1046,
+        138
+      ],
+      "text_layer": "AP = 2Energy(104) BmJmKu ,(13)"
+    },
+    {
+      "file": "eq_p006_01.png",
+      "page": 6,
+      "eq_number": "18",
+      "eq_numbers": [
+        "18"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        302.7,
+        97.5,
+        553.6,
+        145.1
+      ],
+      "px": [
+        1046,
+        199
+      ],
+      "text_layer": "(18) lg3( fe) = 1 3 [ 𝜇OA feN 2 L3gaps( fe) − (l fe + l fe4 + l fe5 𝜇r fe )] × (𝜇r fe𝜇r fe −1 ) ."
+    },
+    {
+      "file": "eq_p006_02.png",
+      "page": 6,
+      "eq_number": "16",
+      "eq_numbers": [
+        "16",
+        "17"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        41.5,
+        633.3,
+        292.3,
+        692.4
+      ],
+      "px": [
+        1047,
+        247
+      ],
+      "text_layer": "(16) lg2(se) = 1 2 [( 𝜇OA feN 2 L2,gaps(se) ) − ( l fe 𝜇r fe ) − ( lse4 𝜇rse )] × (𝜇r fe𝜇r fe −1 ) . (17)"
+    },
+    {
+      "file": "eq_p007_01.png",
+      "page": 7,
+      "eq_number": "27",
+      "eq_numbers": [
+        "27"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        302.7,
+        104.1,
+        553.5,
+        134.8
+      ],
+      "px": [
+        1046,
+        129
+      ],
+      "text_layer": "Rwdc = 4𝜌wNlT 𝜋d 2,(27)"
+    },
+    {
+      "file": "eq_p007_02.png",
+      "page": 7,
+      "eq_number": "22",
+      "eq_numbers": [
+        "22",
+        "23"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        41.5,
+        193.4,
+        292.3,
+        349.3
+      ],
+      "px": [
+        1047,
+        651
+      ],
+      "text_layer": "N ′ 1gap = √√√√√√ L1gap [ lg ( 𝜇r fe−1 𝜇r fe ) + ( l fe𝜇r fe )] 𝜇oF ′ f A fe ,(22) N ′ 2,gaps( fe) = √√√√√√ L2,gaps( fe) [ l2gt ( fe) ( 𝜇r fe−1 𝜇r fe ) + ( l fe+l fe4 𝜇r fe )] 𝜇oF ′ f A fe , (23) √√√√√√ [ ( ) ( ) )]"
+    },
+    {
+      "file": "eq_p007_03.png",
+      "page": 7,
+      "eq_number": "28",
+      "eq_numbers": [
+        "28"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        302.7,
+        211.5,
+        553.5,
+        230.7
+      ],
+      "px": [
+        1046,
+        81
+      ],
+      "text_layer": "𝜌w(T ) = 𝜌w(TO)[1+𝛼(TO)(Tmax −TO)],(28)"
+    },
+    {
+      "file": "eq_p007_04.png",
+      "page": 7,
+      "eq_number": "23",
+      "eq_numbers": [
+        "23",
+        "24",
+        "25",
+        "23"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        41.5,
+        233.2,
+        292.3,
+        433.1
+      ],
+      "px": [
+        1047,
+        834
+      ],
+      "text_layer": "f A fe N ′ 2,gaps( fe) = √√√√√√ L2,gaps( fe) [ l2gt ( fe) ( 𝜇r fe−1 𝜇r fe ) + ( l fe+l fe4 𝜇r fe )] 𝜇oF ′ f A fe , (23) N ′ 2,gaps(se) = √√√√√√ L2,gaps(se) [ l2gt (se) ( 𝜇r fe−1 𝜇r fe ) + ( l fe𝜇r fe ) + ( lse4 𝜇rse )] 𝜇oF ′ f A fe , (24) N ′ 3,gaps(se) = √√√√√√ L3,gaps(se) [ l3gt (se) ( 𝜇r fe−1 𝜇r fe ) + ( l fe 𝜇r fe ) + ( lse4+lse5 𝜇rse4 )] 𝜇oF ′ f A fe , (25) (23)"
+    },
+    {
+      "file": "eq_p007_05.png",
+      "page": 7,
+      "eq_number": "29",
+      "eq_numbers": [
+        "29"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        302.7,
+        332.0,
+        553.5,
+        351.2
+      ],
+      "px": [
+        1046,
+        81
+      ],
+      "text_layer": "Pwdc(Cu) = RwdcI 2rms.(29)"
+    },
+    {
+      "file": "eq_p007_06.png",
+      "page": 7,
+      "eq_number": "24",
+      "eq_numbers": [
+        "24",
+        "24",
+        "25",
+        "26",
+        "22",
+        "26",
+        "25"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        41.5,
+        353.3,
+        292.3,
+        528.2
+      ],
+      "px": [
+        1047,
+        729
+      ],
+      "text_layer": "(24) (24) N ′ 3,gaps(se) = √√√√√√ L3,gaps(se) [ l3gt (se) ( 𝜇r fe−1 𝜇r fe ) + ( l fe 𝜇r fe ) + ( lse4+lse5 𝜇rse4 )] 𝜇oF ′ f A fe , (25) N ′ 3,gaps( fe) = √√√√√√ L3,gaps( fe) [ l3gt ( fe) ( 𝜇r fe−1 𝜇r fe ) + ( l fe+l fe4+lse5 𝜇r fe )] 𝜇oF ′ f A fe . (26)Equations (22)–(26) are the new winding turns of one air-gap to three air-gaps with two different materials that have theaccuracy fringing ﬂux fact"
+    },
+    {
+      "file": "eq_p007_07.png",
+      "page": 7,
+      "eq_number": "30",
+      "eq_numbers": [
+        "30"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        302.7,
+        525.0,
+        553.5,
+        588.4
+      ],
+      "px": [
+        1046,
+        265
+      ],
+      "text_layer": "FR = ( 𝜋 4 ) 3 4 ( d 𝛿 ) √𝜅p[ sinh(2Δ)+sin(2Δ) cosh(2Δ)−cos(2Δ) + 2(N 2l −1) 3 sinh(Δ)−sin(Δ) cosh(Δ)+cos(Δ) ] ,(30)"
+    },
+    {
+      "file": "eq_p008_01.png",
+      "page": 8,
+      "eq_number": "32",
+      "eq_numbers": [
+        "32"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        41.5,
+        127.8,
+        292.3,
+        146.9
+      ],
+      "px": [
+        1047,
+        81
+      ],
+      "text_layer": "Pwac = FRRwdcI 2rms.(32)"
+    },
+    {
+      "file": "eq_p008_02.png",
+      "page": 8,
+      "eq_number": "33",
+      "eq_numbers": [
+        "33"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        41.5,
+        190.6,
+        292.3,
+        208.7
+      ],
+      "px": [
+        1047,
+        76
+      ],
+      "text_layer": "Pw(Cu) = Pwac + Pwdc(Cu).(33)"
+    },
+    {
+      "file": "eq_p008_03.png",
+      "page": 8,
+      "eq_number": "34",
+      "eq_numbers": [
+        "34"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        41.5,
+        287.2,
+        292.3,
+        309.5
+      ],
+      "px": [
+        1047,
+        94
+      ],
+      "text_layer": "Pfe,s = KC f 𝛼B𝛽 m,(34)"
+    },
+    {
+      "file": "eq_p008_04.png",
+      "page": 8,
+      "eq_number": "35",
+      "eq_numbers": [
+        "35"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        41.5,
+        388.3,
+        292.3,
+        407.1
+      ],
+      "px": [
+        1047,
+        80
+      ],
+      "text_layer": "Pfe,v = VC Pfe,p.(35)"
+    },
+    {
+      "file": "eq_p008_05.png",
+      "page": 8,
+      "eq_number": "36",
+      "eq_numbers": [
+        "36"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        41.5,
+        438.1,
+        292.3,
+        456.3
+      ],
+      "px": [
+        1047,
+        77
+      ],
+      "text_layer": "PT = Pw(Cu) + Pfe,v.(36)"
+    },
+    {
+      "file": "eq_p013_01.png",
+      "page": 13,
+      "eq_number": "39",
+      "eq_numbers": [
+        "39"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        41.5,
+        539.7,
+        292.3,
+        572.4
+      ],
+      "px": [
+        1047,
+        137
+      ],
+      "text_layer": "Ffr = 1 + A frA fe lgl fr .(39)"
+    },
+    {
+      "file": "eq_p013_02.png",
+      "page": 13,
+      "eq_number": "40",
+      "eq_numbers": [
+        "40"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        41.5,
+        613.7,
+        292.3,
+        649.7
+      ],
+      "px": [
+        1047,
+        151
+      ],
+      "text_layer": "Ffr = 1 + 4𝛼⋅l g(DCP + 𝛼⋅lg) 𝛽⋅DCP 2,(40)"
+    },
+    {
+      "file": "eq_p017_01.png",
+      "page": 17,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        302.7,
+        596.6,
+        553.6,
+        638.5
+      ],
+      "px": [
+        1046,
+        176
+      ],
+      "text_layer": "Dmax = VO − √ 2Vac,minVO .(A1)"
+    },
+    {
+      "file": "eq_p018_01.png",
+      "page": 18,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        41.5,
+        73.9,
+        292.3,
+        114.9
+      ],
+      "px": [
+        1047,
+        172
+      ],
+      "text_layer": "IL,pk = √ 2PO𝜂Vac,min .(A3)"
+    },
+    {
+      "file": "eq_p018_02.png",
+      "page": 18,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        41.5,
+        169.4,
+        292.3,
+        201.6
+      ],
+      "px": [
+        1047,
+        136
+      ],
+      "text_layer": "N =WaKuSnAws(AWG#NO.) ,(A4)"
+    },
+    {
+      "file": "eq_p018_03.png",
+      "page": 18,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        302.7,
+        169.8,
+        553.5,
+        200.6
+      ],
+      "px": [
+        1046,
+        129
+      ],
+      "text_layer": "Aw(B) = Irms Jm (A6)"
+    }
+  ]
+}

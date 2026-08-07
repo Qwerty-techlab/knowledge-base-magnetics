@@ -1,0 +1,28 @@
+{
+  "article": "Legostaev_MEEU_uchebno_metodicheskoe_posobie",
+  "source": "source.pdf",
+  "pages_scanned": 146,
+  "dpi": 300,
+  "n_formulas": 1,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p131_01.png",
+      "page": 131,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        81.1,
+        53.9,
+        535.5,
+        172.2
+      ],
+      "px": [
+        1895,
+        494
+      ],
+      "text_layer": "Таблица А.6 – Эффективные параметры сердечников конфигурации E фирмы Magnetics из материалов MPP, HighFlux, KoolM , XFlux Маркировка сердечника 2LAnH/T8% el ,mm 2eA ,mm 3eV ,mm 26μ 40μ 60μ 90μ"
+    }
+  ]
+}

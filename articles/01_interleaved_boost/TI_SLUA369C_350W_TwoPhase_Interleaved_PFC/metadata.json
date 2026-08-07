@@ -27,5 +27,8 @@
   ],
   "use_in_methodology": "Полный пример расчёта двухфазного PFC с номиналами: сверка порядка величин индуктивности и токов.",
   "bib_title": "350-W, Two Phase Interleaved PFC Pre-Regulator (Rev. C)",
-  "bib_title_source": "pdf_metadata"
+  "bib_title_source": "pdf_metadata",
+  "formulas_extracted": 22,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

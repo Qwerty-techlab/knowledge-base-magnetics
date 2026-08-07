@@ -27,5 +27,8 @@
   ],
   "use_in_methodology": "Частотно-зависимые потери и индуктивность фольговой обмотки с учётом зазора и экранирования полем проводников. Фольга рассмотрена как альтернатива литцендрату.",
   "bib_title": "Frequency-Dependent Inductance and Winding Loss Model for Gapped Foil Inductors",
-  "bib_title_source": "sources_md"
+  "bib_title_source": "sources_md",
+  "formulas_extracted": 25,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

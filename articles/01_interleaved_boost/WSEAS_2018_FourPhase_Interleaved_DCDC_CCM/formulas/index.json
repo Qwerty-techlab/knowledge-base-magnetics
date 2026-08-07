@@ -1,0 +1,212 @@
+{
+  "article": "WSEAS_2018_FourPhase_Interleaved_DCDC_CCM",
+  "source": "source.pdf",
+  "pages_scanned": 11,
+  "dpi": 300,
+  "n_formulas": 11,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p002_01.png",
+      "page": 2,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.0,
+        66.6,
+        290.1,
+        129.1
+      ],
+      "px": [
+        1014,
+        261
+      ],
+      "text_layer": "depend on ranges of the duty ratio D ≤ ¼, ¼ ≤ D ≤ ½, ½ ≤ D ≤ ¾, ¾ ≤ D ≤ 1. L4 i4iD4"
+    },
+    {
+      "file": "eq_p004_01.png",
+      "page": 4,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        307.8,
+        479.6,
+        551.0,
+        538.6
+      ],
+      "px": [
+        1014,
+        247
+      ],
+      "text_layer": "SinppDT)D(LVI−−=1114∆ =+ ∆+ ∆+ ∆="
+    },
+    {
+      "file": "eq_p004_02.png",
+      "page": 4,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.0,
+        670.4,
+        290.1,
+        744.6
+      ],
+      "px": [
+        1014,
+        310
+      ],
+      "text_layer": "SinppppDTLVII==11∆ SinppDT)D(LVI−−=1112∆"
+    },
+    {
+      "file": "eq_p004_03.png",
+      "page": 4,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        307.8,
+        720.3,
+        551.0,
+        765.6
+      ],
+      "px": [
+        1014,
+        190
+      ],
+      "text_layer": "SinppDTLVI=1∆"
+    },
+    {
+      "file": "eq_p004_04.png",
+      "page": 4,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.0,
+        727.3,
+        290.1,
+        773.0
+      ],
+      "px": [
+        1014,
+        192
+      ],
+      "text_layer": "SinppDT)D(LVI−−=1113∆"
+    },
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        307.9,
+        66.8,
+        551.0,
+        87.0
+      ],
+      "px": [
+        1014,
+        85
+      ],
+      "text_layer": "1234 inpppppppppp IIIII = ∆+ ∆+ ∆+ ∆="
+    },
+    {
+      "file": "eq_p005_02.png",
+      "page": 5,
+      "eq_number": "7",
+      "eq_numbers": [
+        "7",
+        "8",
+        "9"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.0,
+        67.2,
+        290.1,
+        170.4
+      ],
+      "px": [
+        1014,
+        431
+      ],
+      "text_layer": "SinppDT)D(LVI−−=1112∆ , (7) SinppDT)D(LVI−−=1113∆ , (8) SinppDTLVI=4∆ , (9) 4321 =+++= IIIII ppppppppinpp∆∆∆∆"
+    },
+    {
+      "file": "eq_p005_03.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        307.9,
+        78.6,
+        551.0,
+        125.3
+      ],
+      "px": [
+        1014,
+        195
+      ],
+      "text_layer": "−+−=−"
+    },
+    {
+      "file": "eq_p005_04.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.0,
+        168.4,
+        290.1,
+        211.5
+      ],
+      "px": [
+        1014,
+        181
+      ],
+      "text_layer": "="
+    },
+    {
+      "file": "eq_p005_05.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        307.9,
+        205.9,
+        551.0,
+        348.9
+      ],
+      "px": [
+        1014,
+        597
+      ],
+      "text_layer": "SinppDTLVI=1∆ SinppDTLVI=2∆ SinppDTLVI=3∆ SinppDTLVI=4∆ = ∆+ ∆+ ∆+ ∆="
+    },
+    {
+      "file": "eq_p005_06.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.0,
+        361.0,
+        290.1,
+        490.5
+      ],
+      "px": [
+        1014,
+        540
+      ],
+      "text_layer": "SinppDTLVI=1∆ SinppDT)D(LVI−−=1112∆ SinppDTLVI=3∆ SinppDTLVI=4∆"
+    }
+  ]
+}

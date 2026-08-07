@@ -29,5 +29,8 @@
   ],
   "use_in_methodology": "Ключевой источник по ТРЁХФАЗНОМУ interleaved boost: сдвиг 120°, подавление пульсации в 5,3 раза, частоты 3·f_sw.",
   "bib_title": "Design and Analysis of a Three-Phase Interleaved DC-DC Boost Converter for PV and ESS Applications",
-  "bib_title_source": "pdf_metadata"
+  "bib_title_source": "pdf_metadata",
+  "formulas_extracted": 7,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

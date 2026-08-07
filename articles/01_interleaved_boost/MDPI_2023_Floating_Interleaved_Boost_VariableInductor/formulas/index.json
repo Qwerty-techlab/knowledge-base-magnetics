@@ -1,0 +1,466 @@
+{
+  "article": "MDPI_2023_Floating_Interleaved_Boost_VariableInductor",
+  "source": "source.pdf",
+  "pages_scanned": 16,
+  "dpi": 300,
+  "n_formulas": 22,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p004_01.png",
+      "page": 4,
+      "eq_number": "3",
+      "eq_numbers": [
+        "3",
+        "5",
+        "4"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        90.1,
+        565.9,
+        170.3
+      ],
+      "px": [
+        2225,
+        335
+      ],
+      "text_layer": "Denoting 𝑀= 𝑉𝑜𝑉𝑠⁄, and assuming that ICR is completely mitigated, one obtains from (3) the value of the duty cycle: 41112Md +−+=. (5) The voltage gain 𝑀 of Equation (4) for different values of 𝑑 is shown in Figure 3."
+    },
+    {
+      "file": "eq_p004_02.png",
+      "page": 4,
+      "eq_number": "6a",
+      "eq_numbers": [
+        "6a"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        381.8,
+        565.9,
+        425.3
+      ],
+      "px": [
+        2225,
+        183
+      ],
+      "text_layer": "According to the model presented in [9] with complementary duty cycles, under con-tinuous conduction mode, the averaged model of the converter is: ()1 121sL xVd x=−− , (6a)"
+    },
+    {
+      "file": "eq_p004_03.png",
+      "page": 4,
+      "eq_number": "6b",
+      "eq_numbers": [
+        "6b",
+        "6c"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        32.0,
+        429.6,
+        565.9,
+        479.0
+      ],
+      "px": [
+        2225,
+        208
+      ],
+      "text_layer": "()()241211sxxVC xd xR +−=−− , (6b) 234sL xVdx=− , (6c)"
+    },
+    {
+      "file": "eq_p004_04.png",
+      "page": 4,
+      "eq_number": "6d",
+      "eq_numbers": [
+        "6d",
+        "6",
+        "7a",
+        "7b",
+        "7c"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        32.0,
+        483.8,
+        565.9,
+        679.1
+      ],
+      "px": [
+        2225,
+        815
+      ],
+      "text_layer": "()24243sxxVC xdxR +−=− , (6d) where the state variable 𝑥1 represents the average inductor current (𝑖𝐿1), 𝑥2 represents the average capacitor voltage (𝑉1), 𝑥3 represents the average inductor current (𝑖𝐿2), and 𝑥4 rep-resents the average capacitor voltage (𝑉2). The components 𝐿1, 𝐿2, 𝐶1, 𝐶2, and 𝑅 represent the inductors, capacitors, and load resistor, respectively. Setting to zero, the relevant der"
+    },
+    {
+      "file": "eq_p004_05.png",
+      "page": 4,
+      "eq_number": "7d",
+      "eq_numbers": [
+        "7d"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        680.7,
+        565.9,
+        712.6
+      ],
+      "px": [
+        2225,
+        134
+      ],
+      "text_layer": "24sVyx d==, (7d)"
+    },
+    {
+      "file": "eq_p004_06.png",
+      "page": 4,
+      "eq_number": "8",
+      "eq_numbers": [
+        "8"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        754.8,
+        565.9,
+        785.5
+      ],
+      "px": [
+        2225,
+        129
+      ],
+      "text_layer": "𝑥̃̇ = 𝐀𝑥̃ + 𝐁𝑑̃, 𝑦̃ = 𝐂𝑥̃, (8)"
+    },
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        288.5,
+        411.0,
+        479.1,
+        492.3
+      ],
+      "px": [
+        795,
+        340
+      ],
+      "text_layer": "𝑥̃2 𝑑̃𝐺2(𝑠) = 𝑥̃4 𝑑̃ ] = 32101112134321234 32202122234321234 0 b sb sb sbsa sa sa sa b sb sb sbsa sa sa sa ++++++++++++++"
+    },
+    {
+      "file": "eq_p005_02.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        288.5,
+        498.5,
+        479.1,
+        530.6
+      ],
+      "px": [
+        795,
+        134
+      ],
+      "text_layer": "𝑏10 = −𝑥̅1 𝐶1 ; 𝑏11 = 𝑥̅2(1 −𝑢̅) 𝐿1𝐶1 −𝑥̅1 + 𝑥̅3 𝑅𝐶1𝐶2 ;"
+    },
+    {
+      "file": "eq_p005_03.png",
+      "page": 5,
+      "eq_number": "13",
+      "eq_numbers": [
+        "13"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        288.5,
+        561.0,
+        479.1,
+        738.6
+      ],
+      "px": [
+        795,
+        741
+      ],
+      "text_layer": "= 𝑥̅2𝑢̅2(1 −𝑢̅) 𝐿1𝐶1𝐿2𝐶2 ; 𝑏20 = 𝑥̅3 𝐶2 ; 𝑏21 = (𝑥̅1 + 𝑥̅3) 𝑅𝐶1𝐶2 −𝑥̅4𝑢̅ 𝐿2𝐶2 ; 𝑏22 = −1𝑅𝐶1𝐶2 (𝑥̅4𝑢̅ 𝐿2 + 𝑥̅2(1 −𝑢̅) 𝐿1 ) + 𝑥̅3(𝑢̅2 −2𝑢̅ + 1) 𝐿1𝐶1𝐶2 𝑏23 = 𝑥̅4(𝑢̅3 −2𝑢̅2 + 𝑢̅) 𝐿1𝐶1𝐿2𝐶2 . and the denominator coefficients of Equation (13) are: 𝑎1 = 𝐶1 + 𝐶2 𝑅𝐶1𝐶2 ; 𝑎2 = 𝐿1𝐶1𝑢̅2 + 𝐿2𝐶2(1 −𝑢̅)2 𝐿1𝐶1𝐿2𝐶2 ;"
+    },
+    {
+      "file": "eq_p005_04.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        288.5,
+        734.9,
+        479.1,
+        770.3
+      ],
+      "px": [
+        795,
+        148
+      ],
+      "text_layer": "𝑎3 = 𝐿1𝑢̅2 + 𝐿2(1 −𝑢̅)2 𝑅𝐿1𝐶1𝐿2𝐶2 ; 𝑎4 = 𝑢̅2(1 −𝑢̅)2 𝐿1𝐶1𝐿2𝐶2 ."
+    },
+    {
+      "file": "eq_p006_01.png",
+      "page": 6,
+      "eq_number": "14",
+      "eq_numbers": [
+        "14",
+        "16"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        289.7,
+        170.5,
+        438.8,
+        331.7
+      ],
+      "px": [
+        622,
+        672
+      ],
+      "text_layer": "where 𝑏1 = 𝑏10 + 𝑏20, 𝑏2 = 𝑏11 + 𝑏21, 𝑏3 = 𝑏12 + 𝑏22 and 𝑏4 = 𝑏13 + 𝑏23. The inductance variation of 𝐿2 produces an interval plant and is considered for con-troller design, with 𝐿2 − as a minimum inductance and 𝐿2 + as a maximum inductance. Ex-pression (14) is defined as a set of transfer functions achieved using: 𝐺𝑣(𝑠, 𝑏, 𝑎) = 𝑁(𝑠, 𝑏) 𝐷(𝑠, 𝑎) = ∑𝑏𝑖𝑠𝑖𝑚𝑖=0∑𝑎𝑖𝑠𝑖𝑛𝑖=0 and coefficients are supposed to "
+    },
+    {
+      "file": "eq_p007_01.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        441.3,
+        565.9,
+        508.9
+      ],
+      "px": [
+        2225,
+        283
+      ],
+      "text_layer": "LinearTransitionSaturation B ic=0 ic_max ic L2 iL2 Air gapA B"
+    },
+    {
+      "file": "eq_p007_02.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        567.7,
+        565.9,
+        593.5
+      ],
+      "px": [
+        2225,
+        108
+      ],
+      "text_layer": "H ΔiL2_minΔiL2_max"
+    },
+    {
+      "file": "eq_p008_01.png",
+      "page": 8,
+      "eq_number": "19",
+      "eq_numbers": [
+        "19"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        284.9,
+        565.9,
+        332.9
+      ],
+      "px": [
+        2225,
+        201
+      ],
+      "text_layer": "The maximum inductance can be obtained with [21]: () 22 1232 Lmax g NL=+++ , (19)"
+    },
+    {
+      "file": "eq_p008_02.png",
+      "page": 8,
+      "eq_number": "22",
+      "eq_numbers": [
+        "20",
+        "21",
+        "21",
+        "22"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        32.0,
+        619.8,
+        565.9,
+        758.9
+      ],
+      "px": [
+        2225,
+        580
+      ],
+      "text_layer": "The calculation of the equivalent reluctance for the saturated condition is necessary to determine the length of the saturated region, as follows [21]: 3231221628sat wwwwwL−−=++, (20) 12324sat aaLa−=+, (21) where 𝑤𝑖 and 𝑎𝑖 are the length values provided by the manufacturer. The equivalent re-luctance for saturation condition ℛ2𝑠𝑎𝑡 and ℛ3𝑠𝑎𝑡 can be calculated as: liA== 3231221628sat 12324sat aaLa−"
+    },
+    {
+      "file": "eq_p009_01.png",
+      "page": 9,
+      "eq_number": "23",
+      "eq_numbers": [
+        "23",
+        "24",
+        "23",
+        "19",
+        "20",
+        "24",
+        "25"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        117.2,
+        565.9,
+        234.2
+      ],
+      "px": [
+        2225,
+        488
+      ],
+      "text_layer": "𝜇𝑑= lim 𝐻→0 𝐵𝐻, (23) 𝜇𝑑𝑠= 𝑑𝐵𝑠𝑎𝑡 𝑑𝐻𝑠𝑎𝑡 . (24) Equation (23) is the slope of the linear region, which is required to estimate the re-luctance in (19). Considering (20)–(24), the minimum inductance can be obtained as: () 22 1232 Lmin gsatsat NL=+++ , (25)"
+    },
+    {
+      "file": "eq_p009_02.png",
+      "page": 9,
+      "eq_number": "19",
+      "eq_numbers": [
+        "19",
+        "27",
+        "28"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        313.2,
+        565.9,
+        406.6
+      ],
+      "px": [
+        2225,
+        391
+      ],
+      "text_layer": "where ℛ𝑡𝑜𝑡𝑎𝑙 is the denominator of (19), 𝐴𝑐 is the cross-section of the center arm, and 𝐵𝑠𝑎𝑡 is the saturation flux density. If Equation (27) cannot be fulfilled, a bigger core must be selected. Furthermore, the control winding number of turns is achieved using: 𝑁𝑐= 2𝐻𝑠𝑎𝑡(𝑙2 + 𝑙3) 𝑖𝑐𝑚𝑎𝑥 , (28) where 𝐻𝑠𝑎𝑡 is the saturation magnetic field and 𝑙2 and 𝑙3 are the magnetic paths of the right arm and lef"
+    },
+    {
+      "file": "eq_p009_03.png",
+      "page": 9,
+      "eq_number": "29",
+      "eq_numbers": [
+        "29",
+        "30"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        498.1,
+        565.9,
+        642.0
+      ],
+      "px": [
+        2225,
+        601
+      ],
+      "text_layer": "The dynamic model of VI with uncertainties is written as: 𝑑𝑖𝑐 𝑑𝑡= −𝑅𝑐 𝐿𝑐 𝑖𝑐+ 𝑉𝑖𝑛 𝐿𝑐 𝑑𝑐+ 𝑔(𝑖𝑐, 𝑡), (29) where 𝑖𝑐, 𝐿𝑐, and 𝑅𝑐 are the control current, inductance, and resistance of the control in-ductor, respectively, 𝑔(𝑖𝑐, 𝑡) is the perturbation term that contains parameter variations and external disturbances, 𝑉𝑖𝑛 is the voltage input of switching current-source converter, and 𝑑𝑐 is the control in"
+    },
+    {
+      "file": "eq_p009_04.png",
+      "page": 9,
+      "eq_number": "31",
+      "eq_numbers": [
+        "31",
+        "32",
+        "33"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        651.5,
+        565.9,
+        784.0
+      ],
+      "px": [
+        2225,
+        553
+      ],
+      "text_layer": "𝑑𝑖𝑐 𝑑𝑡= −𝑅𝑐 𝐿𝑐 𝑖𝑐+ 𝑉𝑖𝑛 𝐿𝑐 (𝑑𝑐+ 𝑔̅(𝑖𝑐, 𝑡)). (31) The norm of perturbation term 𝑔(𝑖𝑐, 𝑡) is calculated considering a Lipschitz condi-tion, that is: ‖ 𝑔(𝑖𝑐, 𝑡)‖ ≤𝑅𝑐 𝐿𝑐 . (32) A sliding mode controller (SMC) via fixed-frequency 𝑓𝑐 is proposed to add robust-ness under uncertainties. Considering 𝑖𝑟𝑒𝑓 as the current reference, a sliding surface can be written as: 𝑠= 𝑖𝑐−𝑖𝑟𝑒𝑓. (33)"
+    },
+    {
+      "file": "eq_p010_01.png",
+      "page": 10,
+      "eq_number": "34",
+      "eq_numbers": [
+        "34",
+        "33",
+        "34",
+        "31",
+        "35"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        123.7,
+        565.9,
+        202.4
+      ],
+      "px": [
+        2225,
+        329
+      ],
+      "text_layer": "𝑠𝑠̇ = −η|𝑠|,η > 0. (34) Substituting the time derivative of (33) into (34) to stabilize the system (31) and reg- ulate the current 𝑖𝑐= 𝑖𝑟𝑒𝑓, the control input is selected as: 𝑑𝑐= 𝐿𝑐 𝑉𝑖𝑛 (𝑅𝑐 𝐿𝑐 𝑖𝑐−η𝑠𝑖𝑔𝑛(𝑠)). (35)"
+    },
+    {
+      "file": "eq_p010_02.png",
+      "page": 10,
+      "eq_number": "36",
+      "eq_numbers": [
+        "36",
+        "2",
+        "37"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        363.1,
+        565.9,
+        482.4
+      ],
+      "px": [
+        2225,
+        497
+      ],
+      "text_layer": "A linear approximation can be used to relate the control current and inductance 𝐿2 over a specified span as follows: 𝐿2 = 𝐿1 −∆𝐿2 ∆𝑖𝑐 (𝑖𝑐−𝑖𝑐_𝑚𝑖𝑛). (36) where ∆𝐿2 is the change in the value of 𝐿2, ∆𝑖𝑐 is the change in the value of 𝑖𝑐, and 𝑖𝑐_𝑚𝑖𝑛 is the minimum control current. Considering Equation (2), when 𝑖𝑐= 𝑖𝑟𝑒𝑓 with 𝑖𝑟𝑒𝑓 as the reference current, that is: 𝑖𝑟𝑒𝑓= 𝑖𝑐_𝑚𝑖𝑛−∆𝑖𝑐 ∆𝐿2 𝐿1 (1 −2𝑑 𝑑). (37"
+    },
+    {
+      "file": "eq_p011_01.png",
+      "page": 11,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        382.7,
+        205.0,
+        528.7,
+        288.6
+      ],
+      "px": [
+        609,
+        349
+      ],
+      "text_layer": "IRF640 MUR1560G 15 μF, 600 V, ESR 4 mΩ 15 μF, 600 V, ESR 4 mΩ 860 μH, 6A, ESR 215 mΩ 200-860 μH, 2.6A, ESR 175 mΩ"
+    }
+  ]
+}

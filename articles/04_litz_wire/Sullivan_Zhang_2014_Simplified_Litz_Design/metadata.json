@@ -29,5 +29,8 @@
   ],
   "use_in_methodology": "ОПОРНЫЙ источник расчёта литцендрата: выбор диаметра и числа жил по глубине проникновения, ширине секции и числу витков; проверка F_R = R_ac/R_dc.",
   "bib_title": "Simplified Design Method for Litz Wire",
-  "bib_title_source": "sources_md"
+  "bib_title_source": "sources_md",
+  "formulas_extracted": 16,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

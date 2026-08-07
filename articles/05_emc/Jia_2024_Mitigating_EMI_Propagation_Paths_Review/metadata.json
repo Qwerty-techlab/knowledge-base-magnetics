@@ -29,5 +29,8 @@
   ],
   "use_in_methodology": "Обзор путей распространения синфазных и дифференциальных помех; контроль паразитных связей.",
   "bib_title": "Mitigating EMI Noise in Propagation Paths: Review of Parasitic and Coupling Effects in Power Electronic Packages, Filters, and Systems",
-  "bib_title_source": "sources_md"
+  "bib_title_source": "sources_md",
+  "formulas_extracted": 7,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

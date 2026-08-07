@@ -1,0 +1,452 @@
+{
+  "article": "MDPI_2021_Optimal_Ripple_Cancellation_Unequal_Interleaved",
+  "source": "source.pdf",
+  "pages_scanned": 17,
+  "dpi": 300,
+  "n_formulas": 22,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p003_01.png",
+      "page": 3,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        565.7,
+        564.9,
+        583.8
+      ],
+      "px": [
+        2221,
+        76
+      ],
+      "text_layer": "iin(t) = iL1(t) + iL2(t)(1)"
+    },
+    {
+      "file": "eq_p004_01.png",
+      "page": 4,
+      "eq_number": "3",
+      "eq_numbers": [
+        "3"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.7,
+        482.6,
+        563.3,
+        520.0
+      ],
+      "px": [
+        1061,
+        157
+      ],
+      "text_layer": "qj(t) = \u001a 1→Sjisclosed0→Sjisopen(3)"
+    },
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": "4",
+      "eq_numbers": [
+        "4"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        141.9,
+        563.7,
+        185.4
+      ],
+      "px": [
+        2216,
+        182
+      ],
+      "text_layer": "dj(t) = 1 TS t+TSZ t qj(τ)dτ(4)"
+    },
+    {
+      "file": "eq_p005_02.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        340.0,
+        563.7,
+        395.3
+      ],
+      "px": [
+        2216,
+        231
+      ],
+      "text_layer": "inv 1s1C 1L 1Li 1D ini oi 1v {}12,1,0q q = inv 1s1C 1L 1Li 1D ini oi 1v {}12,0,1q q ="
+    },
+    {
+      "file": "eq_p005_03.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        472.8,
+        563.7,
+        527.7
+      ],
+      "px": [
+        2216,
+        229
+      ],
+      "text_layer": "inv 1s1C 1L 1Li 1D ini oi 1v {}12,1,1q q = inv 1s1C 1L 1Li 1D ini oi 1v {}12,0,0q q ="
+    },
+    {
+      "file": "eq_p006_01.png",
+      "page": 6,
+      "eq_number": "5",
+      "eq_numbers": [
+        "5"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        131.9,
+        564.9,
+        162.3
+      ],
+      "px": [
+        2221,
+        128
+      ],
+      "text_layer": "vx(t) = Lx dix(t) dt(5)"
+    },
+    {
+      "file": "eq_p006_02.png",
+      "page": 6,
+      "eq_number": "6",
+      "eq_numbers": [
+        "6",
+        "7"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        32.0,
+        311.2,
+        564.9,
+        377.1
+      ],
+      "px": [
+        2221,
+        276
+      ],
+      "text_layer": "diL1 dt= d1 vin L1 + (1 −d1)vin −vC1 L1 (6) diL2 dt= d2 vin L2 + (1 −d2)vin −vC2 L2 (7)"
+    },
+    {
+      "file": "eq_p006_03.png",
+      "page": 6,
+      "eq_number": "8",
+      "eq_numbers": [
+        "8",
+        "9"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        407.8,
+        564.9,
+        471.1
+      ],
+      "px": [
+        2221,
+        265
+      ],
+      "text_layer": "VC1 =vin(1 −D1)(8) VC2 =vin(1 −D2)(9)"
+    },
+    {
+      "file": "eq_p006_04.png",
+      "page": 6,
+      "eq_number": "10",
+      "eq_numbers": [
+        "10",
+        "11",
+        "10",
+        "11"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        584.9,
+        564.9,
+        646.0
+      ],
+      "px": [
+        2221,
+        256
+      ],
+      "text_layer": "The complementary strategy, proposed in [12], consists of deﬁning the duty cycles, asshown in (10) and (11). D1 = (1 −D)(10) D2 = D(11)"
+    },
+    {
+      "file": "eq_p006_05.png",
+      "page": 6,
+      "eq_number": "2",
+      "eq_numbers": [
+        "2",
+        "8",
+        "9",
+        "12"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        672.6,
+        564.9,
+        701.3
+      ],
+      "px": [
+        2221,
+        120
+      ],
+      "text_layer": "Taking (2), (8), and (9) into account, the voltage gain (Gcomp = Vo/Vin) for the comple-mentary strategy can be calculated as (12)."
+    },
+    {
+      "file": "eq_p006_06.png",
+      "page": 6,
+      "eq_number": "12",
+      "eq_numbers": [
+        "12"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        706.5,
+        564.9,
+        736.1
+      ],
+      "px": [
+        2221,
+        124
+      ],
+      "text_layer": "Gcomp =1D(1 −D)(12)"
+    },
+    {
+      "file": "eq_p007_01.png",
+      "page": 7,
+      "eq_number": "15",
+      "eq_numbers": [
+        "13",
+        "14",
+        "15",
+        "16",
+        "15",
+        "16"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        32.0,
+        316.7,
+        565.0,
+        476.7
+      ],
+      "px": [
+        2222,
+        668
+      ],
+      "text_layer": "IL1 = 1 D Io(13) IL2 =1(1 −D) Io(14) where the output current Io = Vo/R. Moreover, from the equivalent circuits for q1,q2 = {1,0}and q1,q2 = {0,1}, the current ripples in each inductor can be readily quantiﬁed, as shown in(15) and (16). ∆iL1 = Vin L1 (1 −D) FS (15) ∆iL2 = Vin L2 (D) FS (16)"
+    },
+    {
+      "file": "eq_p007_02.png",
+      "page": 7,
+      "eq_number": "17",
+      "eq_numbers": [
+        "17"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        498.2,
+        565.0,
+        516.5
+      ],
+      "px": [
+        2222,
+        78
+      ],
+      "text_layer": "∆iin = ∆iL1 + ∆iL2(17)"
+    },
+    {
+      "file": "eq_p007_03.png",
+      "page": 7,
+      "eq_number": "18",
+      "eq_numbers": [
+        "18"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        32.0,
+        574.3,
+        565.0,
+        614.5
+      ],
+      "px": [
+        2222,
+        169
+      ],
+      "text_layer": "∆iin = Vin FS \u0012 D L2 −1 −D L1 \u0013 (18)"
+    },
+    {
+      "file": "eq_p008_01.png",
+      "page": 8,
+      "eq_number": "23",
+      "eq_numbers": [
+        "23"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        302.1,
+        315.1,
+        563.3,
+        345.9
+      ],
+      "px": [
+        1089,
+        130
+      ],
+      "text_layer": "k = L1 L2 (23)"
+    },
+    {
+      "file": "eq_p008_02.png",
+      "page": 8,
+      "eq_number": "24",
+      "eq_numbers": [
+        "24"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        302.1,
+        369.7,
+        563.3,
+        400.5
+      ],
+      "px": [
+        1089,
+        129
+      ],
+      "text_layer": "Gk =2 −D −kD1 −D + D + kD2(24)"
+    },
+    {
+      "file": "eq_p009_01.png",
+      "page": 9,
+      "eq_number": "26",
+      "eq_numbers": [
+        "26"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        311.4,
+        643.2,
+        563.3,
+        678.9
+      ],
+      "px": [
+        1050,
+        149
+      ],
+      "text_layer": "uj = ( vijr(0, 1) ≤Pcrossxijotherwise (26)"
+    },
+    {
+      "file": "eq_p010_01.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        299.9,
+        461.7,
+        449.2,
+        527.7
+      ],
+      "px": [
+        623,
+        276
+      ],
+      "text_layer": "∆ig1 =VinkL f sL2 ∆ig2 =VinkL f sL2"
+    },
+    {
+      "file": "eq_p010_02.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        299.9,
+        687.1,
+        449.2,
+        722.7
+      ],
+      "px": [
+        623,
+        150
+      ],
+      "text_layer": "minD,kd∈Rf (D, kd) = ( ∆ig1,∆ig1 > ∆ig2∆ig2,otherwise"
+    },
+    {
+      "file": "eq_p010_03.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        299.9,
+        749.2,
+        449.2,
+        781.1
+      ],
+      "px": [
+        623,
+        134
+      ],
+      "text_layer": "≤2 −D −kdD(1 −kdD)(1 −D) ≤Vout Vg"
+    },
+    {
+      "file": "eq_p011_01.png",
+      "page": 11,
+      "eq_number": "36",
+      "eq_numbers": [
+        "36",
+        "36"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        316.4,
+        359.1,
+        442.3,
+        414.3
+      ],
+      "px": [
+        525,
+        231
+      ],
+      "text_layer": "The optimization algorithm considers the set of values D and kd as a possible solution.Thus, a population of possible solutions is created so that every individual i from thepopulation is deﬁned as (36). xi = {D, kd}(36)"
+    },
+    {
+      "file": "eq_p011_02.png",
+      "page": 11,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        316.4,
+        563.3,
+        442.3,
+        580.2
+      ],
+      "px": [
+        525,
+        71
+      ],
+      "text_layer": "f itness = min"
+    }
+  ]
+}

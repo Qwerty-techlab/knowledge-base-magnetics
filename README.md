@@ -12,13 +12,14 @@
 |---|---|
 | `BIBLIOGRAPHY.md` | Библиография 37 статей по темам. **Генерируется**, не править руками |
 | `bibliography.json` | Машиночитаемая библиография — источник истины |
-| `articles/` | Статьи по темам: `source.pdf` + `parsed.md` + `metadata.json` |
+| `articles/` | Статьи по темам: `source.pdf` + `parsed.md` + `metadata.json` + `formulas/` |
 | `components_db/cores.json` | 4 ферритовых магнитопровода с паспортными параметрами |
 | `components_db/ferrite_materials.json` | 3 материала: N27, N87, 3C90 — Штейнмец, насыщение |
 | `components_db/litz_wire.json` | 8 позиций литцендрата, поставка РФ, с ценами и ссылками |
 | `prompts/inductor_design_template.md` | Шаблон ТЗ на расчёт дросселя |
 | `skills/SKILLS.md` | Рабочие процедуры — **начинать отсюда** |
 | `skills/parse_pdf.py` | Извлечение текста из PDF |
+| `skills/extract_formulas.py` | Вырезание формул в PNG (1489 формул по базе) |
 | `skills/make_bibliography.py` | Генерация `BIBLIOGRAPHY.md` + сверка с файлами |
 
 ## Быстрый старт
@@ -31,12 +32,17 @@ grep -i "выпучивание" bibliography.json
 
 Затем читать `articles/<topic>/<slug>/parsed.md` — **не** PDF.
 
+Формулу брать не из `parsed.md`, а из `articles/<topic>/<slug>/formulas/`: текстовый слой
+PDF теряет дробные черты и радикалы, знак интеграла приходит как `Z`. Перечень формул
+с номерами уравнений — в `formulas/index.json` и `formulas/INDEX.md`.
+
 Добавить статью:
 
 ```
 mkdir articles/03_inductor_design/Автор_Год_Тема
 cp статья.pdf articles/03_inductor_design/Автор_Год_Тема/source.pdf
 python skills/parse_pdf.py articles/03_inductor_design/Автор_Год_Тема
+python skills/extract_formulas.py articles/03_inductor_design/Автор_Год_Тема
 # затем добавить запись в bibliography.json и:
 python skills/make_bibliography.py
 ```
@@ -49,8 +55,9 @@ python skills/make_bibliography.py --check
 
 ## Соглашения
 
-- **PDF не в git** (`.gitignore`). В репозитории — только `parsed.md` и `metadata.json`.
-  Исходные PDF лежат локально; их источник указан в `metadata.json`.
+- **PDF не в git** (`.gitignore`). В репозитории — `parsed.md`, `metadata.json` и вырезки
+  формул `formulas/*.png` (24 МБ на всю базу). Исходные PDF лежат локально; их источник
+  указан в `metadata.json`. Клон при этом остаётся рабочим: текст и формулы доступны.
 - Папки, начинающиеся с `_`, — служебные, в библиографию не входят.
 - Отсутствующий параметр — `null`, не выдуманное число. Расчётные значения помечаются
   суффиксом `_estimated`.
@@ -76,3 +83,10 @@ python skills/make_bibliography.py --check
   I_dc это занижение потерь (см. `Sanusi_2023_DC_Bias_Impact_Core_Losses`).
 - Цены литцендрата на август 2026, розница, один поставщик.
 - В `articles/06_textbooks_ru` один учебник частично скан — текст извлечён неполно.
+- **Формулы в `parsed.md` разрушены** текстовым слоем PDF: дробные черты и радикалы —
+  векторная графика, знак интеграла приходит как `Z` или `R`. Достоверный источник —
+  вырезки в `formulas/`. Поиск областей опирается на номера уравнений, поэтому
+  ненумерованные формулы ловятся хуже, а у сканов без OCR не ловятся вовсе.
+- Формулы не переведены в LaTeX автоматически — это потребовало бы torch и pix2tex
+  (~2 ГБ). Формулы, уже использованные в расчётах, выписаны в скрипты вручную
+  со ссылкой на номер уравнения.

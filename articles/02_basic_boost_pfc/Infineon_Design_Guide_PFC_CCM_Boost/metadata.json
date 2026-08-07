@@ -28,5 +28,8 @@
   ],
   "use_in_methodology": "Проектирование CCM boost PFC: выбор индуктивности, оценка потерь, тепловой расчёт.",
   "bib_title": "Design guide PFC CCM boost converter",
-  "bib_title_source": "pdf_metadata"
+  "bib_title_source": "pdf_metadata",
+  "formulas_extracted": 17,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

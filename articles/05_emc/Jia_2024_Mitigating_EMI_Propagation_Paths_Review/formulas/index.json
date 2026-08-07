@@ -1,0 +1,153 @@
+{
+  "article": "Jia_2024_Mitigating_EMI_Propagation_Paths_Review",
+  "source": "source.pdf",
+  "pages_scanned": 17,
+  "dpi": 300,
+  "n_formulas": 7,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p003_01.png",
+      "page": 3,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        288.8,
+        506.4,
+        541.9,
+        536.7
+      ],
+      "px": [
+        1055,
+        128
+      ],
+      "text_layer": "C = εA d(1)"
+    },
+    {
+      "file": "eq_p003_02.png",
+      "page": 3,
+      "eq_number": "2",
+      "eq_numbers": [
+        "2"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        288.8,
+        704.3,
+        541.9,
+        735.6
+      ],
+      "px": [
+        1055,
+        131
+      ],
+      "text_layer": "fosc =1 2π√ LC (2)"
+    },
+    {
+      "file": "eq_p006_01.png",
+      "page": 6,
+      "eq_number": "3",
+      "eq_numbers": [
+        "3"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        291.2,
+        705.2,
+        544.3,
+        736.4
+      ],
+      "px": [
+        1056,
+        131
+      ],
+      "text_layer": "C2,new = Cc1 +Cc2CaCc2 + Ca (3)"
+    },
+    {
+      "file": "eq_p008_01.png",
+      "page": 8,
+      "eq_number": "4",
+      "eq_numbers": [
+        "4"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        34.2,
+        538.7,
+        287.3,
+        556.4
+      ],
+      "px": [
+        1055,
+        75
+      ],
+      "text_layer": "Ltotal = L1 + L2 −2M12(4)"
+    },
+    {
+      "file": "eq_p010_01.png",
+      "page": 10,
+      "eq_number": "6",
+      "eq_numbers": [
+        "6"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        291.2,
+        317.4,
+        544.3,
+        461.9
+      ],
+      "px": [
+        1056,
+        603
+      ],
+      "text_layer": "Cp2 are the EPCs of the DM inductor, and CCL1 and CCL2are two capacitors that are cross-connected to the two portsof the inductor. If Cp1Cp2 = CCL1CCL2, the equivalent circuitis shown in Fig. 23(c) so the EPCs are canceled. However,this method only works for the inductor’s ﬁrst-order parasiticcapacitance thus limiting the frequency range, and it cannot beused for the CM inductor since it requires "
+    },
+    {
+      "file": "eq_p010_02.png",
+      "page": 10,
+      "eq_number": "5",
+      "eq_numbers": [
+        "5"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        34.2,
+        331.2,
+        287.3,
+        362.5
+      ],
+      "px": [
+        1056,
+        131
+      ],
+      "text_layer": "iquiet = vac jωL + jωvac \u0002 Cp −m (1 −m)CComp \u0003 (5)"
+    },
+    {
+      "file": "eq_p012_01.png",
+      "page": 12,
+      "eq_number": "7",
+      "eq_numbers": [
+        "7",
+        "8",
+        "7",
+        "8"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        34.2,
+        309.0,
+        287.3,
+        437.3
+      ],
+      "px": [
+        1056,
+        536
+      ],
+      "text_layer": "the high-frequency noise. ⎧⎪⎪⎪⎪⎪⎨ ⎪⎪⎪⎪⎪⎩ LA = M12M13−M23L1 M13−M23LB = M23 M13 L1 −M12 LC = (M12−M13)(M12M13−M23L1) M13(M12−L1)LD = M12M13−M23L1 M12−L1 (7) \b Le2 = L2 −M12M23 M13Le3 = L3 −M13(M12−M13)+M23(M13−L1) (8) ⎪⎪⎪⎪⎪⎩ M13 L1 −M12 LC = (M12−M13)(M12M13−M23L1) M13(M12−L1)LD = M12M13−M23L1 M12−L1 (7) \b Le2 = L2 −M12M23 M13Le3 = L3 −M13(M12−M13)+M23(M13−L1) M12−L1 (8)"
+    }
+  ]
+}

@@ -28,5 +28,8 @@
   ],
   "use_in_methodology": "Оценка дифференциальной помехи и синтез фильтра для interleaved boost — основа раздела ЭМС.",
   "bib_title": "Differential Mode Noise Estimation and Filter Design for Interleaved Boost PFC",
-  "bib_title_source": "pdf_metadata"
+  "bib_title_source": "pdf_metadata",
+  "formulas_extracted": 19,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

@@ -1,5 +1,9 @@
 # Analytical Models for HF-Losses of Litz Wire in Inductors With Arbitrary Winding and Gap Arrangements
 
+<!-- FORMULA-WARNING -->
+> **Формулы в этом файле недостоверны.** Текстовый слой PDF теряет дробные черты, радикалы и группировку степеней; знак интеграла приходит как `Z` или `R`, знак суммы -- как `P`. Формул вырезано: **14**, читать их в `formulas/` (картинки 300 dpi, перечень в `formulas/INDEX.md`).
+<!-- /FORMULA-WARNING -->
+
 > Автоматически извлечено из `source.pdf` скриптом `parse_pdf.py`
 > Движок: pymupdf. Страниц: 14 из 14.
 > Дата извлечения: 2026-08-07 06:43 UTC
@@ -997,7 +1001,8 @@ lc
 μcAc
 = Hc(Bc)lc
 BcAc
-
+
+
 φ
 (23)
 where Hc(Bc) is the H-field through the core, which can be

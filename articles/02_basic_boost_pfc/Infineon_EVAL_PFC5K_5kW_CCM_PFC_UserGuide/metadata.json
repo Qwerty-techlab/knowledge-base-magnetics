@@ -27,5 +27,8 @@
   ],
   "use_in_methodology": "Референс-дизайн 5 кВт CCM PFC — сверка порядка величин с расчётом на 6 кВт.",
   "bib_title": "EVAL-PFC5KIKWWR5SYS - User Guide (5 kW CCM PFC)",
-  "bib_title_source": "pdf_metadata"
+  "bib_title_source": "pdf_metadata",
+  "formulas_extracted": 18,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

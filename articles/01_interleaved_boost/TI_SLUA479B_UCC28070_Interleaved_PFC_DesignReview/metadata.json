@@ -28,5 +28,8 @@
   ],
   "use_in_methodology": "Разбор проекта на UCC28070: сдвиг фаз 180°, влияние на пульсации и ЭМС.",
   "bib_title": "UCC28070 300W Interleaved PFC Pre-regulator Design Review",
-  "bib_title_source": "pdf_metadata"
+  "bib_title_source": "pdf_metadata",
+  "formulas_extracted": 54,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

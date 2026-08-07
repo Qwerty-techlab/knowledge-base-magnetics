@@ -1,0 +1,780 @@
+{
+  "article": "Fairchild_AN6086_Interleaved_BCM_PFC_FAN9611",
+  "source": "source.pdf",
+  "pages_scanned": 18,
+  "dpi": 300,
+  "n_formulas": 39,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p002_01.png",
+      "page": 2,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        310.2,
+        430.8,
+        543.9,
+        449.8
+      ],
+      "px": [
+        975,
+        81
+      ],
+      "text_layer": "( )(( ))INONOUTINOFFVttVVtt⋅=−⋅ (1)"
+    },
+    {
+      "file": "eq_p002_02.png",
+      "page": 2,
+      "eq_number": "2",
+      "eq_numbers": [
+        "2",
+        "2"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        310.2,
+        500.8,
+        543.9,
+        585.7
+      ],
+      "px": [
+        975,
+        355
+      ],
+      "text_layer": ", ( )11 | sin(2) |1 OUTINSW ONOFFONOUT OUTIN PKLINE ONOUT VVtftttV VVft tV π −==⋅+ −⋅=⋅ (2) where VIN,PK is the amplitude of the line voltage and fLINE is the line frequency."
+    },
+    {
+      "file": "eq_p003_01.png",
+      "page": 3,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        69.9,
+        660.3,
+        303.6,
+        699.1
+      ],
+      "px": [
+        975,
+        162
+      ],
+      "text_layer": "Figure 5. Minimum Switching Frequency vs. RMS Line Voltage (L = 390µH, POUT = 200W)"
+    },
+    {
+      "file": "eq_p004_01.png",
+      "page": 4,
+      "eq_number": "3",
+      "eq_numbers": [
+        "3"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        69.9,
+        622.6,
+        303.6,
+        656.6
+      ],
+      "px": [
+        975,
+        142
+      ],
+      "text_layer": ", 21OUTLINESW MIN ONOUT VVftV −=⋅ (3)"
+    },
+    {
+      "file": "eq_p004_02.png",
+      "page": 4,
+      "eq_number": "5",
+      "eq_numbers": [
+        "5"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        310.2,
+        694.1,
+        543.9,
+        728.0
+      ],
+      "px": [
+        975,
+        143
+      ],
+      "text_layer": "2LINELINE, , 22 OUTSW MIN OUT CHOUT VVVfPLVη ⋅−=⋅⋅⋅ (5)"
+    },
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": "6",
+      "eq_numbers": [
+        "6"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        69.9,
+        72.9,
+        303.7,
+        106.5
+      ],
+      "px": [
+        975,
+        141
+      ],
+      "text_layer": "2,, ,, 2 2 LINE MINFOUTLINE MINF OUT CHSW MINOUT VVVLPfV η ⋅−=⋅⋅⋅ (6)"
+    },
+    {
+      "file": "eq_p005_02.png",
+      "page": 5,
+      "eq_number": "7",
+      "eq_numbers": [
+        "7"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        69.9,
+        328.0,
+        303.7,
+        363.5
+      ],
+      "px": [
+        975,
+        149
+      ],
+      "text_layer": ",. , 2 2OUT CHL PK LINE MIN PIVη ⋅=⋅ (7)"
+    },
+    {
+      "file": "eq_p005_03.png",
+      "page": 5,
+      "eq_number": "8",
+      "eq_numbers": [
+        "8"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        69.9,
+        383.4,
+        303.7,
+        492.3
+      ],
+      "px": [
+        975,
+        455
+      ],
+      "text_layer": "The number of turns of boost inductor should be determined considering the core saturation. The minimum number is given as: ,L PKBOOST e ILNAB ⋅≥⋅Δ (8) where is Ae is the cross-sectional area of core and ΔB is the maximum flux swing of the core in Tesla. ΔB should be set below the saturation flux density."
+    },
+    {
+      "file": "eq_p006_01.png",
+      "page": 6,
+      "eq_number": "12",
+      "eq_numbers": [
+        "100",
+        "12"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        310.2,
+        77.6,
+        546.5,
+        124.1
+      ],
+      "px": [
+        985,
+        195
+      ],
+      "text_layer": ",2 2(100) ONDDSTART LINE MIN START VCt VARμπ = − (12)"
+    },
+    {
+      "file": "eq_p006_02.png",
+      "page": 6,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        310.2,
+        163.5,
+        546.5,
+        193.3
+      ],
+      "px": [
+        985,
+        125
+      ],
+      "text_layer": "Typically 20~50μF of electrolytic capacitor (CVDD2) is used together with 2~4μF of bypass capacitor (CVDD1)."
+    },
+    {
+      "file": "eq_p006_03.png",
+      "page": 6,
+      "eq_number": "11",
+      "eq_numbers": [
+        "11"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        69.9,
+        608.0,
+        303.7,
+        642.9
+      ],
+      "px": [
+        975,
+        146
+      ],
+      "text_layer": ",2 2100LINE MINSTART START VIARμπ=> (11)"
+    },
+    {
+      "file": "eq_p006_04.png",
+      "page": 6,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1",
+        "15"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        310.2,
+        627.5,
+        546.5,
+        671.5
+      ],
+      "px": [
+        985,
+        184
+      ],
+      "text_layer": "11, 2, (1)22 INININ HYS INLINE HYS RRRRVAμ++=⋅ (VAC ) (15)"
+    },
+    {
+      "file": "eq_p006_05.png",
+      "page": 6,
+      "eq_number": "16",
+      "eq_numbers": [
+        "16"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        310.2,
+        703.0,
+        546.5,
+        734.2
+      ],
+      "px": [
+        985,
+        132
+      ],
+      "text_layer": ".2,112 2()2 LINE HYSININ HYSIN ININ VRRRARRμ=−⋅+ (16)"
+    },
+    {
+      "file": "eq_p007_01.png",
+      "page": 7,
+      "eq_number": "18",
+      "eq_numbers": [
+        "18"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        310.2,
+        450.2,
+        544.0,
+        483.4
+      ],
+      "px": [
+        975,
+        139
+      ],
+      "text_layer": "12212, 2230 10()2 ININON MAXMOT INLINE RRtR RV −+=⋅× (18)"
+    },
+    {
+      "file": "eq_p007_02.png",
+      "page": 7,
+      "eq_number": "19",
+      "eq_numbers": [
+        "19"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        310.2,
+        562.9,
+        544.0,
+        592.3
+      ],
+      "px": [
+        975,
+        123
+      ],
+      "text_layer": "2 ,,,2 LINEMAX CHMAXOUT CHON MAXVPKPtL η⋅=⋅= (19)"
+    },
+    {
+      "file": "eq_p008_01.png",
+      "page": 8,
+      "eq_number": "20",
+      "eq_numbers": [
+        "20"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        310.2,
+        544.9,
+        543.9,
+        580.9
+      ],
+      "px": [
+        975,
+        151
+      ],
+      "text_layer": ",max L PKMAX eBOOST IKLBAN ⋅⋅=⋅ (20)"
+    },
+    {
+      "file": "eq_p008_02.png",
+      "page": 8,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        69.9,
+        612.6,
+        303.6,
+        632.8
+      ],
+      "px": [
+        975,
+        85
+      ],
+      "text_layer": "2 PO MAX=1.7 PO NOMINAL"
+    },
+    {
+      "file": "eq_p009_01.png",
+      "page": 9,
+      "eq_number": "23",
+      "eq_numbers": [
+        "23"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        310.2,
+        100.0,
+        543.9,
+        130.6
+      ],
+      "px": [
+        975,
+        129
+      ],
+      "text_layer": ",, ,2 2MAX CHCS LIM LINE MIN PIVη≥⋅⋅ (23)"
+    },
+    {
+      "file": "eq_p009_02.png",
+      "page": 9,
+      "eq_number": "24",
+      "eq_numbers": [
+        "24"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        310.2,
+        150.4,
+        543.9,
+        180.1
+      ],
+      "px": [
+        975,
+        125
+      ],
+      "text_layer": ". 0.2CS CS LIMRI= (24)"
+    },
+    {
+      "file": "eq_p009_03.png",
+      "page": 9,
+      "eq_number": "21",
+      "eq_numbers": [
+        "21"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        69.9,
+        364.7,
+        303.6,
+        398.9
+      ],
+      "px": [
+        975,
+        143
+      ],
+      "text_layer": "2 123FB OUTFBFB RVVRR⋅=+ (21)"
+    },
+    {
+      "file": "eq_p009_04.png",
+      "page": 9,
+      "eq_number": "25",
+      "eq_numbers": [
+        "25"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        310.2,
+        392.9,
+        543.9,
+        422.7
+      ],
+      "px": [
+        975,
+        125
+      ],
+      "text_layer": ",2 OUTOUT LINEOUT RIPPLE ICfVπ>⋅⋅ (25)"
+    },
+    {
+      "file": "eq_p009_05.png",
+      "page": 9,
+      "eq_number": "26",
+      "eq_numbers": [
+        "26"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        310.2,
+        541.0,
+        543.9,
+        572.0
+      ],
+      "px": [
+        975,
+        130
+      ],
+      "text_layer": "22, 2 OUTHOLDOUT OUTOUT MIN PtC VV ⋅> − (26)"
+    },
+    {
+      "file": "eq_p009_06.png",
+      "page": 9,
+      "eq_number": "22",
+      "eq_numbers": [
+        "22"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        69.9,
+        565.8,
+        303.6,
+        600.0
+      ],
+      "px": [
+        975,
+        143
+      ],
+      "text_layer": "2,123.5FB OUT LATCHFBFB RVVRR⋅=+ (22)"
+    },
+    {
+      "file": "eq_p010_01.png",
+      "page": 10,
+      "eq_number": "4",
+      "eq_numbers": [
+        "4"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        69.9,
+        194.0,
+        303.6,
+        210.6
+      ],
+      "px": [
+        975,
+        70
+      ],
+      "text_layer": ",(1 cos(4))D AVGOUTLINEIIftπ=−⋅⋅"
+    },
+    {
+      "file": "eq_p010_02.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        69.9,
+        250.8,
+        303.6,
+        276.5
+      ],
+      "px": [
+        975,
+        107
+      ],
+      "text_layer": ",2 OUTOUT RIPPLE LINEOUT IVfCπ="
+    },
+    {
+      "file": "eq_p010_03.png",
+      "page": 10,
+      "eq_number": "27",
+      "eq_numbers": [
+        "27"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        310.2,
+        385.3,
+        543.9,
+        416.1
+      ],
+      "px": [
+        975,
+        129
+      ],
+      "text_layer": ", (0.2)4.1 COMPD LFOUTMAX VIIK−=⋅⋅ (27)"
+    },
+    {
+      "file": "eq_p010_04.png",
+      "page": 10,
+      "eq_number": "28",
+      "eq_numbers": [
+        "28"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        310.2,
+        494.6,
+        543.9,
+        584.4
+      ],
+      "px": [
+        975,
+        375
+      ],
+      "text_layer": "ˆ1ˆ4.1212 OUTOUTMAXL COMP P vIKR sv fπ ⋅=⋅⋅ + (28) where 22P LOUTfR Cπ=⋅ and RL is the output load resistance in a given load condition."
+    },
+    {
+      "file": "eq_p010_05.png",
+      "page": 10,
+      "eq_number": "29",
+      "eq_numbers": [
+        "29"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        310.2,
+        689.0,
+        543.9,
+        722.1
+      ],
+      "px": [
+        975,
+        139
+      ],
+      "text_layer": "@,ˆ1|ˆ4.1 OUTOUTMAXLIGHT LOADCOMPOUT vIKvsC⋅≅⋅ (29)"
+    },
+    {
+      "file": "eq_p011_01.png",
+      "page": 11,
+      "eq_number": "31",
+      "eq_numbers": [
+        "2",
+        "31"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        310.2,
+        160.2,
+        543.9,
+        193.3
+      ],
+      "px": [
+        975,
+        139
+      ],
+      "text_layer": ",280/34.1(2) OUTMAXCOMP LF OUTOUTC A V IKCVCfμ π⋅⋅=⋅⋅⋅ (31)"
+    },
+    {
+      "file": "eq_p011_02.png",
+      "page": 11,
+      "eq_number": "32",
+      "eq_numbers": [
+        "32"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        310.2,
+        223.3,
+        543.9,
+        254.5
+      ],
+      "px": [
+        975,
+        131
+      ],
+      "text_layer": ", 12COMP CCOMP LFRfCπ=⋅⋅ (32)"
+    },
+    {
+      "file": "eq_p011_03.png",
+      "page": 11,
+      "eq_number": "30",
+      "eq_numbers": [
+        "30"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        69.9,
+        294.7,
+        303.6,
+        403.5
+      ],
+      "px": [
+        975,
+        454
+      ],
+      "text_layer": "The transfer function of the compensation network is obtained as: 1ˆ22ˆ12 COMPCZI OUT CP svff svs f ππ π +=⋅ + (30) , 380/,2 I OUTCOMP LF A VfVC μπ =⋅⋅"
+    },
+    {
+      "file": "eq_p011_04.png",
+      "page": 11,
+      "eq_number": "33",
+      "eq_numbers": [
+        "33"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        310.2,
+        340.9,
+        543.9,
+        372.4
+      ],
+      "px": [
+        975,
+        132
+      ],
+      "text_layer": ", 12COMP HF CPCOMPCfRπ=⋅⋅ (33)"
+    },
+    {
+      "file": "eq_p011_05.png",
+      "page": 11,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        69.9,
+        569.2,
+        303.6,
+        599.8
+      ],
+      "px": [
+        975,
+        129
+      ],
+      "text_layer": ",2 12 SS REFFB FBFBOUT VRRRV=+"
+    },
+    {
+      "file": "eq_p011_06.png",
+      "page": 11,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        69.9,
+        684.7,
+        303.6,
+        737.7
+      ],
+      "px": [
+        975,
+        222
+      ],
+      "text_layer": ", 12CZ COMPCOMP LFfRCπ=⋅ , 12CP COMPCOMP HFfRCπ=⋅ Figure 19. Compensation Network"
+    },
+    {
+      "file": "eq_p012_01.png",
+      "page": 12,
+      "eq_number": "34",
+      "eq_numbers": [
+        "34"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        310.2,
+        48.8,
+        543.9,
+        79.6
+      ],
+      "px": [
+        975,
+        129
+      ],
+      "text_layer": ", 50.30.6OUTMAXOUTMAX OUTOUTSSSS REFOUTOUT IKIKACVCVCVμ⋅⋅⋅<<⋅⋅⋅⋅ (34)"
+    },
+    {
+      "file": "eq_p012_02.png",
+      "page": 12,
+      "eq_number": "35",
+      "eq_numbers": [
+        "35"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        310.2,
+        121.9,
+        543.9,
+        152.7
+      ],
+      "px": [
+        975,
+        130
+      ],
+      "text_layer": ",, 550.60.3 OUTOUTOUTOUTSSOUTMAXSS REFOUTMAXSS REF A CVA CVCIKVIKVμμ⋅⋅⋅⋅<<⋅⋅⋅⋅⋅⋅ (35)"
+    },
+    {
+      "file": "eq_p012_03.png",
+      "page": 12,
+      "eq_number": "36",
+      "eq_numbers": [
+        "36"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        310.2,
+        505.2,
+        543.9,
+        537.2
+      ],
+      "px": [
+        975,
+        134
+      ],
+      "text_layer": "2,12tan ()LINE MAXLINEEQ OUT VfC P ηπθ−⋅⋅⋅= (36)"
+    },
+    {
+      "file": "eq_p012_04.png",
+      "page": 12,
+      "eq_number": "38",
+      "eq_numbers": [
+        "38"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        310.2,
+        663.9,
+        543.9,
+        693.9
+      ],
+      "px": [
+        975,
+        126
+      ],
+      "text_layer": "12, tan(cos ())2 OUTEQMINLINE MAXLINE PCDFVfηπ −<⋅⋅⋅ (38)"
+    },
+    {
+      "file": "eq_p015_01.png",
+      "page": 15,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        69.9,
+        116.3,
+        543.9,
+        159.1
+      ],
+      "px": [
+        1976,
+        179
+      ],
+      "text_layer": "(N1:N2=10:1) L1 N2 N1 D1 220uF220uF 200uH (N1:N2=10:1) RURP860 150nF"
+    }
+  ]
+}

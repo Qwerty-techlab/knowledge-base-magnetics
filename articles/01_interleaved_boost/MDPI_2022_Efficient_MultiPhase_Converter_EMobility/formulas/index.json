@@ -1,0 +1,286 @@
+{
+  "article": "MDPI_2022_Efficient_MultiPhase_Converter_EMobility",
+  "source": "source.pdf",
+  "pages_scanned": 16,
+  "dpi": 300,
+  "n_formulas": 15,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p004_01.png",
+      "page": 4,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.3,
+        405.7,
+        565.0,
+        532.0
+      ],
+      "px": [
+        2225,
+        527
+      ],
+      "text_layer": "Solar PV voltage20VOutput voltage40VOutput current1.25AOutput power50WL1 = L2 = L(2 phase IBC)3.225 mH L1 = L2 = L3 = L (3 phase IBC)2.15 mH L1 = L2 = L3 = L4 = L (4 phase IBC)1.613 mH L1 = L2 = L3 = L4 = L5 = L6 = L"
+    },
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": "4",
+      "eq_numbers": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.3,
+        131.8,
+        564.5,
+        217.8
+      ],
+      "px": [
+        2223,
+        360
+      ],
+      "text_layer": "Pswitch = N ∗RDS(on) ∗D ∗ h IoutN∗(1−D) i2Switching loss(4) Pdiode = ((rD ∗I2 out) + (VF ∗Iout))Diode loss(5) Pinductor = rL ∗ h Iout(1−D) i2Inductor loass(6) Pcapacitor = rC ∗I2 outCapactior loss(7)Pinput = Poutput + Pswitch + Pdiode + Pinductor + PcapacitorInput power(8) \u0010 Poutput \u0011"
+    },
+    {
+      "file": "eq_p010_01.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.3,
+        145.1,
+        563.3,
+        161.5
+      ],
+      "px": [
+        2217,
+        69
+      ],
+      "text_layer": "Table 11. Comparison of output voltages at different duty cycles and with fs = 5 kHz and fs = 10 kHz."
+    },
+    {
+      "file": "eq_p010_02.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.3,
+        166.2,
+        563.3,
+        229.8
+      ],
+      "px": [
+        2217,
+        266
+      ],
+      "text_layer": "Vin (V) Switching Frequency fs = 5 kHz Switching Frequency fs = 10 kHz Vout (V) atD = 0.3 Vout (V) atD = 0.4 Vout (V) atD = 0.5 Vout (V) atD = 0.7 Vout (V) atD = 0.3 Vout (V) atD = 0.4 Vout (V) atD = 0.5 Vout (V) atD = 0.7"
+    },
+    {
+      "file": "eq_p010_03.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.3,
+        489.2,
+        563.3,
+        505.6
+      ],
+      "px": [
+        2217,
+        69
+      ],
+      "text_layer": "Figure 11. Output voltage comparison at different duty cycles and fs = 5 kHz."
+    },
+    {
+      "file": "eq_p010_04.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.3,
+        691.6,
+        563.3,
+        708.0
+      ],
+      "px": [
+        2217,
+        70
+      ],
+      "text_layer": "Figure 12. Output voltage comparison at different duty cycles and fs = 10 kHz."
+    },
+    {
+      "file": "eq_p011_01.png",
+      "page": 11,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.3,
+        94.3,
+        565.0,
+        110.7
+      ],
+      "px": [
+        2225,
+        70
+      ],
+      "text_layer": "Table 12. Output voltage, current and power comparison at fs = 5 kHz and fs = 10 kHz."
+    },
+    {
+      "file": "eq_p011_02.png",
+      "page": 11,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.3,
+        115.4,
+        565.0,
+        168.0
+      ],
+      "px": [
+        2225,
+        221
+      ],
+      "text_layer": "Vin (V) Switching Frequency fs = 5 kHz Switching Frequency fs = 10 kHz Vout (V) Iout(mA) Pout(mW)Vout (V)Iout(mA) Pout(mW)"
+    },
+    {
+      "file": "eq_p011_03.png",
+      "page": 11,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.3,
+        517.2,
+        565.0,
+        546.5
+      ],
+      "px": [
+        2225,
+        122
+      ],
+      "text_layer": "Figure 13. Output voltage, current and power comparison at switching frequencies fs = 5 kHz andfs = 10 kHz."
+    },
+    {
+      "file": "eq_p011_04.png",
+      "page": 11,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.3,
+        652.5,
+        565.0,
+        668.9
+      ],
+      "px": [
+        2225,
+        70
+      ],
+      "text_layer": "Table 13. Inductor voltage, current and power loss at fs = 5 kHz and D = 50%."
+    },
+    {
+      "file": "eq_p012_01.png",
+      "page": 12,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.3,
+        230.6,
+        563.3,
+        247.0
+      ],
+      "px": [
+        2217,
+        70
+      ],
+      "text_layer": "Table 14. Inductor voltage, current and power loss at fs = 10 kHz and D = 50%."
+    },
+    {
+      "file": "eq_p012_02.png",
+      "page": 12,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.3,
+        576.0,
+        563.3,
+        592.4
+      ],
+      "px": [
+        2217,
+        70
+      ],
+      "text_layer": "Figure 14. Inductor voltage, current and power loss comparison at fs = 5 kHz and D = 50%."
+    },
+    {
+      "file": "eq_p012_03.png",
+      "page": 12,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.3,
+        759.0,
+        563.3,
+        775.4
+      ],
+      "px": [
+        2217,
+        69
+      ],
+      "text_layer": "Figure 15. Inductor voltage, current and power loss comparison at fs = 10 kHz and D = 50%."
+    },
+    {
+      "file": "eq_p014_01.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.3,
+        94.3,
+        565.1,
+        110.7
+      ],
+      "px": [
+        2225,
+        70
+      ],
+      "text_layer": "Table 15. Output voltage, current and power at fs = 5 kHz."
+    },
+    {
+      "file": "eq_p014_02.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.3,
+        115.4,
+        565.1,
+        168.0
+      ],
+      "px": [
+        2225,
+        221
+      ],
+      "text_layer": "Vin (V) Switching Frequency fs = 5 kHz Vout (V) Iout(mA) Pout (W)"
+    }
+  ]
+}

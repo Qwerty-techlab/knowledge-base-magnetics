@@ -28,5 +28,8 @@
   ],
   "use_in_methodology": "КРИТИЧНО: показывает неприменимость модели потерь без идентификации при постоянном подмагничивании. Для дросселя boost с большим I_dc — ограничение точности iGSE.",
   "bib_title": "Investigation and Modeling of DC Bias Impact on Core Losses at High Frequency",
-  "bib_title_source": "sources_md"
+  "bib_title_source": "sources_md",
+  "formulas_extracted": 24,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

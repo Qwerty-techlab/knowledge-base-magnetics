@@ -1,0 +1,202 @@
+{
+  "article": "MDPI_2019_Interleaved_Boost_Modified_Coupled_Inductor",
+  "source": "source.pdf",
+  "pages_scanned": 18,
+  "dpi": 300,
+  "n_formulas": 10,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        72.1,
+        519.0,
+        522.9,
+        571.3
+      ],
+      "px": [
+        1879,
+        219
+      ],
+      "text_layer": "vL1 = N1 dΦ1 dtvL2 = N2 dΦ2 dtvL3 = N3 dΦ3 dt (1)"
+    },
+    {
+      "file": "eq_p005_02.png",
+      "page": 5,
+      "eq_number": "2",
+      "eq_numbers": [
+        "2"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.1,
+        638.3,
+        522.9,
+        658.2
+      ],
+      "px": [
+        1879,
+        84
+      ],
+      "text_layer": "Φ3 = Φ1 −Φ2(2)"
+    },
+    {
+      "file": "eq_p005_03.png",
+      "page": 5,
+      "eq_number": "3",
+      "eq_numbers": [
+        "3"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        72.1,
+        686.0,
+        522.9,
+        720.0
+      ],
+      "px": [
+        1879,
+        142
+      ],
+      "text_layer": "vL3 = N3(vL1 −vL2) N12 (3)"
+    },
+    {
+      "file": "eq_p005_04.png",
+      "page": 5,
+      "eq_number": "4",
+      "eq_numbers": [
+        "4"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        72.1,
+        724.1,
+        522.9,
+        778.0
+      ],
+      "px": [
+        1879,
+        226
+      ],
+      "text_layer": "Next, we introduce N as the ratio of the number of turns of the central winding and the numberof turns of L1 or L2: N = N3 N12 (4)"
+    },
+    {
+      "file": "eq_p006_01.png",
+      "page": 6,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.5,
+        392.9,
+        264.6,
+        411.0
+      ],
+      "px": [
+        801,
+        76
+      ],
+      "text_layer": "vIN = N12"
+    },
+    {
+      "file": "eq_p006_02.png",
+      "page": 6,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.5,
+        713.8,
+        264.6,
+        731.9
+      ],
+      "px": [
+        801,
+        76
+      ],
+      "text_layer": "vIN = N12"
+    },
+    {
+      "file": "eq_p007_01.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.1,
+        544.6,
+        274.0,
+        562.6
+      ],
+      "px": [
+        842,
+        76
+      ],
+      "text_layer": "vIN = N12"
+    },
+    {
+      "file": "eq_p007_02.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.1,
+        574.7,
+        274.0,
+        592.8
+      ],
+      "px": [
+        842,
+        77
+      ],
+      "text_layer": "vIN = N12"
+    },
+    {
+      "file": "eq_p009_01.png",
+      "page": 9,
+      "eq_number": "18",
+      "eq_numbers": [
+        "16",
+        "17",
+        "18"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        72.1,
+        120.3,
+        524.5,
+        216.3
+      ],
+      "px": [
+        1886,
+        401
+      ],
+      "text_layer": "M12N = L1 + L2 −L12N 2(16) M12P = L12P −L1 −L2 2(17) k12 M12√L1 ∗L2 (18)"
+    },
+    {
+      "file": "eq_p013_01.png",
+      "page": 13,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.1,
+        395.3,
+        524.0,
+        406.9
+      ],
+      "px": [
+        1884,
+        49
+      ],
+      "text_layer": "η=f(Pout), D=35%η=f(Pout), D=50%η=f(Pout), D=65%"
+    }
+  ]
+}

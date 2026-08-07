@@ -28,5 +28,8 @@
   ],
   "use_in_methodology": "Потери в обмотке и индуктивность при дискретном воздушном зазоре — влияние поля зазора на ближние витки.",
   "bib_title": "Analytical Winding Loss and Inductance Models for Gapped Inductors With Litz or Solid Wires",
-  "bib_title_source": "sources_md"
+  "bib_title_source": "sources_md",
+  "formulas_extracted": 54,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

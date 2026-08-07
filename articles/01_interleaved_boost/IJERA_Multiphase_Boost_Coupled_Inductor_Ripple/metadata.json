@@ -26,5 +26,8 @@
   ],
   "use_in_methodology": "Обзорный источник по снижению пульсации в многофазном boost.",
   "bib_title": "Multiphase Boost Converter with Coupled Inductor for Ripple Reduction",
-  "bib_title_source": "derived_from_filename"
+  "bib_title_source": "derived_from_filename",
+  "formulas_extracted": 5,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

@@ -1,0 +1,330 @@
+{
+  "article": "Pichon_2022_Efficiency_PowerDensity_Output_Inductor",
+  "source": "source.pdf",
+  "pages_scanned": 31,
+  "dpi": 300,
+  "n_formulas": 16,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        301.4,
+        362.3,
+        563.3,
+        380.1
+      ],
+      "px": [
+        1092,
+        75
+      ],
+      "text_layer": "Ev = L × Isat2/V [J/L](1)"
+    },
+    {
+      "file": "eq_p005_02.png",
+      "page": 5,
+      "eq_number": "2",
+      "eq_numbers": [
+        "2"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        301.4,
+        385.3,
+        563.3,
+        403.1
+      ],
+      "px": [
+        1092,
+        75
+      ],
+      "text_layer": "Ew = L × Isat2/W [J/kg](2)"
+    },
+    {
+      "file": "eq_p006_01.png",
+      "page": 6,
+      "eq_number": "3",
+      "eq_numbers": [
+        "3"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.4,
+        730.2,
+        563.7,
+        750.1
+      ],
+      "px": [
+        2219,
+        84
+      ],
+      "text_layer": "RDC = Kl × LPl(3)"
+    },
+    {
+      "file": "eq_p008_01.png",
+      "page": 8,
+      "eq_number": "4",
+      "eq_numbers": [
+        "4",
+        "5"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        306.7,
+        177.9,
+        563.3,
+        221.3
+      ],
+      "px": [
+        1069,
+        182
+      ],
+      "text_layer": "Rlr( f ) = L × klr × f plr(4) Rtotal = R0 + L × klr f Plr(5)"
+    },
+    {
+      "file": "eq_p010_01.png",
+      "page": 10,
+      "eq_number": "6",
+      "eq_numbers": [
+        "6",
+        "7"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.4,
+        290.9,
+        563.7,
+        334.3
+      ],
+      "px": [
+        2219,
+        181
+      ],
+      "text_layer": "Rhr( f ) = L × khr × f phr(6) Rtotal = R0 + L × klr f Plr + L × khr f Phr(7)"
+    },
+    {
+      "file": "eq_p011_01.png",
+      "page": 11,
+      "eq_number": "8",
+      "eq_numbers": [
+        "8",
+        "8"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.4,
+        94.5,
+        564.5,
+        182.7
+      ],
+      "px": [
+        2223,
+        369
+      ],
+      "text_layer": "khr and Phr are obtained by cost function minimization coded in MATLAB with thecost function calculated as ∑(Pmeasur −Pcalc)2. To calculate the Power losses Pcalc, thelosses caused by each individual harmonics are calculated independently and summed asin Equation (8). Pcalc = Pcalc = N∗fsw ∑f = fsw Î௅ L ( f )2 ∗Rtotal( f )(8)"
+    },
+    {
+      "file": "eq_p012_01.png",
+      "page": 12,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.4,
+        599.9,
+        565.0,
+        695.6
+      ],
+      "px": [
+        2225,
+        400
+      ],
+      "text_layer": "RDC = Kl ∗LPlKl1430700710 Pl10.9150.9150.915 Rlr = L ∗Klr ∗f PlrKlr1 × 10−3210880.3 Plr11.51.551.9 Rhr = L ∗Khr ∗f PhrKhr16745134 Phr11.0491.0891.028"
+    },
+    {
+      "file": "eq_p014_01.png",
+      "page": 14,
+      "eq_number": "9",
+      "eq_numbers": [
+        "9",
+        "10",
+        "11"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        306.2,
+        404.5,
+        563.3,
+        478.4
+      ],
+      "px": [
+        1072,
+        309
+      ],
+      "text_layer": "ECoss = Z Vmax 0Coss(vDS)vDS dvDS(9) ECiss = Qiss × vGS(10) Ebody = tdt × Vdrop × Isw(11)"
+    },
+    {
+      "file": "eq_p015_01.png",
+      "page": 15,
+      "eq_number": "13",
+      "eq_numbers": [
+        "13"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.4,
+        698.4,
+        564.9,
+        732.7
+      ],
+      "px": [
+        2224,
+        145
+      ],
+      "text_layer": "Vlsin IL =(Rlisn100/2)1 + Cx × Rlisn100 × jω(13)"
+    },
+    {
+      "file": "eq_p016_01.png",
+      "page": 16,
+      "eq_number": "14",
+      "eq_numbers": [
+        "14"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.4,
+        503.2,
+        565.0,
+        540.6
+      ],
+      "px": [
+        2225,
+        157
+      ],
+      "text_layer": "Vlsin IL =(Rlisn100/2) 1 + jω\u0000 Rlisn100Cx1 + Rlisn100Cx2 \u0001 −ω2 \u0010 L f ilterCx2 \u0011 −jω3 \u0010 Rlisn100L f ilterCx1Cx2 \u0011(14)"
+    },
+    {
+      "file": "eq_p016_02.png",
+      "page": 16,
+      "eq_number": "15",
+      "eq_numbers": [
+        "15"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        31.4,
+        737.7,
+        565.0,
+        775.1
+      ],
+      "px": [
+        2225,
+        157
+      ],
+      "text_layer": "IL f ilter IL =1 1 + Cx1Cx2 −ω2L f ilterCx1 (15)"
+    },
+    {
+      "file": "eq_p017_01.png",
+      "page": 17,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        328.5,
+        128.0,
+        506.4,
+        173.9
+      ],
+      "px": [
+        743,
+        192
+      ],
+      "text_layer": "IL×R2Vmax(1+iωsw×R×Cx2) + 2 −ω2sw × Cx2"
+    },
+    {
+      "file": "eq_p017_02.png",
+      "page": 17,
+      "eq_number": "17",
+      "eq_numbers": [
+        "17"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        328.5,
+        674.2,
+        506.4,
+        707.1
+      ],
+      "px": [
+        743,
+        138
+      ],
+      "text_layer": "ESR( f ) = Rc0 + p fkc1 + kc2 f(17)"
+    },
+    {
+      "file": "eq_p018_01.png",
+      "page": 18,
+      "eq_number": "18",
+      "eq_numbers": [
+        "18",
+        "19"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        31.4,
+        129.8,
+        564.9,
+        209.9
+      ],
+      "px": [
+        2224,
+        335
+      ],
+      "text_layer": "Ic1 IL = C1C2 −ω2LC1 1 + C1C2 −ω2LC1 (18) Ic2 IL =1 1 + Cx1Cx2 −ω2LCx1 (19)"
+    },
+    {
+      "file": "eq_p024_01.png",
+      "page": 24,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.4,
+        688.3,
+        564.5,
+        714.2
+      ],
+      "px": [
+        2223,
+        109
+      ],
+      "text_layer": "Maininductor losses2 × 0.37 W2 × 0.40 W2 × 0.32 W"
+    },
+    {
+      "file": "eq_p025_01.png",
+      "page": 25,
+      "eq_number": "20",
+      "eq_numbers": [
+        "20"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.4,
+        268.8,
+        565.0,
+        300.5
+      ],
+      "px": [
+        2225,
+        134
+      ],
+      "text_layer": "Rth =∆T(I2 × Rdc)(20)"
+    }
+  ]
+}

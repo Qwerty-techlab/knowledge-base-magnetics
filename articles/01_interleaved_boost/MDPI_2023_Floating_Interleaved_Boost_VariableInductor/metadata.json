@@ -26,5 +26,8 @@
   ],
   "use_in_methodology": "Нулевая пульсация через управляемую индуктивность — альтернативная схема, не применена.",
   "bib_title": "Floating Interleaved Boost Converter with Zero Ripple Using a Variable Inductor",
-  "bib_title_source": "derived_from_filename"
+  "bib_title_source": "derived_from_filename",
+  "formulas_extracted": 22,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

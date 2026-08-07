@@ -1,0 +1,390 @@
+{
+  "article": "MDPI_2021_DM_EMI_Filter_Interleaved_Boost_PFC",
+  "source": "source.pdf",
+  "pages_scanned": 17,
+  "dpi": 300,
+  "n_formulas": 19,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p003_01.png",
+      "page": 3,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.7,
+        644.7,
+        565.0,
+        663.2
+      ],
+      "px": [
+        2223,
+        78
+      ],
+      "text_layer": "Att−req( fD)[dB] = Umax( fD)[dBµV] −CISPRlimit( fD)[dBµV] + Margin[dB](1)"
+    },
+    {
+      "file": "eq_p004_01.png",
+      "page": 4,
+      "eq_number": "3",
+      "eq_numbers": [
+        "3"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        397.5,
+        435.4,
+        563.3,
+        466.6
+      ],
+      "px": [
+        691,
+        131
+      ],
+      "text_layer": "f c =12.π√LDMCDM(3)"
+    },
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": "5",
+      "eq_numbers": [
+        "5"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.7,
+        399.6,
+        565.0,
+        418.0
+      ],
+      "px": [
+        2223,
+        78
+      ],
+      "text_layer": "Lboost =Udc/4.∆iL,max.fsw(5)"
+    },
+    {
+      "file": "eq_p008_01.png",
+      "page": 8,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        319.7,
+        216.2,
+        563.3,
+        248.3
+      ],
+      "px": [
+        1016,
+        135
+      ],
+      "text_layer": "∞∑m=1 [Amo cos(mwct) + Bm0 sin(mwct)]"
+    },
+    {
+      "file": "eq_p008_02.png",
+      "page": 8,
+      "eq_number": "7",
+      "eq_numbers": [
+        "7"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        319.7,
+        349.5,
+        563.3,
+        401.7
+      ],
+      "px": [
+        1016,
+        218
+      ],
+      "text_layer": "π2 1mejmθ ∞∑k = 1k = odd Jk(mπM) k(7)"
+    },
+    {
+      "file": "eq_p008_03.png",
+      "page": 8,
+      "eq_number": "8",
+      "eq_numbers": [
+        "8",
+        "8"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        319.7,
+        409.4,
+        563.3,
+        473.7
+      ],
+      "px": [
+        1016,
+        269
+      ],
+      "text_layer": "Finally, sideband harmonics are obtained by the phase shift effects in interleaved unitsgiven as (8): Amn + jBmn = 2.Udc π2 1jmejmθ Jk(mπM)(jk −j−k)( (sin( k−n 2 )π)k−n+ (sin( k+n 2 )π)k+n)(8)"
+    },
+    {
+      "file": "eq_p008_04.png",
+      "page": 8,
+      "eq_number": "9",
+      "eq_numbers": [
+        "9",
+        "9"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        319.7,
+        479.6,
+        563.3,
+        576.3
+      ],
+      "px": [
+        1016,
+        404
+      ],
+      "text_layer": "where θ is an interleaved unit phase shift, which can be selected by the phase selectingmethods. For instance, in two interleaved units, the ﬁrst unit phase shift is zero, andthe second unit phase shift is θ. The structure of a simpliﬁed case study with a Nortonequivalent circuit is illustrated in Figure 7. The current for N units can be calculatedfrom (9): iL(s) = N∑n′=1 us{(n′ −1)θ} zin(n′)(9)"
+    },
+    {
+      "file": "eq_p008_05.png",
+      "page": 8,
+      "eq_number": "11",
+      "eq_numbers": [
+        "11"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        319.7,
+        701.8,
+        563.3,
+        754.0
+      ],
+      "px": [
+        1016,
+        218
+      ],
+      "text_layer": "∞∑h = 1h = odd 2hπ sin(h.π 2 ) cos(w0ht)(11)"
+    },
+    {
+      "file": "eq_p009_01.png",
+      "page": 9,
+      "eq_number": "12",
+      "eq_numbers": [
+        "12",
+        "12"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.7,
+        95.2,
+        564.9,
+        137.7
+      ],
+      "px": [
+        2222,
+        178
+      ],
+      "text_layer": "where h is harmonics order number. Thereby, the LISN input current without EMI ﬁlter isobtained by (12): icnv(s) = id(s)iL(s)(12)"
+    },
+    {
+      "file": "eq_p009_02.png",
+      "page": 9,
+      "eq_number": "13",
+      "eq_numbers": [
+        "13",
+        "13"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.7,
+        439.4,
+        564.9,
+        516.5
+      ],
+      "px": [
+        2222,
+        323
+      ],
+      "text_layer": "The relationship between the LISN input current and EMI receiver voltage should beadded in the proposed analytical method to complete it. Hence, the relationship betweenthe input current LISN and EMI receiver branch by considering the EMI ﬁlter is given as(13) [10]: irec(s) = C Dicnv(s)(13)"
+    },
+    {
+      "file": "eq_p009_03.png",
+      "page": 9,
+      "eq_number": "14",
+      "eq_numbers": [
+        "14"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.7,
+        533.2,
+        564.9,
+        555.4
+      ],
+      "px": [
+        2222,
+        94
+      ],
+      "text_layer": "C = L1L2C1C2s4 + R2C1C2(L2 + L1)s3 + C1(L2 + L1)s2(14)"
+    },
+    {
+      "file": "eq_p009_04.png",
+      "page": 9,
+      "eq_number": "16",
+      "eq_numbers": [
+        "16"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.7,
+        617.4,
+        564.9,
+        635.5
+      ],
+      "px": [
+        2222,
+        76
+      ],
+      "text_layer": "Umeas(s) = R1irec(s)(16)"
+    },
+    {
+      "file": "eq_p010_01.png",
+      "page": 10,
+      "eq_number": "17",
+      "eq_numbers": [
+        "17",
+        "18"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        294.7,
+        202.7,
+        563.3,
+        266.7
+      ],
+      "px": [
+        1120,
+        268
+      ],
+      "text_layer": "θ = 360o Ni f k is not a multiple o f N(17) θ =360o min{ f actor(N).k}i f k is a multiple o f N(18)"
+    },
+    {
+      "file": "eq_p011_01.png",
+      "page": 11,
+      "eq_number": "19",
+      "eq_numbers": [
+        "19"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.7,
+        500.4,
+        565.0,
+        520.7
+      ],
+      "px": [
+        2223,
+        85
+      ],
+      "text_layer": "VC = kC1CDMu2 g + kC2(19)"
+    },
+    {
+      "file": "eq_p011_02.png",
+      "page": 11,
+      "eq_number": "20",
+      "eq_numbers": [
+        "20",
+        "20",
+        "21",
+        "21"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.7,
+        525.6,
+        565.0,
+        663.0
+      ],
+      "px": [
+        2223,
+        574
+      ],
+      "text_layer": "where the factor kC1 denotes the capacitor volume proportionality to the stored energyand kC2 denotes a voltage-dependent factor. Furthermore, the inductor size is obtained by(20) [15]: VL = kL1LDMI2 g + kL2LDM + kL3Ig(20) kL1 is a constant factor describing the proportionality between the stored energyEL = 1/2·LDM·Ig2 and the inductor volume. These factors can be derived analogously tokL1, kL2, a"
+    },
+    {
+      "file": "eq_p011_03.png",
+      "page": 11,
+      "eq_number": "22",
+      "eq_numbers": [
+        "22"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.7,
+        710.0,
+        565.0,
+        730.7
+      ],
+      "px": [
+        2223,
+        87
+      ],
+      "text_layer": "Attreq( f ) = (j2π f )2n f .(2LDM)n f .CDM n f(22)"
+    },
+    {
+      "file": "eq_p013_01.png",
+      "page": 13,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.7,
+        731.8,
+        564.8,
+        748.3
+      ],
+      "px": [
+        2222,
+        69
+      ],
+      "text_layer": "Figure 12. EMI simulation approach for two-unit interleaved CCM at fsw = 37.5 kHz based on Table 4."
+    },
+    {
+      "file": "eq_p015_01.png",
+      "page": 15,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.7,
+        309.6,
+        564.5,
+        337.6
+      ],
+      "px": [
+        2221,
+        118
+      ],
+      "text_layer": "Figure 14. Measured waveforms of two units interleaved using parameters (fsw = 20 kHz) and aphase shift of 180◦given in Table 5."
+    },
+    {
+      "file": "eq_p016_01.png",
+      "page": 16,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.7,
+        291.3,
+        565.0,
+        322.1
+      ],
+      "px": [
+        2223,
+        130
+      ],
+      "text_layer": "fsw = 20 kHz (CCM Operation) Phaseθ = 0θ = 180θ = 90"
+    }
+  ]
+}

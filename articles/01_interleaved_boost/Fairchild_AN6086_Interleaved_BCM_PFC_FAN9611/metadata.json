@@ -28,5 +28,8 @@
   ],
   "use_in_methodology": "Граничный режим (BCM) в interleaved PFC — для сопоставления с выбранным CCM.",
   "bib_title": "AN-6086 Design Consideration for Interleaved Boundary Conduction Mode PFC Using FAN9611/12",
-  "bib_title_source": "pdf_metadata"
+  "bib_title_source": "pdf_metadata",
+  "formulas_extracted": 39,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

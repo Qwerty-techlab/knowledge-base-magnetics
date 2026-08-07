@@ -1,5 +1,9 @@
 # Differential Evolution Based Algorithm for Optimal Current Ripple Cancelation in an Unequal Interleaved Power Converter
 
+<!-- FORMULA-WARNING -->
+> **Формулы в этом файле недостоверны.** Текстовый слой PDF теряет дробные черты, радикалы и группировку степеней; знак интеграла приходит как `Z` или `R`, знак суммы -- как `P`. Формул вырезано: **22**, читать их в `formulas/` (картинки 300 dpi, перечень в `formulas/INDEX.md`).
+<!-- /FORMULA-WARNING -->
+
 > Автоматически извлечено из `source.pdf` скриптом `parse_pdf.py`
 > Движок: pymupdf. Страниц: 17 из 17.
 > Дата извлечения: 2026-08-07 06:42 UTC

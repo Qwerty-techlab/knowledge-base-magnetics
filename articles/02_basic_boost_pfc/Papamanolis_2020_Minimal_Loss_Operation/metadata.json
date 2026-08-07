@@ -29,5 +29,8 @@
   "use_in_methodology": "Совместная оптимизация потерь в сердечнике и литцендрате, температурная обратная связь, выбор точки минимума суммарных потерь.",
   "bib_title": "Minimum Loss Operation and Optimal Design of High-Frequency Inductors for Defined Core and Litz Wire",
   "bib_title_source": "sources_md",
-  "duplicate_note": "Файл 16_Minimal-Loss-Operation_ACCEPTED-VERSION_Papamanolis_OJ-PEL.pdf в 0_references — побайтовый дубликат этого же PDF."
+  "duplicate_note": "Файл 16_Minimal-Loss-Operation_ACCEPTED-VERSION_Papamanolis_OJ-PEL.pdf в 0_references — побайтовый дубликат этого же PDF.",
+  "formulas_extracted": 33,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

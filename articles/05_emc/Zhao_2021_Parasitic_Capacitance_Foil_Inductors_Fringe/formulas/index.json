@@ -1,0 +1,464 @@
+{
+  "article": "Zhao_2021_Parasitic_Capacitance_Foil_Inductors_Fringe",
+  "source": "source.pdf",
+  "pages_scanned": 13,
+  "dpi": 300,
+  "n_formulas": 22,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p004_01.png",
+      "page": 4,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        41.1,
+        180.7,
+        303.7,
+        245.6
+      ],
+      "px": [
+        1095,
+        272
+      ],
+      "text_layer": "Relative permittivity of the mylar foil [29] εm 3.25 Relative permittivity of the bobbins and spacers [30] εb 4.0 The permittivity of vacuum [31] ε0 8.82×10-12 F/m"
+    },
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        41.1,
+        319.6,
+        303.7,
+        370.5
+      ],
+      "px": [
+        1095,
+        213
+      ],
+      "text_layer": "(1) ≈×++×+× wwthhhε ε"
+    },
+    {
+      "file": "eq_p006_01.png",
+      "page": 6,
+      "eq_number": "7",
+      "eq_numbers": [
+        "7"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        311.1,
+        86.6,
+        573.7,
+        136.2
+      ],
+      "px": [
+        1095,
+        208
+      ],
+      "text_layer": "(7) dllpdtε επ =+++"
+    },
+    {
+      "file": "eq_p006_02.png",
+      "page": 6,
+      "eq_number": "8",
+      "eq_numbers": [
+        "8"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        311.1,
+        168.9,
+        573.7,
+        246.9
+      ],
+      "px": [
+        1095,
+        326
+      ],
+      "text_layer": "=++++=++ (8)"
+    },
+    {
+      "file": "eq_p006_03.png",
+      "page": 6,
+      "eq_number": "2",
+      "eq_numbers": [
+        "2"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        41.1,
+        219.1,
+        307.0,
+        265.1
+      ],
+      "px": [
+        1109,
+        193
+      ],
+      "text_layer": "2()dlClpdε επ=++ (2)"
+    },
+    {
+      "file": "eq_p006_04.png",
+      "page": 6,
+      "eq_number": "9",
+      "eq_numbers": [
+        "9"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        311.1,
+        252.4,
+        573.7,
+        285.4
+      ],
+      "px": [
+        1095,
+        139
+      ],
+      "text_layer": "2d_total2d_sc2d_tc2d_lcCCCC=++ (9)"
+    },
+    {
+      "file": "eq_p006_05.png",
+      "page": 6,
+      "eq_number": "4",
+      "eq_numbers": [
+        "4"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        41.1,
+        435.1,
+        307.0,
+        485.3
+      ],
+      "px": [
+        1109,
+        210
+      ],
+      "text_layer": "(4) dllpdε επ"
+    },
+    {
+      "file": "eq_p006_06.png",
+      "page": 6,
+      "eq_number": "6",
+      "eq_numbers": [
+        "5",
+        "5",
+        "6",
+        "6"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        41.1,
+        544.3,
+        307.0,
+        722.6
+      ],
+      "px": [
+        1109,
+        744
+      ],
+      "text_layer": "Similarly, the elementary static capacitance contributed by the fringe field between the top-surface of winding and core is derived in (5) according to Fig. 5. d202ele_tc 211winding dlClpdtε επ=+++ (5) l2 is the direct distance between the elementary capacitance and the start point at the top surface. εd2 is the dynamical relative permittivity, which can be presented as (6). c11winding2mcd2211wind"
+    },
+    {
+      "file": "eq_p007_01.png",
+      "page": 7,
+      "eq_number": "0",
+      "eq_numbers": [
+        "0",
+        "0",
+        "10",
+        "0"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        311.1,
+        51.5,
+        573.7,
+        209.2
+      ],
+      "px": [
+        1095,
+        658
+      ],
+      "text_layer": "2 11sc_case1ele_sc1winding 2 d101111111winding 01W=0(0)24 2010(0)2()4 VldCVt VlVdllpdtε επ +−+− +=−+−++ (10) where the total energy is given as sc_case1sc_case11 2 W=2W 20120(0)2()4 A d VlVdllpdtε επ +=−+−++ ∫∫ ∫∫"
+    },
+    {
+      "file": "eq_p007_02.png",
+      "page": 7,
+      "eq_number": "12",
+      "eq_numbers": [
+        "12"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        311.1,
+        266.5,
+        573.7,
+        321.7
+      ],
+      "px": [
+        1095,
+        231
+      ],
+      "text_layer": "1W=()22W (12)"
+    },
+    {
+      "file": "eq_p007_03.png",
+      "page": 7,
+      "eq_number": "14",
+      "eq_numbers": [
+        "13",
+        "14",
+        "0",
+        "0",
+        "13",
+        "0",
+        "0",
+        "0",
+        "14",
+        "13"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        311.1,
+        303.7,
+        573.7,
+        506.0
+      ],
+      "px": [
+        1095,
+        844
+      ],
+      "text_layer": "sc_case1eq_sc_case1221 () CVV =− Similarly, the equivalent sidewall-to-core capacitance in Case 2 and Case 3 is presented as (13) and (14), respectively. 2 d101sc_case2111111winding sc_case2eq_sc_case221 21W20(0)2() 2W (0) A lVdllpdt CV ε επ =+−++=− ∫∫ (13) 2 d101sc_case31111111winding sc_case3eq_sc_case321 21W2(0)(0)2() 2W (0) A lVVdllpdt CV ε επ =−+−++=− ∫∫ (14) (13"
+    },
+    {
+      "file": "eq_p007_04.png",
+      "page": 7,
+      "eq_number": "14",
+      "eq_numbers": [
+        "14",
+        "15"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        311.1,
+        544.8,
+        573.7,
+        700.4
+      ],
+      "px": [
+        1095,
+        650
+      ],
+      "text_layer": "In Case 1, the elementary energy stored between the top surface and core is presented as (14). 2 12tc_case1ele_tc111winding 2 d20121112211windingwinding 10W=()24 10()24 VldCVVV t VlVVVdllpdttε επ +−+− +=−+−+++ (15) If the boundary surface of the top layer in the winding is defined as A2 in 3-dimensional, the equivalent top-surface to core capacitance in Case 1 is obtain"
+    },
+    {
+      "file": "eq_p008_01.png",
+      "page": 8,
+      "eq_number": "21",
+      "eq_numbers": [
+        "21"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        311.1,
+        68.3,
+        587.4,
+        127.2
+      ],
+      "px": [
+        1152,
+        246
+      ],
+      "text_layer": "+−+++=++ (21)"
+    },
+    {
+      "file": "eq_p008_02.png",
+      "page": 8,
+      "eq_number": "17",
+      "eq_numbers": [
+        "17"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        41.1,
+        206.1,
+        303.7,
+        237.7
+      ],
+      "px": [
+        1095,
+        133
+      ],
+      "text_layer": "(17)"
+    },
+    {
+      "file": "eq_p008_03.png",
+      "page": 8,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        311.1,
+        245.8,
+        587.4,
+        302.1
+      ],
+      "px": [
+        1152,
+        235
+      ],
+      "text_layer": "εεπεπ"
+    },
+    {
+      "file": "eq_p008_04.png",
+      "page": 8,
+      "eq_number": "18",
+      "eq_numbers": [
+        "18"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        41.1,
+        275.7,
+        303.7,
+        307.3
+      ],
+      "px": [
+        1095,
+        133
+      ],
+      "text_layer": "(18)"
+    },
+    {
+      "file": "eq_p008_05.png",
+      "page": 8,
+      "eq_number": "19",
+      "eq_numbers": [
+        "19",
+        "19"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        41.1,
+        328.8,
+        303.7,
+        416.4
+      ],
+      "px": [
+        1095,
+        366
+      ],
+      "text_layer": "To sum Ceqsc and Ceqtc in the three cases, the dynamical parasitic capacitance Ceq_fringe contributed by the fringe field in the single winding is presented in (19). eqfringe_case1eq_sc_case1eq_tc_case1 eqfringe_case2eq_sc_case2eq_tc_case2 eqfringe_case3eq_sc_case3eq_tc_case3 = = = CCC CCC CCC + + + (19)"
+    },
+    {
+      "file": "eq_p008_06.png",
+      "page": 8,
+      "eq_number": "41",
+      "eq_numbers": [
+        "41",
+        "24"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        311.1,
+        408.2,
+        587.4,
+        454.0
+      ],
+      "px": [
+        1152,
+        191
+      ],
+      "text_layer": "eqllele_ll24(41)=3AmCCm −∫∫ (24)"
+    },
+    {
+      "file": "eq_p008_07.png",
+      "page": 8,
+      "eq_number": "20",
+      "eq_numbers": [
+        "20"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        41.1,
+        533.6,
+        303.7,
+        628.3
+      ],
+      "px": [
+        1095,
+        396
+      ],
+      "text_layer": "111=()16431= 3 (20) 331=3"
+    },
+    {
+      "file": "eq_p009_01.png",
+      "page": 9,
+      "eq_number": "27",
+      "eq_numbers": [
+        "27"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        311.1,
+        51.8,
+        573.7,
+        126.7
+      ],
+      "px": [
+        1095,
+        314
+      ],
+      "text_layer": "tc1tc 2eqtotal1tt tc1tc 2 eqtotal2tttc 2 eqtotal3tttc1 C CCCCCCCC CCC =++=+=+ (27)"
+    },
+    {
+      "file": "eq_p009_02.png",
+      "page": 9,
+      "eq_number": "25",
+      "eq_numbers": [
+        "25"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        41.1,
+        135.6,
+        303.7,
+        210.1
+      ],
+      "px": [
+        1095,
+        312
+      ],
+      "text_layer": "(25) =++++=+"
+    },
+    {
+      "file": "eq_p009_03.png",
+      "page": 9,
+      "eq_number": "26",
+      "eq_numbers": [
+        "26"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        41.1,
+        406.4,
+        303.7,
+        482.3
+      ],
+      "px": [
+        1095,
+        317
+      ],
+      "text_layer": "eqtotal1eqfringe_case1eqlc_case1eqlleq_ww eqtotal2eqfringe_case2eqlc_case2eqlleq_ww eqtotal3eqfringe_case3eqlc_case3eqlleq_ww Case 1: = Case 2: = Case 3: = CCCCC CCCCC CCCCC +++ +++ +++ (26) A three-terminal equivalent circuit is illustrated in Fig. 10 for representing the copper-foil inductor."
+    }
+  ]
+}

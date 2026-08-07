@@ -1,0 +1,316 @@
+{
+  "article": "Infineon_Design_Guide_PFC_CCM_Boost",
+  "source": "source.pdf",
+  "pages_scanned": 30,
+  "dpi": 300,
+  "n_formulas": 17,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.0,
+        163.3,
+        263.5,
+        235.7
+      ],
+      "px": [
+        903,
+        303
+      ],
+      "text_layer": "𝐿=1%𝑅𝑖𝑝𝑝𝑙𝑒 ∙𝑉𝑎𝑐.𝑚𝑖𝑛 2 𝑃𝑜 (1 −√2 ∙𝑉𝑎𝑐 .𝑚𝑖𝑛 𝑉𝑜 𝐼𝐿.𝑚𝑎𝑥= √2 ∙𝑃𝑜 𝑉𝑎𝑐.𝑚𝑖𝑛 ∙(1 + %𝑅𝑖𝑝𝑝𝑙𝑒2) = √2 ∙1200 𝑊"
+    },
+    {
+      "file": "eq_p006_01.png",
+      "page": 6,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.0,
+        130.4,
+        307.4,
+        166.8
+      ],
+      "px": [
+        1086,
+        153
+      ],
+      "text_layer": "𝐼𝐿.𝑟𝑚𝑠≅𝐼𝑖𝑛.𝑟𝑚𝑠=𝑃𝑜𝑉𝑎𝑐.𝑚𝑖𝑛 = 1200 𝑊"
+    },
+    {
+      "file": "eq_p006_02.png",
+      "page": 6,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.0,
+        651.1,
+        307.4,
+        687.4
+      ],
+      "px": [
+        1086,
+        153
+      ],
+      "text_layer": "𝐻𝑚𝑎𝑥= 0.4 ∙𝜋∙𝑁∙𝐼𝐿.𝑚𝑎𝑥 𝑙𝑒 (𝑖𝑛 𝑐𝑚)= 0.4 ∙𝜋∙64 𝑡𝑢𝑟𝑛𝑠∙22.51𝐴"
+    },
+    {
+      "file": "eq_p006_03.png",
+      "page": 6,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.0,
+        716.1,
+        307.4,
+        791.5
+      ],
+      "px": [
+        1086,
+        315
+      ],
+      "text_layer": "𝐼𝐿.𝑚𝑖𝑛= 𝑃𝑜∙√2 𝑉𝑎𝑐.𝑚𝑖𝑛 (1 −%𝑅𝑖𝑝𝑝𝑙𝑒 2) = 1200 𝑊∙√2 85 𝑉(1 −25% 𝐻𝑚𝑖𝑛= 0.4 ∙𝜋∙𝑁∙𝐼𝐿.𝑚𝑖𝑛 𝑙𝑒 (𝑖𝑛 𝑐𝑚)= 0.4 ∙𝜋∙64𝑡𝑢𝑟𝑛𝑠∙17.42 𝐴"
+    },
+    {
+      "file": "eq_p007_01.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.0,
+        117.1,
+        283.3,
+        155.6
+      ],
+      "px": [
+        986,
+        162
+      ],
+      "text_layer": "𝐵= (𝑎+ 𝑏∙𝐻+ 𝑐∙𝐻2 𝑎+ 𝑑∙𝐻+ 𝑒∙𝐻2) 𝑥"
+    },
+    {
+      "file": "eq_p007_02.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.0,
+        297.0,
+        283.3,
+        324.3
+      ],
+      "px": [
+        986,
+        115
+      ],
+      "text_layer": "∆𝐵= 𝐵𝑚𝑎𝑥−𝐵𝑚𝑖𝑛"
+    },
+    {
+      "file": "eq_p007_03.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.0,
+        355.5,
+        283.3,
+        392.6
+      ],
+      "px": [
+        986,
+        155
+      ],
+      "text_layer": "𝑃𝑐𝑜𝑟𝑒.𝑝𝑘= ∆𝐵2 ∙( 𝑓 103) 1.46∙𝑉𝑒∙10−6 = 0.2342 ∙(100 ∙103"
+    },
+    {
+      "file": "eq_p007_04.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.0,
+        417.8,
+        283.3,
+        452.6
+      ],
+      "px": [
+        986,
+        145
+      ],
+      "text_layer": "𝑃𝑐𝑜𝑟𝑒.𝑎𝑣= 𝑃𝑐𝑜𝑟𝑒.𝑝𝑘∙2 𝜋= 0.968 𝑊∙2"
+    },
+    {
+      "file": "eq_p007_05.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.0,
+        600.1,
+        283.3,
+        636.6
+      ],
+      "px": [
+        986,
+        153
+      ],
+      "text_layer": "𝐼𝑎𝑣𝑒𝑟𝑎𝑔𝑒= 2 𝜋∙√2 ∙𝑃𝑜 𝑉𝑎𝑐.𝑚𝑖𝑛 = 2 𝜋∙√2 ∙1200 𝑊 85 𝑉= 12.71 𝐴"
+    },
+    {
+      "file": "eq_p012_01.png",
+      "page": 12,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.0,
+        110.3,
+        286.1,
+        146.6
+      ],
+      "px": [
+        998,
+        153
+      ],
+      "text_layer": "𝐼𝑆.𝑟𝑚𝑠=𝑃𝑜𝑉𝑎𝑐.𝑚𝑖𝑛 ∙√1 −8 ∙√2 ∙𝑉𝑎𝑐.𝑚𝑖𝑛 3 ∙𝜋∙𝑉𝑜= 1200 𝑊"
+    },
+    {
+      "file": "eq_p012_02.png",
+      "page": 12,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.0,
+        429.1,
+        286.1,
+        465.5
+      ],
+      "px": [
+        998,
+        152
+      ],
+      "text_layer": "𝐼𝐿.𝑎𝑣𝑔=𝑃𝑜𝑉𝑎𝑐.𝑚𝑖𝑛 ∙2 ∙√2 𝜋= = 1200 𝑊 85 𝑉∙2 ∙√2 𝜋= 12.71 𝐴"
+    },
+    {
+      "file": "eq_p012_03.png",
+      "page": 12,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.0,
+        550.4,
+        286.1,
+        570.6
+      ],
+      "px": [
+        998,
+        85
+      ],
+      "text_layer": "= 10 ∙10−9 𝑠"
+    },
+    {
+      "file": "eq_p012_04.png",
+      "page": 12,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.0,
+        575.7,
+        286.1,
+        610.0
+      ],
+      "px": [
+        998,
+        144
+      ],
+      "text_layer": "(𝑉𝑑𝑠= 𝑉𝑜= 400 𝑉 , 𝐶𝑟𝑠𝑠= 𝑄𝑔𝑑 𝑉𝑑𝑠 = 93 ∙10−9𝑛𝐶 400 𝑉= 75 ∙10−12𝐹)"
+    },
+    {
+      "file": "eq_p015_01.png",
+      "page": 15,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        46.2,
+        237.1,
+        283.1,
+        273.5
+      ],
+      "px": [
+        988,
+        153
+      ],
+      "text_layer": "𝐼𝐷.𝑎𝑣𝑔= 𝑃𝑜 𝑉𝑜 = 1200 𝑊"
+    },
+    {
+      "file": "eq_p015_02.png",
+      "page": 15,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        46.2,
+        679.9,
+        283.1,
+        719.5
+      ],
+      "px": [
+        988,
+        165
+      ],
+      "text_layer": "𝐼𝐶𝑜.𝑟𝑚𝑠= √8 ∙√2 ∙𝑃𝑜2 3 ∙𝜋∙𝑉𝑎𝑐.𝑚𝑖𝑛 ∙𝑉𝑜−𝑃𝑜 2 𝑉𝑜 2 = √8 ∙√2 ∙(1200 𝑊)2"
+    },
+    {
+      "file": "eq_p016_01.png",
+      "page": 16,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.0,
+        257.5,
+        263.4,
+        293.9
+      ],
+      "px": [
+        903,
+        152
+      ],
+      "text_layer": "𝑅𝑡ℎ𝑆𝐴=𝑇𝑆−𝑇𝐴𝑃𝐹𝐸𝑇+ 𝑃𝑑𝑖𝑜𝑑𝑒"
+    },
+    {
+      "file": "eq_p019_01.png",
+      "page": 19,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.0,
+        379.6,
+        263.4,
+        410.2
+      ],
+      "px": [
+        903,
+        129
+      ],
+      "text_layer": "85Vac 100% load Total power loss = 74.1W"
+    }
+  ]
+}

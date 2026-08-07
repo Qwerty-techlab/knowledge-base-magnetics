@@ -27,5 +27,8 @@
   ],
   "use_in_methodology": "Interleaved boost (не PFC) — режим CCM, распределение тока между фазами.",
   "bib_title": "AN-1820 LM5032 Interleaved Boost Converter (Rev. A)",
-  "bib_title_source": "pdf_metadata"
+  "bib_title_source": "pdf_metadata",
+  "formulas_extracted": 11,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

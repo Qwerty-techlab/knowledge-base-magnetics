@@ -28,5 +28,8 @@
   ],
   "use_in_methodology": "ПЕРВИЧНЫЙ источник формы iGSE — модель потерь в сердечнике при несинусоидальной индукции. Указывает ограничение базовой модели на интервалах постоянной индукции и при магнитной релаксации.",
   "bib_title": "Improved Core-Loss Calculation for Magnetic Components Employed in Power Electronic Systems",
-  "bib_title_source": "sources_md"
+  "bib_title_source": "sources_md",
+  "formulas_extracted": 26,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

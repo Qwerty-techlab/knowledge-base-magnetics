@@ -1,0 +1,1064 @@
+{
+  "article": "TI_SLUA479B_UCC28070_Interleaved_PFC_DesignReview",
+  "source": "source.pdf",
+  "pages_scanned": 27,
+  "dpi": 300,
+  "n_formulas": 54,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p003_01.png",
+      "page": 3,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        149.6,
+        561.9,
+        288.9
+      ],
+      "px": [
+        2134,
+        581
+      ],
+      "text_layer": "IN L1 IK(D) =IDD (1) 1 2DK(D) =if D is < 05 = 0.51 D- - (2) 2D 1K(D) =if D is > 0.5D - (3)"
+    },
+    {
+      "file": "eq_p003_02.png",
+      "page": 3,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        342.7,
+        561.9,
+        404.0
+      ],
+      "px": [
+        2134,
+        257
+      ],
+      "text_layer": "K(D)=DIIN/DIL1"
+    },
+    {
+      "file": "eq_p004_01.png",
+      "page": 4,
+      "eq_number": "4",
+      "eq_numbers": [
+        "4"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        122.6,
+        561.9,
+        204.3
+      ],
+      "px": [
+        2134,
+        342
+      ],
+      "text_layer": "OUTIN_MINPLL OUT VV2390V85V 2D==0.69V390 V --» (4) PLL 20.691K(D) == 0.550.69´-"
+    },
+    {
+      "file": "eq_p004_02.png",
+      "page": 4,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        209.0,
+        561.9,
+        243.8
+      ],
+      "px": [
+        2134,
+        146
+      ],
+      "text_layer": "OUT IN_MINPLL P2 × 0.3300W20.3IL ==3.0 AVK(D)85V0.900.55h´´´D»´´´´"
+    },
+    {
+      "file": "eq_p004_03.png",
+      "page": 4,
+      "eq_number": "5",
+      "eq_numbers": [
+        "5"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        249.6,
+        561.9,
+        300.9
+      ],
+      "px": [
+        2134,
+        214
+      ],
+      "text_layer": "IN_MINPLL s V2D85V20.69L1 = L2 ==140 HIL ×2.96A200 kHz ´´´´»D´uf (5)"
+    },
+    {
+      "file": "eq_p004_04.png",
+      "page": 4,
+      "eq_number": "6",
+      "eq_numbers": [
+        "6",
+        "7"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        320.4,
+        561.9,
+        499.9
+      ],
+      "px": [
+        2134,
+        749
+      ],
+      "text_layer": "22IN_MINOUTIN_MINOUT sOUTL1_RMSL2_RMS 0IN_MIN V2sin( )VV2sin( )P L1V12I= I=+V12 p qq hp æö-æöç÷´ç÷ç÷´ç÷òç÷´ç÷ç÷ç÷ç÷èø èø f (6) 22 L1_RMSL2_RMS 0 85V 2sin( )390V85V 2sin( )300W1140 H200kHz390V2I= I=+2A85V0.9012 p qq p æö-æöç÷´ç÷´ç÷»ç÷òç÷´ç÷ç÷ç÷ç÷èøèø u (7)"
+    },
+    {
+      "file": "eq_p004_05.png",
+      "page": 4,
+      "eq_number": "8",
+      "eq_numbers": [
+        "8",
+        "9"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        527.8,
+        561.9,
+        593.9
+      ],
+      "px": [
+        2134,
+        276
+      ],
+      "text_layer": "MINMINL1= L2= 140 Hu (8) MAXMAXL1= L2= 350 Hu (9)"
+    },
+    {
+      "file": "eq_p004_06.png",
+      "page": 4,
+      "eq_number": "10",
+      "eq_numbers": [
+        "10"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        622.3,
+        561.9,
+        666.9
+      ],
+      "px": [
+        2134,
+        187
+      ],
+      "text_layer": "MINMAXAVGAVG L1+ L1140 H + 350 HL1= L2=== 245 H22uuu (10)"
+    },
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": "11",
+      "eq_numbers": [
+        "11"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        105.4,
+        561.9,
+        172.9
+      ],
+      "px": [
+        2134,
+        282
+      ],
+      "text_layer": "() OUT LINEOUT2222OUTOUT 2P2300W47 HzC=192 FV(V0.75)(390V)292.5V ´´ ³»-´- fu (11)"
+    },
+    {
+      "file": "eq_p005_02.png",
+      "page": 5,
+      "eq_number": "12",
+      "eq_numbers": [
+        "12"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        189.8,
+        561.9,
+        222.9
+      ],
+      "px": [
+        2134,
+        138
+      ],
+      "text_layer": "OUTC= 200 μF (12)"
+    },
+    {
+      "file": "eq_p005_03.png",
+      "page": 5,
+      "eq_number": "13",
+      "eq_numbers": [
+        "13"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        237.7,
+        561.9,
+        298.9
+      ],
+      "px": [
+        2134,
+        256
+      ],
+      "text_layer": "OUTRIPPLE OUTLINEOUT 2 300W2P10.90V==14.5VV22C390V2π247Hz200 μFhp ´´»´´´´´´´f (13)"
+    },
+    {
+      "file": "eq_p005_04.png",
+      "page": 5,
+      "eq_number": "14",
+      "eq_numbers": [
+        "14",
+        "15",
+        "16"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        349.2,
+        561.9,
+        519.9
+      ],
+      "px": [
+        2134,
+        713
+      ],
+      "text_layer": "OUTCOUT_LF OUT P300WI==0.604AV20.90390V2h »´´ (14) () 222OUTOUTCOUT_HFCOUT_LFOUTIN_MIN P16VI=IV6V2hhp æö´ç÷--ç÷´èø (15) () 222COUT_HF 300W16390VI=(0.90)0.6041.0A0.90390V685V 2p æö´--»ç÷ç÷´´èø (16)"
+    },
+    {
+      "file": "eq_p006_01.png",
+      "page": 6,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        80.0,
+        196.0,
+        286.4,
+        232.9
+      ],
+      "px": [
+        861,
+        155
+      ],
+      "text_layer": "OUTL1PEAK IN_MIN P2I300W22.97AI=+1.2 =+1.25.1A2V22 × 85V0.902h æöæö´D´»ç÷ç÷ç÷ç÷´´´èøèø"
+    },
+    {
+      "file": "eq_p007_01.png",
+      "page": 7,
+      "eq_number": "20",
+      "eq_numbers": [
+        "20"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        118.7,
+        561.9,
+        165.9
+      ],
+      "px": [
+        2134,
+        198
+      ],
+      "text_layer": "SPEAKCT PRS NI5.1AN=== 51NI0.1A³ (20)"
+    },
+    {
+      "file": "eq_p007_02.png",
+      "page": 7,
+      "eq_number": "21",
+      "eq_numbers": [
+        "21"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        182.8,
+        561.9,
+        215.9
+      ],
+      "px": [
+        2134,
+        139
+      ],
+      "text_layer": "CTN= 50 (21)"
+    },
+    {
+      "file": "eq_p007_03.png",
+      "page": 7,
+      "eq_number": "22",
+      "eq_numbers": [
+        "22",
+        "23"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        321.5,
+        561.9,
+        372.9
+      ],
+      "px": [
+        2134,
+        215
+      ],
+      "text_layer": "(22) ML= 8.25 mH (23)"
+    },
+    {
+      "file": "eq_p007_04.png",
+      "page": 7,
+      "eq_number": "24",
+      "eq_numbers": [
+        "24"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        421.0,
+        561.9,
+        483.9
+      ],
+      "px": [
+        2134,
+        263
+      ],
+      "text_layer": "SSASB PEAK CT 0.9V0.93.7V50R= R==32.5I0.102AN ´´´»W (24)"
+    },
+    {
+      "file": "eq_p007_05.png",
+      "page": 7,
+      "eq_number": "25",
+      "eq_numbers": [
+        "25",
+        "26"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        498.7,
+        561.9,
+        597.9
+      ],
+      "px": [
+        2134,
+        415
+      ],
+      "text_layer": "SR= 33.2 W (25) SMAXR MAX RD33.2× 0.97R=1 k1D10.97´W³W--; Resistor RR is used to reset the current sense transformer: (26)"
+    },
+    {
+      "file": "eq_p007_06.png",
+      "page": 7,
+      "eq_number": "27",
+      "eq_numbers": [
+        "27"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        623.8,
+        561.9,
+        672.9
+      ],
+      "px": [
+        2134,
+        205
+      ],
+      "text_layer": "PRPEAKRS N5.1A1 kV= IR=103VN50´W´´³ (27)"
+    },
+    {
+      "file": "eq_p009_01.png",
+      "page": 9,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        80.0,
+        144.8,
+        270.0,
+        162.9
+      ],
+      "px": [
+        792,
+        76
+      ],
+      "text_layer": "OFFV= 0.2 V"
+    },
+    {
+      "file": "eq_p009_02.png",
+      "page": 9,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        80.0,
+        241.7,
+        270.0,
+        261.9
+      ],
+      "px": [
+        792,
+        85
+      ],
+      "text_layer": "OAR= 2.05 kW"
+    },
+    {
+      "file": "eq_p009_03.png",
+      "page": 9,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        80.0,
+        340.7,
+        270.0,
+        360.9
+      ],
+      "px": [
+        792,
+        85
+      ],
+      "text_layer": "TATBR= R= 2.49 kW"
+    },
+    {
+      "file": "eq_p009_04.png",
+      "page": 9,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        80.0,
+        439.8,
+        270.0,
+        457.9
+      ],
+      "px": [
+        792,
+        76
+      ],
+      "text_layer": "TAC= 47 nF"
+    },
+    {
+      "file": "eq_p010_01.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        80.0,
+        274.7,
+        300.2,
+        294.9
+      ],
+      "px": [
+        918,
+        85
+      ],
+      "text_layer": "RTR= 37.4 kW"
+    },
+    {
+      "file": "eq_p010_02.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        80.0,
+        307.4,
+        300.2,
+        345.9
+      ],
+      "px": [
+        918,
+        162
+      ],
+      "text_layer": "()()DMXRTMAXR= R2D1 = 37.4 kΩ 20.971 = 35 k´-´-W Resistor RDMX was selected to set the maximum duty cycle clamp (DMAX) to 0.97:"
+    },
+    {
+      "file": "eq_p010_03.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        80.0,
+        376.7,
+        300.2,
+        396.9
+      ],
+      "px": [
+        918,
+        85
+      ],
+      "text_layer": "DMXR= 34.8 kW"
+    },
+    {
+      "file": "eq_p010_04.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        80.0,
+        476.2,
+        300.2,
+        497.3
+      ],
+      "px": [
+        918,
+        89
+      ],
+      "text_layer": "3ARM=W"
+    },
+    {
+      "file": "eq_p010_05.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        80.0,
+        598.7,
+        300.2,
+        618.9
+      ],
+      "px": [
+        918,
+        85
+      ],
+      "text_layer": "BR= 23.2 kW"
+    },
+    {
+      "file": "eq_p011_01.png",
+      "page": 11,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        271.7,
+        315.6,
+        291.9
+      ],
+      "px": [
+        1108,
+        85
+      ],
+      "text_layer": "Vgm= 70Sm"
+    },
+    {
+      "file": "eq_p011_02.png",
+      "page": 11,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        323.8,
+        315.6,
+        356.3
+      ],
+      "px": [
+        1108,
+        137
+      ],
+      "text_layer": "VREF OUT V3VH ==0.0077V390V»"
+    },
+    {
+      "file": "eq_p011_03.png",
+      "page": 11,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        520.8,
+        315.6,
+        538.9
+      ],
+      "px": [
+        1108,
+        76
+      ],
+      "text_layer": "PVC= 150 nF"
+    },
+    {
+      "file": "eq_p012_01.png",
+      "page": 12,
+      "eq_number": "49",
+      "eq_numbers": [
+        "49",
+        "50"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        113.5,
+        561.9,
+        196.9
+      ],
+      "px": [
+        2134,
+        348
+      ],
+      "text_layer": "(49) OUT OUTCVV OUTPV 1P j2C1η=HgmVAOV2Cp p´´´´´´D´´f (50)"
+    },
+    {
+      "file": "eq_p012_02.png",
+      "page": 12,
+      "eq_number": "51",
+      "eq_numbers": [
+        "51"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        239.5,
+        561.9,
+        257.9
+      ],
+      "px": [
+        2134,
+        77
+      ],
+      "text_layer": "(51)"
+    },
+    {
+      "file": "eq_p012_03.png",
+      "page": 12,
+      "eq_number": "52",
+      "eq_numbers": [
+        "52"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        286.0,
+        561.9,
+        332.9
+      ],
+      "px": [
+        2134,
+        197
+      ],
+      "text_layer": "ZV CVPV 11R==96.4 k2C210.6Hz150nFpp»W´´´´f (52)"
+    },
+    {
+      "file": "eq_p012_04.png",
+      "page": 12,
+      "eq_number": "53",
+      "eq_numbers": [
+        "53"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        347.7,
+        561.9,
+        382.9
+      ],
+      "px": [
+        2134,
+        148
+      ],
+      "text_layer": "ZVR= 100 kW (53)"
+    },
+    {
+      "file": "eq_p012_05.png",
+      "page": 12,
+      "eq_number": "54",
+      "eq_numbers": [
+        "54"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        422.1,
+        561.9,
+        478.9
+      ],
+      "px": [
+        2134,
+        238
+      ],
+      "text_layer": "ZV CV ZV 11C==1.5F11Hz2100 k2R1010 mpp »´´W´´f (54)"
+    },
+    {
+      "file": "eq_p013_01.png",
+      "page": 13,
+      "eq_number": "55",
+      "eq_numbers": [
+        "55"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        162.0,
+        562.0,
+        180.4
+      ],
+      "px": [
+        2134,
+        77
+      ],
+      "text_layer": "(55)"
+    },
+    {
+      "file": "eq_p013_02.png",
+      "page": 13,
+      "eq_number": "56",
+      "eq_numbers": [
+        "56",
+        "57"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        196.7,
+        562.0,
+        316.4
+      ],
+      "px": [
+        2134,
+        500
+      ],
+      "text_layer": "OUT OUTOUTPSV VAOOUT 1P j2CVηG( ) ==VVAOV pæöç÷´´´Dèø´DD ff (56) ()PSVCVTvdB() = 20log G()G()´fff Voltage Loop Gain in dB (TvdB(f)) as function of frequency: (57)"
+    },
+    {
+      "file": "eq_p014_01.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        211.7,
+        270.0,
+        231.9
+      ],
+      "px": [
+        917,
+        85
+      ],
+      "text_layer": "SYNR= 38.3 kW"
+    },
+    {
+      "file": "eq_p014_02.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        479.7,
+        270.0,
+        499.9
+      ],
+      "px": [
+        917,
+        85
+      ],
+      "text_layer": "IMOR= 19.6 kW"
+    },
+    {
+      "file": "eq_p015_01.png",
+      "page": 15,
+      "eq_number": "66",
+      "eq_numbers": [
+        "66",
+        "67",
+        "68"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        70.3,
+        562.0,
+        226.9
+      ],
+      "px": [
+        2134,
+        653
+      ],
+      "text_layer": "Cgm= 100Sm Variable gmC is the current amplifier Transconductance Current Amplifier Gain. (66) ZC1ZC2 CPSC 11R= R=== 4.8 kgmG100S2.1mW´´ (67) ZC1ZC2 s ZC 11C= C==1.7nF200 kHz24.8 k2× R1010pp »´Wf (68)"
+    },
+    {
+      "file": "eq_p015_02.png",
+      "page": 15,
+      "eq_number": "69",
+      "eq_numbers": [
+        "69"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        227.0,
+        562.0,
+        283.9
+      ],
+      "px": [
+        2134,
+        238
+      ],
+      "text_layer": "PC1PC2 ZC 11C= C==333 pFs200 kHz2R24.8 k22pp »´´Wf (69)"
+    },
+    {
+      "file": "eq_p015_03.png",
+      "page": 15,
+      "eq_number": "70",
+      "eq_numbers": [
+        "70"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        298.7,
+        562.0,
+        333.9
+      ],
+      "px": [
+        2134,
+        148
+      ],
+      "text_layer": ",ZC1ZC1PC1R= 4.02 kC= 2.2 nF, C= 330 pFW (70)"
+    },
+    {
+      "file": "eq_p015_04.png",
+      "page": 15,
+      "eq_number": "71",
+      "eq_numbers": [
+        "71"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        372.0,
+        562.0,
+        453.7
+      ],
+      "px": [
+        2134,
+        342
+      ],
+      "text_layer": "()() POUT SZCZCCRAMPZCZCPCZCPC ZCPC NVRsNj 2RC+1TcdB() = 20loggmj 2L1Vj 2RCCj 2C+C+1C+C pppp æöç÷´´´´´´ç÷´´ç÷´´´´Dæö´´´´´ç÷´´´ç÷ç÷èøèø fffff (71)"
+    },
+    {
+      "file": "eq_p016_01.png",
+      "page": 16,
+      "eq_number": "72",
+      "eq_numbers": [
+        "72"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        117.1,
+        561.6,
+        165.9
+      ],
+      "px": [
+        2133,
+        205
+      ],
+      "text_layer": "ZVSSMIN 2.25 VC2.25V1.5Ft==338 ms10A10A mmm´´» (72)"
+    },
+    {
+      "file": "eq_p016_02.png",
+      "page": 16,
+      "eq_number": "73",
+      "eq_numbers": [
+        "73"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        180.5,
+        561.6,
+        198.9
+      ],
+      "px": [
+        2133,
+        77
+      ],
+      "text_layer": "(73)"
+    },
+    {
+      "file": "eq_p016_03.png",
+      "page": 16,
+      "eq_number": "74",
+      "eq_numbers": [
+        "74",
+        "75"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        235.5,
+        561.6,
+        332.9
+      ],
+      "px": [
+        2133,
+        407
+      ],
+      "text_layer": "ssss 10At10A200 msC==0.889F2.25V2.25 Vmmm´´» (74) ssC= 1.5Fm A CSS capacitor value equal to the CZV capacitor was chosen for the design. (75)"
+    },
+    {
+      "file": "eq_p016_04.png",
+      "page": 16,
+      "eq_number": "76",
+      "eq_numbers": [
+        "76",
+        "77",
+        "78"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        420.8,
+        561.6,
+        539.9
+      ],
+      "px": [
+        2133,
+        497
+      ],
+      "text_layer": "DM = 30 kHzf (76) 10DRfkHz= (77) 66 RDM DM 937.510937.510R=== 31.13 kf30 kHz´W´WW (78)"
+    },
+    {
+      "file": "eq_p016_05.png",
+      "page": 16,
+      "eq_number": "79",
+      "eq_numbers": [
+        "79"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        570.5,
+        561.6,
+        588.9
+      ],
+      "px": [
+        2133,
+        77
+      ],
+      "text_layer": "(79)"
+    },
+    {
+      "file": "eq_p016_06.png",
+      "page": 16,
+      "eq_number": "80",
+      "eq_numbers": [
+        "80",
+        "81"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        603.7,
+        561.6,
+        675.9
+      ],
+      "px": [
+        2133,
+        302
+      ],
+      "text_layer": "RDMR= 31.6 kW (80) 220CDRCpF= (81)"
+    },
+    {
+      "file": "eq_p021_01.png",
+      "page": 21,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        111.7,
+        368.1,
+        301.7,
+        379.0
+      ],
+      "px": [
+        792,
+        46
+      ],
+      "text_layer": "Current Harmonics VIN = 230V, POUT = 300W"
+    },
+    {
+      "file": "eq_p025_01.png",
+      "page": 25,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        346.8,
+        562.0,
+        368.6
+      ],
+      "px": [
+        2134,
+        91
+      ],
+      "text_layer": "Figure 26. Brownout at VIN = 115V, POUT = 300 W"
+    },
+    {
+      "file": "eq_p025_02.png",
+      "page": 25,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        380.6,
+        562.0,
+        402.3
+      ],
+      "px": [
+        2134,
+        92
+      ],
+      "text_layer": "15.5Startup, CH2 = IL1, CH3 = IL2, CH4 = VOUT"
+    },
+    {
+      "file": "eq_p025_03.png",
+      "page": 25,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        606.0,
+        562.0,
+        626.2
+      ],
+      "px": [
+        2134,
+        86
+      ],
+      "text_layer": "Figure 27. VIN = 85 V, POUT = 300 WFigure 28. VIN = 265 V, POUT = 300 W"
+    }
+  ]
+}

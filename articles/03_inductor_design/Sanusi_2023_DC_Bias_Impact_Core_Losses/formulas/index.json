@@ -1,0 +1,466 @@
+{
+  "article": "Sanusi_2023_DC_Bias_Impact_Core_Losses",
+  "source": "source.pdf",
+  "pages_scanned": 17,
+  "dpi": 300,
+  "n_formulas": 24,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p003_01.png",
+      "page": 3,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        225.1,
+        567.0,
+        259.0
+      ],
+      "px": [
+        1080,
+        142
+      ],
+      "text_layer": "∆P P = |tan(ϕ)| · |∆ϕ|(1)"
+    },
+    {
+      "file": "eq_p004_01.png",
+      "page": 4,
+      "eq_number": "4",
+      "eq_numbers": [
+        "4"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        444.5,
+        567.0,
+        477.1
+      ],
+      "px": [
+        1080,
+        137
+      ],
+      "text_layer": "RFe,DUT = V 2 DUT,rms PFe (4)"
+    },
+    {
+      "file": "eq_p004_02.png",
+      "page": 4,
+      "eq_number": "2",
+      "eq_numbers": [
+        "2",
+        "3"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        45.0,
+        460.2,
+        304.0,
+        540.0
+      ],
+      "px": [
+        1080,
+        334
+      ],
+      "text_layer": "PFe =1Tsw Z Tsw 0vDUT · imeas dt −1 k Z Tsw 0vref · imeas dt ! (2) k = Vref,pp VDUT,pp (3)"
+    },
+    {
+      "file": "eq_p006_01.png",
+      "page": 6,
+      "eq_number": "5",
+      "eq_numbers": [
+        "5"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        45.0,
+        335.4,
+        304.0,
+        366.6
+      ],
+      "px": [
+        1080,
+        131
+      ],
+      "text_layer": "i(s) = vcurrent(s) \u00121s · Lsense + Rsense + s · Cprobe \u0013 (5)"
+    },
+    {
+      "file": "eq_p007_01.png",
+      "page": 7,
+      "eq_number": "6",
+      "eq_numbers": [
+        "6"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        226.3,
+        567.0,
+        261.9
+      ],
+      "px": [
+        1080,
+        149
+      ],
+      "text_layer": "BDUT(t) =1Ns · Ae Z t 0vDUT(t) dt(6)"
+    },
+    {
+      "file": "eq_p007_02.png",
+      "page": 7,
+      "eq_number": "7",
+      "eq_numbers": [
+        "7"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        269.8,
+        567.0,
+        287.4
+      ],
+      "px": [
+        1080,
+        74
+      ],
+      "text_layer": "BDC = µ0 · µr · HDC(7)"
+    },
+    {
+      "file": "eq_p007_03.png",
+      "page": 7,
+      "eq_number": "8",
+      "eq_numbers": [
+        "8"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        297.0,
+        567.0,
+        327.7
+      ],
+      "px": [
+        1080,
+        129
+      ],
+      "text_layer": "HDC = Nexc · IDC le (8)"
+    },
+    {
+      "file": "eq_p008_01.png",
+      "page": 8,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        473.6,
+        567.0,
+        598.6
+      ],
+      "px": [
+        1080,
+        522
+      ],
+      "text_layer": "we can also observe the Pv ∝f α sw relation. The shift in αparameter is not likely for core A, since the curve gradientstays almost the same. Meanwhile for core B, the measurementresult suggest a shift in the α parameter. The reason is thatthe DC bias not only offsets the curve, but also changes theregression line slope in Fig. 15. At fsw > 2MHz, the DC biaseffect becomes less predictable in core "
+    },
+    {
+      "file": "eq_p009_01.png",
+      "page": 9,
+      "eq_number": "9",
+      "eq_numbers": [
+        "9"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        45.0,
+        66.2,
+        304.0,
+        100.6
+      ],
+      "px": [
+        1080,
+        145
+      ],
+      "text_layer": "Pv,rel = PFe,DC PFe,0 = EFe,DC(fsw, ˆB, BDC) · fsw EFe,0(fsw, ˆB) · fsw (9)"
+    },
+    {
+      "file": "eq_p011_01.png",
+      "page": 11,
+      "eq_number": "2f",
+      "eq_numbers": [
+        "2f",
+        "10"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        568.1,
+        567.0,
+        589.8
+      ],
+      "px": [
+        1080,
+        92
+      ],
+      "text_layer": "Pv,iGSE,tri = ki · (2f)α · (∆B)β(10)"
+    },
+    {
+      "file": "eq_p011_02.png",
+      "page": 11,
+      "eq_number": "11",
+      "eq_numbers": [
+        "11"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        610.5,
+        567.0,
+        677.3
+      ],
+      "px": [
+        1080,
+        280
+      ],
+      "text_layer": "  αβki  =   α00000β0pβ1pβ2pβ3pβ4ki0pki1pki2pki3pki4  ·   1BDCB2 DCB3 DCB4 DC   (11)"
+    },
+    {
+      "file": "eq_p011_03.png",
+      "page": 11,
+      "eq_number": "12",
+      "eq_numbers": [
+        "12"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        688.9,
+        567.0,
+        755.7
+      ],
+      "px": [
+        1080,
+        279
+      ],
+      "text_layer": "  αβki  =   α0pα1pα2pα3pα4β0pβ1pβ2pβ3pβ4ki0pki1pki2pki3pki4  ·   1BDCB2 DCB3 DCB4 DC   (12)"
+    },
+    {
+      "file": "eq_p013_01.png",
+      "page": 13,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        206.1,
+        567.0,
+        236.7
+      ],
+      "px": [
+        1080,
+        129
+      ],
+      "text_layer": "and Pv ∝f α"
+    },
+    {
+      "file": "eq_p014_01.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        317.9,
+        63.9,
+        567.0,
+        94.6
+      ],
+      "px": [
+        1039,
+        129
+      ],
+      "text_layer": "∆P = Pmeas −Pact Pact"
+    },
+    {
+      "file": "eq_p014_02.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        317.9,
+        110.3,
+        567.0,
+        175.6
+      ],
+      "px": [
+        1039,
+        273
+      ],
+      "text_layer": "Pact =1Tsw Z Tsw 0vFe(t) · iFe(t) dt ! = 1 2 · Re[VFe · I∗Fe] = 1 2 · V 2F eRFe"
+    },
+    {
+      "file": "eq_p014_03.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        317.9,
+        189.8,
+        567.0,
+        277.0
+      ],
+      "px": [
+        1039,
+        364
+      ],
+      "text_layer": "Pmeas =1Tsw ( Z Tsw 0vDUT(t) · i(t) dt− 1k Z Tsw 0vref(t) · i(t) dt) = 1 2 · Re[VDUT · I∗] −1k · 1 2 · Re[Vref · I∗]"
+    },
+    {
+      "file": "eq_p014_04.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        317.9,
+        302.8,
+        567.0,
+        333.8
+      ],
+      "px": [
+        1039,
+        130
+      ],
+      "text_layer": "VDUT =1/jωCdiff1/jωCdiff + jωLs,DUT + Rs,DUT· VFe"
+    },
+    {
+      "file": "eq_p014_05.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        317.9,
+        343.0,
+        567.0,
+        373.5
+      ],
+      "px": [
+        1039,
+        129
+      ],
+      "text_layer": "I =VFeZp,DUT"
+    },
+    {
+      "file": "eq_p014_06.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        317.9,
+        389.9,
+        567.0,
+        437.5
+      ],
+      "px": [
+        1039,
+        200
+      ],
+      "text_layer": "[VDUT · I∗] =V 2 F eωCdiff · Zs,DUT · Zp,DUT −π/2 −θZs,dut + θZp,dut"
+    },
+    {
+      "file": "eq_p014_07.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        317.9,
+        452.4,
+        567.0,
+        482.9
+      ],
+      "px": [
+        1039,
+        129
+      ],
+      "text_layer": "k = Lm,ref Lm,DUT"
+    },
+    {
+      "file": "eq_p014_08.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        317.9,
+        504.4,
+        567.0,
+        551.8
+      ],
+      "px": [
+        1039,
+        199
+      ],
+      "text_layer": "C2 = Cs + CdZ1 = Rp,ref + jωLp,refZ2 = Rs,ref + jωLs,ref"
+    },
+    {
+      "file": "eq_p014_09.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        317.9,
+        574.4,
+        567.0,
+        655.8
+      ],
+      "px": [
+        1039,
+        340
+      ],
+      "text_layer": "Z∆1 = Z1 · Z2 + Z1 · jωLm,ref + Z2 · jωLm,ref jωLm,ref Z∆2 = Z1 · Z2 + Z1 · jωLm,ref + Z2 · jωLm,ref Z2 Z∆3 = Z1 · Z2 + Z1 · jωLm,ref + Z2 · jωLm,ref Z1"
+    },
+    {
+      "file": "eq_p014_10.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        317.9,
+        665.3,
+        567.0,
+        696.5
+      ],
+      "px": [
+        1039,
+        131
+      ],
+      "text_layer": "Vref = I ·Z4 · Z6Z4 + Z5 + Z6"
+    },
+    {
+      "file": "eq_p014_11.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        317.9,
+        705.7,
+        567.0,
+        738.8
+      ],
+      "px": [
+        1039,
+        139
+      ],
+      "text_layer": "[Vref · I∗] =V 2 F eZ2 p,DUT ·Z4 · Z6Z4 + Z5 + Z6"
+    }
+  ]
+}

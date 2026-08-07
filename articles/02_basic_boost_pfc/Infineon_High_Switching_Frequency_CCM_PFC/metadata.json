@@ -28,5 +28,8 @@
   ],
   "use_in_methodology": "Обоснование выбора частоты коммутации 100…150 кГц: баланс потерь в ключах и магнитных элементах.",
   "bib_title": "High switching frequency CCM PFC operation with TRENCHSTOP 5 WR5 IGBT",
-  "bib_title_source": "pdf_metadata"
+  "bib_title_source": "pdf_metadata",
+  "formulas_extracted": 8,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

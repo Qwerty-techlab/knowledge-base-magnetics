@@ -1,0 +1,242 @@
+{
+  "article": "JPE_2016_Interleaved_Boost_ZeroRipple_EMI_Filter",
+  "source": "source.pdf",
+  "pages_scanned": 11,
+  "dpi": 300,
+  "n_formulas": 11,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p003_01.png",
+      "page": 3,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        47.1,
+        540.8,
+        298.0,
+        704.8
+      ],
+      "px": [
+        1046,
+        684
+      ],
+      "text_layer": "Stage I [t0-t1]: At t=t0, S1 begins to turn on, while S2 remains conducting. Diodes D1, D2 and Dr are turned off, while diode D3 is turned on. The current-flow path is shown in Fig. 4(a). The capacitor Cm is discharging its energy to the capacitor C3 and the load RL through the output diode D3. The current falling rate through the diode D3 is restrained by the leakage inductances Lk1 and Lk2. Ther"
+    },
+    {
+      "file": "eq_p003_02.png",
+      "page": 3,
+      "eq_number": "2",
+      "eq_numbers": [
+        "2",
+        "3"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        304.3,
+        564.3,
+        550.7,
+        626.6
+      ],
+      "px": [
+        1028,
+        260
+      ],
+      "text_layer": "(2) (3)"
+    },
+    {
+      "file": "eq_p004_01.png",
+      "page": 4,
+      "eq_number": "9",
+      "eq_numbers": [
+        "9"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        304.3,
+        28.5,
+        553.0,
+        183.5
+      ],
+      "px": [
+        1038,
+        647
+      ],
+      "text_layer": "A Ripple-free Input Current Interleaved Converter with Dual Coupled Inductors for … 593 of the energy stored in the magnetizing inductor Lm2 is transferred to the secondary side, which charges the capacitor Cm via Dr. When the current iLk2 drops to zero at t=t3, this mode is ends. turned on, while D2 and Dr are turned off. The current-flow path of this mode is shown in Fig. 4(g). The energy stored"
+    },
+    {
+      "file": "eq_p004_02.png",
+      "page": 4,
+      "eq_number": "4",
+      "eq_numbers": [
+        "4"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        47.1,
+        112.7,
+        293.5,
+        141.2
+      ],
+      "px": [
+        1027,
+        120
+      ],
+      "text_layer": "(4)"
+    },
+    {
+      "file": "eq_p004_03.png",
+      "page": 4,
+      "eq_number": "5",
+      "eq_numbers": [
+        "5"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        47.1,
+        146.5,
+        293.5,
+        175.0
+      ],
+      "px": [
+        1027,
+        120
+      ],
+      "text_layer": "(5)"
+    },
+    {
+      "file": "eq_p004_04.png",
+      "page": 4,
+      "eq_number": "6",
+      "eq_numbers": [
+        "6",
+        "7"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        47.1,
+        287.9,
+        293.5,
+        464.0
+      ],
+      "px": [
+        1027,
+        735
+      ],
+      "text_layer": "(6) Stage V [t4-t5]: During this transition interval, S1 remains conducting, while S2 is turned on. Only diode Dr is turned on, while D1, D2 and D3 are turned off. Fig. 4(e) depicts the current-flow path of this mode. The current through the diode Dr decreases linearly. The current falling rate through the diode Dr is limited due to the leakage inductances Lk1 and Lk2. This mode ends when the curr"
+    },
+    {
+      "file": "eq_p004_05.png",
+      "page": 4,
+      "eq_number": "8",
+      "eq_numbers": [
+        "8"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        47.1,
+        664.1,
+        293.5,
+        698.6
+      ],
+      "px": [
+        1027,
+        145
+      ],
+      "text_layer": "(8)"
+    },
+    {
+      "file": "eq_p006_01.png",
+      "page": 6,
+      "eq_number": "19",
+      "eq_numbers": [
+        "19",
+        "16",
+        "19",
+        "10",
+        "20",
+        "19",
+        "16",
+        "19",
+        "10",
+        "20"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        47.1,
+        316.8,
+        293.4,
+        423.2
+      ],
+      "px": [
+        1027,
+        445
+      ],
+      "text_layer": "The voltages across the capacitor C1 and C2 are derived as: 121CCinDVVVD (19) Substituting (16) and (19) into (10), the output voltage can be derived by: 123121OinCCCinDNkVVVVVVD (20) The voltages across the capacitor C1 and C2 are derived as: 121CCinDVVVD (19) Substituting (16) and (19) into (10), the output voltage can be derived by: 123121OinCCCinDNkVVVVVVD (20)"
+    },
+    {
+      "file": "eq_p006_02.png",
+      "page": 6,
+      "eq_number": "24",
+      "eq_numbers": [
+        "24",
+        "25",
+        "26"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        304.3,
+        594.2,
+        555.4,
+        730.3
+      ],
+      "px": [
+        1048,
+        568
+      ],
+      "text_layer": "121112 ODSDSin VVVVDDN (24) The voltage stresses of the diodes D1, D2, D3 and Dr are expressed as: 121112 ODDin VVVVDDN (25) 322112 ODDrin NVNVVVDDN (26) Fig. 7 shows the relationship between the normalized"
+    },
+    {
+      "file": "eq_p007_01.png",
+      "page": 7,
+      "eq_number": "28",
+      "eq_numbers": [
+        "12",
+        "28"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        304.3,
+        245.6,
+        550.8,
+        440.0
+      ],
+      "px": [
+        1028,
+        811
+      ],
+      "text_layer": "The voltage gain of the proposed converter is designed as ninefold, and the duty ratios of the switches are chosen as 0.6. Once the duty ratios of the switches and the voltage gain are chosen, according to the above equation, N=1 will be the proper choice. Based on the aforementioned analysis, the voltage gain is less sensitive to the coupling coefficient k. However, the leakage inductances of the"
+    },
+    {
+      "file": "eq_p008_01.png",
+      "page": 8,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        47.1,
+        548.1,
+        298.2,
+        576.7
+      ],
+      "px": [
+        1047,
+        120
+      ],
+      "text_layer": "Coupled inductors N1,N2 Lm1=Lm2=80uH Lk1=Lk2=2.1uH"
+    }
+  ]
+}

@@ -1,5 +1,9 @@
 # Design process of high‐frequency inductor with multiple air‐gaps in the dimensional limitation
 
+<!-- FORMULA-WARNING -->
+> **Формулы в этом файле недостоверны.** Текстовый слой PDF теряет дробные черты, радикалы и группировку степеней; знак интеграла приходит как `Z` или `R`, знак суммы -- как `P`. Формул вырезано: **32**, читать их в `formulas/` (картинки 300 dpi, перечень в `formulas/INDEX.md`).
+<!-- /FORMULA-WARNING -->
+
 > Автоматически извлечено из `source.pdf` скриптом `parse_pdf.py`
 > Движок: pymupdf. Страниц: 18 из 18.
 > Дата извлечения: 2026-08-07 06:43 UTC

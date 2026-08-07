@@ -28,5 +28,8 @@
   ],
   "use_in_methodology": "Многофазный преобразователь для электротранспорта — выбор числа фаз по КПД.",
   "bib_title": "Efficient Multi-Phase Converter for E-Mobility",
-  "bib_title_source": "pdf_metadata"
+  "bib_title_source": "pdf_metadata",
+  "formulas_extracted": 15,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

@@ -1,0 +1,1211 @@
+{
+  "article": "MDPI_2020_NSGA2_Codesign_Interleaved_Boost_EV",
+  "source": "source.pdf",
+  "pages_scanned": 35,
+  "dpi": 300,
+  "n_formulas": 63,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p008_01.png",
+      "page": 8,
+      "eq_number": "2",
+      "eq_numbers": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "14"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        302.8,
+        313.3,
+        525.3,
+        351.1
+      ],
+      "px": [
+        928,
+        158
+      ],
+      "text_layer": "12 12 (2)(2)( )(2)(2) zz pp ππ ππ +⋅+⋅=+⋅+⋅ (14)"
+    },
+    {
+      "file": "eq_p008_02.png",
+      "page": 8,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        93.8,
+        374.3,
+        294.6,
+        426.7
+      ],
+      "px": [
+        838,
+        219
+      ],
+      "text_layer": "112zzfπ=⋅ and 222zzfπ=⋅), respectively, 1pf and and ݌ଶ= 2ߨ݂௣మ), respectively. When two zeros, two poles are identical at double frequencies ( 12zzzfff==, and"
+    },
+    {
+      "file": "eq_p008_03.png",
+      "page": 8,
+      "eq_number": "15",
+      "eq_numbers": [
+        "2",
+        "2",
+        "15"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        302.8,
+        430.7,
+        525.3,
+        464.4
+      ],
+      "px": [
+        928,
+        141
+      ],
+      "text_layer": "2 _2(2)( ) (2) p s sf π π +⋅= +⋅ (15)"
+    },
+    {
+      "file": "eq_p008_04.png",
+      "page": 8,
+      "eq_number": "16",
+      "eq_numbers": [
+        "16"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        302.8,
+        550.7,
+        525.3,
+        590.1
+      ],
+      "px": [
+        928,
+        165
+      ],
+      "text_layer": "φ=+ ()()tan 454 boost IIIoboost IIIK (16)"
+    },
+    {
+      "file": "eq_p008_05.png",
+      "page": 8,
+      "eq_number": "17",
+      "eq_numbers": [
+        "17"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        302.8,
+        606.6,
+        525.3,
+        623.1
+      ],
+      "px": [
+        928,
+        70
+      ],
+      "text_layer": "(17)"
+    },
+    {
+      "file": "eq_p008_06.png",
+      "page": 8,
+      "eq_number": "18",
+      "eq_numbers": [
+        "18"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        302.8,
+        644.1,
+        525.3,
+        663.8
+      ],
+      "px": [
+        928,
+        83
+      ],
+      "text_layer": "=⋅()pcboost IIIffK (18)"
+    },
+    {
+      "file": "eq_p010_01.png",
+      "page": 10,
+      "eq_number": "20",
+      "eq_numbers": [
+        "20"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        72.6,
+        72.1,
+        525.3,
+        259.3
+      ],
+      "px": [
+        1887,
+        781
+      ],
+      "text_layer": "1 2 3 4 () ()() () () ObjFnc X ObjFncXMulObjFnc X ObjFncX ObjFncX =      (20) where ,PCXXX=  denotes the codesign-variable vector consisting of 13 design variables. ,,PphswcoreXNfidx=  is the variable vector of the power conversion stage. Specifically, phN is a number of phases, swf is the switching frequency, and coreidx is the core index representing the core geome"
+    },
+    {
+      "file": "eq_p010_02.png",
+      "page": 10,
+      "eq_number": "21",
+      "eq_numbers": [
+        "21"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        349.9,
+        525.3,
+        385.3
+      ],
+      "px": [
+        1887,
+        149
+      ],
+      "text_layer": "1()2() 1()2() ()()( )()() CiCiiCi CiCi szszC sKs spsp ++=++ (21)"
+    },
+    {
+      "file": "eq_p010_03.png",
+      "page": 10,
+      "eq_number": "22",
+      "eq_numbers": [
+        "22"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        396.4,
+        525.3,
+        431.8
+      ],
+      "px": [
+        1887,
+        149
+      ],
+      "text_layer": "1()2() 1()2() ()()( )()() CvCvvCv CvCv szszCsKs spsp ++=++ (22)"
+    },
+    {
+      "file": "eq_p010_04.png",
+      "page": 10,
+      "eq_number": "23",
+      "eq_numbers": [
+        "23",
+        "24",
+        "23"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        72.6,
+        437.5,
+        525.3,
+        536.9
+      ],
+      "px": [
+        1887,
+        416
+      ],
+      "text_layer": "The multi-objective optimization problem subjecting to constraints is presented at a highly abstract level in Equation (23) and Equation (24): 1 2 , 3,,,4 ()() ()()min ()() ()(,) PC Pphswcore CCiCv inP LP XXX lossPXNfindXXXPC ObjFnc XIX ObjFncXWX ObjFncXPX ObjFncXITAE XX =∈Ω== = Δ===      (23)"
+    },
+    {
+      "file": "eq_p010_05.png",
+      "page": 10,
+      "eq_number": "24",
+      "eq_numbers": [
+        "24"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        543.3,
+        525.3,
+        568.2
+      ],
+      "px": [
+        1887,
+        105
+      ],
+      "text_layer": ". .()0 ,1,is tgXim≤=  (24)"
+    },
+    {
+      "file": "eq_p011_01.png",
+      "page": 11,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        106.2,
+        525.3,
+        153.6
+      ],
+      "px": [
+        1887,
+        199
+      ],
+      "text_layer": "1 ≤ phN ≤ 6 Limitation for the number of phases 10 kHz ≤ swf ≤ 100 kHz Switching frequency range inIΔ ≤ 7.5% inI Maximum for the input current ripple"
+    },
+    {
+      "file": "eq_p011_02.png",
+      "page": 11,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        305.7,
+        525.3,
+        404.9
+      ],
+      "px": [
+        1887,
+        415
+      ],
+      "text_layer": "1( )()inPObjFnc XIX=Δ    2( )()LPObjFnc XW X=    3( )()lossPObjFnc XPX=  ↝     2( )()LPObjFnc XW X=    3( )()lossPObjFnc XPX=  ↝  4( )(,)PCObjFnc XITAE X X=  - "
+    },
+    {
+      "file": "eq_p011_03.png",
+      "page": 11,
+      "eq_number": "25",
+      "eq_numbers": [
+        "25"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        72.6,
+        665.4,
+        525.3,
+        722.6
+      ],
+      "px": [
+        1887,
+        239
+      ],
+      "text_layer": "1()1 O ph inPphswph kVDNkObjFncIXNDL fN −= Δ=−−⋅  (25)"
+    },
+    {
+      "file": "eq_p012_01.png",
+      "page": 12,
+      "eq_number": "26",
+      "eq_numbers": [
+        "26"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        72.6,
+        78.7,
+        525.4,
+        135.0
+      ],
+      "px": [
+        1888,
+        236
+      ],
+      "text_layer": "maxmin11 0,1 OO ph VVDVV kN −<<−∈− (26)"
+    },
+    {
+      "file": "eq_p012_02.png",
+      "page": 12,
+      "eq_number": "27",
+      "eq_numbers": [
+        "27"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        251.1,
+        525.4,
+        277.7
+      ],
+      "px": [
+        1888,
+        112
+      ],
+      "text_layer": "2()()LPphwindingcoreObjFncWXNWW==+ (27)"
+    },
+    {
+      "file": "eq_p012_03.png",
+      "page": 12,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        479.8,
+        525.4,
+        498.9
+      ],
+      "px": [
+        1888,
+        81
+      ],
+      "text_layer": "PaCAWA=⋅ [mm4], the saturation flux density maxB[T], the core window utilization factor uK , and"
+    },
+    {
+      "file": "eq_p012_04.png",
+      "page": 12,
+      "eq_number": "28",
+      "eq_numbers": [
+        "1",
+        "28"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        72.6,
+        562.2,
+        525.4,
+        602.2
+      ],
+      "px": [
+        1888,
+        168
+      ],
+      "text_layer": "()() 2 ()maxmaxmaxmax22()max(1)102 L critOL crituwireaCswsw IDDVDDL ILKJBWAff −−+⋅−⋅⋅⋅⋅+=⋅ (28)"
+    },
+    {
+      "file": "eq_p012_05.png",
+      "page": 12,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        685.6,
+        525.4,
+        756.4
+      ],
+      "px": [
+        1888,
+        296
+      ],
+      "text_layer": "()maxmax(,)() 112 OL crit pkL crit sw VDDIIfL −=+⋅. In the critical condition, the average inductor current is given as () max() max1L crit phO PI NVD= ⋅−"
+    },
+    {
+      "file": "eq_p013_01.png",
+      "page": 13,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        129.5,
+        305.6,
+        168.1
+      ],
+      "px": [
+        972,
+        162
+      ],
+      "text_layer": "turn L INroundAB ⋅=⋅"
+    },
+    {
+      "file": "eq_p013_02.png",
+      "page": 13,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        224.9,
+        305.6,
+        244.0
+      ],
+      "px": [
+        972,
+        81
+      ],
+      "text_layer": "where 0μ = 4π.10−7 [H/m] is the vacuum magnetic permeability. Based on the number of turns and"
+    },
+    {
+      "file": "eq_p013_03.png",
+      "page": 13,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        403.4,
+        305.6,
+        433.6
+      ],
+      "px": [
+        972,
+        126
+      ],
+      "text_layer": "()3()()( )()lossPphloss MOSFETloss DIODEloss LObjFncPXNPPP==++"
+    },
+    {
+      "file": "eq_p015_01.png",
+      "page": 15,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.9,
+        87.1,
+        525.3,
+        117.2
+      ],
+      "px": [
+        852,
+        127
+      ],
+      "text_layer": "PIVN=⋅, the inductor current ripple nominL sw DVILf ⋅Δ=⋅ , and the"
+    },
+    {
+      "file": "eq_p015_02.png",
+      "page": 15,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        93.8,
+        116.8,
+        265.6,
+        144.7
+      ],
+      "px": [
+        717,
+        117
+      ],
+      "text_layer": "nominal duty cycle 1innom O VDV=−."
+    },
+    {
+      "file": "eq_p015_03.png",
+      "page": 15,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.9,
+        399.1,
+        525.3,
+        417.6
+      ],
+      "px": [
+        852,
+        79
+      ],
+      "text_layer": "()res copperρ = 16.78 × 10−9 [Ω.m], total winding"
+    },
+    {
+      "file": "eq_p015_04.png",
+      "page": 15,
+      "eq_number": "40",
+      "eq_numbers": [
+        "40"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.9,
+        464.6,
+        525.3,
+        484.3
+      ],
+      "px": [
+        852,
+        83
+      ],
+      "text_layer": "()()()w inding Ldc Lac LPPP=+ (40)"
+    },
+    {
+      "file": "eq_p015_05.png",
+      "page": 15,
+      "eq_number": "41",
+      "eq_numbers": [
+        "41"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.9,
+        494.8,
+        525.3,
+        516.7
+      ],
+      "px": [
+        852,
+        92
+      ],
+      "text_layer": "2( )( )()dc Ldc LL rmsPRI=⋅ (41)"
+    },
+    {
+      "file": "eq_p015_06.png",
+      "page": 15,
+      "eq_number": "42",
+      "eq_numbers": [
+        "42"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.9,
+        530.5,
+        525.3,
+        560.3
+      ],
+      "px": [
+        852,
+        125
+      ],
+      "text_layer": "() 2 Δ=+ (42)"
+    },
+    {
+      "file": "eq_p015_07.png",
+      "page": 15,
+      "eq_number": "43",
+      "eq_numbers": [
+        "43"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.9,
+        579.0,
+        525.3,
+        617.0
+      ],
+      "px": [
+        852,
+        159
+      ],
+      "text_layer": "wire lRAρ= (43)"
+    },
+    {
+      "file": "eq_p015_08.png",
+      "page": 15,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.9,
+        664.1,
+        525.3,
+        682.6
+      ],
+      "px": [
+        852,
+        79
+      ],
+      "text_layer": "fα = 1.51,Bβ = 1.74 are given in the"
+    },
+    {
+      "file": "eq_p015_09.png",
+      "page": 15,
+      "eq_number": "44",
+      "eq_numbers": [
+        "44"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.9,
+        718.6,
+        525.3,
+        739.7
+      ],
+      "px": [
+        852,
+        88
+      ],
+      "text_layer": "fBcore LcorecoreswacPWKfBαβ=⋅⋅⋅ (44)"
+    },
+    {
+      "file": "eq_p016_01.png",
+      "page": 16,
+      "eq_number": "45",
+      "eq_numbers": [
+        "45"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        311.1,
+        79.8,
+        525.3,
+        117.2
+      ],
+      "px": [
+        893,
+        157
+      ],
+      "text_layer": "gap NIBlπ−⋅⋅⋅Δ⋅= (45)"
+    },
+    {
+      "file": "eq_p016_02.png",
+      "page": 16,
+      "eq_number": "46",
+      "eq_numbers": [
+        "46"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        311.1,
+        206.6,
+        525.3,
+        229.4
+      ],
+      "px": [
+        893,
+        96
+      ],
+      "text_layer": "( )() lBgfacDkkkkgap Lggapcoreac peakPklDfB=⋅⋅⋅⋅ (46)"
+    },
+    {
+      "file": "eq_p016_03.png",
+      "page": 16,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        311.1,
+        335.7,
+        525.3,
+        430.8
+      ],
+      "px": [
+        893,
+        397
+      ],
+      "text_layer": "0( )ISEe t dtτ= ), integral of absolute error ( 0( )ITAEt e t dtτ= ), integral of time- 0( )ITSEtet dtτ= ), integral of the time-squared weighted squared error ( 0( )IT AEt e t dtτ= )."
+    },
+    {
+      "file": "eq_p016_04.png",
+      "page": 16,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        358.2,
+        305.3,
+        385.8
+      ],
+      "px": [
+        971,
+        116
+      ],
+      "text_layer": "0( )IAEe t dtτ= ), integral of time-weighted absolute error ("
+    },
+    {
+      "file": "eq_p016_05.png",
+      "page": 16,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        403.2,
+        305.3,
+        446.1
+      ],
+      "px": [
+        971,
+        180
+      ],
+      "text_layer": "222 0( )IT SEt et dtτ= ), and integral of the time-squared weighted absolute error (22 An upper limit τ is chosen as a steady-state value."
+    },
+    {
+      "file": "eq_p016_06.png",
+      "page": 16,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        528.7,
+        305.3,
+        558.8
+      ],
+      "px": [
+        971,
+        127
+      ],
+      "text_layer": "()40,( )OOVPCVObjFncITAEXXt et dtτ== "
+    },
+    {
+      "file": "eq_p016_07.png",
+      "page": 16,
+      "eq_number": "47",
+      "eq_numbers": [
+        "47"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        311.1,
+        538.4,
+        525.3,
+        555.0
+      ],
+      "px": [
+        893,
+        70
+      ],
+      "text_layer": "(47)"
+    },
+    {
+      "file": "eq_p019_01.png",
+      "page": 19,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        417.3,
+        525.3,
+        476.6
+      ],
+      "px": [
+        1887,
+        248
+      ],
+      "text_layer": "Current controller () (1641)(1608)( )3341.6 (48140)(55810)i opt ssCss ss++=++ Voltage controller () (1180)(1147)( )12799 (4567)(4703)v opt ssCss ss++=++"
+    },
+    {
+      "file": "eq_p023_01.png",
+      "page": 23,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        78.7,
+        371.7,
+        286.3,
+        439.7
+      ],
+      "px": [
+        865,
+        285
+      ],
+      "text_layer": "Dimension 350 × 300 × 250 mm 565 × 240 × 90 mm (only for inductors) Power rating 100 kW 225 kW 30 kW 30 kW/port → 60 kW Number of phases 4 phases 8 phases 4 phases 3 phases/port"
+    },
+    {
+      "file": "eq_p023_02.png",
+      "page": 23,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        304.6,
+        382.4,
+        513.4,
+        396.5
+      ],
+      "px": [
+        871,
+        60
+      ],
+      "text_layer": "350 × 300 × 200 mm 300 × 300 × 150 mm"
+    },
+    {
+      "file": "eq_p024_01.png",
+      "page": 24,
+      "eq_number": "48",
+      "eq_numbers": [
+        "48"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        319.4,
+        335.0,
+        525.2,
+        392.9
+      ],
+      "px": [
+        859,
+        242
+      ],
+      "text_layer": "00 iiiiii −− ==   (48)"
+    },
+    {
+      "file": "eq_p024_02.png",
+      "page": 24,
+      "eq_number": "49",
+      "eq_numbers": [
+        "49"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        319.4,
+        407.1,
+        525.2,
+        425.5
+      ],
+      "px": [
+        859,
+        78
+      ],
+      "text_layer": "−−−−−−=⋅⋅+⋅+⋅+⋅−⋅−⋅−⋅ (49)"
+    },
+    {
+      "file": "eq_p024_03.png",
+      "page": 24,
+      "eq_number": "50",
+      "eq_numbers": [
+        "50"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        319.4,
+        600.2,
+        525.2,
+        633.4
+      ],
+      "px": [
+        859,
+        140
+      ],
+      "text_layer": "123 zzz −−− −−−⋅−⋅+⋅= −⋅+⋅−⋅ (50)"
+    },
+    {
+      "file": "eq_p024_04.png",
+      "page": 24,
+      "eq_number": "51",
+      "eq_numbers": [
+        "51"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        319.4,
+        641.7,
+        525.2,
+        674.8
+      ],
+      "px": [
+        859,
+        139
+      ],
+      "text_layer": "123 zzz −−− −−−⋅−⋅+⋅= −⋅+⋅−⋅ (51)"
+    },
+    {
+      "file": "eq_p024_05.png",
+      "page": 24,
+      "eq_number": "52",
+      "eq_numbers": [
+        "52"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        319.4,
+        683.2,
+        525.2,
+        716.4
+      ],
+      "px": [
+        859,
+        139
+      ],
+      "text_layer": "123 zzz −−− −−−⋅−⋅+⋅= −⋅+⋅−⋅ (52)"
+    },
+    {
+      "file": "eq_p024_06.png",
+      "page": 24,
+      "eq_number": "53",
+      "eq_numbers": [
+        "53"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        319.4,
+        724.7,
+        525.2,
+        757.8
+      ],
+      "px": [
+        859,
+        139
+      ],
+      "text_layer": "123 zzz −−− −−−⋅−⋅+⋅= −⋅+⋅−⋅ (53)"
+    },
+    {
+      "file": "eq_p026_01.png",
+      "page": 26,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        174.4,
+        525.4,
+        260.2
+      ],
+      "px": [
+        1888,
+        359
+      ],
+      "text_layer": "Figures 14a,b show the experimental waveforms of three-phase interleaved inductor currents for the port 1 with 175 µH and the port 2 with 145 µH, respectively. The testing condition is at input voltage 250 V, output voltage 395 V, output power 27 kW. The inductor currents are balanced and shifted 120 degrees between phase-to-phase, confirming the developed control-oriented models in Table 2 and th"
+    },
+    {
+      "file": "eq_p028_01.png",
+      "page": 28,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        496.0,
+        525.4,
+        531.0
+      ],
+      "px": [
+        1888,
+        147
+      ],
+      "text_layer": "Similar experimental tests on load disturbances are conducted with inV = 250 V, OV = 385 V. The load OR is changed between 25 Ω and 12.5 Ω, leading to the output power being varied between 6"
+    },
+    {
+      "file": "eq_p029_01.png",
+      "page": 29,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        81.4,
+        557.4,
+        151.9,
+        614.7
+      ],
+      "px": [
+        294,
+        240
+      ],
+      "text_layer": "Case 1: Vin = 70 V, VO = 140 V, PO = 0.8 kW →1.6 kW→0.8 kW"
+    },
+    {
+      "file": "eq_p029_02.png",
+      "page": 29,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        81.4,
+        628.9,
+        151.9,
+        686.1
+      ],
+      "px": [
+        294,
+        239
+      ],
+      "text_layer": "Case 2: Vin = 250V, VO = 385V, PO = 6 kW →12 kW→6 kW"
+    },
+    {
+      "file": "eq_p030_01.png",
+      "page": 30,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        344.8,
+        632.7,
+        525.3,
+        679.2
+      ],
+      "px": [
+        753,
+        195
+      ],
+      "text_layer": "1200 V ROHM BSM300D12P2E001 62 × 152 × 17 [mm] 1200 V FUJI Elec 2CSI300CAS120 A-50 42 × 126 × 19 [mm]"
+    },
+    {
+      "file": "eq_p032_01.png",
+      "page": 32,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        178.7,
+        525.5,
+        209.9
+      ],
+      "px": [
+        1888,
+        131
+      ],
+      "text_layer": "0 gap turn C lNiA φ μ ⋅⋅=⋅ (A1)"
+    },
+    {
+      "file": "eq_p032_02.png",
+      "page": 32,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        214.2,
+        525.5,
+        237.0
+      ],
+      "px": [
+        1888,
+        96
+      ],
+      "text_layer": "where turnN is the number of turns, φ is the magnetic flux, gapl is the air gap, 0μ is the vacuum"
+    },
+    {
+      "file": "eq_p032_03.png",
+      "page": 32,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        302.9,
+        525.5,
+        340.1
+      ],
+      "px": [
+        1888,
+        157
+      ],
+      "text_layer": "(,)max 0 gapturnL crit pk lNIBμ⋅=⋅ (A2)"
+    },
+    {
+      "file": "eq_p032_04.png",
+      "page": 32,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        406.1,
+        525.5,
+        442.2
+      ],
+      "px": [
+        1888,
+        151
+      ],
+      "text_layer": "20cturn gap A NLlμ ⋅⋅= (A3)"
+    },
+    {
+      "file": "eq_p032_05.png",
+      "page": 32,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        549.3,
+        525.5,
+        572.1
+      ],
+      "px": [
+        1888,
+        96
+      ],
+      "text_layer": "turnwireuaNAK W⋅=⋅ (A4)"
+    },
+    {
+      "file": "eq_p032_06.png",
+      "page": 32,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        605.8,
+        525.5,
+        636.5
+      ],
+      "px": [
+        1888,
+        128
+      ],
+      "text_layer": "(,)L crit pk wire w IAJ= (A5)"
+    },
+    {
+      "file": "eq_p032_07.png",
+      "page": 32,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        672.4,
+        525.5,
+        703.9
+      ],
+      "px": [
+        1888,
+        132
+      ],
+      "text_layer": "0 max uawgap KWJlB μ⋅⋅⋅= (A6)"
+    },
+    {
+      "file": "eq_p032_08.png",
+      "page": 32,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        757.8,
+        525.5,
+        780.6
+      ],
+      "px": [
+        1888,
+        96
+      ],
+      "text_layer": ". However, in this design algorithm, LIΔ is a design variable, while the specification is set to inIΔ"
+    },
+    {
+      "file": "eq_p033_01.png",
+      "page": 33,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        120.9,
+        525.3,
+        162.3
+      ],
+      "px": [
+        1887,
+        174
+      ],
+      "text_layer": "()maxmax(,)() 112 OL crit pkL crit sw VDDIIfL −=+⋅ (A7)"
+    },
+    {
+      "file": "eq_p033_02.png",
+      "page": 33,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        195.3,
+        525.3,
+        231.9
+      ],
+      "px": [
+        1887,
+        154
+      ],
+      "text_layer": "() max() max1L crit phO PI NVD= ⋅− (A8)"
+    },
+    {
+      "file": "eq_p033_03.png",
+      "page": 33,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        72.6,
+        294.0,
+        525.3,
+        329.5
+      ],
+      "px": [
+        1887,
+        150
+      ],
+      "text_layer": "()() 2 ()maxmaxmaxmax22()max(1)102 L critOL crituwireaCswsw IDDVDDL ILKJBWAff −−+⋅−⋅⋅⋅⋅+=⋅"
+    }
+  ]
+}

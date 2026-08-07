@@ -27,5 +27,8 @@
   ],
   "use_in_methodology": "Расчёт магнитных элементов по отечественной методике: произведение площадей, коэффициент заполнения окна.",
   "bib_title": "Магнитные элементы электронных устройств. Учебное пособие",
-  "bib_title_source": "derived_from_filename"
+  "bib_title_source": "derived_from_filename",
+  "formulas_extracted": 318,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

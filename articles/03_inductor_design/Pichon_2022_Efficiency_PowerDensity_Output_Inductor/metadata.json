@@ -27,5 +27,8 @@
   ],
   "use_in_methodology": "Многокритериальная оптимизация КПД, объёмной плотности мощности и геометрии дросселя.",
   "bib_title": "Accurate Efficiency and Power Densities Optimization of Output Inductor of Buck Derived Converters",
-  "bib_title_source": "sources_md"
+  "bib_title_source": "sources_md",
+  "formulas_extracted": 16,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

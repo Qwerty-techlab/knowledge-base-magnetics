@@ -1,0 +1,151 @@
+{
+  "article": "MDPI_2024_ThreePhase_Interleaved_Boost_PV_ESS",
+  "source": "source.pdf",
+  "pages_scanned": 14,
+  "dpi": 300,
+  "n_formulas": 7,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p004_01.png",
+      "page": 4,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.5,
+        589.1,
+        565.0,
+        607.5
+      ],
+      "px": [
+        2224,
+        78
+      ],
+      "text_layer": "ModuleVOC,max = VOC × [1 + (Tmin −TSTC) × (Tk,Voc) × (0.01)](1)"
+    },
+    {
+      "file": "eq_p004_02.png",
+      "page": 4,
+      "eq_number": "2",
+      "eq_numbers": [
+        "2"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.5,
+        612.1,
+        565.0,
+        630.6
+      ],
+      "px": [
+        2224,
+        78
+      ],
+      "text_layer": "ModuleVOC,min = Vmpp × [1 + (Tmax −TSTC) × (Tk,mpp) × (0.01)](2)"
+    },
+    {
+      "file": "eq_p004_03.png",
+      "page": 4,
+      "eq_number": "3",
+      "eq_numbers": [
+        "3"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.5,
+        704.2,
+        565.0,
+        722.2
+      ],
+      "px": [
+        2224,
+        76
+      ],
+      "text_layer": "Pmpp = Num.o f.modules × Num.o f.strings × ModulePmax(3)"
+    },
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": "9",
+      "eq_numbers": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        31.5,
+        107.8,
+        564.9,
+        264.7
+      ],
+      "px": [
+        2223,
+        655
+      ],
+      "text_layer": "Vout Vin =11 −D(4) I = Power V(5) ∆I = 0.05 × Iin(6) ∆V = 0.01 × Vout(7) Inductance(L) =D × VinFsw × ∆I(8) Capacitance(C) =D × VoutFsw × ∆V × Rout (9)"
+    },
+    {
+      "file": "eq_p006_01.png",
+      "page": 6,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.5,
+        703.6,
+        564.5,
+        719.9
+      ],
+      "px": [
+        2222,
+        69
+      ],
+      "text_layer": "VREF (n) = VREF (n-1) + ΔVREFVREF (n) = VREF (n-1) - ΔVREFVREF (n) = VREF (n-1) - ΔVREFVREF (n) = VREF (n-1) + ΔVREF"
+    },
+    {
+      "file": "eq_p008_01.png",
+      "page": 8,
+      "eq_number": "10",
+      "eq_numbers": [
+        "10"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.5,
+        86.7,
+        565.0,
+        152.1
+      ],
+      "px": [
+        2224,
+        273
+      ],
+      "text_layer": "the depth of discharge (DoD) describes how far down the battery can be drained. In thisdesign, it is kept as 30% to avoid complete discharge. The total usable battery capacity isgiven by TUBC =DD × DoA × αV × LSE × MDOD = 2000 × 3 × 1.2 408 × 0.85 × 0.3 = 69.2 Ah(10)"
+    },
+    {
+      "file": "eq_p008_02.png",
+      "page": 8,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        31.5,
+        415.2,
+        565.0,
+        451.5
+      ],
+      "px": [
+        2224,
+        152
+      ],
+      "text_layer": "400 ≤ Pin ≤ 1000 Pin < 400 NoNo Charge HALT (No operation) Pin > 1000"
+    }
+  ]
+}

@@ -27,5 +27,8 @@
   ],
   "use_in_methodology": "Трёхплечевой interleaved PFC на 3 кВт — близкий по мощности прототип.",
   "bib_title": "Three-Legs Interleaved Boost PFC Converter, 3 kW",
-  "bib_title_source": "derived_from_filename"
+  "bib_title_source": "derived_from_filename",
+  "formulas_extracted": 29,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

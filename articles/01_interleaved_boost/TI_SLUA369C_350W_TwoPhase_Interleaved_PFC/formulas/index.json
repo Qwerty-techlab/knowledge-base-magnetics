@@ -1,0 +1,435 @@
+{
+  "article": "TI_SLUA369C_350W_TwoPhase_Interleaved_PFC",
+  "source": "source.pdf",
+  "pages_scanned": 22,
+  "dpi": 300,
+  "n_formulas": 22,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p002_01.png",
+      "page": 2,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        519.0,
+        561.9,
+        537.2
+      ],
+      "px": [
+        2134,
+        77
+      ],
+      "text_layer": "IIN = IL1 + IL2"
+    },
+    {
+      "file": "eq_p003_01.png",
+      "page": 3,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        80.0,
+        678.4,
+        222.7,
+        711.3
+      ],
+      "px": [
+        595,
+        138
+      ],
+      "text_layer": "where ω = 2 π fLINEand θ = ωτ"
+    },
+    {
+      "file": "eq_p004_01.png",
+      "page": 4,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        152.5,
+        561.9,
+        266.2
+      ],
+      "px": [
+        2134,
+        475
+      ],
+      "text_layer": "0.7 0.8 0.3 0.4 0.5 0.6 D1 (Θ), D2 (Θ) − Duty Cycle"
+    },
+    {
+      "file": "eq_p004_02.png",
+      "page": 4,
+      "eq_number": "8",
+      "eq_numbers": [
+        "8",
+        "9",
+        "10",
+        "9",
+        "10"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        558.1,
+        561.9,
+        692.6
+      ],
+      "px": [
+        2134,
+        561
+      ],
+      "text_layer": "IPEAK \u0002 POUT(max) \u0001 2\u0003 VIN(min) (8) WaAcINTERLEAVED \u0002 L \u0001 IPEAK 2B\u0001 IPEAK2\u0001 2\u0003 CD WaAcSINGLE \u0002 L \u0001 IPEAK B\u0001 IRMS CD \u0002 L \u0001 IPEAK B\u0001 IPEAK 2\u0003 CD (9) (10) WaAcINTERLEAVED \u0002 L \u0001 IPEAK 2B\u0001 IPEAK2\u0001 2\u0003 CD WaAcSINGLE \u0002 L \u0001 IPEAK B\u0001 IRMS CD \u0002 L \u0001 IPEAK B\u0001 IPEAK 2\u0003 CD (9) (10)"
+    },
+    {
+      "file": "eq_p007_01.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        640.6,
+        561.9,
+        687.4
+      ],
+      "px": [
+        2134,
+        196
+      ],
+      "text_layer": "Vin = 85 to 265V RMS"
+    },
+    {
+      "file": "eq_p009_01.png",
+      "page": 9,
+      "eq_number": "24",
+      "eq_numbers": [
+        "24"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        301.5,
+        149.2,
+        561.6,
+        164.2
+      ],
+      "px": [
+        1084,
+        64
+      ],
+      "text_layer": "(24)"
+    },
+    {
+      "file": "eq_p009_02.png",
+      "page": 9,
+      "eq_number": "25",
+      "eq_numbers": [
+        "25"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        301.5,
+        268.3,
+        561.6,
+        283.3
+      ],
+      "px": [
+        1084,
+        64
+      ],
+      "text_layer": "(25)"
+    },
+    {
+      "file": "eq_p009_03.png",
+      "page": 9,
+      "eq_number": "26",
+      "eq_numbers": [
+        "26"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        301.5,
+        311.4,
+        561.6,
+        326.4
+      ],
+      "px": [
+        1084,
+        64
+      ],
+      "text_layer": "(26)"
+    },
+    {
+      "file": "eq_p009_04.png",
+      "page": 9,
+      "eq_number": "27",
+      "eq_numbers": [
+        "27"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        301.5,
+        343.5,
+        561.6,
+        358.5
+      ],
+      "px": [
+        1084,
+        63
+      ],
+      "text_layer": "(27)"
+    },
+    {
+      "file": "eq_p009_05.png",
+      "page": 9,
+      "eq_number": "29",
+      "eq_numbers": [
+        "29"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        301.5,
+        524.1,
+        561.6,
+        539.1
+      ],
+      "px": [
+        1084,
+        64
+      ],
+      "text_layer": "(29)"
+    },
+    {
+      "file": "eq_p009_06.png",
+      "page": 9,
+      "eq_number": "32",
+      "eq_numbers": [
+        "32"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        301.5,
+        684.9,
+        561.6,
+        726.3
+      ],
+      "px": [
+        1084,
+        174
+      ],
+      "text_layer": "VOUT\u0004\u0002 2 \u0001 310 pF \u000125 V385 V\u0004\u0002 160 pF (32)"
+    },
+    {
+      "file": "eq_p010_01.png",
+      "page": 10,
+      "eq_number": "36",
+      "eq_numbers": [
+        "36"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        370.7,
+        497.5,
+        561.9,
+        512.5
+      ],
+      "px": [
+        798,
+        64
+      ],
+      "text_layer": "(36)"
+    },
+    {
+      "file": "eq_p010_02.png",
+      "page": 10,
+      "eq_number": "42",
+      "eq_numbers": [
+        "42"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        370.7,
+        647.1,
+        561.9,
+        662.1
+      ],
+      "px": [
+        798,
+        63
+      ],
+      "text_layer": "(42)"
+    },
+    {
+      "file": "eq_p013_01.png",
+      "page": 13,
+      "eq_number": "64",
+      "eq_numbers": [
+        "64",
+        "65"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        73.3,
+        562.0,
+        233.5
+      ],
+      "px": [
+        2134,
+        668
+      ],
+      "text_layer": "HCA \u0002 \u0001VCTRL\u0001VCA(out) \u0002RDRC \u0001 RD \u0003 0.594 The voltage divider HCA was required to divide down the CA output of the UCC28528, to protect the CTRLpin of the UCC28220. This divider should work fine for any power requirement and should be considered afixed variable. (64) RSLOPE \u0003 0.1 V \u0001\u00041 \u0002 DMIN(LL)\u0005 10 pF \u0001 \u0001IL\u0001a\u0001RSENSE2 For stability the current sense signal needs slope compensation. It is required "
+    },
+    {
+      "file": "eq_p013_02.png",
+      "page": 13,
+      "eq_number": "66",
+      "eq_numbers": [
+        "66"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        234.3,
+        562.0,
+        312.3
+      ],
+      "px": [
+        2134,
+        326
+      ],
+      "text_layer": "PFCRSENSE \u0002 VSENSEPOUT\u0001 2\u0003 VIN(min)\u0001\u0001 The UCC28528 needed a current sense resistor (PFCRSENSE) to monitor the input current. Calculating thisresistor value is based on allocating a maximum allowable current sense voltage (VSENSE). (66)"
+    },
+    {
+      "file": "eq_p013_03.png",
+      "page": 13,
+      "eq_number": "67",
+      "eq_numbers": [
+        "67"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        50.0,
+        369.9,
+        562.0,
+        442.3
+      ],
+      "px": [
+        2134,
+        302
+      ],
+      "text_layer": "RMO \u0002 POUT\u0001 2\u0003 \u00011.1\u0001PFCRSENSE VIN(min)\u0001\u0001 2\u0001VIN(min)\u0001 2\u0003 RIAC \u0002 VR(sense) 2 \u0001 IAC (67)"
+    },
+    {
+      "file": "eq_p017_01.png",
+      "page": 17,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        122.3,
+        156.4,
+        281.8,
+        183.2
+      ],
+      "px": [
+        666,
+        113
+      ],
+      "text_layer": "TC(f) Current Loop Frequency Response VIN = 120 V DC, POUT = 350 W"
+    },
+    {
+      "file": "eq_p017_02.png",
+      "page": 17,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        360.2,
+        157.1,
+        518.5,
+        183.7
+      ],
+      "px": [
+        661,
+        112
+      ],
+      "text_layer": "TC(f) Current Loop Frequency Response VIN = 238 V DC, POUT = 350 W"
+    },
+    {
+      "file": "eq_p018_01.png",
+      "page": 18,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        140.6,
+        310.5,
+        166.3
+      ],
+      "px": [
+        1086,
+        109
+      ],
+      "text_layer": "Inductor Ripple Current Cancellation at VIN = 85 V RMS and POUT = 350 W"
+    },
+    {
+      "file": "eq_p018_02.png",
+      "page": 18,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        384.6,
+        140.6,
+        546.2,
+        166.7
+      ],
+      "px": [
+        674,
+        110
+      ],
+      "text_layer": "Input Inductor Ripple Current Cancellation at VIN = 85 V RMS, POUT = 350 W"
+    },
+    {
+      "file": "eq_p020_01.png",
+      "page": 20,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        95.6,
+        363.8,
+        301.2,
+        393.5
+      ],
+      "px": [
+        857,
+        124
+      ],
+      "text_layer": "CURRENT HARMONICSVIN = 85 V, POUT = 350 W"
+    },
+    {
+      "file": "eq_p020_02.png",
+      "page": 20,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        352.9,
+        372.4,
+        560.9,
+        401.1
+      ],
+      "px": [
+        867,
+        121
+      ],
+      "text_layer": "CURRENT HARMONICSVIN = 265 V, POUT = 350 W"
+    }
+  ]
+}

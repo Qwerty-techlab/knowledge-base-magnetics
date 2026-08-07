@@ -1,0 +1,515 @@
+{
+  "article": "Ewald_Biela_2022_Gapped_Foil_Inductors",
+  "source": "source.pdf",
+  "pages_scanned": 12,
+  "dpi": 300,
+  "n_formulas": 25,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p004_01.png",
+      "page": 4,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        45.0,
+        52.2,
+        304.0,
+        128.2
+      ],
+      "px": [
+        1080,
+        318
+      ],
+      "text_layer": "in all regions, with σ = 0 in the non-conductive regions andσ̸ = 0 in the conductors, results in: J = σ⃗E = −jωσ \u0012 A + 1 jω ∇ϕ \u0013 |{z} F (1)"
+    },
+    {
+      "file": "eq_p004_02.png",
+      "page": 4,
+      "eq_number": "5",
+      "eq_numbers": [
+        "5"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        127.0,
+        567.0,
+        157.2
+      ],
+      "px": [
+        1080,
+        128
+      ],
+      "text_layer": "Hg = NI Nglg (5)"
+    },
+    {
+      "file": "eq_p004_03.png",
+      "page": 4,
+      "eq_number": "3",
+      "eq_numbers": [
+        "2",
+        "3"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        45.0,
+        228.7,
+        304.0,
+        379.4
+      ],
+      "px": [
+        1080,
+        630
+      ],
+      "text_layer": "∇2⃗F (NC) = 0∇2⃗F (C) = γ2⃗F (C)(2) where γ2 = jωσµ. Here, the modified vector potential in them-th non-conductive region and the n-th conductor is [12]: F (NC) z= Cm,0(x−um) + ∞X k=1 \u0010 Cm,k e−pk(x−um) +Dm,k epk(x−um)\u0011 cos(pky) pk F (C) z= Mn,0 e−γ(x−vn) +Nn,0 eγ(x−vn) + ∞X k=1 \u0010 Mn,k e−ξk(x−vn) +Nn,k eξk(x−vn)\u0011 cos(pky) pk (3)"
+    },
+    {
+      "file": "eq_p004_04.png",
+      "page": 4,
+      "eq_number": "6",
+      "eq_numbers": [
+        "6"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        304.5,
+        567.0,
+        335.0
+      ],
+      "px": [
+        1080,
+        128
+      ],
+      "text_layer": "Cm,0 = µ0(M −m)I hf (6)"
+    },
+    {
+      "file": "eq_p004_05.png",
+      "page": 4,
+      "eq_number": "7",
+      "eq_numbers": [
+        "7"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        368.8,
+        567.0,
+        427.5
+      ],
+      "px": [
+        1080,
+        246
+      ],
+      "text_layer": "Mn,0 = Cn+1,0 −Cn,0 eγdf 2γ sinh γdf Nn,0 = Cn+1,0 −Cn,0 e−γdf 2γ sinh γdf (7)"
+    },
+    {
+      "file": "eq_p004_06.png",
+      "page": 4,
+      "eq_number": "3",
+      "eq_numbers": [
+        "3",
+        "2"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        378.1,
+        304.0,
+        539.5
+      ],
+      "px": [
+        1080,
+        673
+      ],
+      "text_layer": "Substituting (3) into (2), it can be concluded that ξ2 k = γ2+p2 k.um and vn denote the reference coordinate of the respectiveregion (see Fig. 2b). The coefficients indicated with index0 are called the spatially independent coefficients and thecoefficients indicated with index k are called the spatial coef-ficients. Note, that parts of the solution (all parts containingspatially independent coeffi"
+    },
+    {
+      "file": "eq_p004_07.png",
+      "page": 4,
+      "eq_number": "8",
+      "eq_numbers": [
+        "8"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        497.4,
+        567.0,
+        539.7
+      ],
+      "px": [
+        1080,
+        177
+      ],
+      "text_layer": "ck = \u0002 C1,kD1,kM1,kN1,k· · ·D(N+1),k \u0003 bk = h −2µ0NglgHg hfsinc \u0010 k Nglg hf \u0011 0· · ·0i(8)"
+    },
+    {
+      "file": "eq_p004_08.png",
+      "page": 4,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        644.0,
+        304.0,
+        745.5
+      ],
+      "px": [
+        1080,
+        424
+      ],
+      "text_layer": "B(NC) y= −Cm,0 + ∞X k=1 \u0010 Cm,k e−pk(x−um) −Dm,k epk(x−um)\u0011 cos(pky) B(C) y= γ \u0010 Mn,0 e−γ(x−vn) −Nn,0 eγ(x−vn)\u0011 + ∞X αk \u0010 Mn,k e−ξk(x−vn) −Nn,k eξk(x−vn)\u0011 cos(pky)"
+    },
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": "9",
+      "eq_numbers": [
+        "9"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        53.7,
+        567.0,
+        186.4
+      ],
+      "px": [
+        1080,
+        554
+      ],
+      "text_layer": "1−10· · ·0e−pkdx,iepkdx,i−1−100· · ·0e−pkdx,i−epkdx,i−αkαk00· · ·000e−ξkdfeξkdf−1−10· · ·000αk e−ξkdf−αk eξkdf−110· · ·0 0000e−pkdtepkdt−1−1...0000e−pkdt−epkdt−αkαk.........0· · ·00e−pkdx,o−epkdx,o   (9)"
+    },
+    {
+      "file": "eq_p005_02.png",
+      "page": 5,
+      "eq_number": "13",
+      "eq_numbers": [
+        "13"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        341.7,
+        567.0,
+        371.3
+      ],
+      "px": [
+        1080,
+        124
+      ],
+      "text_layer": "R = 2P I2 = R1D + Rgap(13)"
+    },
+    {
+      "file": "eq_p005_03.png",
+      "page": 5,
+      "eq_number": "11",
+      "eq_numbers": [
+        "11"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        45.0,
+        355.9,
+        304.0,
+        419.2
+      ],
+      "px": [
+        1080,
+        264
+      ],
+      "text_layer": "Pn = πω2σhf \u0012 ζ1,n,0|Mn,0|2 + ζ2,n,0|Nn,0|2 + ℜ \b ζ3,n,0Mn,0N ∗ n,0 + ∞X k=1 ζ1,n,k|Mn,k|2 (11)"
+    },
+    {
+      "file": "eq_p005_04.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        442.9,
+        304.0,
+        588.6
+      ],
+      "px": [
+        1080,
+        608
+      ],
+      "text_layer": "where γ′ = ℜ{γ}, γ′′ = ℑ{γ}, ξ′ k = ℜ{ξk}, ξ′′ k = ℑ{ξk},and ζ1,n,0 = −(2γ′(vn + df) + 1) e−2γ′df −2γ′vn −1 4γ′2 ζ2,n,0 = (2γ′(vn + df) −1) e2γ′df −2γ′vn + 1 4γ′2 ζ3,n,0 = (j2γ′′(vn + df) + 1) e−j2γ′′df −j2γ′′vn −1 2γ′′2 ζ1,n,k = −(2ξ′ k(vn + df) + 1) e−2ξ′ kdf −2ξ′"
+    },
+    {
+      "file": "eq_p005_05.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        515.7,
+        304.0,
+        675.4
+      ],
+      "px": [
+        1080,
+        667
+      ],
+      "text_layer": "4γ′2 ζ3,n,0 = (j2γ′′(vn + df) + 1) e−j2γ′′df −j2γ′′vn −1 2γ′′2 ζ1,n,k = −(2ξ′ k(vn + df) + 1) e−2ξ′ kdf −2ξ′ kvn −18p2kξ′2 k ζ2,n,k = (2ξ′ k(vn + df) −1) e2ξ′ kdf −2ξ′ kvn + 18p2kξ′2 k ζ3,n,k = (j2ξ′′ k(vn + df) + 1) e−j2ξ′′ k df −j2ξ′′ kvn −14p2kξ′′2 kThe total winding losses are obtained by summing up theindividual losses:"
+    },
+    {
+      "file": "eq_p005_06.png",
+      "page": 5,
+      "eq_number": "15",
+      "eq_numbers": [
+        "15"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        602.7,
+        567.0,
+        728.7
+      ],
+      "px": [
+        1080,
+        526
+      ],
+      "text_layer": "W (NC) m= πhf µ0 \u0012(um + dNC)2 −u2 m2|Cm,0|2 + ∞X k=1 β1,m,k|Cm,k|2 + β2,m,k|Dm,k|2 \u0013 W (C) n= πhf µ0 \u0012 η1,n,0|Mn,0|2 + η2,n,0|Nn,0|2 + ℜ \b η3,n,0Mn,0N ∗ n,0 + ∞X k=1 η1,n,k|Mn,k|2 (15)"
+    },
+    {
+      "file": "eq_p005_07.png",
+      "page": 5,
+      "eq_number": "12",
+      "eq_numbers": [
+        "12"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        674.2,
+        304.0,
+        702.4
+      ],
+      "px": [
+        1080,
+        118
+      ],
+      "text_layer": "P = NX Pn = NX Pn,0 + ∞X Pn,k ! = P1D + Pgap (12)"
+    },
+    {
+      "file": "eq_p006_01.png",
+      "page": 6,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        68.5,
+        304.0,
+        236.4
+      ],
+      "px": [
+        1080,
+        700
+      ],
+      "text_layer": "β1,m,k = −(2pk(um + dNC) + 1) e−2pkdNC −2pkum −1 4p2k β2,m,k = (2pk(um + dNC) −1) e2pkdNC −2pkum + 1 4p2kand η1,n,0 = |γ|2ζ1,n,0η1,n,k = \u0010 p2 k + |ξk|2\u0011 ζ1,n,k η2,n,0 = |γ|2ζ2,n,0η2,n,k = \u0010 p2 k + |ξk|2\u0011 ζ2,n,k η3,n,0 = −|γ|2ζ3,n,0η3,n,k = \u0010 p2 k −|ξk|2\u0011 ζ3,n,k The energy stored in the air gap, which contributes the mostto the overall inductance, is given as"
+    },
+    {
+      "file": "eq_p006_02.png",
+      "page": 6,
+      "eq_number": "16",
+      "eq_numbers": [
+        "14",
+        "5",
+        "15",
+        "16"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        45.0,
+        235.1,
+        304.0,
+        383.1
+      ],
+      "px": [
+        1080,
+        618
+      ],
+      "text_layer": "Wg = µ0πd2 legNglg 8|Hg|2 which is equal to (14) evaluated in the air gap region with theconstant magnetic field from (5). As mentioned, it is assumedthat the magnetic field in the air gap is constant and theadditional fringing field is fully accounted for by (15). The inductance of the component is finally derived from thetotal magnetic energy stored in the core window and in the airgap: L = 2 I2"
+    },
+    {
+      "file": "eq_p006_03.png",
+      "page": 6,
+      "eq_number": "5",
+      "eq_numbers": [
+        "5"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        379.0,
+        567.0,
+        446.2
+      ],
+      "px": [
+        1080,
+        280
+      ],
+      "text_layer": "Wg = µ0blegalegNglg 2|Hg|2 which is the squared constant magnetic field from (5) inte-grated over the volume of the air gaps with rectangular cross-section."
+    },
+    {
+      "file": "eq_p006_04.png",
+      "page": 6,
+      "eq_number": "18",
+      "eq_numbers": [
+        "18"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        654.3,
+        567.0,
+        688.0
+      ],
+      "px": [
+        1080,
+        141
+      ],
+      "text_layer": "Hg = kµ NINglg withkµ =11 +leµrNglg (18)"
+    },
+    {
+      "file": "eq_p006_05.png",
+      "page": 6,
+      "eq_number": "17",
+      "eq_numbers": [
+        "17"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        45.0,
+        724.7,
+        304.0,
+        755.5
+      ],
+      "px": [
+        1080,
+        129
+      ],
+      "text_layer": "krect = Crect Ccirc = 4 π \u0012 1 + aleg −bleg4x \u0013 (17)"
+    },
+    {
+      "file": "eq_p007_01.png",
+      "page": 7,
+      "eq_number": "5",
+      "eq_numbers": [
+        "5",
+        "18",
+        "6",
+        "7",
+        "8",
+        "9",
+        "12",
+        "17",
+        "13",
+        "15",
+        "17",
+        "19",
+        "16"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        81.1,
+        567.0,
+        254.5
+      ],
+      "px": [
+        1080,
+        723
+      ],
+      "text_layer": "In: Geometrical parameters – ω, N, Ng, hg, hf, dleg, dx,i, df, dt, dx,o. 1: function CALC R AND L2:% Determine air gap field (relative permeability):3:Hg ←Eq. (5) or (18) 4:% Coefficients, independent of the air gap field:5:Bm,0, Cn,0, Dn,0 ←Eqs. (6), (7) 6:% Coefficients, based on the air gap field:7:Cn,k, Dn,k, Mn,k, Nn,k ←Eqs. (8), (9) 8:% Compute winding losses and resistance:9:P ←Eq. (12), if"
+    },
+    {
+      "file": "eq_p007_02.png",
+      "page": 7,
+      "eq_number": "19",
+      "eq_numbers": [
+        "19"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        304.6,
+        304.0,
+        337.3
+      ],
+      "px": [
+        1080,
+        137
+      ],
+      "text_layer": "Wc = Ve 2 BcH∗c = µ0Ve|Hg|2 2µ∗r(19)"
+    },
+    {
+      "file": "eq_p007_03.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        539.8,
+        304.0,
+        679.8
+      ],
+      "px": [
+        1080,
+        584
+      ],
+      "text_layer": "100 101 102 Ng = 1 Ng = 2Ng = 3 P in mW Model2D FEM 10110210310410510644.254.54.755 Ng = 1Ng = 2 Ng = 3 L in µH Model2D FEM"
+    },
+    {
+      "file": "eq_p008_01.png",
+      "page": 8,
+      "eq_number": "20",
+      "eq_numbers": [
+        "20"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        464.8,
+        567.0,
+        489.3
+      ],
+      "px": [
+        1080,
+        103
+      ],
+      "text_layer": "Z = \u0010 (R1D + Rgap + jωL)−1 + jωCres \u0011−1 (20)"
+    },
+    {
+      "file": "eq_p009_01.png",
+      "page": 9,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        218.8,
+        304.0,
+        294.8
+      ],
+      "px": [
+        1080,
+        318
+      ],
+      "text_layer": "jωL = jω (L′ −jL′′) = Rc + jωL′ where L′ and L′′ are the real and imaginary parts of the induc-tance, ωL′ denotes the reactance of the RL series equivalentcircuit, and Rc = ωL′′"
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "article": "TI_SLUA746_Interleaved_PFC_Preregulator_HighPower",
+  "source": "source.pdf",
+  "pages_scanned": 17,
+  "dpi": 300,
+  "n_formulas": 27,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        150.1,
+        295.0,
+        188.7
+      ],
+      "px": [
+        1022,
+        162
+      ],
+      "text_layer": "1L INΔIΔIK(D) ="
+    },
+    {
+      "file": "eq_p005_02.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        195.0,
+        295.0,
+        232.7
+      ],
+      "px": [
+        1022,
+        158
+      ],
+      "text_layer": "D12D1K(D)−−= if D ≤ 0.5"
+    },
+    {
+      "file": "eq_p005_03.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        352.0,
+        295.0,
+        412.3
+      ],
+      "px": [
+        1022,
+        252
+      ],
+      "text_layer": "K(D) = ∆IIN/∆IL1 0.4 0.6 0.5"
+    },
+    {
+      "file": "eq_p005_04.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.0,
+        444.3,
+        568.6,
+        470.8
+      ],
+      "px": [
+        1037,
+        111
+      ],
+      "text_layer": "( )( )θθsin2VVIN(rms)IN×="
+    },
+    {
+      "file": "eq_p006_01.png",
+      "page": 6,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        478.1,
+        298.6,
+        514.4
+      ],
+      "px": [
+        1037,
+        152
+      ],
+      "text_layer": "2SINGLELI21E="
+    },
+    {
+      "file": "eq_p006_02.png",
+      "page": 6,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        548.2,
+        298.6,
+        588.7
+      ],
+      "px": [
+        1037,
+        170
+      ],
+      "text_layer": "222 DINTERLEAVELI412IL212IL21E=⎟⎠⎞⎜⎝⎛+⎟⎠⎞⎜⎝⎛="
+    },
+    {
+      "file": "eq_p007_01.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.0,
+        301.6,
+        565.1,
+        328.7
+      ],
+      "px": [
+        1022,
+        114
+      ],
+      "text_layer": "() 2OUT1CD1D)(1(D)I−×−="
+    },
+    {
+      "file": "eq_p007_02.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.0,
+        336.2,
+        565.1,
+        372.5
+      ],
+      "px": [
+        1022,
+        153
+      ],
+      "text_layer": "() 2OUT2C2D12D)(121(D)I−×−= if D ≤ 0.5"
+    },
+    {
+      "file": "eq_p007_03.png",
+      "page": 7,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.0,
+        379.3,
+        565.1,
+        415.5
+      ],
+      "px": [
+        1022,
+        152
+      ],
+      "text_layer": "() 2OUT12C2D22D)(221(D)I−×−= if D > 0.5"
+    },
+    {
+      "file": "eq_p008_01.png",
+      "page": 8,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.0,
+        402.8,
+        565.1,
+        438.1
+      ],
+      "px": [
+        1022,
+        148
+      ],
+      "text_layer": "Fig. 7. Inductor ripple current, POUT = 350 W."
+    },
+    {
+      "file": "eq_p009_01.png",
+      "page": 9,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.0,
+        214.7,
+        565.1,
+        250.0
+      ],
+      "px": [
+        1022,
+        148
+      ],
+      "text_layer": "Fig. 9. Input current at VIN = 265 V, 2 A/Div."
+    },
+    {
+      "file": "eq_p009_02.png",
+      "page": 9,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        379.6,
+        295.1,
+        421.4
+      ],
+      "px": [
+        1022,
+        175
+      ],
+      "text_layer": "CH1 Fig. 8. Input current at VIN = 85 V, 2 A/Div."
+    },
+    {
+      "file": "eq_p009_03.png",
+      "page": 9,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.0,
+        380.9,
+        565.1,
+        419.5
+      ],
+      "px": [
+        1022,
+        162
+      ],
+      "text_layer": "LINE Sf2fterationsI×="
+    },
+    {
+      "file": "eq_p009_04.png",
+      "page": 9,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.0,
+        427.2,
+        565.1,
+        480.6
+      ],
+      "px": [
+        1022,
+        224
+      ],
+      "text_layer": "Iterations f21 StepLINE×="
+    },
+    {
+      "file": "eq_p009_05.png",
+      "page": 9,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.0,
+        488.7,
+        565.1,
+        528.6
+      ],
+      "px": [
+        1022,
+        167
+      ],
+      "text_layer": ")tsin(ωV 2P(t)I IN(min) OUTIN×××="
+    },
+    {
+      "file": "eq_p009_06.png",
+      "page": 9,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        614.8,
+        295.1,
+        660.0
+      ],
+      "px": [
+        1022,
+        190
+      ],
+      "text_layer": "Step)n2D1(ω2Step))n2D1(ω(221StepnII Iterations 1n Cout_rms≈××−×××−××=∑"
+    },
+    {
+      "file": "eq_p010_01.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.0,
+        74.5,
+        565.0,
+        215.8
+      ],
+      "px": [
+        1022,
+        590
+      ],
+      "text_layer": "() () 433443421381021424111862141141 42 2 ≥−× <<×+− +×+×−× <<×+− +×+×−× ≤− ×− = DifDD DifDD DD DifDD DD DifD D )D(k"
+    },
+    {
+      "file": "eq_p010_02.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.0,
+        301.7,
+        565.0,
+        352.2
+      ],
+      "px": [
+        1022,
+        211
+      ],
+      "text_layer": "∆IIN/∆IL1 0.4 0.6 0.5"
+    },
+    {
+      "file": "eq_p010_03.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        335.8,
+        295.1,
+        433.6
+      ],
+      "px": [
+        1022,
+        408
+      ],
+      "text_layer": "()3231 322312993131131 3 2<< ≥−× ×+− +×+×−× ≤−− =Dif DifDD DD DD DifD D )D(k"
+    },
+    {
+      "file": "eq_p011_01.png",
+      "page": 11,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.0,
+        130.9,
+        565.1,
+        172.0
+      ],
+      "px": [
+        1022,
+        172
+      ],
+      "text_layer": "2 1 21⎟⎠⎞⎜⎝⎛= ∑ =n IL)n(E n kdInterleave"
+    },
+    {
+      "file": "eq_p012_01.png",
+      "page": 12,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.0,
+        487.6,
+        568.6,
+        544.2
+      ],
+      "px": [
+        1037,
+        237
+      ],
+      "text_layer": "() CB2AVCORE×××= () ()L2AMD22VCOPPER×−××××="
+    },
+    {
+      "file": "eq_p012_02.png",
+      "page": 12,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.0,
+        551.6,
+        568.6,
+        574.2
+      ],
+      "px": [
+        1037,
+        95
+      ],
+      "text_layer": "COPPERCOREINDUCTORVVV+="
+    },
+    {
+      "file": "eq_p012_03.png",
+      "page": 12,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        568.7,
+        298.6,
+        619.7
+      ],
+      "px": [
+        1037,
+        214
+      ],
+      "text_layer": "CduK IΔB nIL)nWaAc(RMS PEAK ×××="
+    },
+    {
+      "file": "eq_p012_04.png",
+      "page": 12,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        626.8,
+        298.6,
+        679.8
+      ],
+      "px": [
+        1037,
+        222
+      ],
+      "text_layer": "CduK 2n I ΔB nIL)nWaAc( PEAKPEAK ××××="
+    },
+    {
+      "file": "eq_p014_01.png",
+      "page": 14,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        50.0,
+        317.8,
+        295.1,
+        344.3
+      ],
+      "px": [
+        1022,
+        111
+      ],
+      "text_layer": "() () 21111DD)D(ICOUT−−−="
+    },
+    {
+      "file": "eq_p015_01.png",
+      "page": 15,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.0,
+        117.8,
+        565.0,
+        134.4
+      ],
+      "px": [
+        1022,
+        70
+      ],
+      "text_layer": "95 VIN = 265 V"
+    },
+    {
+      "file": "eq_p015_02.png",
+      "page": 15,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        320.0,
+        143.2,
+        565.0,
+        206.3
+      ],
+      "px": [
+        1022,
+        264
+      ],
+      "text_layer": "Efficiency - % 92 94 93 VIN = 85 V"
+    }
+  ]
+}

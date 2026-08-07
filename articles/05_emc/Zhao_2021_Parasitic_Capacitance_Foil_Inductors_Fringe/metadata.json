@@ -27,5 +27,8 @@
   ],
   "use_in_methodology": "Паразитные ёмкости, электрическое краевое поле и собственный резонанс обмотки — основа проверки k_R = f_res/f_sw.",
   "bib_title": "Parasitic Capacitance Modeling of Copper-Foiled Medium-Voltage Filter Inductors Considering Fringe Electrical Field",
-  "bib_title_source": "sources_md"
+  "bib_title_source": "sources_md",
+  "formulas_extracted": 22,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }

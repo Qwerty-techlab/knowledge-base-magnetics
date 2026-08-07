@@ -1,0 +1,123 @@
+{
+  "article": "IJERA_Multiphase_Boost_Coupled_Inductor_Ripple",
+  "source": "source.pdf",
+  "pages_scanned": 6,
+  "dpi": 300,
+  "n_formulas": 5,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p002_01.png",
+      "page": 2,
+      "eq_number": "5",
+      "eq_numbers": [
+        "4",
+        "5",
+        "5",
+        "4",
+        "6"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        303.4,
+        204.2,
+        529.9,
+        399.6
+      ],
+      "px": [
+        944,
+        816
+      ],
+      "text_layer": "Fig.3. One switching cycle Switch SW1 is on in the period „a‟. During this period switch SW2 is in off position and so V1 and V2 are given as V1 = VIN & V2 = VIN – V0 (4) In this stage the multiphase boost converter act as single phase boost converter and so the output voltage is given as )1(0DVVIN (5) a b c d Substituting equation (5) in (4) V2 is given as 12)1(VDDV (6)"
+    },
+    {
+      "file": "eq_p002_02.png",
+      "page": 2,
+      "eq_number": "8",
+      "eq_numbers": [
+        "8"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        303.4,
+        541.3,
+        529.9,
+        604.7
+      ],
+      "px": [
+        944,
+        265
+      ],
+      "text_layer": "(8) Where α is coefficient of coupling and α = Lm/L. Similarly during the time interval „b‟ V1 and V2 are given as"
+    },
+    {
+      "file": "eq_p003_01.png",
+      "page": 3,
+      "eq_number": "14",
+      "eq_numbers": [
+        "13",
+        "3",
+        "14",
+        "15"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        68.0,
+        92.8,
+        294.5,
+        264.3
+      ],
+      "px": [
+        945,
+        716
+      ],
+      "text_layer": "By substituting equation (13) in equation (3), the equivalent inductance Leq,c is L D DLceq 1.1 12, (14) The interval „d‟ is same as interval „b‟ and so the equivalent inductance is Leq,d = (1+)L (15) III. RIPPLE CURRENT REDUCTION For a duty cycle below 0.5 the phase current and overall current waveforms are as shown in Fig.4. The phase current ripples of phase 1 and phase 2 are given as"
+    },
+    {
+      "file": "eq_p003_02.png",
+      "page": 3,
+      "eq_number": "16",
+      "eq_numbers": [
+        "16",
+        "17",
+        "17",
+        "1",
+        "1",
+        "18"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        68.0,
+        407.3,
+        294.5,
+        588.7
+      ],
+      "px": [
+        945,
+        756
+      ],
+      "text_layer": "Fig.4. Current waveforms in one switching cycle 2,,11 )1().1(.  D D L DTV L DTVIIN aeq INa (16) 2, 0,21 )1(.)(  DD L DTVL DTVVIIN aeq INa (17) The overall current ripple is the sum of two phase current ripples and for a directly coupled inductors it is given as 2, 0,21 )1(.)(  DD L DTVL DTVVIIN aeq INa (17) The overall current ripple is the sum of two phase current ripple"
+    },
+    {
+      "file": "eq_p003_03.png",
+      "page": 3,
+      "eq_number": "19",
+      "eq_numbers": [
+        "19",
+        "20"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        68.0,
+        584.7,
+        294.5,
+        689.2
+      ],
+      "px": [
+        945,
+        436
+      ],
+      "text_layer": "Similarly the ripple current for a uncoupled inductors is given as )1( )21(.)(,D DL DTVL DTVoVL DTVIINININuncIN (19) With this the ratio of the direct coupled to the uncoupled is   11 , dirINI I (20)"
+    }
+  ]
+}

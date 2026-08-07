@@ -1,0 +1,1066 @@
+{
+  "article": "Ewald_Biela_2022_Winding_Loss_Gapped_Litz_Solid",
+  "source": "source.pdf",
+  "pages_scanned": 14,
+  "dpi": 300,
+  "n_formulas": 54,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p004_01.png",
+      "page": 4,
+      "eq_number": "3",
+      "eq_numbers": [
+        "3"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        180.4,
+        567.0,
+        199.6
+      ],
+      "px": [
+        1080,
+        81
+      ],
+      "text_layer": "L = Lg + Lf(3)"
+    },
+    {
+      "file": "eq_p004_02.png",
+      "page": 4,
+      "eq_number": "5",
+      "eq_numbers": [
+        "4",
+        "5",
+        "6"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        231.5,
+        567.0,
+        423.7
+      ],
+      "px": [
+        1080,
+        802
+      ],
+      "text_layer": "Lf = 2πhw µ0 ∞X k=1 ck(xw,i, xw,o)|Ck|2 + dk(xw,i, xw,o)|Dk|2 (4)with xw,i and xw,o depicted in Fig. 2d), Ck = −2µ0kµNpkhw (1 −e−2pkdw) si \u0012 pk hg 2 \u0013 Dk = Ck e−2pkdw (5) where si(x) = sin(x)/x, pk = 2πkNg/hw, and ck(x1, x2) = \u0014 −e−2pk(x−u1) (2pkx + 1) 4 \u0015x2 x1 dk(x1, x2) = \u0014e2pk(x−u1) (2pkx −1) 4 \u0015x2 x1 (6)"
+    },
+    {
+      "file": "eq_p004_03.png",
+      "page": 4,
+      "eq_number": "1",
+      "eq_numbers": [
+        "1"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        45.0,
+        404.7,
+        304.0,
+        438.1
+      ],
+      "px": [
+        1080,
+        140
+      ],
+      "text_layer": "Lg = µ0|kµ|2N 2 N 2g h2g \u0012 Vg + Ve µ∗r \u0013 (1)"
+    },
+    {
+      "file": "eq_p004_04.png",
+      "page": 4,
+      "eq_number": "7",
+      "eq_numbers": [
+        "7"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        481.8,
+        567.0,
+        512.5
+      ],
+      "px": [
+        1080,
+        129
+      ],
+      "text_layer": "R = RDC \u0012 FR + GR LUCµ0VUC \u0013 (7)"
+    },
+    {
+      "file": "eq_p004_05.png",
+      "page": 4,
+      "eq_number": "8",
+      "eq_numbers": [
+        "8"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        533.5,
+        567.0,
+        597.8
+      ],
+      "px": [
+        1080,
+        268
+      ],
+      "text_layer": "LUC = µ0πN 2 hw x2 c,o + 2xc,ixc,o −3x2 c,i6 + 2πhw µ0 ∞X k=1 ck(xc,i, xc,o)|Ck|2 + dk(xc,i, xc,o)|Dk|2(8)"
+    },
+    {
+      "file": "eq_p004_06.png",
+      "page": 4,
+      "eq_number": "9",
+      "eq_numbers": [
+        "9"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        641.0,
+        567.0,
+        751.7
+      ],
+      "px": [
+        1080,
+        463
+      ],
+      "text_layer": "FR = 1 2 Re\u001aαI0(α) I1(α) \u001b GR = π2d2 Re \u001aαI1(α) I0(α) \u001b α = (1 + j) d 2δ (9) are based on [20]. The function Iν is the modified Besselfunction of the first kind and the ν-th order. In there, δ, ω,"
+    },
+    {
+      "file": "eq_p005_01.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        85.7,
+        304.0,
+        115.2
+      ],
+      "px": [
+        1080,
+        124
+      ],
+      "text_layer": "RDC = 4N (xc,o + xc,i) σd2"
+    },
+    {
+      "file": "eq_p005_02.png",
+      "page": 5,
+      "eq_number": "13",
+      "eq_numbers": [
+        "13"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        121.3,
+        567.0,
+        149.3
+      ],
+      "px": [
+        1080,
+        117
+      ],
+      "text_layer": "L = Lg + MX L(NCR) m+ NEFCX L(EFC) n(13)"
+    },
+    {
+      "file": "eq_p005_03.png",
+      "page": 5,
+      "eq_number": "10",
+      "eq_numbers": [
+        "10"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        45.0,
+        136.4,
+        304.0,
+        156.3
+      ],
+      "px": [
+        1080,
+        84
+      ],
+      "text_layer": "VUC = πhw \u0000 x2 c,o −x2 c,i \u0001 (10)"
+    },
+    {
+      "file": "eq_p005_04.png",
+      "page": 5,
+      "eq_number": "11",
+      "eq_numbers": [
+        "11"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        45.0,
+        237.0,
+        304.0,
+        274.6
+      ],
+      "px": [
+        1080,
+        158
+      ],
+      "text_layer": "R = R′ DC \u0012 F ′ R + G′ R \u0012 LUC µ0VUC +12π2d2 \u0013\u0013 (11)"
+    },
+    {
+      "file": "eq_p005_05.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        242.7,
+        567.0,
+        296.3
+      ],
+      "px": [
+        1080,
+        224
+      ],
+      "text_layer": "L(NCR) m= 2πhw µ0 \u0012 B2 m,0dm \u0012dm 2 + um \u0013 + ∞X ck(um, um + dm)|Ck|2 + dk(um, um + dm)|Dk|2 \u0013"
+    },
+    {
+      "file": "eq_p005_06.png",
+      "page": 5,
+      "eq_number": "12",
+      "eq_numbers": [
+        "12"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        45.0,
+        295.6,
+        304.0,
+        405.5
+      ],
+      "px": [
+        1080,
+        459
+      ],
+      "text_layer": "F ′ R = 1 2 Re\u001aα′I0(α′) I1(α′) \u001b G′ R = π2d2 sN 2 s Re \u001aα′I1(α′) I0(α′) \u001b α′ = (1 + j) ds 2δ R′ DC = 4N (xc,o + xc,i) σd2sNs (12)"
+    },
+    {
+      "file": "eq_p005_07.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        302.0,
+        567.0,
+        332.8
+      ],
+      "px": [
+        1080,
+        129
+      ],
+      "text_layer": "L(EFC) n= 2πhw µ0 \u0012 C2 n,0d3 \u0012 d + 4vn 3 \u0013"
+    },
+    {
+      "file": "eq_p005_08.png",
+      "page": 5,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        425.2,
+        567.0,
+        462.5
+      ],
+      "px": [
+        1080,
+        156
+      ],
+      "text_layer": "Cn,0 = −µ0Nn 2dhwDn,0 (n=m)=Bm,0 = µ0 hw NEFCX i=m Nm"
+    },
+    {
+      "file": "eq_p005_09.png",
+      "page": 5,
+      "eq_number": "15",
+      "eq_numbers": [
+        "15"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        542.9,
+        567.0,
+        580.0
+      ],
+      "px": [
+        1080,
+        156
+      ],
+      "text_layer": "R = NEFCX n=1 RDC,n FR + GR L(EFC) nµ0Vn ! (15)"
+    },
+    {
+      "file": "eq_p005_10.png",
+      "page": 5,
+      "eq_number": "16",
+      "eq_numbers": [
+        "16"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        610.4,
+        567.0,
+        666.4
+      ],
+      "px": [
+        1080,
+        234
+      ],
+      "text_layer": "RDC,n = 4Nn (2vn + d) σd2 and its volume Vn = πdhw (2vn + d)(16)"
+    },
+    {
+      "file": "eq_p005_11.png",
+      "page": 5,
+      "eq_number": "17",
+      "eq_numbers": [
+        "17"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        718.4,
+        567.0,
+        755.6
+      ],
+      "px": [
+        1080,
+        156
+      ],
+      "text_layer": "R = NEFCX n=1 R′ DC,n F ′ R + G′ R L(EFC) nµ0Vn +12π2d2 !! (17)"
+    },
+    {
+      "file": "eq_p006_01.png",
+      "page": 6,
+      "eq_number": "16",
+      "eq_numbers": [
+        "16"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        80.9,
+        304.0,
+        126.8
+      ],
+      "px": [
+        1080,
+        192
+      ],
+      "text_layer": "R′ DC,n = 4Nn (2vn + d) σd2sNsand its volume Vn given in (16)."
+    },
+    {
+      "file": "eq_p006_02.png",
+      "page": 6,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        231.4,
+        304.0,
+        262.1
+      ],
+      "px": [
+        1080,
+        129
+      ],
+      "text_layer": "krect = Crect Ccirc = 4 π \u0012 1 + aleg −bleg4rx \u0013"
+    },
+    {
+      "file": "eq_p006_03.png",
+      "page": 6,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        385.1,
+        304.0,
+        402.5
+      ],
+      "px": [
+        1080,
+        74
+      ],
+      "text_layer": "Vg = blegalegNghg"
+    },
+    {
+      "file": "eq_p006_04.png",
+      "page": 6,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        591.8,
+        304.0,
+        689.7
+      ],
+      "px": [
+        1080,
+        409
+      ],
+      "text_layer": "0.11103.25 3.35 3.45 3.55 −6.2 % 1.9 % −1.1 % FEM vs. ∆FEM ∆=10L ALN 2 100 101 102 103"
+    },
+    {
+      "file": "eq_p007_01.png",
+      "page": 7,
+      "eq_number": "18",
+      "eq_numbers": [
+        "1",
+        "18"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        195.3,
+        567.0,
+        331.5
+      ],
+      "px": [
+        1080,
+        569
+      ],
+      "text_layer": "the AL value is given, which is very accurate. However, thisis not surprising, since the manufacturer measures this valueas well. Nevertheless, for custom cores the AL-value is notavailable. The comparison with (1) shows, that neglecting thefringing field yields significant errors of approximately −25 %. The stray capacitance of the inductor is determined via ameasurement of the first resonant fre"
+    },
+    {
+      "file": "eq_p007_02.png",
+      "page": 7,
+      "eq_number": "19",
+      "eq_numbers": [
+        "19"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        360.5,
+        567.0,
+        381.8
+      ],
+      "px": [
+        1080,
+        89
+      ],
+      "text_layer": "jωL = jω (L′ −jL′′) = jωL′ + Rc(19)"
+    },
+    {
+      "file": "eq_p009_01.png",
+      "page": 9,
+      "eq_number": "20",
+      "eq_numbers": [
+        "20"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        185.8,
+        567.0,
+        222.0
+      ],
+      "px": [
+        1080,
+        152
+      ],
+      "text_layer": "Hg = kµ N ˆINghg withkµ =11 +leµrNghg (20)"
+    },
+    {
+      "file": "eq_p009_02.png",
+      "page": 9,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        382.7,
+        567.0,
+        403.3
+      ],
+      "px": [
+        1080,
+        87
+      ],
+      "text_layer": "L = L′ −jL′′"
+    },
+    {
+      "file": "eq_p009_03.png",
+      "page": 9,
+      "eq_number": "21",
+      "eq_numbers": [
+        "21"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        532.0,
+        567.0,
+        552.8
+      ],
+      "px": [
+        1080,
+        88
+      ],
+      "text_layer": "∇2⃗A(NCR) = 0∇2⃗A(EFC) = −µ0Jn(21)"
+    },
+    {
+      "file": "eq_p010_01.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        77.1,
+        304.0,
+        120.4
+      ],
+      "px": [
+        1080,
+        181
+      ],
+      "text_layer": "A(NCR) z,m= Bm,0 ˆI(x−um) + ∞X \u0010 Ck e−pk(x−u1) +Dk epk(x−u1)\u0011 ˆI cos(pky)"
+    },
+    {
+      "file": "eq_p010_02.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        81.4,
+        567.0,
+        161.9
+      ],
+      "px": [
+        1080,
+        336
+      ],
+      "text_layer": "Cn,0 ˆI = −µ0Jn 2⇒Cn,0 = −µ0Nn 2dhwLastly, the solution for the coefficients Dn,0 is obtained withthe fact, that the y-component of the flux density at theboundary of the m-th NCR and the n-th EFC (n = m, x = vn)must be continuous:"
+    },
+    {
+      "file": "eq_p010_03.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        117.1,
+        304.0,
+        169.0
+      ],
+      "px": [
+        1080,
+        217
+      ],
+      "text_layer": "k=1 A(EFC) z,n= Cn,0 ˆI(x−vn)2 + Dn,0 ˆI(x−vn) + ∞X \u0010 Ck e−pk(x−u1) +Dk epk(x−u1)\u0011 ˆI cos(pky)"
+    },
+    {
+      "file": "eq_p010_04.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        160.7,
+        567.0,
+        181.7
+      ],
+      "px": [
+        1080,
+        88
+      ],
+      "text_layer": "Dn,0 (m=n)=Bm,0"
+    },
+    {
+      "file": "eq_p010_05.png",
+      "page": 10,
+      "eq_number": "24",
+      "eq_numbers": [
+        "24"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        246.8,
+        567.0,
+        295.4
+      ],
+      "px": [
+        1080,
+        203
+      ],
+      "text_layer": "(Ck −Dk) ˆI = −2µ0kµN ˆI pkhw si \u0012 pk hg 2 \u0013 \u0000 Ck e−pkdw −Dk epkdw\u0001 ˆI = 0 (24)"
+    },
+    {
+      "file": "eq_p010_06.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        311.7,
+        567.0,
+        357.8
+      ],
+      "px": [
+        1080,
+        193
+      ],
+      "text_layer": "Ck = −2µ0kµNpkhw (1 −e−2pkdw) si \u0012 pk hg 2 \u0013 Dk = Ck e−2pkdw"
+    },
+    {
+      "file": "eq_p010_07.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        373.2,
+        304.0,
+        498.5
+      ],
+      "px": [
+        1080,
+        522
+      ],
+      "text_layer": "Bx = − ∞X pk \u0010 Ck e−pk(x−u1) +Dk epk(x−u1)\u0011 ˆI sin(pky) k=1 B(NCR) y,m= −Bm,0 ˆI + ∞X pk \u0010 Ck e−pk(x−u1) −Dk epk(x−u1)\u0011 ˆI cos(pky) k=1 B(EFC) y,n= −(2Cn,0(x−vn) + Dn,0) ˆI + ∞X pk \u0010 Ck e−pk(x−u1) −Dk epk(x−u1)\u0011 ˆI cos(pky)"
+    },
+    {
+      "file": "eq_p010_08.png",
+      "page": 10,
+      "eq_number": "25",
+      "eq_numbers": [
+        "25",
+        "2",
+        "20",
+        "25",
+        "1"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        464.0,
+        567.0,
+        620.0
+      ],
+      "px": [
+        1080,
+        651
+      ],
+      "text_layer": "Lg = VgBgH∗ gˆI2+ VeBcH∗ cˆI2= µ0 ˆI2 |Hg|2 \u0012 Vg + Ve µ∗r \u0013 (25) where H is the magnetic field strength, B is the magneticflux density, V is the volume, and ˆI is the current (amplitudevalue). Moreover, the index g denotes variables associated withthe air gap(s), and the index c denotes variables of the core.It is assumed that Bg = µ0Hg, Bc = Bg, and H∗ c = B∗ c/µ0µ∗ r.Furthermore, Vg is given in "
+    },
+    {
+      "file": "eq_p010_09.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        633.5,
+        304.0,
+        663.8
+      ],
+      "px": [
+        1080,
+        127
+      ],
+      "text_layer": "pk = 2πkNg hw"
+    },
+    {
+      "file": "eq_p010_10.png",
+      "page": 10,
+      "eq_number": "26",
+      "eq_numbers": [
+        "26"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        682.7,
+        567.0,
+        713.0
+      ],
+      "px": [
+        1080,
+        127
+      ],
+      "text_layer": "W =12µ0 ZZZ x |⃗B|2 dx dy dz(26)"
+    },
+    {
+      "file": "eq_p010_11.png",
+      "page": 10,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        718.3,
+        304.0,
+        755.6
+      ],
+      "px": [
+        1080,
+        157
+      ],
+      "text_layer": "Bm,0 ˆI = µ0 ˆI hw NEFCX i=m Nm⇒Bm,0 = µ0 hw NEFCX i=m Nm"
+    },
+    {
+      "file": "eq_p011_01.png",
+      "page": 11,
+      "eq_number": "30",
+      "eq_numbers": [
+        "30"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        94.1,
+        568.1,
+        128.0
+      ],
+      "px": [
+        1084,
+        143
+      ],
+      "text_layer": "W1D = µ0 2πN 2 ˆI2 hw x2 c,o6+ xc,ixc,o 3+ x2 c,i2−x2 w,i ! (30)"
+    },
+    {
+      "file": "eq_p011_02.png",
+      "page": 11,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        107.5,
+        304.0,
+        163.1
+      ],
+      "px": [
+        1080,
+        233
+      ],
+      "text_layer": "W (NCR) m= πhw ˆI2 µ0 \u0012 B2 m,0dm \u0012dm 2 + um \u0013 + ∞X ck(um, um + dm)|Ck|2 + dk(um, um + dm)|Dk|2 \u0013"
+    },
+    {
+      "file": "eq_p011_03.png",
+      "page": 11,
+      "eq_number": "31",
+      "eq_numbers": [
+        "31",
+        "32",
+        "23"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        128.9,
+        568.1,
+        263.1
+      ],
+      "px": [
+        1084,
+        560
+      ],
+      "text_layer": "where (31) and (32) are added, which consider the magneticenergy contributions from the UC, and the NCR between thecentre leg and the UC. The 1D magnetic field between the UCand the outer limb is zero, hence, no magnetic energy from thefield is stored there. The individual contributions are derivedas follows: A 1D magnetic flux density is assumed in the UC(dt = 0) in Fig. 2d), which is defined acc"
+    },
+    {
+      "file": "eq_p011_04.png",
+      "page": 11,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        159.9,
+        304.0,
+        201.4
+      ],
+      "px": [
+        1080,
+        174
+      ],
+      "text_layer": "k=1 W (EFC) n= πhw ˆI2 µ0 \u0012 C2 n,0d3 \u0012 d + 4vn 3 \u0013"
+    },
+    {
+      "file": "eq_p011_05.png",
+      "page": 11,
+      "eq_number": "32",
+      "eq_numbers": [
+        "31",
+        "23",
+        "26",
+        "32"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        278.0,
+        568.1,
+        433.7
+      ],
+      "px": [
+        1084,
+        650
+      ],
+      "text_layer": "W (UC) = µ0 2πN 2 ˆI2 hw x2 c,o + 2xc,ixc,o −3x2 c,i6(31) Furthermore, again using (23), the x-independent 1D magneticflux density in the NCR between centre leg and the UC is givenas B(NCR) y= −µ0N ˆI hwHence, the energy contribution WNCR of the NCR betweencentre leg and the UC, using again (26), is: W (NCR) = µ0 2πN 2 ˆI2 hw \u0000 x2 c,i −x2 w,i \u0001 (32)"
+    },
+    {
+      "file": "eq_p011_06.png",
+      "page": 11,
+      "eq_number": "28",
+      "eq_numbers": [
+        "28"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        511.9,
+        304.0,
+        531.1
+      ],
+      "px": [
+        1080,
+        80
+      ],
+      "text_layer": "W = W1D + Wf(28)"
+    },
+    {
+      "file": "eq_p011_07.png",
+      "page": 11,
+      "eq_number": "33",
+      "eq_numbers": [
+        "33"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        573.2,
+        568.1,
+        606.0
+      ],
+      "px": [
+        1084,
+        137
+      ],
+      "text_layer": "P = ˆI2 σπd2 Re \u001aαI0(α) I1(α) \u001b + 2π ˆH2 extσRe \u001aαI1(α) I0(α) \u001b (33)"
+    },
+    {
+      "file": "eq_p011_08.png",
+      "page": 11,
+      "eq_number": "29",
+      "eq_numbers": [
+        "29",
+        "6",
+        "29",
+        "27",
+        "4"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        669.3,
+        304.0,
+        751.7
+      ],
+      "px": [
+        1080,
+        345
+      ],
+      "text_layer": "Wf = πhw ˆI2 µ0 ∞X k=1 ck(xw,i, xw,o)|Ck|2 + dk(xw,i, xw,o)|Dk|2 (29)where the functions ck and dk, given in (6), consider the x-dimension of the complete core window. Substituting (29) into(27) eventually leads to (4)."
+    },
+    {
+      "file": "eq_p012_01.png",
+      "page": 12,
+      "eq_number": "35",
+      "eq_numbers": [
+        "35"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        45.0,
+        79.9,
+        304.0,
+        112.7
+      ],
+      "px": [
+        1080,
+        138
+      ],
+      "text_layer": "ˆH2 ext = ˆH2 rms = Lp ˆI2 µ0Vp (35)"
+    },
+    {
+      "file": "eq_p012_02.png",
+      "page": 12,
+      "eq_number": "36",
+      "eq_numbers": [
+        "36"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        45.0,
+        162.7,
+        304.0,
+        193.5
+      ],
+      "px": [
+        1080,
+        130
+      ],
+      "text_layer": "R = RDC \u0012 FR + GR Lpµ0Vp \u0013 (36)"
+    },
+    {
+      "file": "eq_p012_03.png",
+      "page": 12,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        290.2,
+        304.0,
+        323.9
+      ],
+      "px": [
+        1080,
+        141
+      ],
+      "text_layer": "Rn = RDC,n FR + GR L(EFC) nµ0Vn !"
+    },
+    {
+      "file": "eq_p012_04.png",
+      "page": 12,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        302.3,
+        567.0,
+        323.2
+      ],
+      "px": [
+        1080,
+        88
+      ],
+      "text_layer": "ˆH2 ext = ˆH2 rms + ˆH2 int"
+    },
+    {
+      "file": "eq_p012_05.png",
+      "page": 12,
+      "eq_number": "33",
+      "eq_numbers": [
+        "33",
+        "12"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        352.3,
+        567.0,
+        544.5
+      ],
+      "px": [
+        1080,
+        801
+      ],
+      "text_layer": "ˆH2 int =4d2π ZZ A rH2 i (r) dA = ˆI2 2π2d2 Additionally, formula (33) must be adapted to Litz wire, whichconsists of Ns strands of the much thinner individual diameterds, bundled together (cf. Fig. 3a). The power loss of anindividual strand is Ps = ˆI′2 σπd2s Re \u001aα′I0(α′) I1(α′) \u001b + 2π ˆH2 extσRe \u001aα′I1(α′) I0(α′) \u001b where α′ is adjusted for the Litz wire strand diameter, ac-cording to (12). Note, "
+    },
+    {
+      "file": "eq_p012_06.png",
+      "page": 12,
+      "eq_number": "39",
+      "eq_numbers": [
+        "12",
+        "39"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        308.0,
+        570.7,
+        567.0,
+        631.8
+      ],
+      "px": [
+        1080,
+        256
+      ],
+      "text_layer": "with F ′ R and G′ R given in (12). Finally, following the samestep as in app. E, the effective AC resistance for Litz wire is R = R′ DC \u0012 F ′ R + G′ R \u0012 Lp µ0Vp +12π2d2 \u0013\u0013 (39)"
+    },
+    {
+      "file": "eq_p012_07.png",
+      "page": 12,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        308.0,
+        718.7,
+        567.0,
+        752.5
+      ],
+      "px": [
+        1080,
+        142
+      ],
+      "text_layer": "Rn = R′ DC,n F ′ R + G′ R L(EFC) nµ0Vn +12π2d2 !!"
+    },
+    {
+      "file": "eq_p013_01.png",
+      "page": 13,
+      "eq_number": "40",
+      "eq_numbers": [
+        "40"
+      ],
+      "kind": "numbered",
+      "bbox_pt": [
+        45.0,
+        202.6,
+        304.0,
+        235.5
+      ],
+      "px": [
+        1080,
+        138
+      ],
+      "text_layer": "+ πN 2 hw x2 c,o + 2xc,ixc,o −3x2 c,i6VUC \u0013\u0013 (40)"
+    },
+    {
+      "file": "eq_p013_02.png",
+      "page": 13,
+      "eq_number": "41",
+      "eq_numbers": [
+        "41"
+      ],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        45.0,
+        267.0,
+        304.0,
+        319.4
+      ],
+      "px": [
+        1080,
+        219
+      ],
+      "text_layer": "Rf = R′ DCG′ R 2πhwµ2 0VUC∞X ck(xc,i, xc,o)|Ck|2 + dk(xc,i, xc,o)|Dk|2(41)"
+    }
+  ]
+}

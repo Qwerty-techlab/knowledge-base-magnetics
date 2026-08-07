@@ -1,0 +1,334 @@
+{
+  "article": "Infineon_EVAL_PFC5K_5kW_CCM_PFC_UserGuide",
+  "source": "source.pdf",
+  "pages_scanned": 38,
+  "dpi": 300,
+  "n_formulas": 18,
+  "warning": "text_layer -- это то, что даёт текстовый слой PDF, он для формул НЕДОСТОВЕРЕН (нет дробных черт, знак интеграла приходит как Z или R). Достоверный источник -- PNG-файл; читать его глазами.",
+  "formulas": [
+    {
+      "file": "eq_p023_01.png",
+      "page": 23,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.5,
+        723.4,
+        560.5,
+        756.6
+      ],
+      "px": [
+        2176,
+        139
+      ],
+      "text_layer": "Vout = Blue, VGE = Yellow, IL1 = Red, VCE = Green"
+    },
+    {
+      "file": "eq_p024_01.png",
+      "page": 24,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.5,
+        294.3,
+        560.5,
+        327.6
+      ],
+      "px": [
+        2176,
+        139
+      ],
+      "text_layer": "Vout = Blue, VGE = Yellow, IL1 = Red, VCE = Green"
+    },
+    {
+      "file": "eq_p024_02.png",
+      "page": 24,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.5,
+        648.3,
+        560.5,
+        681.6
+      ],
+      "px": [
+        2176,
+        140
+      ],
+      "text_layer": "IIN = Green, IL1 = Yellow, IL2 = Red"
+    },
+    {
+      "file": "eq_p025_01.png",
+      "page": 25,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.5,
+        294.6,
+        560.5,
+        327.9
+      ],
+      "px": [
+        2176,
+        140
+      ],
+      "text_layer": "IIN = Green, IL1 = Yellow, IL2 = Red, VIN = Blue"
+    },
+    {
+      "file": "eq_p025_02.png",
+      "page": 25,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.5,
+        572.9,
+        560.5,
+        606.1
+      ],
+      "px": [
+        2176,
+        139
+      ],
+      "text_layer": "IIN = Green, IL1 = Yellow, IL2 = Red"
+    },
+    {
+      "file": "eq_p026_01.png",
+      "page": 26,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.5,
+        294.6,
+        560.5,
+        327.9
+      ],
+      "px": [
+        2176,
+        140
+      ],
+      "text_layer": "IIN = Green, IL1 = Yellow, IL2 = Red, VIN = Blue"
+    },
+    {
+      "file": "eq_p026_02.png",
+      "page": 26,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.5,
+        573.1,
+        560.5,
+        606.4
+      ],
+      "px": [
+        2176,
+        139
+      ],
+      "text_layer": "IIN = Green, IL1 = Yellow, IL2 = Red"
+    },
+    {
+      "file": "eq_p027_01.png",
+      "page": 27,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.5,
+        289.8,
+        560.5,
+        323.1
+      ],
+      "px": [
+        2176,
+        140
+      ],
+      "text_layer": "IIN = Green, IL1 = Yellow, IL2 = Red, VIN = Blue"
+    },
+    {
+      "file": "eq_p027_02.png",
+      "page": 27,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.5,
+        741.2,
+        560.5,
+        774.5
+      ],
+      "px": [
+        2176,
+        140
+      ],
+      "text_layer": "VCE = Green, VGE = Yellow, IL1 = Red, VOUT = Blue"
+    },
+    {
+      "file": "eq_p028_01.png",
+      "page": 28,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.5,
+        294.5,
+        560.5,
+        327.8
+      ],
+      "px": [
+        2176,
+        140
+      ],
+      "text_layer": "VCE = Green, VGE = Yellow, IL1 = Red, VOUT = Blue"
+    },
+    {
+      "file": "eq_p028_02.png",
+      "page": 28,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.5,
+        589.3,
+        560.5,
+        622.7
+      ],
+      "px": [
+        2176,
+        140
+      ],
+      "text_layer": "VCE = Green, VGE = Yellow, IL1 = Red, VOUT = Blue"
+    },
+    {
+      "file": "eq_p029_01.png",
+      "page": 29,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.5,
+        295.8,
+        560.5,
+        329.1
+      ],
+      "px": [
+        2176,
+        140
+      ],
+      "text_layer": "VOUT = Blue, IIN = Red"
+    },
+    {
+      "file": "eq_p029_02.png",
+      "page": 29,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.5,
+        574.7,
+        560.5,
+        608.0
+      ],
+      "px": [
+        2176,
+        140
+      ],
+      "text_layer": "VOUT = Blue, IIN = Red"
+    },
+    {
+      "file": "eq_p030_01.png",
+      "page": 30,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.5,
+        294.9,
+        560.5,
+        328.3
+      ],
+      "px": [
+        2176,
+        140
+      ],
+      "text_layer": "VOUT = Blue, IIN = Red"
+    },
+    {
+      "file": "eq_p030_02.png",
+      "page": 30,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.5,
+        635.2,
+        560.5,
+        668.6
+      ],
+      "px": [
+        2176,
+        140
+      ],
+      "text_layer": "VIN = Blue, IIN = Red"
+    },
+    {
+      "file": "eq_p031_01.png",
+      "page": 31,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.5,
+        294.6,
+        560.5,
+        327.9
+      ],
+      "px": [
+        2176,
+        140
+      ],
+      "text_layer": "VIN = Blue, IIN = Red"
+    },
+    {
+      "file": "eq_p031_02.png",
+      "page": 31,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.5,
+        573.1,
+        560.5,
+        606.4
+      ],
+      "px": [
+        2176,
+        139
+      ],
+      "text_layer": "VIN = Blue, IIN = Red"
+    },
+    {
+      "file": "eq_p033_01.png",
+      "page": 33,
+      "eq_number": null,
+      "eq_numbers": [],
+      "kind": "unnumbered",
+      "bbox_pt": [
+        38.5,
+        294.3,
+        560.5,
+        327.7
+      ],
+      "px": [
+        2176,
+        140
+      ],
+      "text_layer": "VOUT = Blue, IOUT = Green"
+    }
+  ]
+}

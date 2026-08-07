@@ -27,5 +27,8 @@
   ],
   "use_in_methodology": "Четырёхфазный вариант — оценка выигрыша при N>3.",
   "bib_title": "Analysis of a Four-Phase Interleaved DC-DC Converter in CCM",
-  "bib_title_source": "derived_from_filename"
+  "bib_title_source": "derived_from_filename",
+  "formulas_extracted": 11,
+  "formulas_dir": "formulas/",
+  "formulas_note": "Формулы в parsed.md разрушены текстовым слоем PDF; достоверный источник -- PNG в formulas/"
 }
