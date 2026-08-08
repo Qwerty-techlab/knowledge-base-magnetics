@@ -171,7 +171,7 @@
 **3. H. Liao, J.-F. Chen, *Design process of high-frequency inductor with multiple air-gaps in the dimensional limitation*, The Journal of Engineering (IET), 2022. DOI: [10.1049/tje2.12087](https://doi.org/10.1049/tje2.12087)**
 
 - Папка: `03_inductor_design/Liao_Chen_2022_Multiple_Air_Gaps/`, 18 стр.
-- Применение: ОПОРНЫЙ источник коэффициента выпучивания: F_f(g) = 1 + 0,9·(g/√A_e)·ln(2G/g). Разделение зазора на участки и конструктивные ограничения.
+- Применение: ОПОРНЫЙ источник магнитной цепи и выпучивания. Сопротивление физического зазора задано через A_g; A_e появляется только после частного допущения A_g=A_e. Для отдельного стержня формулу обобщать через фактическую A_g каждого зазора. Разделение зазора требует повторного расчёта F_f каждого участка.
 - Ключевые слова: коэффициент выпучивания, краевой поток, воздушный зазор, разделение зазора
 - Примечание: Файл 'The Journal of Engineering - 2021 - Liao - ...' в 0_references — побайтовый дубликат этого же PDF (обнаружено при миграции).
 
@@ -184,7 +184,7 @@
 **5. J. Mühlethaler, J. Biela, J. W. Kolar, *Improved Core-Loss Calculation for Magnetic Components Employed in Power Electronic Systems*, IEEE APEC, 2011. DOI: [10.1109/APEC.2011.5744829](https://doi.org/10.1109/APEC.2011.5744829)**
 
 - Папка: `03_inductor_design/Muehlethaler_Biela_Kolar_2011_Improved_Core_Loss_iGSE/`, 9 стр.
-- Применение: ПЕРВИЧНЫЙ источник формы iGSE — модель потерь в сердечнике при несинусоидальной индукции. Указывает ограничение базовой модели на интервалах постоянной индукции и при магнитной релаксации.
+- Применение: ПЕРВИЧНЫЙ источник iGSE. Коэффициент k_i брать по ур. (3) с множителем (2π)^(α−1), интегралом 0…2π и 2^(β−α); эквивалентную B(t) нормировать по A_e. Указывает ограничения на интервалах постоянной индукции и при магнитной релаксации.
 - Ключевые слова: iGSE, потери в сердечнике, Штейнмец, несинусоидальная индукция
 
 **6. H. Pichon et al., *Accurate Efficiency and Power Densities Optimization of Output Inductor of Buck Derived Converters*, Applied Sciences (MDPI), 2022. DOI: [10.3390/app12189330](https://doi.org/10.3390/app12189330)**
@@ -238,7 +238,7 @@
 **3. H. Zhao et al., *Parasitic Capacitance Modeling of Copper-Foiled Medium-Voltage Filter Inductors Considering Fringe Electrical Field*, IEEE Transactions on Power Electronics (TPEL), 2021. DOI: [10.1109/TPEL.2020.3048226](https://doi.org/10.1109/TPEL.2020.3048226)**
 
 - Папка: `05_emc/Zhao_2021_Parasitic_Capacitance_Foil_Inductors_Fringe/`, 13 стр.
-- Применение: Паразитные ёмкости, электрическое краевое поле и собственный резонанс обмотки — основа проверки k_R = f_res/f_sw.
+- Применение: Паразитные ёмкости, электрическое краевое поле и собственный резонанс обмотки — основа проверки k_f = f_res/f_треб,max; k_R оставлен для отношения магнитных сопротивлений.
 - Ключевые слова: собственная ёмкость, краевое электрическое поле, собственный резонанс
 
 ---

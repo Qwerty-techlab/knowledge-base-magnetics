@@ -1,19 +1,24 @@
 {
   "_meta": {
     "title": "База ферритовых магнитопроводов для силовых ВЧ дросселей",
-    "version": "1.0.0",
-    "updated": "2026-08-07",
+    "version": "1.3.0",
+    "updated": "2026-08-08",
     "origin": "drossel1: 3_calc/inductor_design.py::core_library(), 5_interleaved/interleaved_design.py::core_library_ext()",
+    "audit_note": "Геометрические и магнитные паспортные параметры отделены от проектной площади зазора A_g. Исторические N и g из drossel1 не считать проверенными.",
     "datasheet_sources": [
       "TDK SIFERRIT PM-cores: https://www.tdk-electronics.tdk.com/inf/80/db/fer/pm_114_93.pdf",
       "TDK SIFERRIT PM 87/70: https://www.tdk-electronics.tdk.com/inf/80/db/fer/pm_87_70.pdf",
       "TDK SIFERRIT PM 74/59: https://www.tdk-electronics.tdk.com/inf/80/db/fer/pm_74_59.pdf",
       "TDK PQ 107/87: серия B65919",
+      "TDK E 120/71/40: https://www.tdk-electronics.tdk.com/inf/80/db/fer/e_120_71_40.pdf",
+      "TDK E 140/68/40: https://www.tdk-electronics.tdk.com/inf/80/db/fer/e_140_68_40.pdf",
+      "TDK E 160/80/40: https://www.tdk-electronics.tdk.com/inf/80/db/fer/e_160_80_40.pdf",
       "Ferroxcube PM-cores data handbook: https://www.ferroxcube.com/en-global/download/index"
     ],
     "units": {
-      "A_e_mm2": "мм² — эффективная площадь сечения (для расчёта B)",
-      "A_min_mm2": "мм² — минимальная площадь сечения (точка начала насыщения)",
+      "A_e_mm2": "мм² — эффективная площадь сечения для B_e(t), каталоговых потерь совместно с V_e и произведения площадей",
+      "A_min_mm2": "мм² — минимальная площадь сечения для предварительной проверки насыщения",
+      "A_g_mm2": "мм² — физическая площадь сопрягаемых поверхностей конкретного зазора; зависит от места зазора и не заменяется A_e или A_min",
       "l_e_mm": "мм — эффективная длина магнитной линии",
       "V_e_mm3": "мм³ — эффективный объём (для потерь по iGSE: P = V_e·P_V)",
       "sigma_l_A_per_mm": "1/мм — Σ(l/A), постоянная магнитного сопротивления сердечника",
@@ -28,23 +33,33 @@
       "*_estimated": "значение оценочное или расчётное, не паспортное",
       "*_note": "текстовое пояснение к соседнему числовому полю"
     },
-    "how_to_extend": "См. skills/SKILLS.md, раздел «update-db». Обязательные поля: name, magnetic.*, winding.*, mass_kg, A_L_ungapped_nH."
+    "how_to_extend": "См. skills/SKILLS.md, раздел «update-db». Обязательные поля: name, magnetic.*, winding.*, mass_kg, A_L_ungapped_nH. Для расчёта физического зазора дополнительно требуется geometry.gap_surfaces с A_g и источником размеров."
   },
   "cores": {
     "PM114/93": {
       "name": "PM 114/93",
       "family": "PM",
       "shape": "цилиндрический броневой (Power Module), круглый центральный стержень",
-      "status": "основной вариант drossel1 (однофазный и трёхфазный)",
+      "status": "исторически выбран в drossel1; зазор и итоговые параметры требуют повторного расчёта после исправления A_g/A_e",
       "geometry": {
         "D_outer_mm": 114.0,
         "H_set_mm": 93.0,
         "H_half_mm": 46.5,
         "d_center_mm": 43.0,
+        "d_hole_mm": 10.0,
         "d_bore_mm": 88.0,
-        "h_window_mm": 55.0,
-        "h_window_formula": "H_set - 2·h_flange = 93 - 2·19",
-        "h_flange_mm": 19.0
+        "h_window_mm": 63.0,
+        "h_window_formula": "H_set - 2·h_flange = 93 - 2·15; размеры уточнены прямым измерением CAD TDK в drossel1/6_fem",
+        "h_flange_mm": 15.0,
+        "gap_surfaces": {
+          "center_pole_full_annulus": {
+            "A_g_mm2_estimated": 1373.7,
+            "formula": "π/4·(d_center_mm² - d_hole_mm²)",
+            "source": "TDK CAD-размеры d_center=43 мм, d_hole=10 мм; подтверждено геометрией drossel1/6_fem",
+            "use_condition": "зазор выполнен шлифовкой всей кольцевой поверхности центрального стержня",
+            "note": "Физическая площадь зазора; не заменять A_e=1720 мм². Перед выпуском проверить по окончательному чертежу."
+          }
+        }
       },
       "magnetic": {
         "A_e_mm2": 1720,
@@ -97,21 +112,31 @@
         "T_max_operating_C": 130
       },
       "datasheet": "TDK B65733/B65734 (N27/N87); Ferroxcube PM114/93 (3C90/3C94)",
-      "notes": "Выбран в drossel1 по произведению площадей. Трёхфазный interleaved 100 кГц: N=29, зазор 5,341 мм, Litz 500×0,071×5 парал."
+      "notes": "Исторический вариант drossel1: N=29, зазор 5,341 мм, Litz 500×0,071×5 парал. Старый зазор рассчитан с ошибочной подстановкой A_e вместо A_g; 2D FEM дал около 395,2 мкГн вместо 446,1 мкГн. Эти N и g нельзя переносить в новый проект без повторного расчёта."
     },
     "PQ107/87": {
       "name": "PQ 107/87",
       "family": "PQ",
       "shape": "прямоугольный броневой с круглым центральным стержнем",
-      "status": "проверен в drossel1, отклонён (нет каркаса в даташите)",
+      "status": "исторически отклонён в drossel1; требуется повторная проверка по исправленной методике",
       "geometry": {
         "D_outer_mm": 107.0,
         "H_set_mm": 87.0,
         "H_half_mm": 43.5,
-        "d_center_mm": 45.0,
+        "d_center_mm": 41.0,
         "d_bore_mm": 82.0,
         "h_window_mm": 52.0,
-        "h_flange_mm": null
+        "h_flange_mm": null,
+        "gap_surfaces": {
+          "center_pole_full_circle": {
+            "preferred_for_single_gap": true,
+            "A_g_mm2_estimated": 1320.3,
+            "formula": "π/4·d_center_mm²",
+            "source": "TDK B65919, габаритный чертёж: центральный стержень Ø41±0,8 мм",
+            "use_condition": "один физический зазор выполнен шлифовкой всей круглой поверхности центрального стержня",
+            "note": "Площадь совпадает с точностью округления с паспортным A_min=1320 мм²; итоговый зазор проверить по МКЭ и измеренному A_L."
+          }
+        }
       },
       "magnetic": {
         "A_e_mm2": 1435,
@@ -131,11 +156,15 @@
       "A_L_ungapped_nH": {
         "N27": null,
         "N87": 15800,
+        "N97": 16700,
         "3C90": null,
         "tolerance_pct": 25
       },
       "part_numbers": {
-        "ungapped": {},
+        "ungapped": {
+          "N87": "B65919A0000R087",
+          "N97": "B65919A0000R097"
+        },
         "coil_former": null,
         "clamp": null
       },
@@ -145,21 +174,32 @@
         "T_max_operating_C": 130
       },
       "datasheet": "TDK серия B65919 (каркас в даташите отсутствует)",
-      "notes": "A_e меньше PM114/93 при сопоставимой массе. Отсутствие штатного каркаса — конструктивный риск."
+      "notes": "A_e меньше PM114/93 при сопоставимой массе. Отсутствие штатного каркаса — конструктивный риск. Для одного заказного зазора принята полная круглая поверхность центрального стержня; физический размер уточнить по МКЭ и измеренному A_L."
     },
     "PM87/70": {
       "name": "PM 87/70",
       "family": "PM",
       "shape": "цилиндрический броневой, круглый центральный стержень",
-      "status": "проверен в drossel1, отклонён по запасу B",
+      "status": "исторически отклонён в drossel1 по старому расчёту B; требуется повторная проверка",
       "geometry": {
         "D_outer_mm": 87.0,
         "H_set_mm": 70.0,
         "H_half_mm": 35.0,
-        "d_center_mm": 32.6,
+        "d_center_mm": 31.7,
+        "d_hole_mm": 8.5,
         "d_bore_mm": 66.0,
         "h_window_mm": 41.0,
-        "h_flange_mm": 14.5
+        "h_flange_mm": 14.5,
+        "gap_surfaces": {
+          "center_pole_full_annulus": {
+            "preferred_for_single_gap": true,
+            "A_g_mm2_estimated": 732.7,
+            "formula": "π/4·(d_center_mm² - d_hole_mm²)",
+            "source": "TDK B65713, габаритный чертёж: Ø31,7−1 мм и отверстие Ø8,5+0,3 мм",
+            "use_condition": "один физический зазор выполнен шлифовкой всей кольцевой поверхности центрального стержня",
+            "note": "Итоговый зазор проверить по МКЭ и измеренному A_L."
+          }
+        }
       },
       "magnetic": {
         "A_e_mm2": 910,
@@ -177,13 +217,16 @@
       },
       "mass_kg": 0.77,
       "A_L_ungapped_nH": {
-        "N27": null,
+        "N27": 13000,
         "N87": 14000,
         "3C90": null,
         "tolerance_pct": 25
       },
       "part_numbers": {
-        "ungapped": {},
+        "ungapped": {
+          "N27": "B65713A0000R027",
+          "N87": "B65713A0000R087"
+        },
         "coil_former": "B65714",
         "clamp": null
       },
@@ -201,21 +244,32 @@
         "T_max_operating_C": 130
       },
       "datasheet": "TDK B65713/B65714",
-      "notes": "Для 6 кВт однофазного варианта площадь сечения недостаточна — B_max выходит за B_доп."
+      "notes": "Старый расчёт отклонял типоразмер по B_max, но итоговый вывод требует повторной проверки допусков и L_диф. Для одного заказного зазора принята полная кольцевая поверхность центрального стержня."
     },
     "PM74/59": {
       "name": "PM 74/59",
       "family": "PM",
       "shape": "цилиндрический броневой, круглый центральный стержень",
-      "status": "добавлен для трёхфазного варианта (мощность на фазу 2 кВт)",
+      "status": "исторически рассмотрен для трёхфазного варианта; окончательно не верифицирован",
       "geometry": {
         "D_outer_mm": 74.0,
         "H_set_mm": 59.0,
         "H_half_mm": 29.5,
         "d_center_mm": 29.5,
+        "d_hole_mm": 5.4,
         "d_bore_mm": 57.5,
         "h_window_mm": 40.3,
-        "h_flange_mm": 9.35
+        "h_flange_mm": 9.35,
+        "gap_surfaces": {
+          "center_pole_full_annulus": {
+            "preferred_for_single_gap": true,
+            "A_g_mm2_estimated": 660.6,
+            "formula": "π/4·(d_center_mm² - d_hole_mm²)",
+            "source": "TDK B65686, габаритный чертёж: Ø29,5−1 мм и отверстие Ø5,4+0,3 мм",
+            "use_condition": "один физический зазор выполнен шлифовкой всей кольцевой поверхности центрального стержня",
+            "note": "Итоговый зазор проверить по МКЭ и измеренному A_L."
+          }
+        }
       },
       "magnetic": {
         "A_e_mm2": 790,
@@ -267,12 +321,233 @@
         "T_max_operating_C": 130
       },
       "datasheet": "TDK B65686/B65687 (N27/N87); Ferroxcube PM74/59 (3C90/3C94)",
-      "notes": "Окно намотки A_N=442 мм² — тесное для литцендрата большого сечения, ограничивает k_зан."
+      "notes": "Окно намотки A_N=442 мм² — тесное для литцендрата большого сечения, ограничивает k_зан. Для одного заказного зазора принята полная кольцевая поверхность центрального стержня."
+    },
+    "E120/71/40": {
+      "name": "E 120/71/40",
+      "family": "E",
+      "shape": "прямоугольный E-E, один зазор на центральном стержне",
+      "status": "добавлен для перерасчёта одного дросселя 6 кВт; магнитные параметры паспортные, параметры окна и базовая длина витка восстановлены по габаритному чертежу",
+      "geometry": {
+        "D_outer_mm": 120.0,
+        "H_set_mm": 141.0,
+        "H_half_mm": 70.5,
+        "depth_mm": 40.0,
+        "d_center_mm": 45.0,
+        "d_bore_mm": 75.0,
+        "h_window_mm": 98.0,
+        "h_window_formula": "2·49 мм; две половины E установлены навстречу друг другу",
+        "window_radial_mm": 15.0,
+        "gap_surfaces": {
+          "center_pole_rectangular": {
+            "preferred_for_single_gap": true,
+            "A_g_mm2_estimated": 1800.0,
+            "formula": "45·40",
+            "source": "TDK E 120/71/40, габаритный чертёж: центральный стержень 45±0,9 мм, глубина 40±0,8 мм",
+            "use_condition": "один физический зазор выполнен на полной прямоугольной поверхности центрального стержня",
+            "G_gap_bounds_mm": [15.0, 98.0],
+            "G_gap_note": "Методика не задаёт единственное G для прямоугольного E-сердечника; приведены границы по радиальному размеру окна и полной длине зоны намотки",
+            "q_fringe_bounds": [1.0, 1.1],
+            "note": "Площадь A_g получена из паспортных размеров, но не является табличным магнитным параметром. Зазор и выпучивание требуют подтверждения МКЭ."
+          }
+        }
+      },
+      "magnetic": {
+        "A_e_mm2": 1782,
+        "A_min_mm2": 1720,
+        "l_e_mm": 295,
+        "V_e_mm3": 525690,
+        "sigma_l_A_per_mm": 0.166,
+        "A_e_over_A_min": 1.036
+      },
+      "winding": {
+        "A_N_mm2": 1470,
+        "A_N_formula": "2·49·((75−45)/2)",
+        "l_N_mm": 221.1,
+        "l_N_base_mm_estimated": 174.0,
+        "l_N_formula": "l_N,base=2·(45+40)+4 мм на каркас; l_N=l_N,base+2π·7,5 мм для середины окна",
+        "A_R_uOhm": 0.0,
+        "coil_former": "специальный каркас; штатный каркас в даташите TDK не указан",
+        "source_status": "оценка по габаритному чертежу; проверить по рабочему чертежу каркаса"
+      },
+      "mass_kg": 2.71,
+      "A_L_ungapped_nH": {
+        "N87": 14400,
+        "N97": 15000,
+        "N88": 12500,
+        "tolerance_pct": 25
+      },
+      "part_numbers": {
+        "ungapped": {
+          "N87": "B66614G0000X187",
+          "N97": "B66614G0000X197",
+          "N88": "B66614G0000X188"
+        },
+        "coil_former": null,
+        "clamp": null
+      },
+      "gapped_catalog": {},
+      "thermal": {
+        "R_th_core_K_W_estimated": null,
+        "T_max_operating_C": 130
+      },
+      "datasheet": "TDK B66614, E 120/71/40, October 2024",
+      "notes": "TDK допускает другие A_L и зазоры по запросу. В данном проекте предусмотрен один заказной зазор центрального стержня; итоговые g, L_diff(I), локальная B и потери меди у зазора подлежат подтверждению МКЭ и прототипом."
+    },
+    "E140/68/40": {
+      "name": "E 140/68/40",
+      "family": "E",
+      "shape": "прямоугольный E-E, один зазор на центральном стержне",
+      "status": "резервный крупный E-сердечник; допускается ТЗ только если круглые центральные сердечники не проходят ограничения",
+      "geometry": {
+        "D_outer_mm": 140.0,
+        "H_set_mm": 136.0,
+        "H_half_mm": 68.0,
+        "depth_mm": 40.0,
+        "d_center_mm": 40.0,
+        "d_bore_mm": 100.0,
+        "h_window_mm": 96.0,
+        "h_window_formula": "2·48 мм; две половины E установлены навстречу друг другу",
+        "window_radial_mm": 30.0,
+        "gap_surfaces": {
+          "center_pole_rectangular": {
+            "preferred_for_single_gap": true,
+            "A_g_mm2_estimated": 1600.0,
+            "formula": "40·40",
+            "source": "TDK B66029, габаритный чертёж: центральный стержень 40±0,5 мм, глубина 40±0,5 мм",
+            "use_condition": "один физический зазор выполнен на полной прямоугольной поверхности центрального стержня",
+            "G_gap_bounds_mm": [30.0, 96.0],
+            "q_fringe_bounds": [1.0, 1.1],
+            "note": "Зазор и выпучивание поля требуют подтверждения МКЭ."
+          }
+        }
+      },
+      "magnetic": {
+        "A_e_mm2": 1585,
+        "A_min_mm2": 1560,
+        "l_e_mm": 315,
+        "V_e_mm3": 500045,
+        "sigma_l_A_per_mm": 0.2,
+        "A_e_over_A_min": 1.016
+      },
+      "winding": {
+        "A_N_mm2": 2880,
+        "A_N_formula": "2·48·((100−40)/2)",
+        "l_N_mm": 258.2,
+        "l_N_base_mm_estimated": 164.0,
+        "l_N_formula": "l_N,base=2·(40+40)+4 мм; l_N=l_N,base+2π·15 мм",
+        "A_R_uOhm": 0.0,
+        "coil_former": "специальный каркас",
+        "source_status": "A_N и l_N оценены по паспортному чертежу; проверить по рабочему чертежу каркаса"
+      },
+      "mass_kg": 2.467,
+      "A_L_ungapped_nH": {
+        "N87": 12200,
+        "N97": 12700,
+        "tolerance_pct": 25
+      },
+      "part_numbers": {
+        "ungapped": {
+          "N87": "B66029G0000X187",
+          "N97": "B66029G0000X197"
+        },
+        "coil_former": null,
+        "clamp": null
+      },
+      "gapped_catalog": {},
+      "thermal": {
+        "R_th_core_K_W_estimated": null,
+        "T_max_operating_C": 130
+      },
+      "datasheet": "TDK B66029, E 140/68/40, October 2024",
+      "notes": "TDK допускает заказные A_L и зазоры. Резервная E-геометрия рассматривается только после численного отказа предпочтительных семейств."
+    },
+    "E160/80/40": {
+      "name": "E 160/80/40",
+      "family": "E",
+      "shape": "прямоугольный E-E, один зазор на центральном стержне",
+      "status": "резервный крупный E-сердечник; допускается ТЗ только если круглые центральные сердечники не проходят ограничения",
+      "geometry": {
+        "D_outer_mm": 160.0,
+        "H_set_mm": 160.0,
+        "H_half_mm": 80.0,
+        "depth_mm": 40.0,
+        "d_center_mm": 40.0,
+        "d_bore_mm": 116.0,
+        "h_window_mm": 120.0,
+        "h_window_formula": "2·60 мм; две половины E установлены навстречу друг другу",
+        "window_radial_mm": 38.0,
+        "gap_surfaces": {
+          "center_pole_rectangular": {
+            "preferred_for_single_gap": true,
+            "A_g_mm2_estimated": 1600.0,
+            "formula": "40·40",
+            "source": "TDK B66008, габаритный чертёж: центральный стержень 40±0,5 мм, глубина 40±0,5 мм",
+            "use_condition": "один физический зазор выполнен на полной прямоугольной поверхности центрального стержня",
+            "G_gap_bounds_mm": [38.0, 120.0],
+            "q_fringe_bounds": [1.0, 1.1],
+            "note": "Зазор и выпучивание поля требуют подтверждения МКЭ."
+          }
+        }
+      },
+      "magnetic": {
+        "A_e_mm2": 1640,
+        "A_min_mm2": 1600,
+        "l_e_mm": 381,
+        "V_e_mm3": 623930,
+        "sigma_l_A_per_mm": 0.232,
+        "A_e_over_A_min": 1.025
+      },
+      "winding": {
+        "A_N_mm2": 4560,
+        "A_N_formula": "2·60·((116−40)/2)",
+        "l_N_mm": 283.4,
+        "l_N_base_mm_estimated": 164.0,
+        "l_N_formula": "l_N,base=2·(40+40)+4 мм; l_N=l_N,base+2π·19 мм",
+        "A_R_uOhm": 0.0,
+        "coil_former": "специальный каркас",
+        "source_status": "A_N и l_N оценены по паспортному чертежу; проверить по рабочему чертежу каркаса"
+      },
+      "mass_kg": 3.16,
+      "A_L_ungapped_nH": {
+        "N87": 10700,
+        "tolerance_pct": 25
+      },
+      "part_numbers": {
+        "ungapped": {
+          "N87": "B66008G0000X187"
+        },
+        "coil_former": null,
+        "clamp": null
+      },
+      "gapped_catalog": {},
+      "thermal": {
+        "R_th_core_K_W_estimated": null,
+        "T_max_operating_C": 130
+      },
+      "datasheet": "TDK B66008, E 160/80/40, October 2024",
+      "notes": "TDK допускает заказные A_L и зазоры. Резервная E-геометрия рассматривается только после численного отказа предпочтительных семейств."
     }
   },
   "screened_out": {
-    "_note": "Типоразмеры, отбракованные в drossel1 по произведению площадей (A_e·A_N) без полного набора конструктивных данных. Для повторного использования требуется внести паспортные параметры.",
-    "families": ["ETD 49", "ETD 54", "ETD 59", "E 65/32/27", "E 70/33/32", "E 80/38/20"],
-    "reason": "A_e·A_N ниже требуемого для 2 кВт на фазу при J_доп=2,5 А/мм² и k_зан=0,70"
+    "_note": "Типоразмеры ниже сохраняются для численного предварительного сравнения. Окончательный отказ формируется заново для каждого режима по N_B и N_w; старые N и g не используются.",
+    "candidates": [
+      {"name": "ETD 59/31/22", "family": "ETD", "A_min_mm2": 368, "A_N_mm2": 365.6, "source": "TDK B66397/B66398"},
+      {"name": "ETD 54/28/19", "family": "ETD", "A_min_mm2": 280, "A_N_mm2": 316, "source": "TDK B66395/B66396"},
+      {"name": "ETD 49/25/16", "family": "ETD", "A_min_mm2": 209, "A_N_mm2": 269, "source": "TDK B66367/B66368"},
+      {"name": "ETD 44/22/15", "family": "ETD", "A_min_mm2": 172, "A_N_mm2": 210, "source": "TDK B66365/B66366"},
+      {"name": "PQ 50/50", "family": "PQ", "A_min_mm2": 314, "A_N_mm2": 195, "source": "Ferroxcube PQ50/50"},
+      {"name": "RM 14", "family": "RM", "A_min_mm2": 168, "A_N_mm2": 71, "source": "Ferroxcube RM14/I"},
+      {"name": "EQ 30/8/20", "family": "EQ", "A_min_mm2": 95, "A_N_mm2": 40.5, "source": "TDK B66506; A_N — благоприятная верхняя оценка по чертежу"},
+      {"name": "EER 48/21/21", "family": "EER", "A_min_mm2": 248, "A_N_mm2": 173.73, "source": "Magnetics 2025 Ferrite Catalog, WaAc=4,43 см⁴"},
+      {"name": "EER 53/18/18", "family": "EER", "A_min_mm2": 240, "A_N_mm2": 144.4, "source": "Magnetics 2025 Ferrite Catalog, WaAc=3,61 см⁴"},
+      {"name": "E 100/60/28", "family": "E", "A_min_mm2": 690, "A_N_mm2": 1754, "source": "TDK B66894/B66895"},
+      {"name": "E 70/33/32", "family": "E", "A_min_mm2": 676, "A_N_mm2": 456, "source": "TDK B66371/B66372"},
+      {"name": "E 65/32/27", "family": "E", "A_min_mm2": 529, "A_N_mm2": 435, "source": "TDK B66387/B66388"},
+      {"name": "E 80/38/20", "family": "E", "A_min_mm2": 388, "A_N_mm2": 600, "source": "TDK B66375"},
+      {"name": "E 55/28/25", "family": "E", "A_min_mm2": 420, "A_N_mm2": 290, "source": "TDK B66344/B66253"},
+      {"name": "E 55/28/21", "family": "E", "A_min_mm2": 351, "A_N_mm2": 280, "source": "TDK B66335/B66252"}
+    ],
+    "reason": "Предварительный отказ выполняется по фактическим требованиям конкретного режима; результаты сериализуются в turn_window_screening."
   }
 }

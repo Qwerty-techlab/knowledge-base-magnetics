@@ -25,7 +25,7 @@
     "краевое электрическое поле",
     "собственный резонанс"
   ],
-  "use_in_methodology": "Паразитные ёмкости, электрическое краевое поле и собственный резонанс обмотки — основа проверки k_R = f_res/f_sw.",
+  "use_in_methodology": "Паразитные ёмкости, электрическое краевое поле и собственный резонанс обмотки — основа проверки k_f = f_res/f_треб,max; k_R оставлен для отношения магнитных сопротивлений.",
   "bib_title": "Parasitic Capacitance Modeling of Copper-Foiled Medium-Voltage Filter Inductors Considering Fringe Electrical Field",
   "bib_title_source": "sources_md",
   "formulas_extracted": 22,
