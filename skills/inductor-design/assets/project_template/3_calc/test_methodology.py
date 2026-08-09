@@ -58,6 +58,41 @@ class MethodologyTests(unittest.TestCase):
             checked += 1
         self.assertGreater(checked, 0)
 
+    def test_inductance_tolerance_is_not_cancelled(self):
+        for tz in (ind.load_tz(), inter.load_tz3().phase_tz()):
+            for frequency in tz.f_sw_list:
+                mode = ind.compute_mode(tz, frequency)
+                target = mode.L_req / (1.0 - tz.tol_L)
+                self.assertGreaterEqual(target, mode.L_req)
+                self.assertAlmostEqual(
+                    target * (1.0 - tz.tol_L), mode.L_req, places=12)
+
+    def test_effective_frequency_uses_total_rms_current(self):
+        for tz in (ind.load_tz(), inter.load_tz3().phase_tz()):
+            for frequency in tz.f_sw_list:
+                mode = ind.compute_mode(tz, frequency)
+                period = 1.0 / mode.f_sw
+                slope_on = mode.dI_pp / (mode.D * period)
+                slope_off = mode.dI_pp / ((1.0 - mode.D) * period)
+                slope_rms = math.sqrt(
+                    mode.D * slope_on ** 2
+                    + (1.0 - mode.D) * slope_off ** 2)
+                expected = slope_rms / (2.0 * math.pi * mode.I_rms)
+                self.assertAlmostEqual(mode.f_eff, expected, places=12)
+
+    def test_missing_core_material_is_not_silently_substituted(self):
+        materials = ind.material_library()
+        checked = 0
+        for core in ind.core_library().values():
+            supported = [name for name in materials if core.A_L0_of(name) > 0.0]
+            unsupported = [name for name in materials if core.A_L0_of(name) == 0.0]
+            if not supported or not unsupported:
+                continue
+            self.assertGreater(core.A_L0_of(supported[0]), 0.0)
+            self.assertEqual(core.A_L0_of(unsupported[0]), 0.0)
+            checked += 1
+        self.assertGreater(checked, 0)
+
     def test_interleaved_ripple_formula_matches_numeric_sum(self):
         n_phases = inter.load_tz3().n_phases
         for duty in (0.21, 0.32, 0.415, 0.72):
@@ -80,6 +115,9 @@ class MethodologyTests(unittest.TestCase):
             self.assertEqual(selected["design"]["n_gaps"], 1)
             fallback = result["selection"]["fallback_E_used"]
             self.assertEqual(selected["core"]["family"] == "E", fallback)
+            self.assertFalse(selected["verification"]["final_verified"])
+            self.assertIsNone(selected["margins"]["L_diff"]["ok"])
+            self.assertIsNone(selected["margins"]["B_fem"]["ok"])
 
     def test_interleaved_results_follow_phase_quantities(self):
         path = os.path.join(ROOT, "5_interleaved", "results_interleaved.json")
@@ -98,6 +136,8 @@ class MethodologyTests(unittest.TestCase):
                 selected["losses"]["P_total_system_W"],
                 phases * selected["losses"]["P_total_W"], places=10)
             self.assertFalse(selected["verification"]["final_verified"])
+            self.assertIsNone(selected["margins"]["L_diff"]["ok"])
+            self.assertIsNone(selected["margins"]["B_fem"]["ok"])
 
 
 if __name__ == "__main__":
