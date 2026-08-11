@@ -97,7 +97,7 @@ class TZ:
     tol_L: float = 0.10
     t_amb: float = 40.0
     t_core_max: float = 100.0
-    t_wind_max: float = 120.0
+    t_wind_max: float = 100.0
     k_B: float = 0.65               # только для финальной FEM-проверки
     k_B_prelim: float = 0.60        # аналитический отбор без FEM
     u_B_num: Optional[float] = None  # назначается только по сеточной сходимости
