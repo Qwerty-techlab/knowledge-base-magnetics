@@ -66,7 +66,17 @@ def validate_comparison(rows, required_pairs: int, label: str) -> None:
              f"{label}: отсутствует причина решения для {row.get('core')}/{row.get('material')}")
         if row.get("status") == "rejected" and row.get("nearest_rejected"):
             fail(not row["nearest_rejected"].get("margins"),
-                 f"{label}: нет численных запасов ближайшего отклонённого варианта")
+                f"{label}: нет численных запасов ближайшего отклонённого варианта")
+
+
+def validate_rejection_counts(item: dict, label: str) -> None:
+    counts = item.get("rejection_counts")
+    fail(not isinstance(counts, dict), f"{label}: отсутствует журнал причин отсева")
+    for reason, count in counts.items():
+        fail(not isinstance(reason, str) or not reason,
+             f"{label}: некорректный код причины отсева")
+        fail(not isinstance(count, int) or count < 0,
+             f"{label}: некорректный счётчик причины {reason}")
 
 
 def validate_report(path: Path, results: dict) -> None:
@@ -97,6 +107,10 @@ def validate_single(project: Path, required_pairs: int) -> None:
         fail(selected["verification"].get("final_verified") is not False,
              f"single {key}: ошибочно присвоен финальный статус")
         fail(selected["design"].get("n_gaps") != 1, f"single {key}: зазор не один")
+        if data.get("meta", {}).get("config", {}).get("search", {}).get(
+            "record_rejection_counts", False
+        ):
+            validate_rejection_counts(item, f"single {key}")
         quantities = item["quantities"]
         fail(quantities.get("core_sets") != 1 or quantities.get("core_halves_total") != 2,
              f"single {key}: неверное количество магнитопроводов")
@@ -125,6 +139,11 @@ def validate_interleaved(project: Path, required_pairs: int) -> None:
         fail(selected["verification"].get("final_verified") is not False,
              f"interleaved {key}: ошибочно присвоен финальный статус")
         fail(selected["design"].get("n_gaps") != 1, f"interleaved {key}: зазор не один")
+        if data.get("meta", {}).get("config", {}).get("search", {}).get(
+            "record_rejection_counts", False
+        ):
+            validate_rejection_counts(item.get("enumeration", {}),
+                                      f"interleaved {key}")
         quantities = item["quantities"]
         fail(quantities.get("phase_inductors") != phases or
              quantities.get("core_sets_total") != phases or

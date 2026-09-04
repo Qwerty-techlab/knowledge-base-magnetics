@@ -25,7 +25,13 @@
 
 ## Быстрый старт
 
-Создать и полностью пересчитать новый проект дросселя:
+Создать и полностью пересчитать новый проект дросселя из минимального ТЗ:
+
+```powershell
+python skills/inductor-design/scripts/calculate.py --tz skills/inductor-design/assets/tz_input.example.json --output <путь_проекта>
+```
+
+Либо создать проект для ручного заполнения полной конфигурации:
 
 ```powershell
 python skills/inductor-design/scripts/create_project.py <путь_проекта> --name <имя>
@@ -36,6 +42,11 @@ python skills/inductor-design/scripts/run_pipeline.py <путь_проекта>
 Расчётный движок поддерживает одиночный boost-дроссель и interleaved boost с
 независимым дросселем каждой фазы в режиме непрерывного тока. Подробные ограничения,
 политика выбора и контракт отчёта приведены в `skills/inductor-design/SKILL.md`.
+
+При переносе расчётной укладки в MCAD/Maxwell соблюдайте
+`skills/inductor-design/references/fem-winding-geometry-contract.md`: дискретные
+параллельные кабели, общая система координат сердечника и обмотки, численный
+геометрический gate и скриншот из AEDT до запуска mesh.
 
 Найти источник по теме:
 

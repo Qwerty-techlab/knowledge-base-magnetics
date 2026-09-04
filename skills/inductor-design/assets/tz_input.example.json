@@ -1,0 +1,41 @@
+{
+  "_schema_version": "1.0",
+  "project_name": "boost-inductor-6kW",
+  "topology": "both",
+  "u_in_nom_V": 160.0,
+  "u_out_nom_V": 235.0,
+  "load_definition": "output_power",
+  "p_out_W": 6000.0,
+  "eta": 0.9,
+  "current_ripple_ratio": 0.1,
+  "switching_frequencies_Hz": [100000.0, 150000.0],
+  "input_voltage_ripple_ratio": 0.1,
+  "output_voltage_ripple_ratio": 0.1,
+  "input_voltage_tolerance": 0.05,
+  "load_tolerance": 0.1,
+  "inductance_tolerance": 0.1,
+  "ambient_temperature_C": 40.0,
+  "core_temperature_max_C": 100.0,
+  "winding_temperature_max_C": 100.0,
+  "interleaved": {
+    "n_phases": 3,
+    "current_sharing_tolerance": 0.02
+  },
+  "limits": {
+    "current_density_prelim_A_mm2": 2.5,
+    "current_density_max_A_mm2": 2.5,
+    "copper_fill_max": 0.35,
+    "window_fill_max": 0.7,
+    "B_utilization_prelim": 0.6,
+    "B_utilization_final": 0.65
+  },
+  "search": {
+    "parallel_conductors_min": 1,
+    "parallel_conductors_max": 12,
+    "inductance_upper_factor": 2.5,
+    "exhaustive_core_search": true,
+    "record_rejection_counts": true,
+    "loss_window_ratio": 0.02,
+    "preferred_core_families": ["EQ", "ETD", "PM", "PQ", "RM", "EER"]
+  }
+}

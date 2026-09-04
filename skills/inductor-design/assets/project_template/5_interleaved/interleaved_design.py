@@ -134,7 +134,13 @@ def load_tz3() -> TZ3:
     unknown = sorted(set(raw) - allowed)
     if unknown:
         raise KeyError(f"неизвестные поля interleaved.tz: {', '.join(unknown)}")
-    return TZ3(**raw)
+    tz = TZ3(**raw)
+    if tz.n_phases < 2:
+        raise ValueError("interleaved.tz.n_phases должно быть не меньше 2")
+    if not 0.0 <= tz.tol_i_share < 1.0:
+        raise ValueError("interleaved.tz.tol_i_share должно находиться в диапазоне [0; 1)")
+    ind.validate_tz(tz.phase_tz(), "interleaved.tz")
+    return tz
 
 
 def ripple_cancellation_factor(D: float, n_ph: int) -> float:
@@ -258,17 +264,19 @@ def stray_field_estimate(candidate: ind.Candidate, r_probe: float) -> Dict[str, 
 
 
 def enumerate_phase_candidates(tz: TZ3, mode: Mode, cores: Dict[str, Core],
-                               mats: Dict[str, Material], litzes: Dict[str, Litz]
-                               ) -> Tuple[List[ind.Candidate], int, int]:
+                               mats: Dict[str, Material], litzes: Dict[str, Litz],
+                               search: ind.SearchSettings
+                               ) -> Tuple[List[ind.Candidate], int, int, Dict[str, int]]:
     """Полный перебор N_B…N_w без искусственного ограничения числа витков."""
 
     screen = area_product_screening(tz, mode, cores, mats)
     allowed_names = {row["core"] for row in screen if row.get("ok")}
-    screened_cores = {key: core for key, core in cores.items()
-                      if core.name in allowed_names}
-    candidates, seen = ind.enumerate_candidates(
-        tz.phase_tz(), mode, screened_cores, mats, litzes)
-    return candidates, seen, len(candidates)
+    searched_cores = cores if search.exhaustive_core_search else {
+        key: core for key, core in cores.items() if core.name in allowed_names
+    }
+    candidates, seen, rejected = ind.enumerate_candidates(
+        tz.phase_tz(), mode, searched_cores, mats, litzes, search)
+    return candidates, seen, len(candidates), rejected
 
 
 def select_with_margins(cands: List[ind.Candidate], tz: TZ3
@@ -323,6 +331,7 @@ def _selected_case_ripple(tz: TZ3, candidate: ind.Candidate) -> Dict:
 
 def main() -> None:
     tz = load_tz3()
+    search = ind.load_search_settings()
     cores = core_library_3ph()
     materials = ind.material_library()
     litzes = ind.litz_library()
@@ -335,7 +344,8 @@ def main() -> None:
         mode = inter.phase
         screening = area_product_screening(tz, mode, cores, materials)
         turn_screening = ind.turn_window_screening(tz.phase_tz(), mode, cores, materials)
-        candidates, seen, calculated = enumerate_phase_candidates(tz, mode, cores, materials, litzes)
+        candidates, seen, calculated, rejection_counts = enumerate_phase_candidates(
+            tz, mode, cores, materials, litzes, search)
         best, pareto, selection = select_with_margins(candidates, tz)
         if best is None:
             raise RuntimeError(f"{f_sw / 1e3:.0f} кГц: нет аналитически допустимого варианта")
@@ -379,7 +389,10 @@ def main() -> None:
                 "case_L": mode.case_L, "case_I": mode.case_I,
                 "cases": mode.cases,
             },
-            "enumeration": {"n_seen": seen, "n_calculated": calculated, **selection},
+            "enumeration": {
+                "n_seen": seen, "n_calculated": calculated,
+                "rejection_counts": rejection_counts, **selection,
+            },
             "quantities": {
                 "phase_inductors": tz.n_phases,
                 "core_halves_per_inductor": 2,
@@ -408,6 +421,7 @@ def main() -> None:
             "database": os.path.relpath(ind.DB_ROOT, ROOT),
             "project": dict(ind.PROJECT_CONFIG.get("project", {})),
             "config": ind.PROJECT_CONFIG,
+            "search": asdict(search),
             "topology": (
                 f"{tz.n_phases}-фазный interleaved boost, отдельный дроссель каждой фазы"
             ),

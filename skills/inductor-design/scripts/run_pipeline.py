@@ -49,6 +49,8 @@ def main() -> None:
         run(project, "5_interleaved/make_report_3ph.py")
 
     run(project, "3_calc/test_methodology.py")
+    subprocess.run([sys.executable, str(SCRIPT_ROOT / "test_automation.py")],
+                   check=True)
 
     validator_args = [sys.executable, str(SCRIPT_ROOT / "validate_project.py"),
                       str(project)]

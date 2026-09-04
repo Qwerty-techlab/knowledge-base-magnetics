@@ -79,6 +79,41 @@ def _load_json(name: str) -> Dict:
         return json.load(stream)
 
 
+@dataclass(frozen=True)
+class SearchSettings:
+    """Настройки пространства полного перебора."""
+
+    parallel_conductors_min: int = 1
+    parallel_conductors_max: int = 12
+    inductance_upper_factor: float = 2.5
+    exhaustive_core_search: bool = True
+    record_rejection_counts: bool = True
+
+    @property
+    def parallel_range(self) -> Tuple[int, ...]:
+        return tuple(range(self.parallel_conductors_min,
+                           self.parallel_conductors_max + 1))
+
+
+def load_search_settings() -> SearchSettings:
+    raw = dict(PROJECT_CONFIG.get("search", {}))
+    allowed = set(SearchSettings.__dataclass_fields__)
+    unknown = sorted(set(raw) - allowed)
+    if unknown:
+        raise KeyError(f"неизвестные поля search: {', '.join(unknown)}")
+    settings = SearchSettings(**raw)
+    if settings.parallel_conductors_min < 1:
+        raise ValueError("search.parallel_conductors_min должно быть не меньше 1")
+    if settings.parallel_conductors_max < settings.parallel_conductors_min:
+        raise ValueError(
+            "search.parallel_conductors_max должно быть не меньше "
+            "search.parallel_conductors_min"
+        )
+    if settings.inductance_upper_factor < 1.0:
+        raise ValueError("search.inductance_upper_factor должно быть не меньше 1")
+    return settings
+
+
 @dataclass
 class TZ:
     """Техническое задание для одного дросселя."""
@@ -138,7 +173,45 @@ def load_tz() -> TZ:
     unknown = sorted(set(raw) - allowed)
     if unknown:
         raise KeyError(f"неизвестные поля single.tz: {', '.join(unknown)}")
-    return TZ(**raw)
+    tz = TZ(**raw)
+    validate_tz(tz, "single.tz")
+    return tz
+
+
+def validate_tz(tz: TZ, label: str = "tz") -> None:
+    """Проверить физические диапазоны полного ТЗ до начала перебора."""
+
+    positive = {
+        "u_in_nom": tz.u_in_nom, "u_out_nom": tz.u_out_nom,
+        "p_out_nom": tz.p_out_nom, "i_out_nom": tz.i_out_nom,
+        "eta": tz.eta, "r_i": tz.r_i, "j_prelim": tz.j_prelim,
+        "j_final_max": tz.j_final_max, "k_reluctance_min": tz.k_reluctance_min,
+    }
+    for name, value in positive.items():
+        if not math.isfinite(value) or value <= 0.0:
+            raise ValueError(f"{label}.{name} должно быть положительным конечным числом")
+    if tz.u_in_nom >= tz.u_out_nom:
+        raise ValueError(f"{label}: для boost требуется u_in_nom < u_out_nom")
+    if tz.eta > 1.0:
+        raise ValueError(f"{label}.eta не может превышать 1")
+    if not tz.f_sw_list or any(
+        not math.isfinite(value) or value <= 0.0 for value in tz.f_sw_list
+    ):
+        raise ValueError(f"{label}.f_sw_list должен содержать положительные частоты")
+    for name in ("r_i", "ripple_u_in", "ripple_u_out", "tol_u_in",
+                 "tol_i_load", "tol_L"):
+        value = getattr(tz, name)
+        if not math.isfinite(value) or not 0.0 <= value < 1.0:
+            raise ValueError(f"{label}.{name} должно находиться в диапазоне [0; 1)")
+    for name in ("k_cu_dop", "k_zan_dop", "k_B", "k_B_prelim"):
+        value = getattr(tz, name)
+        if not math.isfinite(value) or not 0.0 < value <= 1.0:
+            raise ValueError(f"{label}.{name} должно находиться в диапазоне (0; 1]")
+    if tz.t_amb >= min(tz.t_core_max, tz.t_wind_max):
+        raise ValueError(
+            f"{label}.t_amb должна быть меньше предельных температур "
+            "сердечника и обмотки"
+        )
 
 
 @dataclass
@@ -1112,76 +1185,134 @@ def check_constraints(tz: TZ, c: Candidate) -> Dict:
     return m
 
 
-def prescreen(tz: TZ, core: Core, mat: Material, litz: Litz, mode: Mode,
-              n_turns: int, A_L: float, al_tol: Optional[float] = None) -> bool:
+def prescreen_reason(tz: TZ, core: Core, mat: Material, litz: Litz, mode: Mode,
+                     n_turns: int, A_L: float,
+                     al_tol: Optional[float] = None,
+                     inductance_upper_factor: float = 2.5) -> Optional[str]:
+    """Вернуть код причины предварительного отсева либо None."""
+
     tol = tz.tol_L if al_tol is None else al_tol
     L_nom = A_L * n_turns ** 2
     L_min = L_nom * (1.0 - tol)
     L_max = L_nom * (1.0 + tol)
     if L_min < mode.L_req:
-        return False
-    if L_nom > mode.L_req * 2.5:
-        return False
+        return "inductance_below_required"
+    if L_nom > mode.L_req * inductance_upper_factor:
+        return "inductance_above_search_limit"
     B_wc, _ = _worst_magnetic_corner(
         mode, L_min, L_max, tz.tol_i_load, n_turns, core.A_min)
     if B_wc > tz.k_B_prelim * mat.B_S(tz.t_core_max):
-        return False
+        return "preliminary_flux_density"
     if n_turns * litz.S_cu / core.A_N > tz.k_cu_dop:
-        return False
+        return "copper_fill_gross_window"
     if n_turns * litz.S_out / core.A_N > tz.k_zan_dop:
-        return False
+        return "bundle_fill_gross_window"
     try:
         layout = winding_geometry(tz, core, litz, n_turns, tz.gap_clearance)
     except ValueError:
-        return False
+        return "winding_geometry"
     A_N_eff = (core.A_N * layout["h_wind_m"] / core.h_window
                * layout["radial_available_m"] / core.radial_window)
     if n_turns * litz.S_cu / A_N_eff > tz.k_cu_dop:
-        return False
+        return "copper_fill_effective_window"
     if n_turns * litz.S_out / A_N_eff > tz.k_zan_dop:
-        return False
-    return (reluctance_ratio(A_L, core, core.A_L0_of(mat.name))
-            >= tz.k_reluctance_min)
+        return "bundle_fill_effective_window"
+    if (reluctance_ratio(A_L, core, core.A_L0_of(mat.name))
+            < tz.k_reluctance_min):
+        return "gap_reluctance_ratio"
+    return None
+
+
+def prescreen(tz: TZ, core: Core, mat: Material, litz: Litz, mode: Mode,
+              n_turns: int, A_L: float, al_tol: Optional[float] = None,
+              inductance_upper_factor: float = 2.5) -> bool:
+    return prescreen_reason(
+        tz, core, mat, litz, mode, n_turns, A_L, al_tol,
+        inductance_upper_factor) is None
+
+
+def evaluation_error_code(error: ValueError) -> str:
+    """Преобразовать ожидаемую ошибку кандидата в устойчивый код отсева."""
+
+    message = str(error)
+    mappings = (
+        ("требуемый зазор вне области", "gap_outside_fringing_model"),
+        ("уравнение зазора не имеет", "gap_no_physical_root"),
+        ("формула выпучивания неприменима", "fringing_model_domain"),
+        ("физическая площадь A_g", "missing_physical_gap_area"),
+        ("отсутствует A_g", "missing_physical_gap_area"),
+        ("число участков зазора", "invalid_gap_count"),
+        ("нет места для обмотки", "winding_geometry"),
+        ("кабели не укладываются", "winding_geometry"),
+        ("нет A_L0", "missing_A_L0"),
+    )
+    for fragment, code in mappings:
+        if fragment in message:
+            return code
+    return "candidate_evaluation_error"
 
 
 def enumerate_candidates(tz: TZ, mode: Mode, cores: Dict[str, Core],
                          mats: Dict[str, Material], litzes: Dict[str, Litz],
-                         n_par_range: Tuple[int, ...] = tuple(range(1, 13))) -> Tuple[List[Candidate], int]:
+                         search: Optional[SearchSettings] = None
+                         ) -> Tuple[List[Candidate], int, Dict[str, int]]:
+    search = search or load_search_settings()
     out: List[Candidate] = []
     n_seen = 0
+    rejected: Dict[str, int] = {}
+
+    def reject(reason: str) -> None:
+        rejected[reason] = rejected.get(reason, 0) + 1
+
     for core in cores.values():
         for mat in mats.values():
-            if not (mat.f_min <= mode.f_sw <= mat.f_max) or core.A_L0_of(mat.name) <= 0.0:
+            if not (mat.f_min <= mode.f_sw <= mat.f_max):
+                reject("core_material_frequency_range")
+                continue
+            if core.A_L0_of(mat.name) <= 0.0:
+                reject("core_material_missing_A_L0")
                 continue
             n_b = math.ceil(mode.psi_max / (core.A_min * tz.k_B_prelim * mat.B_S(tz.t_core_max)))
             for base in litzes.values():
-                for n_par in n_par_range:
+                for n_par in search.parallel_range:
                     litz = Litz(**{**asdict(base), "n_parallel": n_par})
                     n_w = math.floor(tz.k_zan_dop * core.A_N / litz.S_out)
                     if n_w < n_b:
+                        reject("wire_parallel_no_turn_window")
                         continue
                     for n in range(max(1, n_b), n_w + 1):
                         for pn, (al, gap, al_tol) in core.gapped.items():
                             if core.gapped_material.get(pn) not in ("", mat.name):
+                                reject("catalog_gap_material_mismatch")
                                 continue
                             n_seen += 1
-                            if prescreen(tz, core, mat, litz, mode, n, al, al_tol):
+                            reason = prescreen_reason(
+                                tz, core, mat, litz, mode, n, al, al_tol,
+                                search.inductance_upper_factor)
+                            if reason is None:
                                 try:
                                     out.append(evaluate_candidate(tz, core, mat, litz, mode, n,
                                                  pn, gap, al, 1, al_tol))
-                                except ValueError:
-                                    pass
+                                except ValueError as error:
+                                    reject(evaluation_error_code(error))
+                            else:
+                                reject(reason)
                         if core.A_g is not None:
                             al = mode.L_req / (1.0 - tz.tol_L) / n ** 2
                             n_seen += 1
-                            if prescreen(tz, core, mat, litz, mode, n, al, tz.tol_L):
+                            reason = prescreen_reason(
+                                tz, core, mat, litz, mode, n, al, tz.tol_L,
+                                search.inductance_upper_factor)
+                            if reason is None:
                                 for n_gaps in tz.n_gaps_list:
                                     try:
                                         out.append(evaluate_candidate(tz, core, mat, litz, mode, n,
                                                      f"{core.name} (зазор на заказ)", n_gaps=n_gaps))
-                                    except ValueError:
-                                        pass
-    return out, n_seen
+                                    except ValueError as error:
+                                        reject(evaluation_error_code(error))
+                            else:
+                                reject(reason)
+    return out, n_seen, rejected if search.record_rejection_counts else {}
 
 
 def _dominates(a: Candidate, b: Candidate) -> bool:
@@ -1530,6 +1661,7 @@ def frequency_key(frequency_hz: float) -> str:
 
 def main() -> None:
     tz = load_tz()
+    search = load_search_settings()
     cores = core_library()
     materials = material_library()
     litzes = litz_library()
@@ -1540,6 +1672,7 @@ def main() -> None:
             "final_verification": False,
             "project": dict(PROJECT_CONFIG.get("project", {})),
             "config": PROJECT_CONFIG,
+            "search": asdict(search),
             "topology": PROJECT_CONFIG.get("project", {}).get(
                 "single_topology", "single_boost_inductor_one_physical_gap"),
             "methodology": os.path.join(PROJECT_ROOT, "0_references",
@@ -1569,7 +1702,8 @@ def main() -> None:
     }
     for f_sw in tz.f_sw_list:
         mode = compute_mode(tz, f_sw)
-        candidates, seen = enumerate_candidates(tz, mode, cores, materials, litzes)
+        candidates, seen, rejection_counts = enumerate_candidates(
+            tz, mode, cores, materials, litzes, search)
         best, front = pareto_select(candidates, tz.loss_window,
                                     tz.preferred_core_families)
         feasible = [candidate for candidate in candidates if candidate.margins["_analytical_ok"]]
@@ -1591,6 +1725,7 @@ def main() -> None:
                 "n_seen": seen,
                 "n_evaluated": len(candidates),
                 "n_feasible": 0,
+                "rejection_counts": rejection_counts,
                 "turn_window_screening": screening,
                 "area_product_screening": ap_screening,
                 "core_material_table": comparison,
@@ -1602,7 +1737,8 @@ def main() -> None:
             "meta": {"status": "analytical_preliminary", "database": DB_ROOT,
                      "final_verification": False,
                      "n_seen": seen, "n_evaluated": len(candidates),
-                     "pareto_size": len(front)},
+                     "pareto_size": len(front),
+                     "rejection_counts": rejection_counts},
             "tz": asdict(tz), "selected": selected,
         }
         with open(path, "w", encoding="utf-8") as stream:
@@ -1614,6 +1750,7 @@ def main() -> None:
             "pareto_size": len(front),
             "n_feasible": len(feasible),
             "n_loss_window": n_loss_window,
+            "rejection_counts": rejection_counts,
             "selection": {
                 "policy": "предпочтительные EQ/ETD/PM/PQ/RM/EER; E только при отсутствии допустимого предпочтительного кандидата",
                 "preferred_feasible": len(preferred),
