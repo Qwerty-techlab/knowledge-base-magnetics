@@ -93,6 +93,18 @@ class MethodologyTests(unittest.TestCase):
             checked += 1
         self.assertGreater(checked, 0)
 
+    def test_candidate_errors_have_stable_rejection_codes(self):
+        cases = {
+            "требуемый зазор вне области применимости 2G/g > 1":
+                "gap_outside_fringing_model",
+            "уравнение зазора не имеет физического корня":
+                "gap_no_physical_root",
+            "нет места для обмотки после конструктивных отступов":
+                "winding_geometry",
+        }
+        for message, expected in cases.items():
+            self.assertEqual(ind.evaluation_error_code(ValueError(message)), expected)
+
     def test_interleaved_ripple_formula_matches_numeric_sum(self):
         n_phases = inter.load_tz3().n_phases
         for duty in (0.21, 0.32, 0.415, 0.72):
@@ -110,6 +122,7 @@ class MethodologyTests(unittest.TestCase):
         for result in payload["results"].values():
             self.assertEqual(result["quantities"]["core_sets"], 1)
             self.assertEqual(result["quantities"]["core_halves_total"], 2)
+            self.assertIsInstance(result["rejection_counts"], dict)
             selected = result["selected"]
             self.assertLessEqual(selected["design"]["current_density_A_mm2"], limit)
             self.assertEqual(selected["design"]["n_gaps"], 1)
@@ -128,6 +141,7 @@ class MethodologyTests(unittest.TestCase):
         phases = payload["tz"]["n_phases"]
         for result in payload["results"].values():
             quantities = result["quantities"]
+            self.assertIsInstance(result["enumeration"]["rejection_counts"], dict)
             self.assertEqual(quantities["phase_inductors"], phases)
             self.assertEqual(quantities["core_sets_total"], phases)
             self.assertEqual(quantities["core_halves_total"], 2 * phases)

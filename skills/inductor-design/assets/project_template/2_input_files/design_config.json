@@ -89,6 +89,13 @@
       "preferred_core_families": ["EQ", "ETD", "PM", "PQ", "RM", "EER"]
     }
   },
+  "search": {
+    "parallel_conductors_min": 1,
+    "parallel_conductors_max": 12,
+    "inductance_upper_factor": 2.5,
+    "exhaustive_core_search": true,
+    "record_rejection_counts": true
+  },
   "report": {
     "required_sections": 13,
     "require_full_core_material_comparison": true,

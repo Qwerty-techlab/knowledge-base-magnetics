@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/inductor-design/tz-input.schema.json",
+  "title": "Минимальное ТЗ силового boost-дросселя",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "project_name",
+    "topology",
+    "u_in_nom_V",
+    "u_out_nom_V",
+    "load_definition",
+    "eta",
+    "current_ripple_ratio",
+    "switching_frequencies_Hz"
+  ],
+  "properties": {
+    "_schema_version": {"const": "1.0"},
+    "project_name": {"type": "string", "minLength": 1},
+    "topology": {"enum": ["single", "interleaved", "both"]},
+    "u_in_nom_V": {"type": "number", "exclusiveMinimum": 0},
+    "u_out_nom_V": {"type": "number", "exclusiveMinimum": 0},
+    "load_definition": {"enum": ["output_power", "output_current"]},
+    "p_out_W": {"type": "number", "exclusiveMinimum": 0},
+    "i_out_A": {"type": "number", "exclusiveMinimum": 0},
+    "load_consistency_tolerance": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 0.2,
+      "default": 0.01
+    },
+    "eta": {"type": "number", "exclusiveMinimum": 0, "maximum": 1},
+    "current_ripple_ratio": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "exclusiveMaximum": 1
+    },
+    "switching_frequencies_Hz": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "number", "exclusiveMinimum": 0}
+    },
+    "input_voltage_ripple_ratio": {
+      "type": "number",
+      "minimum": 0,
+      "exclusiveMaximum": 1,
+      "default": 0.1
+    },
+    "output_voltage_ripple_ratio": {
+      "type": "number",
+      "minimum": 0,
+      "exclusiveMaximum": 1,
+      "default": 0.1
+    },
+    "input_voltage_tolerance": {
+      "type": "number",
+      "minimum": 0,
+      "exclusiveMaximum": 1,
+      "default": 0.05
+    },
+    "load_tolerance": {
+      "type": "number",
+      "minimum": 0,
+      "exclusiveMaximum": 1,
+      "default": 0.1
+    },
+    "inductance_tolerance": {
+      "type": "number",
+      "minimum": 0,
+      "exclusiveMaximum": 1,
+      "default": 0.1
+    },
+    "ambient_temperature_C": {"type": "number", "minimum": -60, "maximum": 200},
+    "core_temperature_max_C": {"type": "number", "minimum": -60, "maximum": 250},
+    "winding_temperature_max_C": {"type": "number", "minimum": -60, "maximum": 250},
+    "interleaved": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "n_phases": {"type": "integer", "minimum": 2, "maximum": 24, "default": 3},
+        "current_sharing_tolerance": {
+          "type": "number",
+          "minimum": 0,
+          "exclusiveMaximum": 1,
+          "default": 0.02
+        }
+      }
+    },
+    "limits": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "current_density_prelim_A_mm2": {"type": "number", "exclusiveMinimum": 0},
+        "current_density_max_A_mm2": {"type": "number", "exclusiveMinimum": 0},
+        "copper_fill_max": {"type": "number", "exclusiveMinimum": 0, "maximum": 1},
+        "window_fill_max": {"type": "number", "exclusiveMinimum": 0, "maximum": 1},
+        "B_utilization_prelim": {"type": "number", "exclusiveMinimum": 0, "maximum": 1},
+        "B_utilization_final": {"type": "number", "exclusiveMinimum": 0, "maximum": 1}
+      }
+    },
+    "search": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "parallel_conductors_min": {"type": "integer", "minimum": 1, "maximum": 100},
+        "parallel_conductors_max": {"type": "integer", "minimum": 1, "maximum": 100},
+        "inductance_upper_factor": {"type": "number", "minimum": 1, "maximum": 20},
+        "exhaustive_core_search": {"type": "boolean"},
+        "record_rejection_counts": {"type": "boolean"},
+        "loss_window_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+        "preferred_core_families": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"load_definition": {"const": "output_power"}}},
+      "then": {"required": ["p_out_W"]}
+    },
+    {
+      "if": {"properties": {"load_definition": {"const": "output_current"}}},
+      "then": {"required": ["i_out_A"]}
+    },
+    {
+      "if": {"properties": {"topology": {"enum": ["interleaved", "both"]}}},
+      "then": {"required": ["interleaved"]}
+    }
+  ]
+}
