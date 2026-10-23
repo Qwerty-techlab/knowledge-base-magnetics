@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ansys AEDT"
+  short_description: "Автоматизация AEDT через PyAEDT MCP"
+  default_prompt: "Use $ansys-aedt to inspect or automate this Ansys AEDT task safely."

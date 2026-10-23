@@ -1,0 +1,324 @@
+{
+  "source": "Metodika_planarnyh_drosseley_i_transformatorov.tex",
+  "sha256": "58809d86ae15ba22ca60e08ff2a1fa8b28ed8612d866917d68f9ceee454cf837",
+  "hash_convention": "UTF-8 text with LF newlines",
+  "count": 45,
+  "scope": "Numbered equation environments only; inline math remains in source. Sequence is extraction order, not a guaranteed printed equation number.",
+  "equations": [
+    {
+      "sequence": 1,
+      "labels": [
+        "eq:inductive-voltage"
+      ],
+      "latex": "u_L=u_{\\rm term}-u_R,\\qquad u_R\\simeq R_{\\rm DC}(\\vartheta)i.\n \\label{eq:inductive-voltage}"
+    },
+    {
+      "sequence": 2,
+      "labels": [
+        "eq:flux-linkage-voltage"
+      ],
+      "latex": "u_L=\\frac{d\\psi}{dt},\\qquad\n \\Delta\\psi_{12}=\\int_{t_1}^{t_2}u_L(t)\\,dt.\n \\label{eq:flux-linkage-voltage}"
+    },
+    {
+      "sequence": 3,
+      "labels": [
+        "eq:flux-linkage-trajectory"
+      ],
+      "latex": "\\psi(t)=\\psi(t_0)+\\int_{t_0}^{t}u_L(\\tau)\\,d\\tau.\n \\label{eq:flux-linkage-trajectory}"
+    },
+    {
+      "sequence": 4,
+      "labels": [
+        "eq:current-nonlinear"
+      ],
+      "latex": "L_{\\rm diff}=\\left.\\frac{\\partial\\psi}{\\partial i}\\right|_{\\vartheta},\\qquad\n \\frac{di}{dt}=\\frac{u_L}{L_{\\rm diff}(i,\\vartheta)}.\n \\label{eq:current-nonlinear}"
+    },
+    {
+      "sequence": 5,
+      "labels": [
+        "eq:current-general"
+      ],
+      "latex": "I_{\\rm avg}=\\frac1{T_s}\\int_0^{T_s}i(t)\\,dt,\\quad\n I_{\\rm rms}=\\sqrt{\\frac1{T_s}\\int_0^{T_s}i^2(t)\\,dt},\\quad I_{\\rm pk}=\\max_t|i(t)|.\n \\label{eq:current-general}"
+    },
+    {
+      "sequence": 6,
+      "labels": [
+        "eq:ipeak"
+      ],
+      "latex": "I_{\\max}=I_{\\rm avg}+\\frac{\\Delta I_{pp}}2,\\qquad\n I_{\\rm rms}=\\sqrt{I_{\\rm avg}^2+\\frac{\\Delta I_{pp}^2}{12}}.\n \\label{eq:ipeak}"
+    },
+    {
+      "sequence": 7,
+      "labels": [
+        "eq:energy-linear"
+      ],
+      "latex": "W=\\frac12 LI^2.\n \\label{eq:energy-linear}"
+    },
+    {
+      "sequence": 8,
+      "labels": [
+        "eq:energy-nonlinear"
+      ],
+      "latex": "W(i,\\vartheta)=\\int_0^{\\psi(i,\\vartheta)}i(\\widetilde\\psi,\\vartheta)\\,d\\widetilde\\psi.\n \\label{eq:energy-nonlinear}"
+    },
+    {
+      "sequence": 9,
+      "labels": [
+        "eq:b-equivalent-trajectory"
+      ],
+      "latex": "B_e(t)=\\frac{\\psi_m(t)}{NA_e},\\qquad\n \\Delta B_{pp}=B_{e,\\max}-B_{e,\\min}.\n \\label{eq:b-equivalent-trajectory}"
+    },
+    {
+      "sequence": 10,
+      "labels": [
+        "eq:b-acceptance"
+      ],
+      "latex": "\\max_{r,t,\\mathbf x}|B_r(\\mathbf x,t)|\\leq B_{\\rm allow}(\\vartheta_{\\max}).\n \\label{eq:b-acceptance}"
+    },
+    {
+      "sequence": 11,
+      "labels": [
+        "pl:eq:ratio-mmf"
+      ],
+      "latex": "a=\\frac{N_p}{N_s}=\\frac{e_p}{e_s},\\qquad\n N_p i_p+N_s i_s=\\mathcal F_m .\n \\label{pl:eq:ratio-mmf}"
+    },
+    {
+      "sequence": 12,
+      "labels": [
+        "pl:eq:matrix-L"
+      ],
+      "latex": "\\begin{bmatrix}\\psi_p\\\\\\psi_s\\end{bmatrix}\n =\\begin{bmatrix}L_{pp}&M\\\\M&L_{ss}\\end{bmatrix}\n \\begin{bmatrix}i_p\\\\i_s\\end{bmatrix},\\qquad\n k=\\frac{M}{\\sqrt{L_{pp}L_{ss}}}.\n \\label{pl:eq:matrix-L}"
+    },
+    {
+      "sequence": 13,
+      "labels": [
+        "pl:eq:short-circuit"
+      ],
+      "latex": "L_{\\mathrm{sc},p}=L_{pp}-\\frac{M^2}{L_{ss}}\n                 =L_{pp}(1-k^2).\n \\label{pl:eq:short-circuit}"
+    },
+    {
+      "sequence": 14,
+      "labels": [
+        "eq:magnetic-circuit"
+      ],
+      "latex": "\\mathcal R_m=\\sum_j\\frac{l_j}{\\mu_0\\mu_{r,j}A_j}\n +\\sum_q\\frac{g_q}{\\mu_0F_q A_{g,q}},\\qquad\n L_m=\\frac{N^2}{\\mathcal R_m},\\qquad A_L=\\frac{L_m}{N^2}.\n \\label{eq:magnetic-circuit}"
+    },
+    {
+      "sequence": 15,
+      "labels": [
+        "eq:gap-fringing"
+      ],
+      "latex": "g^{(n+1)}=\\mu_0 A_g F(g^{(n)})\n \\left(\\frac1{A_{L,\\rm target}}-\\frac1{A_{L0}}\\right).\n \\label{eq:gap-fringing}"
+    },
+    {
+      "sequence": 16,
+      "labels": [
+        "eq:multiple-gap-balance"
+      ],
+      "latex": "\\sum_q\\frac{g_q}{F_q A_{g,q}}=\n \\mu_0\\left(\\frac1{A_{L,\\rm target}}-\\frac1{A_{L0}}\\right).\n \\label{eq:multiple-gap-balance}"
+    },
+    {
+      "sequence": 17,
+      "labels": [
+        "eq:turns-volts"
+      ],
+      "latex": "N_p\\geq\\frac{\\max_t S(t)-\\min_t S(t)}{A_e\\Delta B_{\\rm allow}},\n \\qquad S(t)=\\int_{t_0}^t e_p(\\tau)\\,d\\tau.\n \\label{eq:turns-volts}"
+    },
+    {
+      "sequence": 18,
+      "labels": [
+        "eq:igse"
+      ],
+      "latex": "p_v=\\frac1{T_s}\\int_0^{T_s}k_i\\left|\\frac{dB}{dt}\\right|^\\alpha\n (\\Delta B_{pp})^{\\beta-\\alpha}\\,dt.\n \\label{eq:igse}"
+    },
+    {
+      "sequence": 19,
+      "labels": [
+        "eq:igse-coefficient"
+      ],
+      "latex": "k_i=\\frac{k}{2^{\\beta-\\alpha}(2\\pi)^{\\alpha-1}\n \\int_0^{2\\pi}|\\cos\\theta|^\\alpha d\\theta}.\n \\label{eq:igse-coefficient}"
+    },
+    {
+      "sequence": 20,
+      "labels": [
+        "eq:core-loss-volume"
+      ],
+      "latex": "P_{\\rm Fe}=\\int_{V_{\\rm Fe}}p_v(\\mathbf x)\\,dV\\simeq p_v V_e.\n \\label{eq:core-loss-volume}"
+    },
+    {
+      "sequence": 21,
+      "labels": [
+        "pl:eq:height"
+      ],
+      "latex": "h_{\\mathrm{stack,max}}+h_{\\mathrm{ins,max}}+h_{\\mathrm{assembly,max}}\n \\leq h_{\\mathrm{window,min}}.\n \\label{pl:eq:height}"
+    },
+    {
+      "sequence": 22,
+      "labels": [
+        "eq:copper-area"
+      ],
+      "latex": "A_{\\rm req}=\\frac{I_{\\rm rms}}{J_0},\\qquad\n w_0=\\frac{A_{\\rm req}}{n_\\parallel t_{\\min}}.\n \\label{eq:copper-area}"
+    },
+    {
+      "sequence": 23,
+      "labels": [
+        "eq:rho-temperature"
+      ],
+      "latex": "\\rho(\\vartheta)=\\rho_{20}[1+\\alpha_{\\rm Cu}(\\vartheta-20\\,^{\\circ}\\mathrm C)].\n \\label{eq:rho-temperature}"
+    },
+    {
+      "sequence": 24,
+      "labels": [
+        "eq:planar-rdc"
+      ],
+      "latex": "R_b=\\sum_k\\rho_k\\frac{l_k}{A_k}+R_{\\rm via,b}+R_{\\rm joints,b},\n \\qquad R_{\\rm eq}=\\left(\\sum_b\\frac1{R_b}\\right)^{-1}.\n \\label{eq:planar-rdc}"
+    },
+    {
+      "sequence": 25,
+      "labels": [
+        "eq:via-resistance"
+      ],
+      "latex": "A_v=\\frac\\pi4[(d_f+2t_v)^2-d_f^2],\\quad\n R_v=\\frac{\\rho l_v}{A_v},\\quad R_{\\rm group}\\simeq\\frac{R_v}{n_v}.\n \\label{eq:via-resistance}"
+    },
+    {
+      "sequence": 26,
+      "labels": [
+        "pl:eq:minimum-section"
+      ],
+      "latex": "w_{\\min}=w_{\\mathrm{CAD}}-\\Delta w_-,\\qquad\n A_{\\mathrm{Cu,min}}=t_{\\min}w_{\\min}.\n \\label{pl:eq:minimum-section}"
+    },
+    {
+      "sequence": 27,
+      "labels": [
+        "pl:eq:trapezoid"
+      ],
+      "latex": "A_{\\mathrm{Cu}}=t_{\\mathrm{Cu}}\\frac{w_{\\mathrm{top}}+w_{\\mathrm{bottom}}}{2}.\n \\label{pl:eq:trapezoid}"
+    },
+    {
+      "sequence": 28,
+      "labels": [
+        "pl:eq:radial-fit"
+      ],
+      "latex": "n w_{\\mathrm{CAD}}+(n-1)s_{\\mathrm{CAD}}+m_{\\mathrm{in}}+m_{\\mathrm{out}}\n \\leq b_{\\mathrm{available}}.\n \\label{pl:eq:radial-fit}"
+    },
+    {
+      "sequence": 29,
+      "labels": [
+        "pl:eq:via-imbalance"
+      ],
+      "latex": "k_{\\mathrm{via}}=\\frac{\\max_r I_{r,\\mathrm{rms}}}{I_{\\mathrm{group,rms}}/n_v}.\n \\label{pl:eq:via-imbalance}"
+    },
+    {
+      "sequence": 30,
+      "labels": [
+        "eq:parallel-branch-matrix"
+      ],
+      "latex": "\\mathbf Z_b=\\mathbf C_s^T\\mathbf Z_{\\ell}\\mathbf C_s,\\qquad\n \\mathbf i_b=\\mathbf Z_b^{-1}\\mathbf 1\\,U.\n \\label{eq:parallel-branch-matrix}"
+    },
+    {
+      "sequence": 31,
+      "labels": [
+        "eq:parallel-fixed-current"
+      ],
+      "latex": "\\mathbf i_b=\\frac{\\mathbf Z_b^{-1}\\mathbf 1}{\\mathbf 1^T\\mathbf Z_b^{-1}\\mathbf 1}I_{\\rm total}.\n \\label{eq:parallel-fixed-current}"
+    },
+    {
+      "sequence": 32,
+      "labels": [
+        "eq:skin-depth"
+      ],
+      "latex": "\\delta(f,\\vartheta)=\\sqrt{\\frac{\\rho(\\vartheta)}{\\pi f\\mu_{\\rm Cu}}}.\n \\label{eq:skin-depth}"
+    },
+    {
+      "sequence": 33,
+      "labels": [
+        "eq:copper-loss-harmonic"
+      ],
+      "latex": "P_{\\rm Cu}=I_{\\rm DC}^2R_{\\rm DC}+\\sum_{h\\geq1}I_{h,\\rm rms}^2R_{\\rm AC}(f_h).\n \\label{eq:copper-loss-harmonic}"
+    },
+    {
+      "sequence": 34,
+      "labels": [
+        "eq:metal-eddy-loss"
+      ],
+      "latex": "P_{\\rm metal,h}=\\int_{V_{\\rm metal}}\\frac{|\\mathbf J_{h,\\rm rms}|^2}{\\sigma}\\,dV.\n \\label{eq:metal-eddy-loss}"
+    },
+    {
+      "sequence": 35,
+      "labels": [
+        "pl:eq:loss-matrix"
+      ],
+      "latex": "P_{\\mathrm{Cu},h}=\\mathbf I_h^{\\dagger}\\,\\mathbf R_{\\mathrm{Cu},h}\\,\\mathbf I_h .\n \\label{pl:eq:loss-matrix}"
+    },
+    {
+      "sequence": 36,
+      "labels": [
+        "eq:capacitance-energy"
+      ],
+      "latex": "W_e=\\frac12 C_{\\rm eq}U^2=\\frac12\\int_V\\mathbf E\\cdot\\mathbf D\\,dV,\n \\qquad C_{\\rm eq}=\\frac{2W_e}{U^2}.\n \\label{eq:capacitance-energy}"
+    },
+    {
+      "sequence": 37,
+      "labels": [
+        "eq:common-mode-current"
+      ],
+      "latex": "i_{\\rm CM}=C_{\\rm CM}\\frac{du_{\\rm CM}}{dt},\\qquad\n I_{{\\rm CM},h}=2\\pi f_h C_{\\rm CM}|U_{{\\rm CM},h}|.\n \\label{eq:common-mode-current}"
+    },
+    {
+      "sequence": 38,
+      "labels": [
+        "eq:impedance"
+      ],
+      "latex": "Z(\\omega)=\\left[\\frac1{R+j\\omega L}+j\\omega C\\right]^{-1},\\qquad\n f_{\\rm SR}\\simeq\\frac1{2\\pi\\sqrt{LC}}.\n \\label{eq:impedance}"
+    },
+    {
+      "sequence": 39,
+      "labels": [
+        "eq:dielectric-loss-independent"
+      ],
+      "latex": "P_{\\rm diel}=\\sum_h 2\\pi f_h C_h U_{h,\\rm rms}^2\\tan\\delta_{d,h}.\n \\label{eq:dielectric-loss-independent}"
+    },
+    {
+      "sequence": 40,
+      "labels": [
+        "pl:eq:plate-capacitance"
+      ],
+      "latex": "C_{ij}^{(0)}=\\varepsilon_0\\varepsilon_{r,ij}\\frac{A_{ij}}{d_{ij}}.\n \\label{pl:eq:plate-capacitance}"
+    },
+    {
+      "sequence": 41,
+      "labels": [
+        "eq:mesh-convergence"
+      ],
+      "latex": "\\varepsilon_Q=\\frac{|Q_m-Q_{m-1}|}{\\max(|Q_m|,Q_{\\rm floor})}.\n \\label{eq:mesh-convergence}"
+    },
+    {
+      "sequence": 42,
+      "labels": [
+        "eq:fem-energy-check"
+      ],
+      "latex": "W_{\\rm field}\\simeq\\frac12\\mathbf i^T\\mathbf L\\mathbf i\n \\quad\\text{(для одной обмотки: }W_{\\rm field}\\simeq LI^2/2\\text{)}.\n \\label{eq:fem-energy-check}"
+    },
+    {
+      "sequence": 43,
+      "labels": [
+        "eq:heat-density"
+      ],
+      "latex": "q_{v,k}=P_k/V_k,\\qquad \\Delta\\vartheta=P_\\Sigma R_\\theta.\n \\label{eq:heat-density}"
+    },
+    {
+      "sequence": 44,
+      "labels": [
+        "eq:thermal-pde"
+      ],
+      "latex": "\\rho_m c_p\\frac{\\partial\\vartheta}{\\partial t}\n =\\nabla\\cdot(\\mathbf K\\nabla\\vartheta)+q_v.\n \\label{eq:thermal-pde}"
+    },
+    {
+      "sequence": 45,
+      "labels": [
+        "eq:mission-profile-loss"
+      ],
+      "latex": "\\overline P_\\Sigma=\\sum_r w_rP_{\\Sigma,r},\\qquad\n w_r\\geq0,\\quad\\sum_r w_r=1.\n \\label{eq:mission-profile-loss}"
+    }
+  ]
+}
