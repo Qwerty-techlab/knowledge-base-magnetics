@@ -1,0 +1,730 @@
+[
+  {
+    "id": 1,
+    "title": "Texas Instruments. Magnetics Design 4 - Power Transformer Design",
+    "url": "https://www.ti.com/lit/ml/slup126/slup126.pdf",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "text_read_with_limitations",
+    "reading_scope": "Прочитан извлечённый текст всех 13 страниц; графики и повреждённые формулы не проверены по изображениям.",
+    "technical_notes": "TI отделяет передающий трансформатор от flyback. Нужны проверка пуска при максимальных VIN и duty, различение частоты переключения и периода магнитного цикла, потери/температура в реальном монтаже. Правила распределения потерь, заполнения окна и температуры в апноте не являются нормами космического изделия. Раздел 4-8 прямо оговаривает, что специальные проблемы planar вне охвата. Пример 4-10—4-11 не переносится как готовый PCB-дизайн."
+  },
+  {
+    "id": 2,
+    "title": "Texas Instruments. Magnetics Design 3 - Windings",
+    "url": "https://www.ti.com/lit/ml/slup125/slup125.pdf",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "not_fully_read",
+    "reading_scope": "Файл доступен, полное содержательное чтение в этой редакции не завершено."
+  },
+  {
+    "id": 3,
+    "title": "Texas Instruments. Magnetics Design 2 - Magnetic Core Characteristics",
+    "url": "https://www.ti.com/lit/ml/slup124/slup124.pdf",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "not_fully_read",
+    "reading_scope": "Файл доступен, полное содержательное чтение в этой редакции не завершено."
+  },
+  {
+    "id": 4,
+    "title": "Texas Instruments. Magnetics Design 5 - Inductor and Flyback Transformer Design",
+    "url": "https://www.ti.com/lit/ml/slup127/slup127.pdf",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "not_fully_read",
+    "reading_scope": "Файл доступен, полное содержательное чтение в этой редакции не завершено."
+  },
+  {
+    "id": 5,
+    "title": "Würth Elektronik. ANP151a — Mastering Galvanic Isolation: Ensuring Safety in High-Power Electronics",
+    "url": "https://www.we-online.com/components/media/o896744v410%20ANP151_EN.pdf",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "not_fully_read",
+    "reading_scope": "Файл доступен, полное содержательное чтение в этой редакции не завершено."
+  },
+  {
+    "id": 6,
+    "title": "Copper Layers - Eurocircuits",
+    "url": "https://www.eurocircuits.com/technical-guidelines/pcb-design-guidelines/copper-layers/",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "text_read_with_limitations",
+    "reading_scope": "Прочитан весь сохранённый текст веб-страницы.",
+    "technical_notes": "Gerber: flashes для площадок, полигоны вместо отрисовки мелкими линиями; обязательный порядок слоёв; нормы также для меди одной цепи. Производитель может заменить неподходящий hatch сплошной заливкой — для магнитики такое изменение опасно. Заводские размеры не универсальны."
+  },
+  {
+    "id": 7,
+    "title": "Drilled Holes - Eurocircuits",
+    "url": "https://www.eurocircuits.com/technical-guidelines/pcb-design-guidelines/drilled-holes/",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "text_read_with_limitations",
+    "reading_scope": "Прочитан весь сохранённый текст веб-страницы.",
+    "technical_notes": "ENDSIZES отличаются от TOOLSIZE; PTH и NPTH лучше выдавать раздельно. Автоклассификация мелких отверстий как via допускает уменьшение готового размера. Для расчётных силовых переходов запретить несогласованные изменения и запросить PPA. Перекрывающиеся сверления не заменяют фрезерованный паз."
+  },
+  {
+    "id": 8,
+    "title": "Track Width and Isolation Gap Tolerances - Eurocircuits",
+    "url": "https://www.eurocircuits.com/pcb-design-guidelines/track-width-and-isolation-gap-tolerances/",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "text_read_with_limitations",
+    "reading_scope": "Прочитан весь сохранённый текст веб-страницы.",
+    "technical_notes": "Травление идёт вниз и вбок; ширина основания отличается от верха. Толстая медь требует более грубого рисунка. Производитель применяет собственную CAM-компенсацию. Указанные им проценты со ссылкой на IPC не равны прямой проверке нормативного текста."
+  },
+  {
+    "id": 9,
+    "title": "Tolerances on Copper Thickness - Eurocircuits",
+    "url": "https://www.eurocircuits.com/technical-guidelines/understanding-manufacturing-tolerances-on-a-pcb/tolerances-on-copper-thickness/",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "text_read_with_limitations",
+    "reading_scope": "Прочитан весь сохранённый текст веб-страницы.",
+    "technical_notes": "Start copper, nominal end copper и гарантированный минимум — разные величины. Внутренний print-and-etch уменьшает толщину, наружная гальваника добавляет её неравномерно. В записи сайта +/- означает приблизительно, не математический допуск. Поэтому в модели нужна гарантированная готовая медь и микрошлиф."
+  },
+  {
+    "id": 10,
+    "title": "Layer to Layer Registration Tolerances - Eurocircuits",
+    "url": "https://www.eurocircuits.com/technical-guidelines/understanding-manufacturing-tolerances-on-a-pcb/layer-to-layer-registration-tolerances/",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "text_read_with_limitations",
+    "reading_scope": "Прочитан весь сохранённый текст веб-страницы.",
+    "technical_notes": "Совмещение включает core-core, рисунок-сверление и наружный-внутренний слой. DI уменьшает, но не устраняет погрешности. Нельзя объявить единый численный допуск по этой описательной странице."
+  },
+  {
+    "id": 11,
+    "title": "Finished PCB Thickness Tolerance - Eurocircuits",
+    "url": "https://www.eurocircuits.com/technical-guidelines/understanding-manufacturing-tolerances-on-a-pcb/finished-pcb-thickness-tolerances/",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "text_read_with_limitations",
+    "reading_scope": "Прочитан весь сохранённый текст веб-страницы.",
+    "technical_notes": "Толщина заказа/материального пакета не всегда включает наружную гальванику, покрытие, маску и маркировку. Геометрия окна должна учитывать полный физический габарит без двойного счёта."
+  },
+  {
+    "id": 12,
+    "title": "Copper Distribution on a Panel - Eurocircuits",
+    "url": "https://www.eurocircuits.com/technical-guidelines/panel-guidelines/copper-distribution-on-a-panel/",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "text_read_with_limitations",
+    "reading_scope": "Прочитан весь сохранённый текст веб-страницы.",
+    "technical_notes": "Равномерная медь уменьшает коробление и улучшает металлизацию. Предложение добавлять медь применимо к обычной панели, но требует электромагнитного ограничения в зоне обмотки."
+  },
+  {
+    "id": 13,
+    "title": "Magnetics - Ferrite Core Inductor Design",
+    "url": "https://www.mag-inc.com/Design/Design-Guides/Inductor-Design-with-Magnetics-Ferrite-Cores.aspx",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "text_read_with_limitations",
+    "reading_scope": "Прочитан весь сохранённый текст; изображения формул и графики не проверены.",
+    "technical_notes": "Предварительный выбор феррита по LI² построен при заданных заполнении окна и сечении на ампер. Это не универсальная PCB-методика. LI² на диаграмме — параметр отбора, физическая энергия линейного дросселя LI²/2."
+  },
+  {
+    "id": 14,
+    "title": "Magnetics - Ferrite Core Transformer Design",
+    "url": "https://www.mag-inc.com/Design/Design-Guides/Transformer-Design-with-Magnetics-Ferrite-Cores.aspx",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "text_read_with_limitations",
+    "reading_scope": "Прочитан весь сохранённый текст; изображения формул и графики не проверены.",
+    "technical_notes": "Выбор трансформатора зависит от топологии, частоты, B и нагрева; коэффициенты area-product завязаны на допущения. Не переносить типовое заполнение окна и плотность тока на печатный стек."
+  },
+  {
+    "id": 15,
+    "title": "WE-PLN Planar Transformers | Passive Components | Würth Elektronik Product Catalog",
+    "url": "https://www.we-online.com/en/components/products/WE-PLN",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "not_fully_read",
+    "reading_scope": "Файл доступен, полное содержательное чтение в этой редакции не завершено."
+  },
+  {
+    "id": 16,
+    "title": "Würth Elektronik. WE-PLN 750341134 — Datasheet",
+    "url": "https://www.we-online.com/components/products/datasheet/750341134.pdf",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "not_fully_read",
+    "reading_scope": "Файл доступен, полное содержательное чтение в этой редакции не завершено."
+  },
+  {
+    "id": 17,
+    "title": "Products-Ferroxcube",
+    "url": "https://www.ferroxcube.com/en-global/products_ferroxcube/detail/shape_cores_accessories/planar_e_cores",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "text_read_with_limitations",
+    "reading_scope": "Прочитан сохранённый текст одной страницы каталога, не весь динамический каталог.",
+    "technical_notes": "Есть разные материалы и исполнения gap/AL даже одного геометрического семейства. Страница каталога — не апнот и не подтверждение конструкции; полный каталог не считался прочитанным."
+  },
+  {
+    "id": 18,
+    "title": "Design and analysis of planar integrated L-C-T components for converters",
+    "url": "https://doi.org/10.1109/63.892837",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 19,
+    "title": "New method for integration of resonant inductor and transformer-design, realisation, measurements",
+    "url": "https://doi.org/10.1109/apec.1999.750516",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 20,
+    "title": "Electromagnetic integration of high power resonant circuits comprising high leakage inductance transformers",
+    "url": "https://doi.org/10.1109/pesc.2004.1354802",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 21,
+    "title": "Energy based capacitance model for magnetic devices",
+    "url": "https://doi.org/10.1109/apec.2001.911635",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 22,
+    "title": "Optimal air-gap design in high-frequency foil windings",
+    "url": "https://doi.org/10.1109/63.712317",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 23,
+    "title": "Elimination of Leakage Effects Related to the Use of Windings with Fractions of Turns",
+    "url": "https://doi.org/10.1109/tpel.1986.4766275",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 24,
+    "title": "Experimental determination of stray capacitances in high frequency transformers",
+    "url": "https://doi.org/10.1109/tpel.2003.816186",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 25,
+    "title": "A novel approach for minimizing high-frequency transformer copper losses",
+    "url": "https://doi.org/10.1109/63.17944",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 26,
+    "title": "Multiple Layer Series Connected Winding Design for Minimum Losses",
+    "url": "https://doi.org/10.1109/tpas.1979.319520",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 27,
+    "title": "Effects of eddy currents in transformer windings",
+    "url": "https://doi.org/10.1049/piee.1966.0236",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 28,
+    "title": "Optimal Design and Tradeoff Analysis of Planar Transformer in High-Power DC–DC Converters",
+    "url": "https://doi.org/10.1109/tie.2010.2046005",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 29,
+    "title": "Optimizing the AC resistance of multilayer transformer windings with arbitrary current waveforms",
+    "url": "https://doi.org/10.1109/63.838110",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 30,
+    "title": "Improved analytical modeling of conductive losses in magnetic components",
+    "url": "https://doi.org/10.1109/63.285503",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 31,
+    "title": "Model and design of PCB parallel winding for planar transformer",
+    "url": "https://doi.org/10.1109/tmag.2003.816147",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 32,
+    "title": "A study of volume and weight vs. frequency for high-frequency transformers",
+    "url": "https://doi.org/10.1109/pesc.1993.472059",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 33,
+    "title": "Current Sharing Between Parallel Turns of a Planar Transformer: Prediction and Improvement Using a Circuit Simulation Software",
+    "url": "https://doi.org/10.1109/07ias.2007.273",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 34,
+    "title": "Using parallel windings in planar magnetic components",
+    "url": "https://doi.org/10.1109/pesc.2001.954423",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 35,
+    "title": "Selection of the appropriate winding setup in planar inductors with parallel windings",
+    "url": "https://doi.org/10.1109/ecce.2010.5618404",
+    "retrieval_status": "downloaded_unreviewed",
+    "read_status": "text_read_with_limitations",
+    "reading_scope": "Прочитан извлечённый текст всех 6 страниц. Часть формул/чисел разрушена раскладкой колонок, не использована как точная транскрипция.",
+    "technical_notes": "При несимметричном зазоре равные DC-ветви и полное interleaving могут давать разные амплитуды и фазы. Авторы извлекают матрицу независимых слоёв и затем перебирают соединения; изменение геометрии требует новой матрицы. Равенство токов и минимум потерь — разные цели. Включён общий матричный вывод, проверенный независимо.",
+    "download_url": "https://oa.upm.es/7818/2/INVE_MEM_2010_79225.pdf"
+  },
+  {
+    "id": 36,
+    "title": "Opportunities and Challenges in Very High Frequency Power Conversion",
+    "url": "https://doi.org/10.1109/apec.2009.4802625",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 37,
+    "title": "Calculation of leakage inductance in transformer windings",
+    "url": "https://doi.org/10.1109/63.285502",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 38,
+    "title": "The analysis and comparison of leakage inductance in different winding arrangements for planar transformer",
+    "url": "https://doi.org/10.1109/peds.2009.5385844",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 39,
+    "title": "The low leakage inductance of planar transformers; fact or myth?",
+    "url": "https://doi.org/10.1109/apec.2001.912515",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 40,
+    "title": "Leakage inductance calculation for planar transformers with a magnetic shunt",
+    "url": "https://doi.org/10.1109/ecce.2013.6646762",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 41,
+    "title": "Planar inductor",
+    "url": "https://doi.org/10.1109/tmag.1984.1063271",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 42,
+    "title": "Planar transformer technology applied to AC/DC conversion",
+    "url": "https://doi.org/10.1109/intlec.1999.794113",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 43,
+    "title": "Transformers and Inductors for Power Electronics",
+    "url": "https://doi.org/10.1002/9781118544648",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 44,
+    "title": "A review of planar magnetic techniques and technologies",
+    "url": "https://doi.org/10.1109/apec.2001.912514",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 45,
+    "title": "Improving the thermal management of AC-DC converters using integration technologies",
+    "url": "https://doi.org/10.1109/ias.2004.1348798",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 46,
+    "title": "Embedded passives integrated circuits for power converters",
+    "url": "https://doi.org/10.1109/psec.2002.1023840",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 47,
+    "title": "Fabrication method for a winding assembly with a large number of planar layers",
+    "url": "https://doi.org/10.1109/63.208500",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 48,
+    "title": "PCB integrated inductors for low power DC/DC converter",
+    "url": "https://doi.org/10.1109/tpel.2003.813757",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 49,
+    "title": "Design Method and Material Technologies for Passives in Printed Circuit Board Embedded Circuits",
+    "url": "https://doi.org/10.1109/tpel.2005.846530",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 50,
+    "title": "Analysis of planar sandwich inductors by current images",
+    "url": "https://doi.org/10.1109/20.104901",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 51,
+    "title": "Effect of finite thickness of magnetic substrate on planar inductors",
+    "url": "https://doi.org/10.1109/20.50553",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 52,
+    "title": "Planar inductor with ferrite layers for DC-DC converter",
+    "url": "https://doi.org/10.1109/tmag.2003.812708",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 53,
+    "title": "Improved analytical modeling of conductive losses in gapped high-frequency inductors",
+    "url": "https://doi.org/10.1109/28.936395",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 54,
+    "title": "Toward the Next Level of PCB Usage in Power Electronic Converters",
+    "url": "https://doi.org/10.1109/tpel.2008.2004276",
+    "retrieval_status": "downloaded_unreviewed",
+    "read_status": "text_read_with_limitations",
+    "reading_scope": "Прочитан извлечённый текст всех 13 страниц; таблицы/рисунки с отсутствующим текстовым слоем не визуально верифицированы.",
+    "technical_notes": "Rigid-flex позволяет не увеличивать число слоёв всей платы ради трансформатора. Важно учитывать раскрой, инверсию artwork, радиус и наложение сгибов. Стоимостные коэффициенты авторов условные и устаревшие, не цены. В разделе IV отмечены микротрещины на сгибах и разрыв microvia у шва. Измерение внутренних температур выполнялось термопарами вместе с IR. Полезно для производственного раздела; не доказывает квалификацию космического исполнения.",
+    "download_url": "https://repository.tudelft.nl/file/File_6faca9df-0d53-4d9d-9f87-53ac4ec4cfe7"
+  },
+  {
+    "id": 55,
+    "title": "A Coupled Electrothermal Model for Planar Transformer Temperature Distribution Computation",
+    "url": "https://doi.org/10.1109/tie.2008.2003102",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 56,
+    "title": "Fabrication and modeling of a planar magnetic structure with directly etched windings",
+    "url": "https://doi.org/10.1109/ecce.2009.5316202",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 57,
+    "title": "Magnetic Component Model for Planar Structures Based on Transmission Lines",
+    "url": "https://doi.org/10.1109/tie.2009.2032434",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 58,
+    "title": "Planar LTCC Transformers for High-Voltage Flyback Converters",
+    "url": "https://doi.org/10.1109/tcapt.2009.2031872",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 59,
+    "title": "Printed Spiral Winding Inductor With Wide Frequency Bandwidth",
+    "url": "https://doi.org/10.1109/tpel.2010.2076318",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 60,
+    "title": "Using Transformer Parasitics for Resonant Converters—A Review of the Calculation of the Stray Capacitance of Transformers",
+    "url": "https://doi.org/10.1109/tia.2007.912722",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 61,
+    "title": "Design, Modeling, and Analysis of a Compact Planar Transformer",
+    "url": "https://doi.org/10.1109/tmag.2012.2202642",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 62,
+    "title": "Improving the Characteristics of Integrated EMI Filters by Embedded Conductive Layers",
+    "url": "https://doi.org/10.1109/tpel.2005.846526",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 63,
+    "title": "Applying Response Surface Methodology to Small Planar Transformer Winding Design",
+    "url": "https://doi.org/10.1109/tie.2012.2187416",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 64,
+    "title": "Characterizations of High Frequency Planar Transformer With a Novel Comb-Shaped Shield",
+    "url": "https://doi.org/10.1109/tmag.2011.2157664",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 65,
+    "title": "Planar magnetic component technology-a review",
+    "url": "https://doi.org/10.1109/33.180055",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 66,
+    "title": "Self-Capacitance of High-Voltage Transformers",
+    "url": "https://doi.org/10.1109/tpel.2007.904252",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 67,
+    "title": "Modelling and design of high frequency planar transformers",
+    "url": "https://doi.org/10.1109/pesc.1995.474888",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 68,
+    "title": "Design of a high-frequency planar power transformer in multilayer technology",
+    "url": "https://doi.org/10.1109/41.88907",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 69,
+    "title": "A low-profile power converter using printed-circuit board (PCB) power transformer with ferrite polymer composite",
+    "url": "https://doi.org/10.1109/63.931055",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 70,
+    "title": "Air-gap effects in inductive energy transfer",
+    "url": "https://doi.org/10.1109/pesc.2008.4592594",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 71,
+    "title": "Airgap fringing flux reduction in inductors using open-circuit copper screens",
+    "url": "https://doi.org/10.1049/ip-epa:20045234",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 72,
+    "title": "Orthogonal Winding Structures and Design for Planar Integrated Magnetics",
+    "url": "https://doi.org/10.1109/tie.2007.909754",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 73,
+    "title": "Analysis and Design of Fully Integrated Planar Magnetics for Primary–Parallel Isolated Boost Converter",
+    "url": "https://doi.org/10.1109/tie.2012.2186777",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 74,
+    "title": "Winding loss mechanism analysis and design for new structure high-frequency gapped inductor",
+    "url": "https://doi.org/10.1109/tmag.2005.854991",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 75,
+    "title": "The influence of air gap size and winding position on the proximity losses in high frequency transformers",
+    "url": "https://doi.org/10.1109/pesc.2001.954329",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 76,
+    "title": "High-Frequency Fringing Fields Loss in Thick Rectangular and Round Wire Windings",
+    "url": "https://doi.org/10.1109/tmag.2008.2002302",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 77,
+    "title": "Fringing Field Formulas and Winding Loss Due to an Air Gap",
+    "url": "https://doi.org/10.1109/tmag.2007.898908",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 78,
+    "title": "Overview of Planar Magnetic Technology—Fundamental Properties",
+    "url": "https://doi.org/10.1109/tpel.2013.2283263",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 79,
+    "title": "Optimal Design of Highly Efficient and Highly Compact PCB Winding Inductors",
+    "url": "https://doi.org/10.1109/compel.2018.8460166",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "text_read_with_limitations",
+    "reading_scope": "Прочитан извлечённый текст всех 9 страниц, включая выводы и библиографию. Аналитические формулы с повреждённой выгрузкой не переписаны.",
+    "technical_notes": "Компенсация fringing против skin/proximity требует конкретной геометрии; прямой и круговой проводники различаются, DC-плотность в круговом витке неравномерна. При переносе на слои нужно dL << bw. Выводы должны быть копланарными для снижения потерь, through-hole предложены по стоимости. Это аналитико-FEM работа с предложенной реализацией, не серийная квалификация."
+  },
+  {
+    "id": 80,
+    "title": "Frequency-Dependent Inductance and Winding Loss Model for Gapped Foil Inductors",
+    "url": "https://doi.org/10.1109/tpel.2022.3169620",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "not_fully_read",
+    "reading_scope": "Файл доступен, полное содержательное чтение в этой редакции не завершено."
+  },
+  {
+    "id": 81,
+    "title": "Analytical Fringing Field Model for Efficient Winding Loss Calculation in Gapped Foil Inductors",
+    "url": "https://doi.org/10.1109/tpel.2024.3368145",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 82,
+    "title": "Novel Highly Efficient/Compact Automotive PCB Winding Inductors Based on the Compensating Air-Gap Fringing Field Concept",
+    "url": "https://doi.org/10.1109/tpel.2020.2969295",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 83,
+    "title": "A comprehensive design approach for a three‐winding planar transformer",
+    "url": "https://doi.org/10.1049/pel2.12261",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 84,
+    "title": "Transformer and Inductor Design Handbook",
+    "url": "https://doi.org/10.1201/b10865",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 85,
+    "title": "I-core PCB Planar Inductor Design for High Frequency and High Power Converters",
+    "url": "https://doi.org/10.1109/itec53557.2022.9813880",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 86,
+    "title": "Study on PCB Based Litz Wire Applications for Air-Core Inductor and Planar Transformer",
+    "url": "https://doi.org/10.1109/icpes47639.2019.9105549",
+    "retrieval_status": "fulltext_unavailable",
+    "read_status": "blocked_no_fulltext",
+    "reading_scope": "Полный текст не получен; чтение невозможно по имеющимся данным."
+  },
+  {
+    "id": 87,
+    "title": "Parasitic Capacitance Modeling of Copper-Foiled Medium-Voltage Filter Inductors Considering Fringe Electrical Field",
+    "url": "https://doi.org/10.1109/TPEL.2020.3048226",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "not_fully_read",
+    "reading_scope": "Файл доступен, полное содержательное чтение в этой редакции не завершено."
+  },
+  {
+    "id": 88,
+    "title": "В. П. Обрусник. Магнитные элементы электронных устройств. Учебное пособие. 2018",
+    "url": "../../articles/06_textbooks_ru/Obrusnik_VP_MEEU_posobie_2018/metadata.json",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "not_fully_read",
+    "reading_scope": "Файл доступен, полное содержательное чтение в этой редакции не завершено."
+  },
+  {
+    "id": 89,
+    "title": "Н. С. Легостаев. Магнитные элементы электронных устройств. Учебное пособие. 2014",
+    "url": "../../articles/06_textbooks_ru/Legostaev_NS_MEEU_posobie/metadata.json",
+    "retrieval_status": "existing_fulltext",
+    "read_status": "not_fully_read",
+    "reading_scope": "Файл доступен, полное содержательное чтение в этой редакции не завершено."
+  }
+]

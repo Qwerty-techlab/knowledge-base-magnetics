@@ -1,0 +1,30 @@
+{
+  "checks": {
+    "compile": true,
+    "no_base_dependency": true,
+    "psi_not_lambda": true,
+    "self_contained": true,
+    "labels_unique": true,
+    "refs_resolve": true,
+    "citations_resolve": true,
+    "bibliography_89": true,
+    "no_undefined": true,
+    "no_question_refs": true,
+    "all_pages_have_text": true,
+    "original_unchanged": true,
+    "igse_sine_normalization": true,
+    "equal_parallel_currents": true,
+    "parallel_kcl": true,
+    "parallel_equal_voltage": true,
+    "linear_Lsc_limits": true,
+    "text_inside_page": true
+  },
+  "passed": 18,
+  "total": 18,
+  "pages": 60,
+  "equations": 45,
+  "psi_occurrences": 22,
+  "underfull": 25,
+  "igse_relative_error": 1.1102230246251565e-16,
+  "note": "Programmatic compilation/layout checks, not full visual peer review. Literature review incomplete."
+}
